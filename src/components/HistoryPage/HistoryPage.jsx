@@ -8,43 +8,48 @@ function HistoryPage() {
     document.title = "History | FootPrints'23";
   }, []);
 
-  useEffect(()=>{
+  useEffect(() => {
+    (function ($) {
+      function doAnimation() {
+        let prevScrollY = 0;
+        let progressBar = $(".ag-timeline_line-progress");
+        let branches = $(".branch");
+        $(window).on("scroll", function () {
+          //For Progress Bar
+          let currentScrollY = $(this).scrollTop();
 
-    (function($){
-      let prevScrollY = 0;
-      let progressBar =  $(".ag-timeline_line-progress");
-      let branches = $(".branch"); 
-      $(window).on("scroll",function(){
-        //For Progress Bar
-        let currentScrollY = $(this).scrollTop();
+          progressBar.css(
+            "height",
+            (progressBar.height() + (currentScrollY - prevScrollY)/2 )+ "px"
+          );
+          
 
-        if(currentScrollY > prevScrollY){
-          progressBar.height(progressBar.height()+(currentScrollY-prevScrollY));
-        }else{
-          progressBar.height(progressBar.height()-(prevScrollY-currentScrollY));
-        }
+          prevScrollY = currentScrollY;
 
-        prevScrollY = currentScrollY;
-        
-        // For Branch
-        branches.each(function(index,branch){
-          // console.log(progressBar.offset().top+progressBar.height(), branch.offsetTop);
-          if((progressBar.offset().top+progressBar.height()) >= $(branch).offset().top){
-            // $(branch).find("path").animate({
-            //   strokeDasharray:250
-            // },"fast");
-            $(branch).find("path").addClass("path-animate");
-          }else{
-            $(branch).find("path").removeClass("path-animate");
-          }
-        })
-
-      })
-
-
+          // For Branch
+          branches.each(function (index, branch) {
+            // console.log(progressBar.offset().top+progressBar.height(), branch.offsetTop);
+            if (
+              progressBar.offset().top + progressBar.height() >=
+              $(branch).offset().top
+            ) {
+              // $(branch).find("path").animate({
+              //   strokeDasharray:250
+              // },"fast");
+              $(branch).find("path").addClass("path-animate");
+            } else {
+              $(branch).find("path").removeClass("path-animate");
+            }
+          });
+        });
+        // requestAnimationFrame(doAnimation);
+      }
+      
+      doAnimation();
+      // requestAnimationFrame(doAnimation);
 
     })(jQuery);
-  },[])
+  }, []);
 
   return (
     <>
@@ -89,7 +94,6 @@ function HistoryPage() {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              
                               <path
                                 d="M1 128.946C144.205 131.963 58.4037 8.0224 201 4"
                                 stroke="white"

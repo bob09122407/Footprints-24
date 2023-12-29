@@ -190,15 +190,15 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img 
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/Jasleen_Royal_1_fw3soe.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt="Jasleen Royal"
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/Jasleen_Royal_1_fw3soe.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/Jasleen_Royal_1_fw3soe.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/Jasleen_Royal_1_fw3soe.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -208,15 +208,15 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/Zeph_c7sqpd.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt="Zephyrtone"
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/Zeph_c7sqpd.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/Zeph_c7sqpd.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/Zeph_c7sqpd.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 
                 </div>
               </div>
@@ -227,16 +227,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/rs_ekmjth.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt="Gajendra Verma"
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/rs_ekmjth.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/rs_ekmjth.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/rs_ekmjth.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -246,16 +246,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/md_1_lvz9o4.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.png"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/md_1_lvz9o4.png)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/md_1_lvz9o4.png)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/md_1_lvz9o4.png)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -265,16 +265,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/shalmali_1_jpmzcs.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/shalmali_1_jpmzcs.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/shalmali_1_jpmzcs.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/shalmali_1_jpmzcs.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -284,16 +284,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/amaal_bv4tr8.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/amaal_bv4tr8.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/amaal_bv4tr8.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/amaal_bv4tr8.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -303,16 +303,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/ash-king_il3i5u.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/ash-king_il3i5u.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/ash-king_il3i5u.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/ash-king_il3i5u.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -322,16 +322,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/sachin-jigar_zjccf0.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/sachin-jigar_zjccf0.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/sachin-jigar_zjccf0.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/sachin-jigar_zjccf0.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -341,16 +341,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/mohit-chauhan_aicgid.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/mohit-chauhan_aicgid.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/mohit-chauhan_aicgid.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/mohit-chauhan_aicgid.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -360,16 +360,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/anushka-manchanda_qfto0h.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/anushka-manchanda_qfto0h.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/anushka-manchanda_qfto0h.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/anushka-manchanda_qfto0h.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -379,16 +379,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/shilpa-rao_gvn3bi.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/shilpa-rao_gvn3bi.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/shilpa-rao_gvn3bi.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/shilpa-rao_gvn3bi.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -398,16 +398,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/RC-racing_ykhcuz.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/RC-racing_ykhcuz.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/RC-racing_ykhcuz.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/RC-racing_ykhcuz.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -417,16 +417,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/evil-ryderz_shmch9.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/evil-ryderz_shmch9.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/evil-ryderz_shmch9.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/evil-ryderz_shmch9.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -436,16 +436,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/team-raptor_z5aafe.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/team-raptor_z5aafe.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/team-raptor_z5aafe.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/team-raptor_z5aafe.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -455,16 +455,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/KTM_eok3iv.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/KTM_eok3iv.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/KTM_eok3iv.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/KTM_eok3iv.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
@@ -474,16 +474,16 @@ export default function RollingSquare() {
             <a href="" className="image-wrapper">
               <div class="glitch" >
                 <img
-                  src="https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/skateboarding_aellju.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
                   alt=""
                   className="img-rs"
                 />
                 <div class="glitch__layers">
 
                 
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/skateboarding_aellju.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/skateboarding_aellju.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://kpvwxgeuyawddbcmaqxo.supabase.co/storage/v1/object/public/footprint/skateboarding_aellju.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
+                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
                 </div>
               </div>
 
