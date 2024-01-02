@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import HistoryData from "../../Data/HistoryData";
 import Heading from "../Common/Headings/Heading";
 import "./HistoryPage.css";
+import Sponsors from "../Common/SponsorSlide/Sponsors";
+import Footer from "../Common/Footer/Footer";
 
 function HistoryPage() {
   useEffect(() => {
@@ -9,47 +11,84 @@ function HistoryPage() {
   }, []);
 
   useEffect(() => {
+    let agPosY;
+    let agHeight;
+    let agTop;
+
     (function ($) {
-      function doAnimation() {
-        let prevScrollY = 0;
-        let progressBar = $(".ag-timeline_line-progress");
-        let branches = $(".branch");
+      $(function () {
         $(window).on("scroll", function () {
-          //For Progress Bar
-          let currentScrollY = $(this).scrollTop();
-
-          progressBar.css(
-            "height",
-            (progressBar.height() + (currentScrollY - prevScrollY)/2 )+ "px"
-          );
-          
-
-          prevScrollY = currentScrollY;
-
-          // For Branch
-          branches.each(function (index, branch) {
-            // console.log(progressBar.offset().top+progressBar.height(), branch.offsetTop);
-            if (
-              progressBar.offset().top + progressBar.height() >=
-              $(branch).offset().top
-            ) {
-              // $(branch).find("path").animate({
-              //   strokeDasharray:250
-              // },"fast");
-              $(branch).find("path").addClass("path-animate");
-            } else {
-              $(branch).find("path").removeClass("path-animate");
-            }
-          });
+          fnOnScroll();
         });
-        // requestAnimationFrame(doAnimation);
-      }
-      
-      doAnimation();
-      // requestAnimationFrame(doAnimation);
 
+        $(window).on("resize", function () {
+          fnOnResize();
+        });
+
+        let agTimeline = $(".js-timeline"),
+          agTimelineLine = $(".js-timeline_line"),
+          agTimelineLineProgress = $(".js-timeline_line-progress"),
+          agTimelinePoint = $(".branch"),
+          agTimelineItem = $(".timeline-item"),
+          agOuterHeight = $(window).outerHeight(),
+          f = -1,
+          agFlag = false;
+
+        agHeight = $(window).height();
+
+        function fnOnScroll() {
+          agPosY = $(window).scrollTop();
+
+          fnUpdateProgress();
+        }
+
+        function fnOnResize() {
+          agPosY = $(window).scrollTop();
+          agHeight = $(window).height();
+
+          fnUpdateFrame();
+        }
+
+        function fnUpdateWindow() {
+          agFlag = false;
+
+          // agTimelineLine.css({
+          //   top: agTimelineItem.first().find(agTimelinePoint).offset().top - agTimelineItem.first().offset().top,
+          //   bottom: agTimeline.offset().top + agTimeline.outerHeight() - agTimelineItem.last().find(agTimelinePoint).offset().top
+          // });
+
+          f !== agPosY && ((f = agPosY), fnUpdateProgress());
+        }
+
+        function fnUpdateProgress() {
+          // agTop = agTimelineItem.last().find(agTimelinePoint).offset().top;
+
+          // let i = agTop + agPosY - $(window).scrollTop();
+          let a =
+            agTimelineLineProgress.offset().top +
+            agPosY -
+            $(window).scrollTop();
+          let n = agPosY - a + agOuterHeight / 2;
+          // i <= agPosY + agOuterHeight / 2 && (n = i - a);
+          agTimelineLineProgress.css({ height: n + "px" });
+
+          agTimelinePoint.each(function () {
+            agTop = $(this).offset().top;
+
+            agTop + agPosY - $(window).scrollTop() <
+            agPosY + 0.5 * agOuterHeight
+              ? $(this).find("path").addClass("path-animate")
+              : $(this).find("path").removeClass("path-animate");
+          });
+        }
+
+        function fnUpdateFrame() {
+          agFlag || requestAnimationFrame(fnUpdateWindow);
+          agFlag = true;
+        }
+      });
     })(jQuery);
-  }, []);
+  });
 
   return (
     <>
@@ -97,7 +136,7 @@ function HistoryPage() {
                               <path
                                 d="M1 128.946C144.205 131.963 58.4037 8.0224 201 4"
                                 stroke="white"
-                                stroke-width="3"
+                                strokeWidth="3"
                               />
                             </svg>
                           </div>
@@ -110,6 +149,8 @@ function HistoryPage() {
             </div>
           </section>
         </div>
+        <Sponsors />
+        <Footer />
       </section>
     </>
   );
