@@ -1,27 +1,51 @@
-.images-panel{
-  overflow-x: hidden;
-  min-width: calc(100%);
-  min-height: 90vh;
-  margin-top: 10em;
-  padding: 10px 2em;
-}
 
+
+/* .images-panel{
+  position: relative;
+} */
 
 .image-track{
   display: flex;
-  gap: 4vmin;
-  position: relative;
-  transform: translate(50%,0%); 
-  user-select: none; /* -- Prevent image highlighting -- */
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
+  padding-top: 12em;
 }
 
-.concert-image{
-  width: 58vmin;
-  height: 79vmin;
+.imgBox{
+  width: 40%;
+  min-height: 600px;
+  /* overflow-y: hidden; */
+  /* height: 80vmin; */
+  /* object-fit: cover; */
+  /* margin-top: 100px;
+  margin-bottom: 100px; */
+  position: relative;
+}
+
+.imgBox > .concert-image{
+  width: 100%;
+  position: absolute;
+  box-shadow: rgba(179, 0, 255, 0.8) 0 0 75px -25px;
+  transition: 0.5s;
   object-fit: cover;
-  /* filter: blur(10); */
-  /* position: absolute; */
-  /* left: 0; */
-  /* top: 0; */
-  object-position: 100% center;
+  object-position: center;
+}
+
+
+.img-transition .concert-image:nth-child(4) {
+  transform: translate(100px, -140px) rotateY(30deg) scale(1.6);
+  opacity: 1;
+}
+.img-transition .concert-image:nth-child(3) {
+  transform: translate(80px, -120px) rotateY(30deg) scale(1.6);
+  opacity: 0.6;
+}
+.img-transition .concert-image:nth-child(2) {
+  transform: translate(60px, -80px) rotateY(30deg) scale(1.6);
+  opacity: 0.6;
+}
+.img-transition .concert-image:nth-child(1) {
+  transform: translate(40px, -40px) rotateY(30deg) scale(1.6);
+  opacity: 0.4;
 }
