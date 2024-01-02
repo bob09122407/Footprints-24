@@ -492,6 +492,7 @@ export default function RollingSquare() {
         </ul>
       </div>
       <div className="webgl-canvas">
+        Hello
         <canvas id="webgl-canvas" className="webgl-canvas__body"></canvas>
       </div>
 

@@ -57,6 +57,7 @@
     }
 
 }
+
 #history_heading{
   border-bottom: none;
   font-weight: 600;
@@ -68,6 +69,8 @@
 .ag-format-container {
   width: 90%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 
   position: relative;
 }
@@ -88,15 +91,25 @@
 
 .timeline-header{
   display: flex;
+  position: relative;
+}
+
+.timeline-heading{
+  position: relative;
+  min-width: 100%;
+  z-index: 10;
+  margin-top: 10px;
 }
 
 .timeline-header .timeline-year{
+  height: 45px;
   display: inline-block;
   margin-left: auto;
   margin-right: 10%;
-  transform: translateY(-50%);
+  position: relative;
+  transform: translate(-105%,-50%);
   background-color: #0f0f0f;
-  z-index: 10;
+  z-index: 1;
   padding: 0px 5px;
 }
 
@@ -105,13 +118,15 @@
   display: flex;
   align-items: center;
   position: relative;
-  gap: 3px;
 }
 
 .main-content{
   padding: 10px 10px;
   max-width: calc(70%);
   border: 1px solid gray;
+  z-index: 20;
+  background-color: #0f0f0f;
+  position: relative;
 }
 
 .branch{
@@ -120,8 +135,10 @@
   /* border-top-left-radius: 100%; */
 }
 
+
 .branch{
   position: absolute;
+  z-index: 1;
 }
 
 .timeline-item:nth-child(odd) > div .branch{
@@ -151,6 +168,10 @@
 
 .timeline-item path.path-animate{
   stroke-dasharray:252;
+}
+
+.branch{
+  transform: scale(0.5,0.5);
 }
 
 
@@ -415,9 +436,9 @@
 }
 
 @media only screen and (max-width: 979px) {
-  .ag-timeline_line {
+  /* .ag-timeline_line {
     left: 30px;
-  }
+  } */
 
   .ag-timeline_item:nth-child(2n) {
     text-align: left;
@@ -473,7 +494,7 @@
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
-    width: 96%;
+    /* width: 96%; */
   }
 
   .ag-timeline-card_img {
@@ -499,17 +520,39 @@
 @media only screen and (max-width: 479px) {}
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .ag-format-container {
-    width: 750px;
-  }
+
 
 }
 
 @media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
-    width: 960px;
-  }
 
+
+}
+
+@media (max-width:1000px) {
+    .branch{
+      display: none;
+    }
+
+
+    .timeline-item > div{
+      width: 100%;
+      justify-content: center;
+    }
+
+
+
+    .main-content{
+      max-width: calc(100%);
+    }
+
+  
+}
+
+@media (min-width:1500px){
+    .js-timeline{
+      max-width: 1500px;
+    }
 }
 
 /* added by abdeali */
