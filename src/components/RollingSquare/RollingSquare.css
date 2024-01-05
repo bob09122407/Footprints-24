@@ -1,51 +1,83 @@
-
-
-/* .images-panel{
-  position: relative;
-} */
-
-.image-track{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4em;
-  padding-top: 12em;
-}
-
-.imgBox{
-  width: 40%;
-  min-height: 600px;
-  /* overflow-y: hidden; */
-  /* height: 80vmin; */
-  /* object-fit: cover; */
-  /* margin-top: 100px;
-  margin-bottom: 100px; */
-  position: relative;
-}
-
-.imgBox > .concert-image{
+.images-container{
   width: 100%;
+  height: 100vh;
+}
+
+.slider{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.slide-wrapper{
+  width: max-content;
+  padding: 0px 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.slide{
+  width: 600px;
+  height: 500px;
+  background-color: inherit;
+}
+
+.grab img{
+  width: 40px;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: rgba(171, 37, 255, 0.8) 0 0 40px -4px;
+}
+
+.marker-wrapper{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: max-content;
+  height: 100vh;
+}
+
+.marker{
+  position: relative;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+}
+
+
+.marker::before{
   position: absolute;
-  box-shadow: rgba(179, 0, 255, 0.8) 0 0 75px -25px;
-  transition: 0.5s;
-  object-fit: cover;
-  object-position: center;
+  content: "";
+  display: block;
+  top: 50px;
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  background:url('src/assets/images/temp/music.png');
+  /* border:2px solid white; */
+  border-radius: 100%;
 }
 
+.marker::after{
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50px;
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  background:white;
+  border:2px solid white;
+  border-radius: 100%;
+}
 
-.img-transition .concert-image:nth-child(4) {
-  transform: translate(100px, -140px) rotateY(30deg) scale(1.6);
-  opacity: 1;
-}
-.img-transition .concert-image:nth-child(3) {
-  transform: translate(80px, -120px) rotateY(30deg) scale(1.6);
-  opacity: 0.6;
-}
-.img-transition .concert-image:nth-child(2) {
-  transform: translate(60px, -80px) rotateY(30deg) scale(1.6);
-  opacity: 0.6;
-}
-.img-transition .concert-image:nth-child(1) {
-  transform: translate(40px, -40px) rotateY(30deg) scale(1.6);
-  opacity: 0.4;
+.next-block{
+  height:100vh;
+  background:blue;
 }

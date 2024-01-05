@@ -74,13 +74,16 @@ export default function RollingSquare() {
   //   })();
   // }, []);
 
+
+
   return (
-    <section className="" style={{ overflow: "auto" }}>
-      <div className="images-panel">
+    <section className="">
         <ImageCarousel />
-      </div>
       {/* <Sponsors />
       <Footer /> */}
+      {/* <div className="next-block">
+
+      </div> */}
     </section>
   );
 }
