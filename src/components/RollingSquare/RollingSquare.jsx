@@ -77,7 +77,8 @@ export default function RollingSquare() {
 
 
   return (
-    <section className="">
+    <section>
+        <div style={{height:'100vh',width:'100%'}}></div>
         <ImageCarousel />
       {/* <Sponsors />
       <Footer /> */}
