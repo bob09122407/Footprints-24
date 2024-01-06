@@ -41,7 +41,12 @@ function Taleido() {
               return (
                 <div key={element.id}>
                   <div className="taleido_lec content">
-                    <div className="about_taleido about_taleido_para1">
+                    <div className="about_taleido about_taleido_para1"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    // data-aos-delay="100"
+                    data-aos-offset="400"
+                    data-aos-easing="ease-in-sine">
                       <div className="taleido_heading">
                         <h3 className="taleido_name">
                           {element.name} <br /> {element.details}
@@ -63,10 +68,7 @@ function Taleido() {
 
                     <div
                       className="taleido_img taleido_img_style"
-                      data-aos="zoom-in-right"
-                      data-aos-duration="1000"
-                      data-aos-delay="100"
-
+                      data-aos="GuestAnimRight"
                     >
                       <img
                         src={element.imgSrc}
@@ -104,10 +106,7 @@ function Taleido() {
                 <div className="taleido_lec">
                   <div
                     className="taleido_img"
-                    data-aos="zoom-in-right"
-                    data-aos-duration="1000"
-                    data-aos-delay="100"
-
+                    data-aos="GuestAnimLeft"
                   >
                     <img
                       src={element.imgSrc}
@@ -116,7 +115,12 @@ function Taleido() {
                     />
                   </div>
 
-                  <div className="about_taleido para1">
+                  <div className="about_taleido para1" 
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  // data-aos-delay="100"
+                  data-aos-offset="400"
+                  data-aos-easing="ease-in-sine">
                     <div className="taleido_heading">
                       <h3 className="taleido_name">
                         {element.name} <br /> {element.details}

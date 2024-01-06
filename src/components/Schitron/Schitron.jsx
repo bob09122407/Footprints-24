@@ -23,6 +23,11 @@ const Schitron = () => {
           </div>
         </div>
         <div className="scitron-des-text">
+        <p className="scitron-des">
+        The future belongs to young people with an education and the imagination to create.
+To encourage young brains and introduce school students to the fascinating world of robotics with the basics of mechatronics and EV, teach the fundamentals of programming and the usage of Arduino and IR sensors. Footprints conducted the hands-on session of building the line following bots using the kits provided by Robowala and the support of Robotics and EV Club. Schitron became the bang on event, which made young enthusiasts stand out with a new creative personality and the knowledge of technical skills.
+          </p>
+          <br />
           <p className="scitron-des">
             Since its inception in 2001, FootPrints has been rendering a
             platform to technical minds all over the country. From paper

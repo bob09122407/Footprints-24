@@ -3,29 +3,29 @@ const ContactData = [
     id: 1,
     imgSrc:
       "https://res.cloudinary.com/dm4earvp9/image/upload/v1673867315/Vedant_Shah_1_qpnkk3.jpg",
-    name: "Vedant Shah",
+    name: "Harshil Chavda",
     details: "Head, Core Committee",
-    fp: "FootPrints'23",
-    contact: "+91-8141453979",
-    mail: "vedant.shah@msufp.in",
+    fp: "FootPrints'24",
+    contact: "+91-9265574891",
+    mail: "harshil.chavda@msufp.in",
   },
   {
     id: 2,
     imgSrc:
       "https://res.cloudinary.com/dm4earvp9/image/upload/v1673885153/Khushal_S_piefyx.jpg",
-    name: "Khushal Sharma",
-    details: "Associate Head, Core Committee",
-    fp: "FootPrints'23",
-    contact: "+91-7990203367",
-    mail: "khushal.sharma@msufp.in",
+    name: "Varun Patel",
+    details: "Head, Core Committee",
+    fp: "FootPrints'24",
+    contact: "+91-7874287905",
+    mail: "varun.patel@msufp.in",
   },
 ];
 
 const AboutData=[
         {
             id:1,
-            para1:'By perseverance and consistent efforts, FootPrints, which started with a paper presentation event in 2001 inaugurated by Shri. Narayan Murthy, has now become the largest technical fiesta of Gujarat. FootPrints\'22 gave a platform to young minds from all over India to showcase their technical skills. Robowar, car race, structure development events, chemical composition based events, coding events, weaving competitions, and events based on sustainable environment were the technical events featured in FootPrints\'22.',
-            para2:'The Guest Lecture series comprised of "Suresh Prabhu" - India\'s Sherpa to G7 and G20, "Ravi Venkateshan" - Former Chairman of Microsoft, "Nikhil Taneja"- Co-founder and CEO of Yuvaa and "Dr. Pawan Agarwal"- Founder and President of KECT, Mumbai. FootPrints\'22 came up with a new segment, \'Envirosavy\' - which comprised of the events questioning engineering solutions keeping environment and sustainability at its core. AWS(Amazon Web Services) Cloud and DevOps, E-bike Development and NFT on Web 3.0 were the workshops conducted in FootPrints\'22. The event had a musical ending with mesmerizing concert of Jasleen Royal.'
+            para1:'With 23 years of consistent determination and hard work, an event that rose from a mere scratch with just 30 participants and a paper presentation event inaugurated by Shri Narayan Murthy in 2001, FootPrints, has now become one of the most prominent and largest technical fiestas in Gujarat. FootPrints\'23 provided a golden opportunity to rejuvenate young minds more technically through our event. Our mission is to inspire, educate, and connect individuals passionate about cutting-edge development with a fierce line-up of Robo-fights, car racing, playing with codes, scooping loads, chemical composition, craftsmanship competitions, and environmental-related events that took place in FootPrints\'23.',
+            para2:'The most prominent segment of our event, "The Series of Guest Lecturers," consisted of "Lt.General Satish Dua," the mastermind of Uri: The Surgical Strike; "Amod Malviya, ," the Ex-CTO of Flipkart and India\'s youngest billionaire; and the famous Youtubers "Abhi & Niyu," who enlightened our event with their great presence. Moreover, the former chief scientist of the Rocky Mountain Institute, "Amory Lovins," and current head of marketing at Google, "Virginia Sharma," conducted online guest lectures at the event. We took over the trends by conducting workshops on "Open AI," "Unity 3D," and "Hybrid EV Design by Mercedes." The enormous end of this event took place with the Hot Musical Wave and a vibrant atmosphere created by none other than Darshan Raval.'
         }       
 ];
 const ContactInfoData=[

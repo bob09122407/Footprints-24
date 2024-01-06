@@ -45,6 +45,31 @@
     align-items: center;
     /* margin-bottom: 50px; */
 }
+.techzi_img > img {
+    position: relative;
+  }
+  
+  /* Initial state */
+  [data-aos="GuestAnimLeft"] > img {
+    left: 50%;
+    transition-property: left;
+    transition-duration: 1800ms;
+    transition-delay: 100ms;
+  }
+  
+  /* Final state */
+  [data-aos="GuestAnimLeft"].aos-animate > img {
+    left: 0;
+  }
+  [data-aos="GuestAnimRight"] > img {
+    right: 50%;
+    transition-property: right;
+    transition-duration: 1800ms;
+    transition-delay: 100ms;
+  }
+  [data-aos="GuestAnimRight"].aos-animate > img {
+    right: 0;
+  }
 
 .techzi_img img {
     width: 50%;

@@ -47,7 +47,12 @@ function Techzi() {
               return (
                 <div key={element.id}>
                   <div className="techzi_lec content">
-                    <div className="about_techzi about_techzi_para1">
+                    <div className="about_techzi about_techzi_para1"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    // data-aos-delay="100"
+                    data-aos-offset="400"
+                    data-aos-easing="ease-in-sine">
                       <div className="techzi_heading">
                         <h3 className="techzi_name">
                           {element.name} <br /> {element.details}
@@ -61,10 +66,7 @@ function Techzi() {
 
                     <div
                       className="techzi_img techzi_img_style"
-                      data-aos="zoom-in-right"
-                      data-aos-duration="1000"
-                      data-aos-delay="100"
-
+                      data-aos="GuestAnimRight"
                     >
                       <img
                         src={element.imgSrc}
@@ -94,10 +96,7 @@ function Techzi() {
                 <div className="techzi_lec">
                   <div
                     className="techzi_img"
-                    data-aos="zoom-in-right"
-                    data-aos-duration="1000"
-                    data-aos-delay="100"
-
+                    data-aos="GuestAnimLeft"
                   >
                     <img
                       src={element.imgSrc}
@@ -106,7 +105,12 @@ function Techzi() {
                     />
                   </div>
 
-                  <div className="about_techzi para1">
+                  <div className="about_techzi para1"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  // data-aos-delay="100"
+                  data-aos-offset="400"
+                  data-aos-easing="ease-in-sine">
                     <div className="techzi_heading">
                       <h3 className="techzi_name">
                         {element.name} <br /> {element.details}

@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
+
+
+
+.sliders {
+  position: relative;
+  overflow: hidden;
+}
+
+.sliders .slide-wrappers {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.sliders .slide {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column; /* Updated for smaller screens */
+  justify-content: space-between;
+}
+
+.sliders .active {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.4s;
+}
+
+.testimonial {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 20px; /* Adjusted padding for smaller screens */
+  background-size: 60px;
+  background-position: top;
+  background-repeat: no-repeat;
+  /* background-image: url(https://alcs-slider.netlify.app/images/pattern-quotes.svg); */
+  text-align: left;
+  margin-top: 220px;
+  margin-right: 50px;
+}
+
+.sliders .slide .testimonial blockquote {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 16px; /* Adjusted margin for smaller screens */
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.sliders .slide .testimonial .author {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff
+}
+
+.sliders .slide .testimonial .author span {
+  display: block;
+  color: #e5e5ff;
+  font-weight: 500;
+}
+
+.slider-img {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://alcs-slider.netlify.app/images/pattern-bg.svg);
+}
+
+.slider-img img {
+  width: 240px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0px 16px 40px 0px rgba(135, 105, 210, 0.4);
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.buttons .previous,
+.buttons .next {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.buttons .previous {
+  background-image: url("https://alcs-slider.netlify.app/images/icon-prev.svg");
+}
+
+.buttons .previous:hover {
+  transform: scale(1.25);
+}
+
+.buttons .next {
+  background-image: url("https://alcs-slider.netlify.app/images/icon-next.svg");
+}
+
+.buttons .next:hover {
+  transform: scale(1.25);
+}
+
+@media screen and (min-width: 600px) {
+  .sliders .buttons {
+    top: 280px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .sliders .slide {
+    flex-direction: row;
+  }
+
+  .sliders .slide .testimonial {
+    padding: 32px 0 0 0;
+    background-size: 80px;
+    background-position: 19% -7%;
+    transform: translateX(100px);
+  }
+
+  .slider-img {
+    padding: 55px;
+  }
+
+  .slider-img img {
+    width: 400px;
+  }
+}
+
+/* Additional media query for small screens where image is above details */
+@media screen and (max-width: 599px) {
+  .sliders .slide {
+    flex-direction: column-reverse;
+  }
+
+  .testimonial {
+    padding: 20px;
+  }
+
+  .slider-img {
+    padding: 20px;
+  }
+}

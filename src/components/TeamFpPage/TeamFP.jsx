@@ -35,29 +35,62 @@ function TeamFP() {
           <div className="memcards row">
             {coordinatorsData.map((element) => {
               return (
+                // <div
+                //   key={element.id}
+                //   className="memBlock col-sm-6 col-md-5 col-lg-3 profile"
+                //   data-aos="zoom-in-up"
+                //   data-aos-delay="100"
+                //   data-aos-duration="1200"
+                // >
+                //   <div className="img-box">
+                //     <img
+                //       src={element.imgSrc}
+                //       alt={element.name}
+                //       className="memImg"
+                //     />
+                //     <ul>
+                //       <li>
+                //         <a href={element.linked} target="_blank">
+                //           <i className="fa-brands fa-linkedin"></i>
+                //         </a>
+                //       </li>
+                //     </ul>
+                //   </div>
+                //   <p className="memName">{element.name}</p>
+                // </div>
                 <div
                   key={element.id}
-                  className="memBlock col-sm-6 col-md-5 col-lg-3 profile"
-                  data-aos="zoom-in-up"
-                  data-aos-delay="100"
-                  data-aos-duration="1200"
+                  className="col-sm-6 col-md-5 col-lg-3 outest"
                 >
-                  <div className="img-box">
+                <div className="card">
+                  
+                  <div className="img-card">
+                    
                     <img
                       src={element.imgSrc}
-                      alt={element.name}
-                      className="memImg"
-                    />
-                    <ul>
-                      <li>
-                        <a href={element.linked} target="_blank">
-                          <i className="fa-brands fa-linkedin"></i>
-                        </a>
-                      </li>
-                    </ul>
+                       alt={element.name}
+                       className="img-round"
+                 />
+                 <div className="gradient-overlay"></div>
+                 
+                  
+                  
+                 <div className="Mname">
+                       <p>{element.name}</p>
                   </div>
-                  <p className="memName">{element.name}</p>
+
+                    <div className="icons">
+                      <a href={element.linked} target="_blank">
+                             <i className=" fa fa-brands fa-linkedin"></i>
+                      </a>
+                    </div>
+                    
+
+                  </div>
                 </div>
+                  
+                </div>
+
               );
             })}
           </div>
@@ -67,26 +100,59 @@ function TeamFP() {
           <div className="memcards row">
             {headsData.map((element) => {
               return (
+                // <div
+                //   key={element.id}
+                //   className="memBlock col-sm-6 col-md-5 col-lg-3 profile"
+                // >
+                //   <div className="img-box">
+                //     <img
+                //       src={element.imgSrc}
+                //       alt={element.name}
+                //       className="memImg"
+                //     />
+                //     <ul>
+                //       <li>
+                //         <a href={element.linked} target="_blank">
+                //           <i className="fa-brands fa-linkedin"></i>
+                //         </a>
+                //       </li>
+                //     </ul>
+                //   </div>
+                //   <p className="memName">{element.name}</p>
+                // </div>
                 <div
                   key={element.id}
-                  className="memBlock col-sm-6 col-md-5 col-lg-3 profile"
+                  className="col-sm-6 col-md-5 col-lg-3 outest"
                 >
-                  <div className="img-box">
+                <div className="card">
+                  
+                  <div className="img-card">
+                    
                     <img
                       src={element.imgSrc}
-                      alt={element.name}
-                      className="memImg"
-                    />
-                    <ul>
-                      <li>
-                        <a href={element.linked} target="_blank">
-                          <i className="fa-brands fa-linkedin"></i>
-                        </a>
-                      </li>
-                    </ul>
+                       alt={element.name}
+                       className="img-round"
+                 />
+                 <div className="gradient-overlay"></div>
+                 
+                  
+                  
+                 <div className="Mname">
+                       <p>{element.name}</p>
                   </div>
-                  <p className="memName">{element.name}</p>
+
+                    <div className="icons">
+                      <a href={element.linked} target="_blank">
+                             <i className=" fa fa-brands fa-linkedin"></i>
+                      </a>
+                    </div>
+                    
+
+                  </div>
                 </div>
+                  
+                </div>
+
               );
             })}
           </div>
@@ -96,26 +162,59 @@ function TeamFP() {
           <div className="memcards row">
             {ccData.map((element) => {
               return (
+                // <div
+                //   key={element.id}
+                //   className="memBlock col-sm-6 col-md-5 col-lg-3 profile"
+                // >
+                //   <div className="img-box">
+                //     <img
+                //       src={element.imgSrc}
+                //       alt={element.name}
+                //       className="memImg"
+                //     />
+                //     <ul>
+                //       <li>
+                //         <a href={element.linked} target="_blank">
+                //           <i className="fa-brands fa-linkedin"></i>
+                //         </a>
+                //       </li>
+                //     </ul>
+                //   </div>
+                //   <p className="memName">{element.name}</p>
+                // </div>
                 <div
                   key={element.id}
-                  className="memBlock col-sm-6 col-md-5 col-lg-3 profile"
+                  className="col-sm-6 col-md-5 col-lg-3 outest"
                 >
-                  <div className="img-box">
+                <div className="card">
+                  
+                  <div className="img-card">
+                    
                     <img
                       src={element.imgSrc}
-                      alt={element.name}
-                      className="memImg"
-                    />
-                    <ul>
-                      <li>
-                        <a href={element.linked} target="_blank">
-                          <i className="fa-brands fa-linkedin"></i>
-                        </a>
-                      </li>
-                    </ul>
+                       alt={element.name}
+                       className="img-round"
+                 />
+                 <div className="gradient-overlay"></div>
+                 
+                  
+                  
+                 <div className="Mname">
+                       <p>{element.name}</p>
                   </div>
-                  <p className="memName">{element.name}</p>
+
+                    <div className="icons">
+                      <a href={element.linked} target="_blank">
+                             <i className=" fa fa-brands fa-linkedin"></i>
+                      </a>
+                    </div>
+                    
+
+                  </div>
                 </div>
+                  
+                </div>
+
               );
             })}
           </div>
@@ -126,19 +225,53 @@ function TeamFP() {
           <div className="memcards row">
             {orgcData.map((element) => {
               return (
+                // <div
+                //   key={element.id}
+                //   className="memBlock col-sm-6 col-md-5 col-lg-3 profile"
+                // >
+                //   <div className="img-box">
+                //     <img
+                //       src={element.imgSrc}
+                //       alt={element.name}
+                //       className="memImg"
+                //     />
+                //   </div>
+                //   <p className="memName">{element.name}</p>
+                // </div>
+
                 <div
                   key={element.id}
-                  className="memBlock col-sm-6 col-md-5 col-lg-3 profile"
+                  className="col-sm-6 col-md-5 col-lg-3 outest"
                 >
-                  <div className="img-box">
+                <div className="card">
+                  
+                  <div className="img-card">
+                    
                     <img
                       src={element.imgSrc}
-                      alt={element.name}
-                      className="memImg"
-                    />
+                       alt={element.name}
+                       className="img-round"
+                 />
+                 <div className="gradient-overlay"></div>
+                 
+                  
+                  
+                 <div className="Mname">
+                       <p>{element.name}</p>
                   </div>
-                  <p className="memName">{element.name}</p>
+
+                    {/* <div className="icons">
+                      <a href={element.linked} target="_blank">
+                             <i className=" fa fa-brands fa-linkedin"></i>
+                      </a>
+                    </div> */}
+                    
+
+                  </div>
                 </div>
+                  
+                </div>
+
               );
             })}
           </div>

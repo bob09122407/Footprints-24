@@ -1,31 +1,157 @@
-.gal_header_img{
-    position: relative;
-    width: 100%;
-    height: 400px;
-    background-color: #1b1b1b77;
-    margin-bottom: 30px;
+.gallery {
+  perspective: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 0px;
+  animation-fill-mode: forwards !important;
 }
-.text-on-image-gal{
-    /* margin: auto;
+
+.SheenAnimate::after {
+  animation: sheenAnim 4s forwards ease-in-out;
+}
+
+.img-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400%;
+  height: 100%;
+  z-index: 20;
+  transform: translateX(-100%);
+  background: linear-gradient(70deg, rgba(128, 186, 232, 0) 20%, rgba(255, 255, 255, 0.8) 50%, rgba(128, 186, 232, 0) 80%);
+}
+
+@keyframes sheenAnim {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+#img-loader {
+  position: absolute;
+  background-color: seagreen;
+  font-size: 10em;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  animation-fill-mode: forwards !important;
+  height: 100%;
+  width: 100%;
+}
+@keyframes fadeLoader {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    z-index: -1000;
+  }
+}
+
+.img-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 100%;
+  width: 50%;
+  overflow: hidden;
+  transform: translateX(-10px);
+  /* border-radius: 30px; */
+  aspect-ratio: 4/5;
+}
+
+@media screen and (min-width: 991px) {
+  .img-card {
+    width: 20%;
+  }
+}
+
+.img-card > * {
+  animation-fill-mode: forwards !important;
+  grid-row: 1/1;
+}
+
+.img-card > .front {
+  grid-column: 1/1;
+  height: 100%;
+  border-radius: inherit;
+  background-size: contain;
+  z-index: 10;
+  font-size: 10em;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.img-card > .back {
+  grid-column: 1/1;
+  width: 100%;
+  border-radius: inherit;
+  background: red;
+  border: 2px solid white;
+  z-index: -10;
+  opacity: 0;
+
+  img {
+    border-radius: inherit;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: block;
+    margin-block: auto;
+  }
+}
+
+@keyframes frontAnim {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+    z-index: -10;
+  }
+}
+
+@keyframes backAnim {
+  from {
+    transform: rotateY(-180deg);
+  }
+  to {
+    transform: rotateY(0deg);
+    z-index: 10;
+    opacity: 1;
+  }
+}
+
+.gal_header_img {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #1b1b1b77;
+  margin-bottom: 30px;
+}
+.text-on-image-gal {
+  /* margin: auto;
     font-size: 3rem;
     color: var(--yellow); */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 @media screen and (max-width: 500px) {
-    .gal_header_img{
-        height: 300px;
-    }
-
+  .gal_header_img {
+    height: 300px;
+  }
 }
-#heading_gallerypage{
+#heading_gallerypage {
   border-bottom: none;
   font-weight: 600;
 }
 .gallery {
-
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
@@ -40,7 +166,6 @@
 } */
 
 .gallery .pics {
-  
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   cursor: pointer;
@@ -69,7 +194,7 @@
   }
 }
 
-.gallery .pics:hover .img-overlay .imgtext{
+.gallery .pics:hover .img-overlay .imgtext {
   display: block;
   position: absolute;
   top: 0;
@@ -83,7 +208,7 @@
   height: fit-content;
 }
 
-.gallery .pics:hover .img-overlay{
+.gallery .pics:hover .img-overlay {
   display: block;
   position: absolute;
   z-index: 1;
@@ -94,7 +219,7 @@
   right: 0px;
   margin: auto;
 }
- .img-overlay {
+.img-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -105,18 +230,18 @@
   opacity: 0;
 }
 
-.gallery .pics:hover img{
-    width: 100%;
-    opacity: 0.3;
-    background-color: var(--low-opacity-layer);
-    border: 2px solid var(--border-yellow);
+.gallery .pics:hover img {
+  width: 100%;
+  opacity: 0.3;
+  background-color: var(--low-opacity-layer);
+  border: 2px solid var(--border-yellow);
 }
-.gallery .pics{
-  position: relative;   
+.gallery .pics {
+  position: relative;
 }
-.imgtext p{
-  margin-bottom:0;
+.imgtext p {
+  margin-bottom: 0;
 }
-.imgtext hr{
-  margin-bottom:0;
+.imgtext hr {
+  margin-bottom: 0;
 }

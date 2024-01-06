@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 import menuItems from "../../../Data/menuItems";
+import logo from '../../../assets/images/Logo/purple.png'
 
 export default function NavBar(props) {
 
@@ -47,10 +48,10 @@ export default function NavBar(props) {
   };
 
   return (
-    <header className="nav-header ">
-      <Link to={"./home"} className="navbar-logo flex-grow-1">
+    <header className="nav-header">
+      <Link to={"./home"} className="navbar-logo">
         <img
-          src={`https://res.cloudinary.com/dwdln9iy2/image/upload/v1674703728/Logo/Logo-for-website_kqjzy6.png`}
+          src={logo}
           alt="Footprints'23"
         />
       </Link>

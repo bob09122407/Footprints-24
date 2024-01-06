@@ -39,7 +39,12 @@ function Workshop() {
               return (
                 <div key={element.id}>
                   <div className="workshop_lec content">
-                    <div className="about_workshop about_workshop_para1">
+                    <div className="about_workshop about_workshop_para1"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    // data-aos-delay="100"
+                    data-aos-offset="400"
+                    data-aos-easing="ease-in-sine">
                       <div className="workshop_heading">
                         <h3 className="workshop_name">
                           {element.name} <br /> {element.details}
@@ -57,10 +62,7 @@ function Workshop() {
 
                     <div
                       className="workshop_img workshop_img_style"
-                      data-aos="zoom-in-right"
-                      data-aos-duration="1000"
-                      data-aos-delay="100"
-
+                      data-aos="GuestAnimRight"
                     >
                       <img
                         src={element.imgSrc}
@@ -94,10 +96,7 @@ function Workshop() {
                 <div className="workshop_lec">
                   <div
                     className="workshop_img"
-                    data-aos="zoom-in-right"
-                    data-aos-duration="1000"
-                    data-aos-delay="100"
-
+                    data-aos="GuestAnimLeft"
                   >
                     <img
                       src={element.imgSrc}
@@ -106,7 +105,12 @@ function Workshop() {
                     />
                   </div>
 
-                  <div className="about_workshop para1">
+                  <div className="about_workshop para1"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  // data-aos-delay="100"
+                  data-aos-offset="400"
+                  data-aos-easing="ease-in-sine">
                     <div className="workshop_heading">
                       <h3 className="workshop_name">
                         {element.name} <br /> {element.details}
@@ -135,7 +139,12 @@ function Workshop() {
               return (
                 <div key={element.id}>
                   <div className="workshop_lec content">
-                    <div className="about_workshop about_workshop_para1">
+                    <div className="about_workshop about_workshop_para1"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    // data-aos-delay="100"
+                    data-aos-offset="400"
+                    data-aos-easing="ease-in-sine">
                       <div className="workshop_heading">
                         <h3 className="workshop_name">
                           {element.name} <br /> {element.details}
@@ -149,10 +158,7 @@ function Workshop() {
 
                     <div
                       className="workshop_img workshop_img_style"
-                      data-aos="zoom-in-right"
-                      data-aos-duration="1000"
-                      data-aos-delay="100"
-
+                      data-aos="GuestAnimRight"
                     >
                       <img
                         src={element.imgSrc}
@@ -182,10 +188,7 @@ function Workshop() {
                 <div className="workshop_lec">
                   <div
                     className="workshop_img"
-                    data-aos="zoom-in-right"
-                    data-aos-duration="1000"
-                    data-aos-delay="100"
-
+                    data-aos="GuestAnimLeft"
                   >
                     <img
                       src={element.imgSrc}
@@ -194,7 +197,12 @@ function Workshop() {
                     />
                   </div>
 
-                  <div className="about_workshop para1">
+                  <div className="about_workshop para1"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  // data-aos-delay="100"
+                  data-aos-offset="400"
+                  data-aos-easing="ease-in-sine">
                     <div className="workshop_heading">
                       <h3 className="workshop_name">
                         {element.name} <br /> {element.details}

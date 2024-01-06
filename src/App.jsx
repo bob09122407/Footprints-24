@@ -30,6 +30,16 @@ import useLocalStorage from "./CustomHooks/useLoacalStorage";
 import "./components/Common/CSS/Root.css";
 const queryClient = new QueryClient();
 import AOS from 'aos';
+import Mechanema from "./components/EventPage/Mechenema/Mechanema";
+import Rasayanam from "./components/EventPage/Rasayanam/Rasayanam";
+import Cybernetics from "./components/EventPage/Cybernatics/Cybernetics";
+import Citadel from "./components/EventPage/Citadel/Citadel";
+import Sanganikee from "./components/EventPage/Sanganikee/Sanganikee";
+import Lycra from "./components/EventPage/Lycra/Lycra";
+import Technotron from "./components/EventPage/Technotron";
+import LandingPage from "./components/LandingPage/landingpage";
+import Slider from "./components/HomePage/Segment/Segmentnew";
+
 AOS.init();
 
 function App() {
@@ -59,7 +69,7 @@ function App() {
         <Router>
           <NavBar switchTheme={switchTheme} icon={icon} />
           <Routes>
-            <Route exact path="/" element={<Homepage />}></Route>
+            <Route exact path="/" element={<LandingPage/>}></Route>
             <Route exact path="/home" element={<Homepage />}></Route>
             <Route exact path="/guestlecture" element={<Kaleido />}></Route>
             <Route exact path="/contact" element={<Contact />}></Route>
@@ -80,13 +90,15 @@ function App() {
             <Route exact path="/virtuosity" element={<Virtuosity />} />
             <Route exact path="/acco" element={<Acco />} />
             <Route exact path="/media" element={<MediaPage />} />
-
-            <Route exact path="/event/:name" element={<EventPage />}></Route>
-            <Route
-              exact
-              path="/event/:name/:subevent"
-              element={<SubEvent />}
-            ></Route>
+            <Route exact path="/technotron" element={<Technotron />} />
+            <Route exact path="/cybernetics" element={<Cybernetics />} />
+            <Route exact path="/macheanema" element={<Mechanema />} />
+            <Route exact path="/lycra" element={<Lycra />} />
+            <Route exact path="/sanganikee" element={<Sanganikee />} />
+            <Route exact path="/citadel" element={<Citadel />} />
+            <Route exact path="/rasayanam" element={<Rasayanam />} />
+            
+           
           </Routes>
         </Router>
       </ThemeState>

@@ -13,7 +13,6 @@ const EventPage = () => {
   const param = useParams();
   const context = useContext(ThemeContext);
 
-
   useEffect(() => {
     document.title = `${(param.name).slice(0, 1).toUpperCase() + (param.name).slice(1)} | FootPrints'23`
   }, [])

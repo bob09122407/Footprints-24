@@ -15,9 +15,9 @@
 :root {
   /* <------- MainWeb -------> */
 
-  --background-color: rgb(15, 15, 15);
+  --background-color: #020c1a;
   --gray-color: #34373b;
-  --icon-color: #ffc800;
+  --icon-color: rgb(232, 185, 251);
   --card-background: rgba(152, 152, 152, 0.12);
   --black: black;
   --navbar-shadow: rgba(0, 0, 0, 0.1);
@@ -26,9 +26,9 @@
 
   --white-not-change: white;
   --box-shadow: 7px 7px 5px rgba(40, 37, 37, 0.8);
-  --yellow-to-black: #ffc800;
-  --color-onHover-Theme: #ffc800;
-  --yellow-to-blue: #ffc800;
+  --yellow-to-black: rgb(232, 185, 251);
+  --color-onHover-Theme: rgb(232, 185, 251);
+  --yellow-to-blue: rgb(232, 185, 251);
 
   --heading-family: "Rubik", sans-serif;
   --text-family: "Karla", sans-serif;
@@ -36,8 +36,8 @@
   /* <------- Common-2 -------> */
 
   --white: #fff;
-  --yellow: #ffc800;
-  --border-yellow: #ffc80077;
+  --yellow: rgb(232, 185, 251);
+  --border-yellow: #ff00bb77;
   --low-opacity-layer: rgba(255, 255, 255, 0.619);
   --low-opacity-layer2: rgba(26, 26, 26, 0.781);
   --box-bg: #171717;
@@ -54,13 +54,13 @@
   /* by kareena */
   --footer-background: #181818a4;
 
-  --footer-icon-color: #ffc800;
+  --footer-icon-color: rgb(232, 185, 251);
   --footer-email-Bg: rgb(61 61 61 / 96%);
   --footer-btn-Bg: rgb(15, 15, 15);
 
   /* <------- History Page -------> */
 
-  --yellow-to-white: #ffc800;
+  --yellow-to-white: rgb(232, 185, 251);
   --card-border: none;
   --card-shadow: none;
   --card-history-background: #282828;
@@ -115,7 +115,7 @@ body::-webkit-scrollbar-thumb {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffc800;
+  background: rgb(205, 156, 225);
 }
 [data-theme="light"] {
   --background-color: white;
@@ -141,11 +141,13 @@ body::-webkit-scrollbar-thumb {
 /* Stlyling In Body */
 html,
 body {
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background: url(../../../../bggg.jpg) fixed no-repeat;
+  background-size: cover;
   /* color: var(--font-color); */
   /* font-family: 'Outfit', sans-serif; */
   max-width: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-behavior: smooth;
 }
 
