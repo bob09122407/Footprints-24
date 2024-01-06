@@ -5,9 +5,7 @@
     background-color: #1b1b1b77;
 }
 .text-on-image-team{
-    /* margin: auto;
-    font-size: 3rem;
-    color: var(--yellow); */
+   
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,8 +28,6 @@
   margin-bottom: 30px;
   height: 400px;
   
-  /* background-color: black;
-  color:#FFF; */
 
   background-color: var(--team-cover-bg) !important;
   color: var(--white);
@@ -80,36 +76,20 @@
   width: 100%;
 }
 .img-box {
-  /* padding: 20px; */
   background: none;
 }
 
-/* .profile {
-    margin-top: 2.5rem;
-    position: relative;
-} */
 
 .profile .img-box {
   opacity: 1;
   display: block;
   position: relative;
-  /* box-shadow: 4px 4px 3px rgb(69, 69, 69); */
-  /* -moz-box-shadow: 4px 4px 3px rgb(69, 69, 69); */
-  /* -webkit-box-shadow: 4px 4px 3px rgb(58, 58, 58); */
-  /* -khtml-box-shadow: 4px 4px 3px rgb(19, 19, 19); */
+ 
 }
 .memImg {
   padding: 0;
-  /* position: relative; */
 }
 
-/* .profile  {
-    font-size: 1.37rem;
-    font-weight: 300;
-    margin-top: 1rem;
-    color:var(--white);   
-    /* Remember */
-/* } */
 
 .img-box:after {
   content: "";
@@ -138,15 +118,12 @@
 .img-box ul li {
   width: 35px;
   height: 35px;
-  /* border: 1px solid var(--white); */
   border: 1px solid #FFF;
   border-radius: 6%;
-  /* padding: 0.1px; */
   display: inline-block;
 }
 
 .img-box a {
-  /* color:var(--white); */
   color:#FFF;
   position: relative;
   left: 22%;
@@ -252,13 +229,3 @@
   }
 }
 
-/* @media screen and (max-width: 576px){
-  .img-box{
-    padding: 20px;
-  }
-  .img-box ul {
-  left: 84%;
-  top: 73%;
-}
-  
-} */

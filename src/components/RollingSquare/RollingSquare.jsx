@@ -2,89 +2,78 @@ import React, { useEffect } from "react";
 import "./RollingSquare.css";
 import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
-import ImageCarousel from "./ImageCaraousal";
+import imageSources from '../../Data/RollingSquaresConcert.js';
 
 export default function RollingSquare() {
   useEffect(() => {
     document.title = "Rolling Sqares | FootPrints'23";
   }, []);
 
-  // let windowInnerWidth;
+  useEffect(() => {
+    if (window.innerWidth < 619) {
+      console.log("Hello");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            // console.log(entry);
+            if (entry.isIntersecting) {
+              entry.target.classList.add("img-transition");
+            } else {
+              entry.target.classList.remove("img-transition");
+            }
+          });
+        },
+        {
+          threshold: "0.98",
+        }
+      );
 
-  // useEffect(() => {
-  //   (function () {
-  //     windowInnerWidth = window.innerWidth;
-  //     console.log(windowInnerWidth);
-  //     const track = document.querySelector(".image-track");
-  //     console.log(track.dataset.mouseDownAt);
-
-  //     const handleOnDown = (e) => (track.dataset.mouseDownAt = e.clientX);
-
-  //     const handleOnUp = () => {
-  //       track.dataset.mouseDownAt = "0";
-  //       track.dataset.prevPercentage = track.dataset.percentage;
-  //     };
-
-  //     const handleOnMove = (e) => {
-  //       if (track.dataset.mouseDownAt === "0") return;
-
-  //       const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
-  //         maxDelta = windowInnerWidth / 2;
-
-  //       const percentage = (mouseDelta / maxDelta) * -100,
-  //         nextPercentageUnconstrained =
-  //           parseFloat(track.dataset.prevPercentage) + percentage,
-  //         nextPercentage = Math.max(
-  //           Math.min(nextPercentageUnconstrained, 0),
-  //           -100
-  //         );
-
-  //       track.dataset.percentage = nextPercentage;
-
-  //       track.animate(
-  //         {
-  //           transform: `translate(${nextPercentage}%, -50%)`,
-  //         },
-  //         { duration: 1200, fill: "forwards" }
-  //       );
-
-  //       for (const image of track.querySelectorAll(".concert-image")) {
-  //         image.animate(
-  //           {
-  //             objectPosition: `${100 + nextPercentage}% center`,
-  //           },
-  //           { duration: 1200, fill: "forwards" }
-  //         );
-  //       }
-  //     };
-
-  //     /* -- Had to add extra lines for touch events -- */
-
-  //     window.onmousedown = (e) => handleOnDown(e);
-
-  //     window.ontouchstart = (e) => handleOnDown(e.touches[0]);
-
-  //     window.onmouseup = (e) => handleOnUp(e);
-
-  //     window.ontouchend = (e) => handleOnUp(e.touches[0]);
-
-  //     window.onmousemove = (e) => handleOnMove(e);
-
-  //     window.ontouchmove = (e) => handleOnMove(e.touches[0]);
-  //   })();
-  // }, []);
-
-
+      const imgBoxes = document.querySelectorAll(".gallery img");
+      imgBoxes.forEach((el) => {
+        observer.observe(el);
+      });
+    }
+  }, []);
 
   return (
     <section>
-        <div style={{height:'100vh',width:'100%'}}></div>
-        <ImageCarousel />
-      {/* <Sponsors />
-      <Footer /> */}
-      {/* <div className="next-block">
-
-      </div> */}
+      <div style={{ height: "100vh", width: "100%" }}>
+        {/*remaining for heading*/}
+      </div>
+      <div className="rs_images-container">
+        <div className="gallery">
+          {imageSources.map((src, index) => (
+            // <div className="slide" key={index}>
+            <img
+              key={index}
+              src={src}
+              alt={`Image ${index + 1}`}
+              draggable="false"
+              className={(function () {
+                switch (index) {
+                  case 0:
+                  case 3:
+                  case 5:
+                    return "to-right";
+                    break;
+                  case 2:
+                  case 4:
+                  case 7:
+                    return "to-left";
+                  case 1:
+                    return "to-down";
+                  case 6:
+                    return "to-up";
+                    break;
+                }
+              })()}
+            />
+            // </div>
+          ))}
+        </div>
+      </div>
+      <Sponsors />
+      <Footer />
     </section>
   );
 }
