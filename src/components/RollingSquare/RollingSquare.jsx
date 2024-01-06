@@ -1,503 +1,89 @@
 import React, { useEffect } from "react";
-import * as THREE from "three";
-import "./RollingSquare.css"
+import "./RollingSquare.css";
 import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
+import ImageCarousel from "./ImageCaraousal";
 
 export default function RollingSquare() {
-
-
   useEffect(() => {
-
-    document.title = "Rolling Sqares | FootPrints'23"
-
-  }, [])
-
-  useEffect(() => {
-    const canvasEl = document.getElementById("webgl-canvas");
-    const canvasSize = {
-      w: window.innerWidth,
-      h: window.innerHeight,
-    };
-
-    const renderer = new THREE.WebGLRenderer({ canvas: canvasEl });
-    renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setSize(canvasSize.w, canvasSize.h);
-
-    // ウィンドウとwebGLの座標を一致させるため、描画がウィンドウぴったりになるようカメラを調整
-    const fov = 60; // 視野角
-    const fovRad = (fov / 2) * (Math.PI / 180);
-    const dist = canvasSize.h / 2 / Math.tan(fovRad);
-    const camera = new THREE.PerspectiveCamera(
-      fov,
-      canvasSize.w / canvasSize.h,
-      0.1,
-      2000
-    );
-    camera.position.z = dist;
-
-    const scene = new THREE.Scene();
-
-    const loader = new THREE.TextureLoader();
-
-    // 画像をテクスチャにしたplaneを扱うクラス
-    class ImagePlane {
-      constructor(mesh, img) {
-        this.refImage = img;
-        this.mesh = mesh;
-      }
-
-      setParams() {
-        // 参照するimg要素から大きさ、位置を取得してセット
-        const rect = this.refImage.getBoundingClientRect();
-
-        this.mesh.scale.x = rect.width;
-        this.mesh.scale.y = rect.height;
-
-        const x = rect.left - canvasSize.w / 2 + rect.width / 2;
-        const y = -rect.top + canvasSize.h / 2 - rect.height / 2;
-        this.mesh.position.set(x, y, this.mesh.position.z);
-      }
-
-      update(offset) {
-        this.setParams();
-
-        this.mesh.material.uniforms.uTime.value = offset;
-      }
-    }
-
-    // Planeメッシュを作る関数
-    const createMesh = (img) => {
-      const texture = loader.load(img.src);
-
-      const uniforms = {
-        uTexture: { value: texture },
-        uImageAspect: { value: img.naturalWidth / img.naturalHeight },
-        uPlaneAspect: { value: img.clientWidth / img.clientHeight },
-        uTime: { value: 0 },
-      };
-      const geo = new THREE.PlaneGeometry(1, 1, 100, 100); // 後から画像のサイズにscaleするので1にしておく
-      const mat = new THREE.ShaderMaterial({
-        uniforms,
-        vertexShader: document.getElementById("v-shader").textContent,
-        fragmentShader: document.getElementById("f-shader").textContent,
-      });
-
-      const mesh = new THREE.Mesh(geo, mat);
-
-      return mesh;
-    };
-
-    // スクロール追従
-    let targetScrollY = 0; // スクロール位置
-    let currentScrollY = 0; // 線形補間を適用した現在のスクロール位置
-    let scrollOffset = 0; // 上記2つの差分
-
-    // 開始と終了をなめらかに補間する関数
-    const lerp = (start, end, multiplier) => {
-      return (1 - multiplier) * start + multiplier * end;
-    };
-
-    const updateScroll = () => {
-      // スクロール位置を取得
-      targetScrollY = document.documentElement.scrollTop;
-      // リープ関数でスクロール位置をなめらかに追従
-      currentScrollY = lerp(currentScrollY, targetScrollY, 0.1);
-
-      scrollOffset = targetScrollY - currentScrollY;
-    };
-
-    const imagePlaneArray = [];
-
-    // 毎フレーム呼び出す
-    const loop = () => {
-      updateScroll();
-      for (const plane of imagePlaneArray) {
-        plane.update(scrollOffset);
-      }
-      renderer.render(scene, camera);
-
-      requestAnimationFrame(loop);
-    };
-
-    // リサイズ処理
-    let timeoutId = 0;
-    const resize = () => {
-      // three.jsのリサイズ
-      const width = window.innerWidth;
-      const height = window.innerHeight;
-
-      canvasSize.w = width;
-      canvasSize.h = height;
-
-      renderer.setPixelRatio(window.devicePixelRatio);
-      renderer.setSize(width, height);
-
-      camera.aspect = width / height;
-      camera.updateProjectionMatrix();
-
-      // カメラの距離を計算し直す
-      const fov = 60;
-      const fovRad = (fov / 2) * (Math.PI / 180);
-      const dist = canvasSize.h / 2 / Math.tan(fovRad);
-      camera.position.z = dist;
-      // console.log(canvasSize.w,canvasSize.h)
-    };
-
-    const main = () => {
-      window.addEventListener("load", () => {
-        const imageArray = [...document.querySelectorAll(".img-rs")];
-        for (const img of imageArray) {
-          const mesh = createMesh(img);
-          scene.add(mesh);
-
-          const imagePlane = new ImagePlane(mesh, img);
-          imagePlane.setParams();
-
-          imagePlaneArray.push(imagePlane);
-        }
-        loop();
-      });
-
-      window.addEventListener("resize", () => {
-        if (timeoutId) clearTimeout(timeoutId);
-
-        timeoutId = setTimeout(resize, 200);
-      });
-    };
-
-    main();
+    document.title = "Rolling Sqares | FootPrints'23";
   }, []);
 
+  // let windowInnerWidth;
+
+  // useEffect(() => {
+  //   (function () {
+  //     windowInnerWidth = window.innerWidth;
+  //     console.log(windowInnerWidth);
+  //     const track = document.querySelector(".image-track");
+  //     console.log(track.dataset.mouseDownAt);
+
+  //     const handleOnDown = (e) => (track.dataset.mouseDownAt = e.clientX);
+
+  //     const handleOnUp = () => {
+  //       track.dataset.mouseDownAt = "0";
+  //       track.dataset.prevPercentage = track.dataset.percentage;
+  //     };
+
+  //     const handleOnMove = (e) => {
+  //       if (track.dataset.mouseDownAt === "0") return;
+
+  //       const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
+  //         maxDelta = windowInnerWidth / 2;
+
+  //       const percentage = (mouseDelta / maxDelta) * -100,
+  //         nextPercentageUnconstrained =
+  //           parseFloat(track.dataset.prevPercentage) + percentage,
+  //         nextPercentage = Math.max(
+  //           Math.min(nextPercentageUnconstrained, 0),
+  //           -100
+  //         );
+
+  //       track.dataset.percentage = nextPercentage;
+
+  //       track.animate(
+  //         {
+  //           transform: `translate(${nextPercentage}%, -50%)`,
+  //         },
+  //         { duration: 1200, fill: "forwards" }
+  //       );
+
+  //       for (const image of track.querySelectorAll(".concert-image")) {
+  //         image.animate(
+  //           {
+  //             objectPosition: `${100 + nextPercentage}% center`,
+  //           },
+  //           { duration: 1200, fill: "forwards" }
+  //         );
+  //       }
+  //     };
+
+  //     /* -- Had to add extra lines for touch events -- */
+
+  //     window.onmousedown = (e) => handleOnDown(e);
+
+  //     window.ontouchstart = (e) => handleOnDown(e.touches[0]);
+
+  //     window.onmouseup = (e) => handleOnUp(e);
+
+  //     window.ontouchend = (e) => handleOnUp(e.touches[0]);
+
+  //     window.onmousemove = (e) => handleOnMove(e);
+
+  //     window.ontouchmove = (e) => handleOnMove(e.touches[0]);
+  //   })();
+  // }, []);
+
+
   return (
-    <section style={{ overflow: "auto" }}>
+    <section>
+        <div style={{height:'100vh',width:'100%'}}></div>
+        <ImageCarousel />
+      {/* <Sponsors />
+      <Footer /> */}
+      {/* <div className="next-block">
 
-      <div className="header_img">
-        <img
-          src={
-            window.innerWidth > 800
-              ? "https://res.cloudinary.com/dm4earvp9/image/upload/v1674646548/Rolling_Squares-_oqluv0.gif"
-              : "https://res.cloudinary.com/dm4earvp9/image/upload/v1674646547/Rolling_Squares__1_dqntca.gif"
-          }
-          alt=""
-          id="rs-header"
-        />
-      </div>
-
-      <div id="Rs_images" className="container mt-5">
-        <ul className="image-list">
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt="Jasleen Royal"
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt="Zephyrtone"
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt="Gajendra Verma"
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.png"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <li className="image-item my-3">
-            <a href="" className="image-wrapper">
-              <div class="glitch" >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg"
-                  alt=""
-                  className="img-rs"
-                />
-                <div class="glitch__layers">
-
-                
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                  <div class="glitch__layer" style={{backgroundImage: `url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Classical_spectacular10.jpg/450px-Classical_spectacular10.jpg)`}}></div>
-                </div>
-              </div>
-
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div className="webgl-canvas">
-        Hello
-        <canvas id="webgl-canvas" className="webgl-canvas__body"></canvas>
-      </div>
-
-      <Sponsors />
-      <Footer />
+      </div> */}
     </section>
   );
 }
