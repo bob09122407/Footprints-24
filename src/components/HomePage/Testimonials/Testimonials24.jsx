@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './testimonial.css';
-
+import Heading from '../../Common/Headings/Heading';
 const YourComponent = () => {
   const [position, setPosition] = useState(0);
   const [autoPlayInterval, setAutoPlayInterval] = useState(null);
@@ -75,6 +75,11 @@ const YourComponent = () => {
   return (
     <main>
       <div className="sliders">
+      <Heading
+              className="kaleido_heading"
+              id="glheading"
+              title={"Testimonials"}
+            />
         <div className="slide-wrappers" style={{ transform: `translateX(-${position * 100}%)` }}>
           {testimonials.map((testimonial, i) => (
             <div key={i} className="slide">

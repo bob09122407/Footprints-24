@@ -3,7 +3,7 @@ import "./RollingSquare.css";
 import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import ImageCarousel from "./ImageCaraousal";
-
+import Heading from "../Common/Headings/Heading";
 export default function RollingSquare() {
   useEffect(() => {
     document.title = "Rolling Sqares | FootPrints'23";
@@ -77,7 +77,11 @@ export default function RollingSquare() {
 
   return (
     <section>
-        <div style={{height:'100vh',width:'100%'}}></div>
+      <Heading
+              className="kaleido_heading"
+              id="glheading"
+              title={"Technical Events for Textile Department"}
+            />
         <ImageCarousel />
       {/* <Sponsors />
       <Footer /> */}

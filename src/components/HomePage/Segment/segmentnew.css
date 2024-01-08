@@ -41,6 +41,7 @@
     border-radius: px;
     box-shadow:  0 10px 20px #505050;
 }
+
 .item-seg:nth-child(1),
 .item-seg:nth-child(2){
     left:0;
@@ -70,12 +71,17 @@
     left:100px;
     width:300px;
     text-align: left;
-    padding:0;
+    padding:0px;
     color:#eee;
     transform: translate(0,-50%);
     display: none;
     font-family: system-ui;
 }
+
+.content button {
+    margin-top: 10px; /* Adjust the top margin to add space between buttons */
+  }
+
 .item-seg:nth-child(2) .content{
     display: block;
     z-index: 11111;
@@ -94,9 +100,21 @@
 .item-seg button{
     padding:10px 20px;
     border:none;
+    position:relative;
     opacity: 0;
+    width: 50%;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #1f011d;
+    display:flexbox;
+  justify-content: space-around;
+    font-weight: 500;
+    background-color: rgb(240, 202, 245);
     animation:showcontent 1s ease-in-out 0.6s 1 forwards
 }
+
 @keyframes showcontent{
     from{
         opacity: 0;
@@ -189,6 +207,14 @@
         justify-content: space-between !important;
         width: 90%;
         display: flex; 
+    }
+    .item-seg button{
+       left: -20%;
+       width: 48%;
+    }
+    .item-seg .name{
+        margin-top: -3.5rem;
+        margin-left:-3.4rem;
     }
   
 }

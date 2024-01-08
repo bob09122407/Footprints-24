@@ -22,7 +22,7 @@ function WebTeam() {
       </div>
       <div className="container">
         <div className="coordinatesDiv">
-          <div className="memcards row my-5">
+          <div className="memcardsss row my-5">
             {WebteamData.map((element) => {
               return (
                 // Original
@@ -49,16 +49,16 @@ function WebTeam() {
                 // </div>
 
               // First try sahpe
-                // <div className="cards cards--two ">
+                // <div className="cardsss cardsss--two ">
                 //   <img
                 //     src={element.imgSrc}
                 //     alt={element.name}
                 //     className="img-responsive"
                 //   />
-                //   <span className="cards--two__rect"></span>
-                //   <span className="cards--two__tri"></span>
+                //   <span className="cardsss--two__rect"></span>
+                //   <span className="cardsss--two__tri"></span>
                 //   <p>{element.name}</p>
-                //   <ul className="cards__list">
+                //   <ul className="cardsss__list">
                 //     <li>
                 //       <a href={element.linked} target="_blank">
                 //       <i className="fab fa-linkedin-in"></i>
@@ -71,7 +71,7 @@ function WebTeam() {
                 //    key={element.id}
                 //    className=" col-sm-6 col-md-5 col-lg-3 my-2"
                 //  >
-                //    <div className="card">
+                //    <div className="cardss">
                 //    <p className="memName">{element.name}</p>
 
                 //      <img
@@ -123,9 +123,9 @@ function WebTeam() {
                   key={element.id}
                   className="col-sm-6 col-md-5 col-lg-3 outest"
                 >
-                <div className="card">
+                <div className="cardss">
                   
-                  <div className="img-card">
+                  <div className="img-cardss">
                     
                     <img
                       src={element.imgSrc}
@@ -201,7 +201,7 @@ export default WebTeam;
 //       {/* <section id="achivements" className="acheivements section-bg container"> */}
 //       <div className="container">
 //         <div className="coordinatesDiv">
-//           <div className="memcards row my-5">
+//           <div className="memcardsss row my-5">
 //             {WebteamData.map((element) => {
 //               return (
 //                 <div

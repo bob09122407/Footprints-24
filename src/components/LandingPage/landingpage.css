@@ -1,10 +1,13 @@
 .main-star{
-    height: 100vh; /* Set the height to 100% of the viewport height */
-    overflow: hidden; 
+    height: 100vh; 
+  
+    overflow:hidden !important; 
     background: fixed;
   }
   
-  
+  body{
+    /* overflow: hidden !important; */
+  }
   
   #stars {
       width: 1px;
@@ -109,7 +112,7 @@
       width: 200%;
       height: 100%;
       background: black;
-      border-radius: 100%/100%;
+      border-radius: 50% 50% 0% 0%;
       left: 50%;
       bottom: -50%;
       margin-left: -100%;
@@ -119,7 +122,7 @@
       position: absolute;
       width: 100%;
       height: 100%;
-      border-radius: 100%/100%;
+       border-radius: 50% 50% 0 0;
       box-shadow: inset 0px 0px 62px 20px rgb(40, 8, 52);
     }
     #earth:after {
@@ -136,7 +139,7 @@
       position: absolute;
       width: 100%;
       height: 100%;
-      border-radius: 100%/100%;
+      border-radius: 50% 50% 0 0;
     }
     
     #title {
@@ -205,7 +208,7 @@
         opacity: 1;
       }
       92%, 100% {
-        letter-spacing: 35px;
+        letter-spacing: 20px;
         padding-left: 35px;
         transform: translateY(-4px);
         opacity: 0;
@@ -253,8 +256,122 @@
         opacity: 0;
       }
     }
+
+    @media screen and (max-width:890px) {
+       
+   
+      #title {
+        position: absolute;
+        font-weight: 500;
+        top: 36%;
+        left: -45px;
+        right: 0;
+        margin-top: -50px;
+        font-size: 26px;
+      
+        animation-name: animGravitya;
+      }
+   
+  
+      #horizon {
+       
+        width: 100%;
+        height: 60%;
+        border-radius: 200%/200%;
+        bottom: -20%;
+        margin-left: -56.5%; 
+    }
+    
+      
+      #earth {
+        background: #18031a;
+        border-radius: 200%/200%;
+       position: absolute;
+        width: 100%; 
+                height:60%;
+        bottom: -20%;
+        margin-left: -50.5%;  
+      }
+      }
+  
+      @keyframes animGravitya {
+        0% {
+          transform: translateY(-26px);
+          opacity: 0;
+        }
+        30%, 80% {
+          letter-spacing: 50px;
+          padding-left: 40px;
+          transform: translateY(0px);
+          opacity: 1;
+        }
+        92%, 100% {
+          letter-spacing: 30px !important;
+          padding-left: 35px;
+          transform: translateY(-4px);
+          opacity: 0;
+        }
+      }
     
   
-    @media screen and (max-width:1300px) {
-      
+    @media screen and (max-width:512px) {
+       
+   
+    #title {
+      position: absolute;
+      font-weight: 500;
+      top: 36%;
+      left: -45px;
+      right: 0;
+      margin-top: -50px;
+      font-size: 30px !important;
+    
+      animation-name: animGravitya;
     }
+ 
+
+    #horizon {
+     
+      width: 113%; /* Set it to 100% */
+      height: 62%;
+      border-radius: 50% 50% 0% 0%;
+      bottom: -20%;
+      margin-left: -59%; /* Adjusted margin to center the element */
+  }
+  
+    
+    #earth {
+      background: #18031b;
+      border-radius: 600%/100%;
+     position: absolute;
+      width: 113%; /* Set it to 100% */
+      height:60%;
+      bottom: -20%;
+      margin-left: -56.5%; /* Adjusted margin to */
+    }
+    }
+
+    @keyframes animGravitya {
+      0% {
+        transform: translateY(-26px);
+        opacity: 0;
+      }
+      30%, 80% {
+        letter-spacing: 3px;
+        padding-left: 40px;
+        transform: translateY(0px);
+        opacity: 1;
+      }
+      92%, 100% {
+        letter-spacing: 1px;
+        padding-left: 35px;
+        transform: translateY(-4px);
+        opacity: 0;
+      }
+    }
+
+   @media screen and (max-width:1025px) {
+    #title{
+      font-size:60px;
+    }
+   }

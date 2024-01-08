@@ -5,21 +5,18 @@ import phoo from "../../../assets/images/Logo/segment.png"
 import Heading from '../../Common/Headings/Heading';
 const Slider = () => {
   const slideRef = useRef(null);
-
   const nextSlide = () => {
     const lists = slideRef.current.querySelectorAll('.item-seg');
     slideRef.current.appendChild(lists[0].cloneNode(true));
-    slideRef.current.appendChild(lists[1].cloneNode(true));
     slideRef.current.removeChild(lists[0]);
   };
-
+  
   const prevSlide = () => {
     const lists = slideRef.current.querySelectorAll('.item-seg');
     slideRef.current.prepend(lists[lists.length - 1].cloneNode(true));
-    slideRef.current.prepend(lists[lists.length - 2].cloneNode(true));
     slideRef.current.removeChild(lists[lists.length - 1]);
-    slideRef.current.removeChild(lists[lists.length - 2]);
   };
+  
 
   useEffect(() => {
     const intervalId = setInterval(nextSlide, 3000);
@@ -34,7 +31,7 @@ const Slider = () => {
        <Heading
               className="kaleido_heading"
               id="glheading"
-              title="GUEST LECTURES"
+              title="SEGMENTS"
             />
             </div>
     <div className="container-seg">
@@ -42,39 +39,66 @@ const Slider = () => {
       <div id="slide" ref={slideRef}>
         <div className="item-seg" style={{ backgroundImage: `url(${phoo})`}}>
           <div className="content">
-            <div className="name">LUNDEV888</div>
-            <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-            <button>See more</button>
-          </div>
-        </div>
-        <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
-          <div className="content">
-            <div className="name">LUNDEV777</div>
+            <div className="name">Cybernetics</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-            <button>See more</button>
-            <button>See more</button>
-            <button>See more</button>
+            <button>Runtime</button>
+            <button>Code&Create</button>
+            <button>Hackprints 2.0</button>
+            <button>Protocol</button>
           </div>
         </div>
         <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
           <div className="content">
-            <div className="name">LUNDEV566</div>
-            <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-            <button>See more</button>
+            <div className="name">Mechenema</div>
+            {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
+            <button>Burnout</button>
+            <button>Ballista</button>
+            <button>Hydrex</button>
+            <button>Powered Echo</button>
+            <button>Gizmo</button>
           </div>
         </div>
         <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
           <div className="content">
-            <div className="name">LUNDEV554</div>
-            <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-            <button>See more</button>
+            <div className="name">Sanganikee</div>
+            {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
+            <button>Wrestlemania</button>
+            <button>Technokik</button>
+            <button>D.F.A 6.0</button>
+            <button>Monochrome</button>
+            <button>Insight</button>
+            <button>Renaissance</button>
           </div>
         </div>
         <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
           <div className="content">
-            <div className="name">LUNDEV55</div>
-            <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-            <button>See more</button>
+            <div className="name">Lycra</div>
+            {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
+            <button>Diz-O-Spot</button>
+            <button>Broken Floats</button>
+            <button>10's Count</button>
+            <button>Quiz-O-Tex</button>
+            <button>Imprints</button>
+          </div>
+        </div>
+        <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
+          <div className="content">
+            <div className="name">Citadel</div>
+            {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
+            <button>CivIQ</button>
+            <button>CAD</button>
+            <button>WWE</button>
+            <button>Tremors</button>
+          </div>
+        </div>
+        <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
+          <div className="content">
+            <div className="name">Rasayanam</div>
+            {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
+            <button>Chem-o-Hustle</button>
+            <button>Synopsis</button>
+            <button>Chemaze</button>
+            <button>ChemX</button>
           </div>
         </div>
         {/* ... Add other item-segs as needed */}

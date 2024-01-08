@@ -41,7 +41,7 @@ function Homepage() {
       {/* <Testimonials /> */}
       <Achivements />
       {/* <Sponsors /> */}
-      {/* <Scroll/> */}
+      <Scroll/>
 
       <Footer />
 

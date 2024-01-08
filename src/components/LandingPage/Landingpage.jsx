@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import './landingpage.css'; // Import the CSS file
 
@@ -12,7 +12,6 @@ const LandingPage = () => {
 
   return (
     <div className='main-star'>
-    
       <div id='stars'></div>
       <div id='stars2'></div>
       <div id='stars3'></div>
