@@ -32,7 +32,7 @@ function TeamFP() {
       <div className="container">
         <div className="coordinatesDiv">
           <div className="heading">Coordinators</div>
-          <div className="memcards row">
+          <div className="memcardsss row">
             {coordinatorsData.map((element) => {
               return (
                 // <div
@@ -62,9 +62,9 @@ function TeamFP() {
                   key={element.id}
                   className="col-sm-6 col-md-5 col-lg-3 outest"
                 >
-                <div className="card">
+                <div className="cardss">
                   
-                  <div className="img-card">
+                  <div className="img-cardss">
                     
                     <img
                       src={element.imgSrc}
@@ -97,7 +97,7 @@ function TeamFP() {
         </div>
         <div className="headsDiv">
           <div className="heading">Heads</div>
-          <div className="memcards row">
+          <div className="memcardsss row">
             {headsData.map((element) => {
               return (
                 // <div
@@ -124,9 +124,9 @@ function TeamFP() {
                   key={element.id}
                   className="col-sm-6 col-md-5 col-lg-3 outest"
                 >
-                <div className="card">
+                <div className="cardss">
                   
-                  <div className="img-card">
+                  <div className="img-cardss">
                     
                     <img
                       src={element.imgSrc}
@@ -159,7 +159,7 @@ function TeamFP() {
         </div>
         <div className="ccDiv">
           <div className="heading">Core Committee</div>
-          <div className="memcards row">
+          <div className="memcardsss row">
             {ccData.map((element) => {
               return (
                 // <div
@@ -186,9 +186,9 @@ function TeamFP() {
                   key={element.id}
                   className="col-sm-6 col-md-5 col-lg-3 outest"
                 >
-                <div className="card">
+                <div className="cardss">
                   
-                  <div className="img-card">
+                  <div className="img-cardss">
                     
                     <img
                       src={element.imgSrc}
@@ -222,7 +222,7 @@ function TeamFP() {
 
         <div className="orgcDiv">
           <div className="heading">Organizing Team</div>
-          <div className="memcards row">
+          <div className="memcardsss row">
             {orgcData.map((element) => {
               return (
                 // <div
@@ -243,9 +243,9 @@ function TeamFP() {
                   key={element.id}
                   className="col-sm-6 col-md-5 col-lg-3 outest"
                 >
-                <div className="card">
+                <div className="cardss">
                   
-                  <div className="img-card">
+                  <div className="img-cardss">
                     
                     <img
                       src={element.imgSrc}
