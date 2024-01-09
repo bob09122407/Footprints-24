@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.gallery {
+.concert-gallery {
   --size: 150px;
   display: grid;
   grid-template-columns: repeat(6,var(--size));
@@ -14,7 +14,7 @@
   gap: 5px;
 }
 
-.gallery img {
+.concert-gallery img {
   object-fit: cover;
   width: calc(var(--size) * 2);
   height: calc(var(--size) * 2);
@@ -25,94 +25,94 @@
   border: 2px solid purple;
 }
 
-.gallery img:nth-child(5n - 1) {
+.concert-gallery img:nth-child(5n - 1) {
   grid-column: 2/ span 2;
 }
 
-.gallery img:hover, .gallery img:focus {
+.concert-gallery img:hover, .concert-gallery img:focus {
   clip-path:  polygon(0 0, 100% 0, 100% 100%, 0% 100%);;
   z-index: 10;
   /* transition: clip-path 0.25s ease; */
 }
 
-.img-transition{
+.concert-img-transition{
   clip-path:  polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
   /* background-color: white; */
   /* opacity: 0.5; */
 }
 
-/* .gallery img:focus {
+/* .concert-gallery img:focus {
   outline: 1px dashed black;
   outline-offset: -5px;
 } */
 
 @media screen and (max-width:299px) {
-  .gallery{
+  .concert-gallery{
     --size:125px;
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
 
-  .gallery img{
+  .concert-gallery img{
     box-shadow: 2px 2px 2px 1px rgb(161, 21, 255); ;
   }
 }
 
 @media screen and (min-width:300px) and (max-width:429px) {
-  .gallery{
+  .concert-gallery{
     --size:150px;
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
 
-  .gallery img{
+  .concert-gallery img{
     box-shadow: 2px 2px 2px 1px rgb(161, 21, 255); ;
   }
 }
 
 @media screen and (min-width:430px)and(max-width:499px) {
-  .gallery{
+  .concert-gallery{
     --size:200px;
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
 
-  .gallery img{
+  .concert-gallery img{
     box-shadow: 2px 2px 2px 1px rgb(161, 21, 255); ;
   }
   
 }
 
 @media screen and (min-width:500px) and (max-width:619px) {
-    .gallery{
+    .concert-gallery{
       --size:200px;
       display: flex;
       flex-direction: column;
       gap: 1em;
     }
 
-    .gallery img{
+    .concert-gallery img{
       box-shadow: 2px 2px 2px 1px rgb(161, 21, 255); ;
     }
 }
 
 @media screen and (min-width:620px) and (max-width:759px) {
-    .gallery{
+    .concert-gallery{
       --size:100px;
     }
 }
 
 @media screen and (min-width:760px) and (max-width:999px){
-    .gallery{
+    .concert-gallery{
       --size:120px;
     }
 }
 
 @media (min-width:1000px) {
-    .gallery{
+    .concert-gallery{
       --size:150px;
     }
 }

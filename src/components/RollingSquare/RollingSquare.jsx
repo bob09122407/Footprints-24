@@ -17,9 +17,9 @@ export default function RollingSquare() {
           entries.forEach((entry) => {
             //console.log(entry);
             if (entry.isIntersecting) {
-              entry.target.classList.add("img-transition");
+              entry.target.classList.add("concert-img-transition");
             } else {
-              entry.target.classList.remove("img-transition");
+              entry.target.classList.remove("concert-img-transition");
             }
           });
         },
@@ -28,7 +28,7 @@ export default function RollingSquare() {
         }
       );
 
-      const imgBoxes = document.querySelectorAll(".gallery img");
+      const imgBoxes = document.querySelectorAll(".concert-gallery img");
       imgBoxes.forEach((el) => {
         observer.observe(el);
       });
@@ -41,7 +41,7 @@ export default function RollingSquare() {
 
       </div>
       <div className="rs_images-container">
-        <div className="gallery">
+        <div className="concert-gallery">
           {imageSources.map((src, index) => (
             // <div className="slide" key={index}>
             <img
