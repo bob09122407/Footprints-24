@@ -106,9 +106,6 @@ const Lycra = () => {
         team: ["Maximum-2"],
       },
     },
-  ];
-
-  const iconsRow2 = [
     {
       name: "Quiz-O-Tex",
       background: icon3,
@@ -140,7 +137,7 @@ const Lycra = () => {
   ];
 
   const getSelectedDetails = () => {
-    const selectedIcon = [...iconsRow1, ...iconsRow2].find(
+    const selectedIcon = [...iconsRow1].find(
       (icon) => icon.name === selectedTab
     );
     return selectedIcon ? selectedIcon.details : null;
@@ -194,23 +191,10 @@ const Lycra = () => {
             ></div>
           ))}
         </div>
-        <div className="tech" data-aos="zoom-in-down">
-          {iconsRow2.map(({ name, background, details }, index) => (
-            <div
-              key={index}
-              className="moon-icon-2"
-              data-name={name}
-              style={{
-                backgroundImage: `url(${background})`,
-                ...details.styles,
-              }}
-              onClick={() => toggle(name)}
-            ></div>
-          ))}
-        </div>
+        
       </div>
       <div className="main_section">
-        {iconsRow1.concat(iconsRow2).map(({ name, details }, index) => (
+        {iconsRow1.map(({ name, details }, index) => (
           <div
             key={index}
             className={`details_each ${selectedTab === name ? "active" : ""}`}
