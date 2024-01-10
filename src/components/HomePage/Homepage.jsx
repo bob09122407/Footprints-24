@@ -9,42 +9,34 @@ import Glimpse from "./Glimpse/Glimpse";
 import Home from "./Home/Home";
 import Scroll from "./scroll/scroll";
 // Common CSS File //
-import '../Common/CSS/MediaQuery.css';
-import '../Common/CSS/Root.css';
+import "../Common/CSS/MediaQuery.css";
+import "../Common/CSS/Root.css";
 import YourComponent from "./Testimonials/Testimonials24";
 
-
 function Homepage() {
-
   useEffect(() => {
-
-    document.title = "Home | FootPrints'23"
-
-  }, [])
+    document.title = "Home | FootPrints'23";
+  }, []);
 
   return (
-
     <>
-     
-     <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div> 
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
       <Home />
       {/* <Segment/> */}
-   <Slider/>
-   <div id='stars'></div>
-   <div id='stars2'></div>
-   
-    
+      <Slider />
+      <div id="stars"></div>
+      <div id="stars2"></div>
+
       <Glimpse />
-      <YourComponent/>
+      <YourComponent />
       {/* <Testimonials /> */}
       <Achivements />
       {/* <Sponsors /> */}
-      <Scroll/>
+      <Scroll />
 
       <Footer />
-
     </>
   );
 }
