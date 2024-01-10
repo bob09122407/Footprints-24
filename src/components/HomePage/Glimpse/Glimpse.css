@@ -1,4 +1,7 @@
-
+.glimpse-main{
+  width: 100%;
+  overflow-x: hidden;
+}
 
 .yt-videos {
   -webkit-column-count: 3;

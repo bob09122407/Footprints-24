@@ -5,7 +5,7 @@ import "./Glimpse.css";
 
 const Glimpse = () => {
   return (
-    <>
+    <div className="glimpse-main">
       <Heading id="heading_glimpse" title="CATCH THE GLIMPSE" />
       <div className="yt-videos">
         <div className="glimpse" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
@@ -84,7 +84,7 @@ const Glimpse = () => {
         </div>
       </div>
       <img src="" alt="" />
-    </>
+    </div>
   );
 };
 
