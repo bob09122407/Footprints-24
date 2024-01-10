@@ -180,7 +180,6 @@ const Sanganikee = () => {
       <div className="main-tech">
         <div className="tech">
           {iconsRow1.map(({ name, background, details }, index) => (
-            // <div>
               <div
                 key={index}
                 className="moon-icon"
@@ -192,7 +191,6 @@ const Sanganikee = () => {
                 data-aos="zoom-in-up"
                 onClick={() => toggle(name)}
               ></div>
-            // </div>
           ))}
         </div>
       </div>

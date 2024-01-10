@@ -177,7 +177,7 @@ const Lycra = () => {
         </div>
       </div>
       <div className="main-tech">
-        <div className="tech" data-aos="zoom-in-up">
+        <div className="tech">
           {iconsRow1.map(({ name, background, details }, index) => (
             <div
               key={index}
@@ -187,6 +187,7 @@ const Lycra = () => {
                 backgroundImage: `url(${background})`,
                 ...details.styles,
               }}
+              data-aos="zoom-in-up"
               onClick={() => toggle(name)}
             ></div>
           ))}
