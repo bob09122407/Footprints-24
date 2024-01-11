@@ -74,8 +74,7 @@ const achivementsData = [
     id: 9,
     topic: "Appreciation From Home Minister",
     imgSrc: "https://res.cloudinary.com/dg894hntd/image/upload/v1703257068/Ministry_home_affairs_je19ed.jpg",
-    description:
-      "We have received an appreciation letter from the former Honorable Chief Minister of Gujarat, Shri Vijay Rupani praising FootPrints for remarkable contribution towards society.",
+    description: "TODO",
   },
 ];
 

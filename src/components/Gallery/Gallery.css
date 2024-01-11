@@ -1,4 +1,4 @@
-.gallery {
+.card-gallery {
   perspective: 1000px;
   display: flex;
   flex-wrap: wrap;
@@ -8,10 +8,10 @@
 }
 
 .SheenAnimate::after {
-  animation: sheenAnim 4s forwards ease-in-out;
+  animation: sheenAnim 3s forwards ease-in-out;
 }
 
-.img-card::after {
+.img-card > .back::after {
   content: "";
   position: absolute;
   left: 0;
@@ -25,10 +25,10 @@
 
 @keyframes sheenAnim {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-100%) rotateY(0deg);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(100%) rotateY(-180deg);
   }
 }
 
@@ -58,8 +58,6 @@
   display: grid;
   grid-template-columns: 100%;
   width: 50%;
-  overflow: hidden;
-  transform: translateX(-10px);
   /* border-radius: 30px; */
   aspect-ratio: 4/5;
 }
@@ -95,8 +93,10 @@
   border: 2px solid white;
   z-index: -10;
   opacity: 0;
+  overflow: hidden;
 
   img {
+    width: 100% !important;
     border-radius: inherit;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -151,7 +151,7 @@
   border-bottom: none;
   font-weight: 600;
 }
-.gallery {
+.card-gallery {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
@@ -165,18 +165,18 @@
   margin-left: 5%;
 } */
 
-.gallery .pics {
+.card-gallery .pics {
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   cursor: pointer;
   margin-bottom: 10%;
 }
-/* .gallery .pics:hover {
+/* .card-gallery .pics:hover {
   filter: opacity(0.5);
 } */
 
 @media (max-width: 991px) {
-  .gallery {
+  .card-gallery {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -184,7 +184,7 @@
 }
 
 @media (max-width: 480px) {
-  .gallery {
+  .card-gallery {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
@@ -194,7 +194,7 @@
   }
 }
 
-.gallery .pics:hover .img-overlay .imgtext {
+.card-gallery .pics:hover .img-overlay .imgtext {
   display: block;
   position: absolute;
   top: 0;
@@ -208,7 +208,7 @@
   height: fit-content;
 }
 
-.gallery .pics:hover .img-overlay {
+.card-gallery .pics:hover .img-overlay {
   display: block;
   position: absolute;
   z-index: 1;
@@ -230,13 +230,13 @@
   opacity: 0;
 }
 
-.gallery .pics:hover img {
+.card-gallery .pics:hover img {
   width: 100%;
   opacity: 0.3;
   background-color: var(--low-opacity-layer);
   border: 2px solid var(--border-yellow);
 }
-.gallery .pics {
+.card-gallery .pics {
   position: relative;
 }
 .imgtext p {
