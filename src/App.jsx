@@ -32,8 +32,9 @@ const queryClient = new QueryClient();
 import AOS from 'aos';
 import TheMoonPage from "./components/TheMoonPage/TheMoonPage";
 import LandingPage from "./components/LandingPage/landingpage";
-import Error from "./components/Error";
+import Slider from "./components/HomePage/Segment/Segmentnew";
 
+import Techx from "./components/EventPage/Techx/Techx";
 
 AOS.init();
 
@@ -87,7 +88,9 @@ function App() {
             <Route exact path="/virtuosity" element={<TheMoonPage theParent={"virtuosity"} />} />
             <Route exact path="/technotron/:event" element={<TheMoonPage theParent={"technotron"}/>} />   
             <Route exact path="/error" element={<Error/>}/>        
-            <Route path="/*" element={<Error/>}/>        
+            <Route path="/*" element={<Error/>}/>       
+            <Route exact path="/techx" element={<Techx/>} />
+           
           </Routes>
         </Router>
       </ThemeState>
