@@ -40,6 +40,8 @@ import Technotron from "./components/EventPage/Technotron";
 import LandingPage from "./components/LandingPage/landingpage";
 import Slider from "./components/HomePage/Segment/Segmentnew";
 
+import Techx from "./components/EventPage/Techx/Techx";
+
 AOS.init();
 
 function App() {
@@ -97,6 +99,7 @@ function App() {
             <Route exact path="/sanganikee" element={<Sanganikee />} />
             <Route exact path="/citadel" element={<Citadel />} />
             <Route exact path="/rasayanam" element={<Rasayanam />} />
+            <Route exact path="/techx" element={<Techx/>} />
             
            
           </Routes>

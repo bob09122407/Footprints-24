@@ -56,7 +56,7 @@ const menuItems = [
         Department: 7,
 
         title: "TechX",
-        link: "/openx",
+        link: "/Techx",
       },
     ],
   },
