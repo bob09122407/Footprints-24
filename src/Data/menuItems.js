@@ -2,20 +2,21 @@ const menuItems = [
   {
     Segment: 1,
     title: "Technotron",
+    link:"/technotron",
 
     subItems: [
       {
         Department: 1,
 
         title: "Cybernetics",
-        link: "/cybernetics",
+        link: "/technotron/cybernatics",
       },
 
       {
         Department: 2,
 
-        title: "Macheanema",
-        link: "/macheanema",
+        title: "Mechenema",
+        link: "/technotron/mechenema",
      
       },
 
@@ -23,7 +24,7 @@ const menuItems = [
         Department: 3,
 
         title: "Sanganikee",
-        link: "/sanganikee",
+        link: "/technotron/sanganikee",
 
        
       },
@@ -32,7 +33,7 @@ const menuItems = [
         Department: 4,
 
         title: "Citadel",
-        link: "/citadel",
+        link: "/technotron/citadel",
        
       },
 
@@ -40,7 +41,7 @@ const menuItems = [
         Department: 5,
 
         title: "Rasayanam",
-        link: "/rasayanam",
+        link: "/technotron/rasayanam",
        
       },
 
@@ -48,7 +49,7 @@ const menuItems = [
         Department: 6,
 
         title: "Lycra",
-        link: "/lycra",
+        link: "/technotron/lycra",
         
       },
 
@@ -56,7 +57,7 @@ const menuItems = [
         Department: 7,
 
         title: "OpenX",
-        link: "/openx",
+        link: "/technotron/openx",
       },
     ],
   },

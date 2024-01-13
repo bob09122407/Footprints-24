@@ -1,17 +1,34 @@
 // Technotron.js
 
 import React, { useState, useRef } from "react";
-import "../EventPage/technotron.css"; // Make sure this path is correct
+import "./technotron.css"; // Make sure this path is correct
 import icon1 from "/src/assets/images/Logo/space.png";
 import icon2 from "/src/assets/images/Logo/space.png";
 import icon3 from "/src/assets/images/Logo/space.png";
 import icon4 from "/src/assets/images/Logo/space.png";
 import icon5 from "/src/assets/images/Logo/space.png";
-import icon6 from "/src/assets/images/Logo/space.png";
+import icon6 from "/src/assets/images/Logo/space.png"
 import Vid from "/src/assets/images/Logo/c.mp4";
+import { Navigate, redirect, useParams } from "react-router-dom";
+import theEventData from "../../Data/theEventData";
 import Heading from "../Common/Headings/Heading";
 
-const Virtuosity = () => {
+
+const TheMoonPage = ({theParent}) => {
+  const {event} =  useParams();
+  console.log(theParent);
+  console.log(event);
+  let theData = [];
+  if(!event){
+    if(!theParent){
+        return <Navigate to="/error"/>
+    }
+    theData = theEventData[theParent];
+  }else{
+    theData = theEventData[theParent][event];
+  }
+
+
   const [isActive, setIsActive] = useState(false);
   const [selectedTab, setSelectedTab] = useState(); // Set default tab
   const [selectedMenu, setSelectedMenu] = useState(null);
@@ -46,46 +63,7 @@ const Virtuosity = () => {
     }
   };
 
-  const iconsRow1 = [
-    {
-      name: "BGMI",
-      background: icon1,
-      details: {
-        info: [
-          "This event tests your programming skills. The challenge is to code the real-life problems in the computer world using any programming language interviewing different stages of coding and scoring the most among them",
-        ],
-        rules: [
-          "- No help from internet is allowed",
-          "- Programming languages preferred C, C++, C#, python, java etc",
-          "-	Criteria for qualification in round 2 and 3 will be filtered by the ranking given to each coder by team footprints",
-          "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
-          "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
-        ],
-        specs: ["- Announce before two days of event"],
-        team: ["- Individual Participation (Compulsory)"],
-      },
-    },
-    {
-      name: "Valorent",
-      background: icon2,
-      details: {
-        info: [
-          "Participants will have to build a web/mobile application and incorporate the feature asked based on iOS/Windows or Android platform or any web technologies. Theme and design essentials for the website will be provided to them beforehand",
-        ],
-        rules: [
-          "- Participants have to strictly design the web/mobile application based on the theme and design provided.",
-          "- 36 hours will be given to complete the whole application",
-          "-	Questions based on the designed application may be asked by the judges",
-          "- Knowledge of frontend as well as backend is required",
-          "- Use of any technology is allowed",
-          "- Participants must bring their own laptops and internet, charging points will be provided",
-          "- Final decision of judging criteria lies in the hands of team FootPrints",
-        ],
-        specs: ["- Announce few days befor event"],
-        team: ["- Max 4"],
-      },
-    }
-  ];
+  const iconsRow1 = theData;
 
   const getSelectedDetails = () => {
     const selectedIcon = [...iconsRow1].find(
@@ -95,6 +73,7 @@ const Virtuosity = () => {
   };
 
   const selectedDetails = getSelectedDetails();
+  
 
   return (
     <div className="events_main">
@@ -130,8 +109,8 @@ const Virtuosity = () => {
         </div>
       </div>
       <div className="main-tech">
-        <div className="tech">
-          {iconsRow1.map(({ name, background, details }, index) => (
+        <div className="tech" >
+          {iconsRow1?.map(({ name, background, details }, index) => (
             <div
               key={index}
               className="moon-icon"
@@ -171,8 +150,10 @@ const Virtuosity = () => {
                 onClick={() => setIsActive(!isActive)}
               >
                 <div className="ripple-circle">
-                  <span></span>
+                <span></span>
                 </div>
+
+                
               </div>
               <ul className="menu" data-aos="zoom-in-up">
                 {details && (
@@ -183,8 +164,9 @@ const Virtuosity = () => {
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Rules</span>
+                        <span>Rules</span>
                         </div>
+                        
                       </div>
                     </li>
                     <li
@@ -193,15 +175,17 @@ const Virtuosity = () => {
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Specs</span>
+                        <span>Specs</span>
                         </div>
+                        
                       </div>
                     </li>
                     <li style={{ "--i": 6 }} onClick={() => toggleMenu("team")}>
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Team</span>
+                        <span>Team</span>
                         </div>
+                        
                       </div>
                     </li>
                   </>
@@ -248,4 +232,4 @@ const Virtuosity = () => {
   );
 };
 
-export default Virtuosity;
+export default TheMoonPage;
