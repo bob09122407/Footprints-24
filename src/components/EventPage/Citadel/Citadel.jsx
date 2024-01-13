@@ -52,11 +52,11 @@ const Citadel = () => {
       background: icon1,
       details: {
         info: [
-          "Its Treasure hunt event based on immense consept and knowledge of  civil engineering.",
+          "Its Treasure hunt event based on immense concept and knowledge of  civil engineering.",
         ],
-        rules: [""],
-        Members: ["- Announce before two days of event"],
-        Price: [""],
+        rules: ["Knowledge pertaining to dept is required"],
+        Members: [" Max 2"],
+        Price: [" 120 Rs"],
       },
     },
     {
@@ -66,9 +66,9 @@ const Citadel = () => {
         info: [
           "In this Participants have to design a multipurpose building based on a given detailed problem statement.",
         ],
-        rules:[""],
-        Members: ["- Announce few days befor event"],
-        Price: [""],
+        rules:["Draw a wall thickness plan for a residential building of G+1 in the posh area in metropolitan city in residential society. Use building bye laws and follow vastu principles. Following are the required details regarding the land , location as well as family background. You have to assume number of components ( such as bedroom , kitchen ,living etc.) and size as well as orientation according to the principles of planning. PLOT SIZE : 12.5m X 18mPractising grandparents having profession of well known advocate ( Age 65 years ).Husband & wife having profession of medical field. ( Age 40-42years).One female child is in 11th std preparing for NEET. Son is State level Under19 cricketer You have all freedom of providing number of components.JUDGING CRITERIA 4 marks for size and dimensions of various components.4 marks for planning and arrangement of various components according to principles of planning.2 marks for overall drawings and planning skill."],
+        Members: ["Max 4"],
+        Price: ["200 Rs"],
       },
     },
     {
@@ -78,19 +78,19 @@ const Citadel = () => {
         info: [
           "It is a paper presentation event along with case study with a solution based approach.",
         ],
-        rules: [""],
-        Members: ["- Announce few days befor event"],
-        Price: [""],
+        rules: ["Will be declared during the event."],
+        Members: ["Max 2"],
+        Price: ["100 Rs"],
       },
     },
     {
-      name: "Tremors",
+      name: "Tremors Setu",
       background: icon4,
       details: {
         info: ["Participants have to make a model using  popsicle sticks"],
-        Members: ["- Announce few days befor event"],
-        Price: [""],
-        rules:[""],
+        Members: ["Max 4"],
+        Price: ["200 Rs"],
+        rules:["Dimensions of the Warren Truss • Clear Span of Truss = 65-70cm• Height of truss: 8 to 10cm. Base span should be max 2stick and other members should be 1 stick thick. Rules: • Each team should be of maximum 4 members• Materials to be used: Popsticle sticks and Fevicol of SH grade• Use of any other adhesive, etc is prohibited and participants using it will be disqualified from the event• Strings cannot be used to tie popsicle sticks• All the models must be taken for the dimension checking during the specified period of time (any entry after that won’t be accepted and would be disqualified)• No changes in the model after the dimension checking would be allowed and any team doing so without the permission of the Core Committee member would be disqualified• The decision of the judges and Core Committee will be final regarding any discrepancy on the spot or before the event Structure Specification: • Whole structure should be open-web (no bracings allowed)• No grooves allowed• Only SH grade Fevicol can be used as Glue• No type of coatings or paint are allowed on the popsicle structure Popsicle Stick:• The Popsicle sticks can be cut or trimmed to any shape or size."],
       },
     },
   ];
