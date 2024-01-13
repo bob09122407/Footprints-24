@@ -54,13 +54,9 @@ const Lycra = () => {
         info: [
           "Make an innovative product based on theme using given material and decorate it.",
         ],
-        rules: [
-          "The event comprises of two rounds.",
-          "Specifications of the round will be disclosed on the day of event.",
-          "Participants will have to design a product according to the given instructions and present their product.",
-        ],
-        Member: ["- Announce before two days of event"],
-        Price: ["Compulsory-2"],
+        rules: ["•	The event comprises of two rounds.•	Participants will have to design a garment according to the given instructions and present it.ROUNDSRound 1-:  Fashion illustration  •	Sheets will be provided to the participants to draw the fashion illustration.•	Participants have to bring their own supplies for sketching and •	Time allotted for this round will be 45 to 60 minutes.  Round 2-:  Fashion design         •	Required material will be provided to the participants. Participants will have to use that material only to make a product.•	Time allotted will be 60 to 90 minutes.•	Final decision lies with the Core Committee of FootPrints23.JUDGING CRITERIA•	Neatness of the overall work•	Creativity•	Innovative design•	Stitching•	Ornamentation•	Optimum use of the material provided"],
+        Member: ["Compulsory-2"],
+        Price: ["150 Rs"],
       },
     },
     {
@@ -70,14 +66,9 @@ const Lycra = () => {
         info: [
           "Weave a fabric on a handloom with maximum speed and accuracy in given interval of time.",
         ],
-        rules: [
-          "Total time allotted will be 2 hours. This includes thinking, designing, assembling, weaving and decorating the sample.",
-          "Number of heald shafts or weaves will be given according to which participants will have to weave the fabric.",
-          "Weave should be clear.",
-          "Final decision lies with the Core Committee of FootPrints X8.",
-        ],
-        Member: ["- Announce few days befor event"],
-        Price: ["Compulsory-2"],
+        rules: ["•	Total time allotted will be 2 hours. This includes thinking, designing, assembling, weaving and decorating the sample.SPECIFICATIONS•	Number of heald shafts or weaves will be given according to which participants will have to weave the fabric.•	Weave should be clear.•	Final decision lies with the Core Committee of FootPrints23.JUDGING CRITERIA•	Neatness of the overall work•	Length produced•	Appearance of the fabric•	Firm beat-up•	Minimum thread breakage•	Decoration"],
+        Member: ["Compulsory-2"],
+        Price: ["120 Rs"],
       },
     },
     {
@@ -87,23 +78,9 @@ const Lycra = () => {
         info: [
           "It is a paper presentation event related to Textile Department.",
         ],
-        rules: [
-          "Make a presentation on any technical topic related to Textile Engineering field.",
-          "The time specifications are ’10 + 2 + 3 = 15 min’. Presentation time is limited to a maximum of 12 minutes. There will be a warning bell at the end of 10 minutes, indicating the remainder of 2 minutes to conclude your presentation. The next 3 minutes are reserved for questions from the judges or the present audience.",
-          "No extra time after 12 minutes will be given to any participant and he/she is expected to stop as soon as their time is completed. Participants are free to bring their own Laser Pointers or Hand Pointers and none will be provided by the Core Committee.",
-          "The presentation can be made in Power Point or Flash.",
-          "All the participants are required to bring a hard copy of a typewritten report containing all the descriptive details of the topic of the presentation. The text should not exceed 8 A4 sheets, with details being Times New Roman, Size 12 with 1.5 line spacing being mandatory. This copy is to be handed over to the Coordinator present.",
-          "A format for the presentation and list of the topics will be uploaded shortly and will be sent via mail to the participants.",
-          "The 8 page report is excluding ‘only picture pages’ which may be added in between as per requirement. A page on bibliography is recommended to be added at the end of the report.",
-          "Participants are requested to bring the files on a CD or a pendrive (Floppy discs should not be used).The presentation soft copy and the text papers should under no circumstances bear the name of the participants or the college; any case of this rule being violated will lead to disqualification.",
-          "Send your abstracts to the10scount@msufp.in before February 13, 2018.",
-          "The abstract must be concise, consisting of 250-300 words either in Word or PDF format.",
-          "The abstract may contain maximum 3 pictures in relevance with the subject.",
-          "The content must be written in Times New Roman font of size 12 with 1.5” spacing.",
-          "The topic of presentation, name of participant(s), college name and e-mail IDs must be clearly mentioned in the abstract.",
-        ],
-        Member: ["- Announce few days befor event"],
-        Price: ["Maximum-2"],
+        rules: ["•	Make a presentation on any technical topic related to Textile Engineering field.•	The time specifications are ’7 + 1+ 2 = 10 min’. Presentation time is limited to a maximum of 8 minutes. There will be a warning bell at the end of 7 minutes, indicating the remainder of 1 minutes to conclude your presentation. The next 2 minutes are reserved for questions from the judges or the present audience.•	No extra time after 8 minutes will be given to any participant and he/she is expected to stop as soon as their time is completed. Participants are free to bring their own Laser Pointers or Hand Pointers and none will be provided by the Core Committee.•	Participants are requested to bring the files on pendrive.The presentation soft copy and the text papers should under no circumstances bear the name of the participants or the college; any case of this rule being violated will lead to disqualification.SPECIFICATIONS•	Send your abstracts to the10scount@msufp.in by 25th Feb'23 .•	The abstract must be concise, consisting of 250-300 words either in Word or PDF format.•	The abstract may contain maximum 3 pictures in relevance with the subject.•	The content must be written in Times New Roman font of size 12 with 1.5” spacing.•	The topic of presentation, name of participant(s), college name and e-mail IDs must be clearly mentioned in the abstract."],
+        Member: ["Max 2"],
+        Price: ["100 Rs"],
       },
     },
     {
@@ -111,12 +88,9 @@ const Lycra = () => {
       background: icon4,
       details: {
         info: ["A quiz event pertaining to Textile Department."],
-        rules: [
-          "Prices will be formed strictly by the Core Committee.",
-          "The Core Committee reserves the right to change any of the rules. Participants will be informed about the changes if any.",
-        ],
-        Member: ["- Announce few days befor event"],
-        Price: ["Individual"],
+        rules: ["•	Teams will be formed strictly by the Core Committee.•	The Core Committee reserves the right to change any of the rules. Participants will be informed about the changes if any.•	ROUNDS:The event comprises 3 rounds including elimination round SPECIFICATIONS•	Specifications of the rounds will be disclosed on the day of the event."],
+        Member: ["Individual"],
+        Price: ["80 Rs"],
       },
     },
     {
@@ -126,12 +100,9 @@ const Lycra = () => {
         info: [
           "Dye and print the given fabric using creativity and maximum accuracy.",
         ],
-        rules: [
-          "The event comprises of two rounds. 1)Tie and Dye 2)Block Printing",
-          "Specifications of the round will be disclosed on the day of the event.",
-        ],
-        Member: ["- Announce few days befor event"],
-        Price: ["Compulsory-2"],
+        rules: ["Participants will have to design a product according to the given instructions and present their product.ROUNDSThe event comprises of two rounds.Tie and Dye (elimination round)•	In this event, participants have to dye the given fabric using their creativity.•	Required material will be provided to the participants.•	Time allotted for this round will be 45 to 60 min .    Printing (final round)•	Required material will be provided to the participants. Participants will have to use that material and print various designs on the given cloth.•	Time allotted will be 45 to 60 minutes for preparation of product.•	Final decision lies with the Core Committee of FootPrints23.JUDGING CRITERIA•	Creativity•	Innovativeness•	Appearance of the fabric•	Neatness of the overall work"],
+        Member: ["- Compulsary-2"],
+        Price: ["150 Rs"],
       },
     },
   ];
