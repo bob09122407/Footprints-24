@@ -350,9 +350,10 @@ body {
   text-align: left !important;
 }
 
-/* .video_main{
-  width: ;
-} */
+.video_main{
+  z-index: 8;
+  position: relative;
+}
 
 @media screen and (max-width: 512px) {
   .additional-details {

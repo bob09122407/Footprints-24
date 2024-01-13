@@ -2,12 +2,13 @@
 
 import React, { useState, useRef } from "react";
 import "../technotron.css"; // Make sure this path is correct
-import icon1 from "../../../assets/images/Logo/space.png";
-import icon2 from "../../../assets/images/Logo/space.png";
-import icon3 from "../../../assets/images/Logo/space.png";
-import icon4 from "../../../assets/images/Logo/space.png";
-import icon5 from "../../../assets/images/Logo/space.png";
-import icon6 from "../../../assets/images/Logo/space.png";
+import icon1 from "../../../assets/images/Logo/wrestlemania.png";
+import icon2 from "../../../assets/images/Logo/technokick.png";
+import icon3 from "../../../assets/images/Logo/smackbotz.png";
+import icon4 from "../../../assets/images/Logo/dfa.png";
+import icon5 from "../../../assets/images/Logo/monochrome.png";
+import icon6 from "../../../assets/images/Logo/insight.png";
+import icon7 from "../../../assets/images/Logo/renaissance.png";
 import Heading from "../../Common/Headings/Heading";
 import { FaAmazon } from "react-icons/fa";
 import Vid from "../../../assets/images/Logo/sanga.mp4";
@@ -73,7 +74,7 @@ const Sanganikee = () => {
     },
     {
       name: "Smackbotz",
-      background: icon4,
+      background: icon3,
       details: {
         info: [
           "Participants have to design and construct a remote-controlled robot capable of fighting against another robot in a one-on-one combat.",
@@ -85,7 +86,7 @@ const Sanganikee = () => {
     },
     {
       name: "D.F.A 6.0",
-      background: icon3,
+      background: icon4,
       details: {
         info: [
           "Prices have to build an all-terrain robust RC vehicle that can work on dual frequency and has to complete the given track from starting point to the ending point in the minimum possible time",
@@ -105,7 +106,7 @@ const Sanganikee = () => {
     },
     {
       name: "Monochrome",
-      background: icon3,
+      background: icon5,
       details: {
         info: [
           "Participants have to design autonomous robot which can solve given line network.",
@@ -117,7 +118,7 @@ const Sanganikee = () => {
     },
     {
       name: "Insight",
-      background: icon3,
+      background: icon6,
       details: {
         info: [
           "knowledge based event for Electrical & Electronics engg. Dept.",
@@ -129,7 +130,7 @@ const Sanganikee = () => {
     },
     {
       name: "Renaissance",
-      background: icon3,
+      background: icon7,
       details: {
         info: ["Paper presentation event for EE/ELE engg."],
         rules: [],

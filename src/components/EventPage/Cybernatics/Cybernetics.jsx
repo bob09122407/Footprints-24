@@ -2,15 +2,11 @@
 
 import React, { useState, useRef } from "react";
 import "../technotron.css"; // Make sure this path is correct
-import icon1 from "../../../assets/images/Logo/space.png";
-import icon2 from "../../../assets/images/Logo/space.png";
-import icon3 from "../../../assets/images/Logo/space.png";
+import icon1 from "../../../assets/images/Logo/runtime.png";
+import icon2 from "../../../assets/images/Logo/code-n-create.png";
+import icon3 from "../../../assets/images/Logo/hackprints.png";
 import icon4 from "../../../assets/images/Logo/space.png";
-import icon5 from "../../../assets/images/Logo/space.png";
-import icon6 from "../../../assets/images/Logo/space.png";
 import Heading from "../../Common/Headings/Heading";
-
-import { FaAmazon } from "react-icons/fa";
 
 import Vid from "../../../assets/images/Logo/c.mp4";
 

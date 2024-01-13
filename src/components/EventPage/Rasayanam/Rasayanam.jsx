@@ -2,12 +2,10 @@
 
 import React, { useState, useRef } from "react";
 import "../technotron.css"; // Make sure this path is correct
-import icon1 from "../../../assets/images/Logo/space.png";
-import icon2 from "../../../assets/images/Logo/space.png";
-import icon3 from "../../../assets/images/Logo/space.png";
-import icon4 from "../../../assets/images/Logo/space.png";
-import icon5 from "../../../assets/images/Logo/space.png";
-import icon6 from "../../../assets/images/Logo/space.png";
+import icon1 from "../../../assets/images/Logo/chemohustle.png";
+import icon2 from "../../../assets/images/Logo/synopsis.png";
+import icon3 from "../../../assets/images/Logo/chemaze.png";
+import icon4 from "../../../assets/images/Logo/chemx.png";
 import Heading from "../../Common/Headings/Heading";
 import { FaAmazon } from "react-icons/fa";
 import Vid from "../../../assets/images/Logo/rasa.mp4";

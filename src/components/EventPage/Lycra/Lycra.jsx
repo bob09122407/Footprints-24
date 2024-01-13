@@ -3,11 +3,11 @@
 import React, { useState, useRef } from "react";
 import "../technotron.css"; // Make sure this path is correct
 import icon1 from "../../../assets/images/Logo/space.png";
-import icon2 from "../../../assets/images/Logo/space.png";
-import icon3 from "../../../assets/images/Logo/space.png";
-import icon4 from "../../../assets/images/Logo/space.png";
-import icon5 from "../../../assets/images/Logo/space.png";
-import icon6 from "../../../assets/images/Logo/space.png";
+import icon2 from "../../../assets/images/Logo/broken-floats.png";
+import icon3 from "../../../assets/images/Logo/tens-count.png";
+import icon4 from "../../../assets/images/Logo/quizotex.png";
+import icon5 from "../../../assets/images/Logo/imprints.png";
+
 import Heading from "../../Common/Headings/Heading";
 import { FaAmazon } from "react-icons/fa";
 import Vid from "../../../assets/images/Logo/lycra.mp4";
@@ -82,7 +82,7 @@ const Lycra = () => {
     },
     {
       name: "The 10s Count",
-      background: icon2,
+      background: icon3,
       details: {
         info: [
           "It is a paper presentation event related to Textile Department.",
@@ -108,7 +108,7 @@ const Lycra = () => {
     },
     {
       name: "Quiz-O-Tex",
-      background: icon3,
+      background: icon4,
       details: {
         info: ["A quiz event pertaining to Textile Department."],
         rules: [
@@ -121,7 +121,7 @@ const Lycra = () => {
     },
     {
       name: "Imprints",
-      background: icon4,
+      background: icon5,
       details: {
         info: [
           "Dye and print the given fabric using creativity and maximum accuracy.",

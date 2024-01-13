@@ -2,12 +2,11 @@
 
 import React, { useState, useRef } from "react";
 import "../technotron.css"; // Make sure this path is correct
-import icon1 from "../../../assets/images/Logo/space.png";
-import icon2 from "../../../assets/images/Logo/space.png";
-import icon3 from "../../../assets/images/Logo/space.png";
-import icon4 from "../../../assets/images/Logo/space.png";
-import icon5 from "../../../assets/images/Logo/space.png";
-import icon6 from "../../../assets/images/Logo/space.png";
+import icon1 from "../../../assets/images/Logo/burnout.png";
+import icon2 from "../../../assets/images/Logo/ballista.png";
+import icon3 from "../../../assets/images/Logo/powered-epoch.png";
+import icon4 from "../../../assets/images/Logo/gizmo.png";
+import icon5 from "../../../assets/images/Logo/hydrex.png";
 import Heading from "../../Common/Headings/Heading";
 import { FaAmazon } from "react-icons/fa";
 import Vid from "../../../assets/images/Logo/Mechenema.mp4";
@@ -93,7 +92,7 @@ const Mechanema = () => {
 
     {
       name: "Powered Echo",
-      background: icon4,
+      background: icon3,
       details: {
         info: [
           "It is a paper presentation event related to Mechanical Engineering department.",
@@ -132,7 +131,7 @@ const Mechanema = () => {
     },
     {
       name: "Hydrex",
-      background: icon3,
+      background: icon5,
       details: {
         info: [
           "The participants have to build a machine propelled by hydraulics which can climb a given vertical rod and build a hydraulic arm with a hook attached to the machine to lift the given load.",
@@ -174,6 +173,8 @@ const Mechanema = () => {
           Your browser does not support the video tag.
         </video>
       </div>
+      <div id="stars"></div>
+     
       <div className="text_info">
         <Heading
           className="kaleido_heading"
@@ -193,6 +194,7 @@ const Mechanema = () => {
       </div>
       <div className="main-tech">
         <div className="tech" >
+       
           {iconsRow1.map(({ name, background, details }, index) => (
             <div
               key={index}

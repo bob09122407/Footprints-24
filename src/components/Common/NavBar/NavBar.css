@@ -69,6 +69,7 @@
 }
 
 .nav-header .custom-navbar ul li ul {
+  z-index: 1000 !important;
   position: absolute;
   left: 0;
   width: 200px;

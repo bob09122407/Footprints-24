@@ -2,12 +2,10 @@
 
 import React, { useState, useRef } from "react";
 import "../technotron.css"; // Make sure this path is correct
-import icon1 from "../../../assets/images/Logo/space.png";
-import icon2 from "../../../assets/images/Logo/space.png";
-import icon3 from "../../../assets/images/Logo/space.png";
-import icon4 from "../../../assets/images/Logo/space.png";
-import icon5 from "../../../assets/images/Logo/space.png";
-import icon6 from "../../../assets/images/Logo/space.png";
+import icon1 from "../../../assets/images/Logo/civiq.png";
+import icon2 from "../../../assets/images/Logo/cad.png";
+import icon3 from "../../../assets/images/Logo/wwe.png";
+import icon4 from "../../../assets/images/Logo/tremors.png";
 import Heading from "../../Common/Headings/Heading";
 import { FaAmazon } from "react-icons/fa";
 import Vid from "../../../assets/images/Logo/cita.mp4";
@@ -106,6 +104,9 @@ const Citadel = () => {
 
   return (
     <div className="events_main">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
       <div className="video_main">
         <video
           autoPlay
