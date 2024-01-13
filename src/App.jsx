@@ -30,15 +30,10 @@ import useLocalStorage from "./CustomHooks/useLoacalStorage";
 import "./components/Common/CSS/Root.css";
 const queryClient = new QueryClient();
 import AOS from 'aos';
-import Mechanema from "./components/EventPage/Mechenema/Mechanema";
-import Rasayanam from "./components/EventPage/Rasayanam/Rasayanam";
-import Cybernetics from "./components/EventPage/Cybernatics/Cybernetics";
-import Citadel from "./components/EventPage/Citadel/Citadel";
-import Sanganikee from "./components/EventPage/Sanganikee/Sanganikee";
-import Lycra from "./components/EventPage/Lycra/Lycra";
-import Technotron from "./components/EventPage/Technotron";
+import TheMoonPage from "./components/TheMoonPage/TheMoonPage";
 import LandingPage from "./components/LandingPage/landingpage";
-import Slider from "./components/HomePage/Segment/Segmentnew";
+import Error from "./components/Error";
+
 
 AOS.init();
 
@@ -85,20 +80,14 @@ function App() {
             <Route exact path="/fsr" element={<Fsr />} />
             <Route exact path="/schitron" element={<Schitron />} />
             <Route exact path="/media" element={<MediaPage />} />
-            <Route exact path="/quest" element={<Quest />} />
-            <Route exact path="/fse" element={<Fse />} />
-            <Route exact path="/virtuosity" element={<Virtuosity />} />
             <Route exact path="/acco" element={<Acco />} />
             <Route exact path="/media" element={<MediaPage />} />
-            <Route exact path="/technotron" element={<Technotron />} />
-            <Route exact path="/cybernetics" element={<Cybernetics />} />
-            <Route exact path="/macheanema" element={<Mechanema />} />
-            <Route exact path="/lycra" element={<Lycra />} />
-            <Route exact path="/sanganikee" element={<Sanganikee />} />
-            <Route exact path="/citadel" element={<Citadel />} />
-            <Route exact path="/rasayanam" element={<Rasayanam />} />
-            
-           
+            <Route exact path="/quest" element={<TheMoonPage theParent={"quest"}/>} />
+            <Route exact path="/fse" element={<TheMoonPage theParent={"fse"} />} />
+            <Route exact path="/virtuosity" element={<TheMoonPage theParent={"virtuosity"} />} />
+            <Route exact path="/technotron/:event" element={<TheMoonPage theParent={"technotron"}/>} />   
+            <Route exact path="/error" element={<Error/>}/>        
+            <Route path="/*" element={<Error/>}/>        
           </Routes>
         </Router>
       </ThemeState>

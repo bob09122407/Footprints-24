@@ -1,15 +1,34 @@
 // Technotron.js
 
 import React, { useState, useRef } from "react";
-import "../technotron.css"; // Make sure this path is correct
-import icon1 from "../../../assets/images/Logo/chemohustle.png";
-import icon2 from "../../../assets/images/Logo/synopsis.png";
-import icon3 from "../../../assets/images/Logo/chemaze.png";
-import icon4 from "../../../assets/images/Logo/chemx.png";
-import Heading from "../../Common/Headings/Heading";
-import { FaAmazon } from "react-icons/fa";
-import Vid from "../../../assets/images/Logo/rasa.mp4";
-const Rasayanam = () => {
+import "./technotron.css"; // Make sure this path is correct
+import icon1 from "/src/assets/images/Logo/space.png";
+import icon2 from "/src/assets/images/Logo/space.png";
+import icon3 from "/src/assets/images/Logo/space.png";
+import icon4 from "/src/assets/images/Logo/space.png";
+import icon5 from "/src/assets/images/Logo/space.png";
+import icon6 from "/src/assets/images/Logo/space.png"
+import Vid from "/src/assets/images/Logo/c.mp4";
+import { Navigate, redirect, useParams } from "react-router-dom";
+import theEventData from "../../Data/theEventData";
+import Heading from "../Common/Headings/Heading";
+
+
+const TheMoonPage = ({theParent}) => {
+  const {event} =  useParams();
+  console.log(theParent);
+  console.log(event);
+  let theData = [];
+  if(!event){
+    if(!theParent){
+        return <Navigate to="/error"/>
+    }
+    theData = theEventData[theParent];
+  }else{
+    theData = theEventData[theParent][event];
+  }
+
+
   const [isActive, setIsActive] = useState(false);
   const [selectedTab, setSelectedTab] = useState(); // Set default tab
   const [selectedMenu, setSelectedMenu] = useState(null);
@@ -44,67 +63,7 @@ const Rasayanam = () => {
     }
   };
 
-  const iconsRow1 = [
-    {
-      name: "Chem-o-Hustle",
-      background: icon1,
-      details: {
-        info: [
-          "You have to design a Car which should be powered by a chemical reaction ",
-          "For eg: Soda and vinegar",
-        ],
-        rules: [
-          "- Dimensions: 50x40x30 cm",
-          "Maximum 5 minutes would be given to the participant and the car must be autonomous and should not be remote controlled.",
-        ],
-        Member: ["- Announce before two days of event"],
-        Price: ["Maximum participation: 3", "Price: ₹150"],
-      },
-    },
-    {
-      name: "Synopsis",
-      background: icon2,
-      details: {
-        info: [
-          "It is a paper presentation event in which you have to select a topic based on Chemical Engineering or Pharmacy field.",
-        ],
-        rules: [""],
-        Member: ["- Announce few days befor event"],
-        Price: ["Maximum Participation: 2", "Price: ₹120"],
-      },
-    },
-    {
-      name: "Chemaze",
-      background: icon3,
-      details: {
-        info: ["It is a knowledge based event."],
-        rules: [
-          "- It is an online event",
-          "- Dates:  24th Feb to 26th Feb",
-          "- There will 3 rounds in the event",
-          "- In the first round participants have to pitch their design",
-          "- In the second round they have to present their progress",
-          "- And in final round there will be submission and QnA based on the submission",
-          "- Visit the link provided to go to the website of HackPrints 2.0",
-        ],
-        Member: ["- Announce few days befor event"],
-        Price: ["Compulsory 2 participants should be there.", "Price:  ₹120"],
-      },
-    },
-
-    {
-      name: "ChemX",
-      background: icon4,
-      details: {
-        info: [
-          "Participant has to make a working or non working model based on the chemical field",
-        ],
-        rules: [""],
-        Member: ["- Announce few days befor event"],
-        Price: ["Maximum participants: 3", "Price: ₹150"],
-      },
-    },
-  ];
+  const iconsRow1 = theData;
 
   const getSelectedDetails = () => {
     const selectedIcon = [...iconsRow1].find(
@@ -114,6 +73,7 @@ const Rasayanam = () => {
   };
 
   const selectedDetails = getSelectedDetails();
+  
 
   return (
     <div className="events_main">
@@ -133,23 +93,24 @@ const Rasayanam = () => {
         <Heading
           className="kaleido_heading"
           id="glheading"
-          title={"Technical Events for Chemical and Pharmacy Department"}
+          title={"Technical Events for Computer and IT Department"}
         />
         <div className="statement">
           <h4>
-            Were you the nerdy Dexter in your childhood, obsessed with the
-            thought of chemicals and test tubes? Do your eyes light up every
-            time you see a solution change its colour? If yes, then Rasayanam
-            welcomes you to the world of the periodic tables and gives you the
-            opportunity to solve their mind-boggling riddles and puzzles and
-            various tasks which will leave you stumped in the mystery of
-            chemistry!
+            {" "}
+            Walking on water and developing software from scratch is easy only
+            if both are frozen. It's hard enough to find an error in your code
+            when you're looking for it, but it's even harder when you've assumed
+            your code is error-free. From testing coding and decoding abilities,
+            to programming skills and technical buzzhow, Cybernetics is the
+            ultimate showdown arena. The logarithms are set, codes are built,
+            but the question is will you be the first one to match it?
           </h4>
         </div>
       </div>
       <div className="main-tech">
-        <div className="tech">
-          {iconsRow1.map(({ name, background, details }, index) => (
+        <div className="tech" >
+          {iconsRow1?.map(({ name, background, details }, index) => (
             <div
               key={index}
               className="moon-icon"
@@ -189,8 +150,10 @@ const Rasayanam = () => {
                 onClick={() => setIsActive(!isActive)}
               >
                 <div className="ripple-circle">
-                  <span></span>
+                <span></span>
                 </div>
+
+                
               </div>
               <ul className="menu" data-aos="zoom-in-up">
                 {details && (
@@ -201,25 +164,28 @@ const Rasayanam = () => {
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Rules</span>
+                        <span>Rules</span>
                         </div>
+                        
                       </div>
                     </li>
                     <li
                       style={{ "--i": 5 }}
-                      onClick={() => toggleMenu("Member")}
+                      onClick={() => toggleMenu("specs")}
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Member</span>
+                        <span>Specs</span>
                         </div>
+                        
                       </div>
                     </li>
-                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("Price")}>
+                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("team")}>
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Price</span>
+                        <span>Team</span>
                         </div>
+                        
                       </div>
                     </li>
                   </>
@@ -242,17 +208,17 @@ const Rasayanam = () => {
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "Member" && (
+                  {selectedMenu === "specs" && (
                     <ul>
-                      {details.Member.map((spec, index) => (
+                      {details.specs.map((spec, index) => (
                         <li key={index}>{spec}</li>
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "Price" && (
+                  {selectedMenu === "team" && (
                     <ul>
-                      {details.Price.map((Price, index) => (
-                        <li key={index}>{Price}</li>
+                      {details.team.map((team, index) => (
+                        <li key={index}>{team}</li>
                       ))}
                     </ul>
                   )}
@@ -266,4 +232,4 @@ const Rasayanam = () => {
   );
 };
 
-export default Rasayanam;
+export default TheMoonPage;

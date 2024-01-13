@@ -5,10 +5,9 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 import menuItems from "../../../Data/menuItems";
-import logo from '../../../assets/images/Logo/purple.png'
+import logo from "../../../assets/images/Logo/purple.png";
 
 export default function NavBar(props) {
-
   /* array of technical event */
 
   // const techEvent=["Cybernetics" ,"Macheanema", "Citadel", "Sanganikee", "Rasayanam", "Lycra" ,"OpenX"];
@@ -33,27 +32,19 @@ export default function NavBar(props) {
   /* Hamburger function in Navbar */
 
   const toggleHamburgerFunc = (e) => {
-
-    if (e.current.classList.contains('fa-list-ul')) {
-      e.current.classList.remove('fa-list-ul');
-      e.current.classList.add('fa-xmark');
-
-    }
-
-    else {
-      e.current.classList.remove('fa-xmark');
-      e.current.classList.add('fa-list-ul');
-
+    if (e.current.classList.contains("fa-list-ul")) {
+      e.current.classList.remove("fa-list-ul");
+      e.current.classList.add("fa-xmark");
+    } else {
+      e.current.classList.remove("fa-xmark");
+      e.current.classList.add("fa-list-ul");
     }
   };
 
   return (
     <header className="nav-header">
       <Link to={"./home"} className="navbar-logo">
-        <img
-          src={logo}
-          alt="Footprints'23"
-        />
+        <img src={logo} alt="Footprints'23" />
       </Link>
 
       <input type="checkbox" name="" id="menu-bar" />
@@ -68,7 +59,8 @@ export default function NavBar(props) {
             onClick={(event) => {
               event.stopPropagation();
               toggleHamburgerFunc(toggleHamburger);
-            }}></i>
+            }}
+          ></i>
         </span>
       </label>
       {/* <span
@@ -94,8 +86,12 @@ export default function NavBar(props) {
             <li key={idx}>
               <a style={{ cursor: "pointer" }}>
                 {item.title}
-                &nbsp;   &nbsp;
-                {item.title == "More" ? <i id="dots" className="fa-solid fa-ellipsis-vertical"></i> : ""}
+                &nbsp; &nbsp;
+                {item.title == "More" ? (
+                  <i id="dots" className="fa-solid fa-ellipsis-vertical"></i>
+                ) : (
+                  ""
+                )}
               </a>
 
               {/* Major Events => Which is a Events of Segments  :  Cybernatics Mechenema Citadel Sanganikee Rasyanam Lycra OpenX Enviorosavy */}
@@ -104,15 +100,20 @@ export default function NavBar(props) {
                 <ul className="subItems">
                   {item.subItems.map((subItem, idx) => (
                     <li key={idx + 999}>
-
                       {/* id="thirdhirarchy" */}
 
-                      <a id="thirdhirarchy" target={(subItem.title == "Blog" || subItem.title == "WebTeam") ? "_blank" : ""} href={subItem.link || "#"}>
-
+                      <a
+                        className="thirdhirarchy"
+                        target={
+                          subItem.title == "Blog" || subItem.title == "WebTeam"
+                            ? "_blank"
+                            : ""
+                        }
+                        href={subItem.link || "#"}
+                      >
                         <span>{subItem.title}</span>
 
                         {/* <span>{techEvent.includes(subItem.title) ? <i id="dots" className="fa-solid fa-angle-right"></i> : ""}</span> */}
-
                       </a>
 
                       {/* Events => Which is a Events of Particular department  : Runtime Protocol Appster */}
@@ -121,7 +122,11 @@ export default function NavBar(props) {
                         {subItem.subItems &&
                           subItem.subItems.map((subItem, idx) => (
                             <li key={idx + 9999}>
-                              <a id="subsubEvent" target="" href={subItem.link || "#"}>
+                              <a
+                                id="subsubEvent"
+                                target=""
+                                href={subItem.link || "#"}
+                              >
                                 {subItem.title}
                               </a>
                             </li>

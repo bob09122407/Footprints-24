@@ -56,6 +56,7 @@
   padding: 8px !important;
   color: white;
   display: block !important;
+  text-decoration: none !important;
 
   /* changed by abdeali */
 
@@ -101,6 +102,10 @@
   color: var(--white);
   cursor: pointer;
   display: none;
+}
+
+.nav-header .custom-navbar .subItems a{
+  text-decoration: none;
 }
 
 /* @media(max-width:1025px) { */
@@ -180,11 +185,9 @@
   border-collapse: separate !important;
 } */
 
-/* #thirdhirarchy {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-around;
-} */
+.subItems a{
+  text-decoration: none !important;
+}
 
 /* .subItems a:hover {
   border-bottom: 0.5px dotted var(--yellow-to-black) !important;
@@ -211,7 +214,7 @@
 }
 
 @media screen and (max-width: 1111px) {
-  #thirdhirarchy span {
+  .thirdhirarchy span {
     padding-left: 30px;
   }
   #subsubEvent {
