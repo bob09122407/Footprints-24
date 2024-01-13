@@ -25,7 +25,7 @@ const Gallery = () => {
         setTimeout(() => {
           document.querySelector(`#ImgCard${item.id} > .front`).style.animation = "frontAnim 2s";
           document.querySelector(`#ImgCard${item.id} > .back`).style.animation = "backAnim 2s";
-          document.querySelector(`#ImgCard${item.id}`).classList.add("SheenAnimate");
+          document.querySelector(`#ImgCard${item.id} > .back`).classList.add("SheenAnimate");
         }, 350 * idx);
       });
     }, 4000);
@@ -105,35 +105,37 @@ const Gallery = () => {
           <Heading id="heading_gallerypage" title="GALLERY" />
         </div>
       </div>
-      <div className="gallery">
-        <div id="img-loader">Loading...</div>
-        {numLoaded === data.length ? animate() : ""}
-        {data.map((item) => {
-          return (
-            <div className="img-card" key={item.id} id={`ImgCard${item.id}`}>
-              <div className="front" style={{ backgroundImage: `url(${item.cardImg})` }}>
-                {/* 
+      <section>
+        <div className="card-gallery">
+          <div id="img-loader">Loading...</div>
+          {numLoaded === data.length ? animate() : ""}
+          {data.map((item) => {
+            return (
+              <div className="img-card" key={item.id} id={`ImgCard${item.id}`}>
+                <div className="front" style={{ backgroundImage: `url(${item.cardImg})` }}>
+                  {/* 
                   Either use different card url for each card or make fixed blank bg in css
                   and set text in item property
                 */}
-                {/* <div className="cardText">{item.cardText}</div> */}
-              </div>
-              <div className="back">
-                <img src={item.imgSrc} alt="" onLoad={inrLoaded} />
-                <div className="imgtext" style={{ textAlign: "center" }}>
-                  <p className="imgtitle" style={{ fontSize: "25px" }}>
-                    {item.title}
-                  </p>
-                  <hr />
-                  <p className="imgsubtitle" style={{ fontSize: "22px" }}>
-                    {item.subtitle}
-                  </p>
+                  {/* <div className="cardText">{item.cardText}</div> */}
+                </div>
+                <div className="back">
+                  <img src={item.imgSrc} alt="" onLoad={inrLoaded} />
+                  <div className="imgtext" style={{ textAlign: "center" }}>
+                    <p className="imgtitle" style={{ fontSize: "25px" }}>
+                      {item.title}
+                    </p>
+                    <hr />
+                    <p className="imgsubtitle" style={{ fontSize: "22px" }}>
+                      {item.subtitle}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      </section>
       <Sponsors />
       <Footer />
     </>
