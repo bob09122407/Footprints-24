@@ -132,7 +132,7 @@ const Cybernetics = () => {
   ];
 
   const getSelectedDetails = () => {
-    const selectedIcon = [...iconsRow1, ...iconsRow2].find(
+    const selectedIcon = [...iconsRow1].find(
       (icon) => icon.name === selectedTab
     );
     return selectedIcon ? selectedIcon.details : null;
