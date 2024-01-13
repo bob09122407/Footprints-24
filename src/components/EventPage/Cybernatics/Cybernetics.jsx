@@ -60,12 +60,12 @@ const Cybernetics = () => {
         rules: [
           "- No help from internet is allowed",
           "- Programming languages preferred C, C++, C#, python, java etc",
-          "-	Criteria for qualification in round 2 and 3 will be filtered by the ranking given to each coder by team footprints",
+          "-	Criteria for qualification in round 2 and 3 will be filtered by the ranking given to each coder by Price footprints",
           "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
           "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
         ],
-        specs: ["- Announce before two days of event"],
-        team: ["- Individual Participation (Compulsory)"],
+        Member: ["- Announce before two days of event"],
+        Price: ["- Individual Participation (Compulsory)"],
       },
     },
     {
@@ -82,10 +82,10 @@ const Cybernetics = () => {
           "- Knowledge of frontend as well as backend is required",
           "- Use of any technology is allowed",
           "- Participants must bring their own laptops and internet, charging points will be provided",
-          "- Final decision of judging criteria lies in the hands of team FootPrints",
+          "- Final decision of judging criteria lies in the hands of Price FootPrints",
         ],
-        specs: ["- Announce few days befor event"],
-        team: ["- Max 4"],
+        Member: ["- Announce few days befor event"],
+        Price: ["- Max 4"],
       },
     },
     {
@@ -104,8 +104,8 @@ const Cybernetics = () => {
           "- And in final round there will be submission and QnA based on the submission",
           "- Visit the link provided to go to the website of HackPrints 2.0",
         ],
-        specs: ["- Announce few days befor event"],
-        team: ["- Max 4"],
+        Member: ["- Announce few days befor event"],
+        Price: ["- Max 4"],
       },
     },
     {
@@ -123,16 +123,16 @@ const Cybernetics = () => {
           "-	Participants are free to bring their own Laser Pointers or Hand Pointers, and none will be provided by the Core Committee. The presentation can be made in PowerPoint or Flash. All the participants are required to bring a hard copy of a typewritten report containing all the descriptive details of the topic of the presentation",
           "- The text should not exceed 8 A4 sheets, with details being — Font: Times New Roman, Size 12 with1.5 line spacing being mandatory. This copy is to be handed over to the coordinator present during the event.",
           "- A format for the presentation will be uploaded shortly and will be sent via mail to the participant short-listed for the first round. The 8 page report is excluding ‘only picture pages’ which may be added in between as per requirement. A page on bibliography is recommended to be added at the end of the report. Participants are requested to bring the files on a CD or a pen-drive (Floppy discs should not be used). The presentation soft copy and the text papers should under no circumstances bear the name of the participants or the college; any case of this rule being violated will lead to disqualification.",
-          "-	Only those teams whose abstract is shortlisted will be qualified to deliver the presentation on event day. The selected teams will be notified by the Core Committee.",
+          "-	Only those Prices whose abstract is shortlisted will be qualified to deliver the presentation on event day. The selected Prices will be notified by the Core Committee.",
         ],
-        specs: ["- Announce few days befor event"],
-        team: ["- Max 2"],
+        Member: ["- Announce few days befor event"],
+        Price: ["- Max 2"],
       },
     },
   ];
 
   const getSelectedDetails = () => {
-    const selectedIcon = [...iconsRow1, ...iconsRow2].find(
+    const selectedIcon = [...iconsRow1].find(
       (icon) => icon.name === selectedTab
     );
     return selectedIcon ? selectedIcon.details : null;
@@ -237,19 +237,19 @@ const Cybernetics = () => {
                     </li>
                     <li
                       style={{ "--i": 5 }}
-                      onClick={() => toggleMenu("specs")}
+                      onClick={() => toggleMenu("Member")}
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                        <span>Specs</span>
+                        <span>Member</span>
                         </div>
                         
                       </div>
                     </li>
-                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("team")}>
+                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("Price")}>
                       <div className="a">
                         <div className="ripple-circle">
-                        <span>Team</span>
+                        <span>Price</span>
                         </div>
                         
                       </div>
@@ -274,17 +274,17 @@ const Cybernetics = () => {
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "specs" && (
+                  {selectedMenu === "Member" && (
                     <ul>
-                      {details.specs.map((spec, index) => (
+                      {details.Member.map((spec, index) => (
                         <li key={index}>{spec}</li>
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "team" && (
+                  {selectedMenu === "Price" && (
                     <ul>
-                      {details.team.map((team, index) => (
-                        <li key={index}>{team}</li>
+                      {details.Price.map((Price, index) => (
+                        <li key={index}>{Price}</li>
                       ))}
                     </ul>
                   )}

@@ -3,6 +3,7 @@ import "./Fse.css";
 import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import Revealing from '../Common/RevealingText/Revealing';
+import Vid from "../../assets/images/Logo/fse.mp4"
 function Fse() {
 
   useEffect(() => {
@@ -14,17 +15,17 @@ function Fse() {
 
   return (
     <>
-      <div className="fse_header_img">
-        <img
-          src={
-            window.innerWidth > 800
-              ? "https://res.cloudinary.com/ds4a2i0b7/image/upload/v1674647488/Footprints_Stock_Exchange_tezzmt.gif"
-              : "https://res.cloudinary.com/ds4a2i0b7/image/upload/v1674647376/Footprints_Stock_Exchange_1_srg9as.gif"
-          }
-          alt="Fse-header"
-          id="fse-header"
-        />
-        <hr />
+     <div className="video_main">
+        <video
+          autoPlay
+          loop
+          muted
+          className="w-full h-full object-cover"
+          width="100%"
+        >
+          <source src={Vid} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
       {/* <div className="reveal-text">
         <p className="reveal-soon-text">REVEALING SOON!</p>

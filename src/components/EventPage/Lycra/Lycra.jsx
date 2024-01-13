@@ -10,7 +10,7 @@ import icon5 from "../../../assets/images/Logo/space.png";
 import icon6 from "../../../assets/images/Logo/space.png";
 import Heading from "../../Common/Headings/Heading";
 import { FaAmazon } from "react-icons/fa";
-import Vid from "../../../assets/images/Logo/c.mp4";
+import Vid from "../../../assets/images/Logo/lycra.mp4";
 const Lycra = () => {
   const [isActive, setIsActive] = useState(false);
   const [selectedTab, setSelectedTab] = useState(); // Set default tab
@@ -59,8 +59,8 @@ const Lycra = () => {
           "Specifications of the round will be disclosed on the day of event.",
           "Participants will have to design a product according to the given instructions and present their product.",
         ],
-        specs: ["- Announce before two days of event"],
-        team: ["Compulsory-2"],
+        Member: ["- Announce before two days of event"],
+        Price: ["Compulsory-2"],
       },
     },
     {
@@ -76,8 +76,8 @@ const Lycra = () => {
           "Weave should be clear.",
           "Final decision lies with the Core Committee of FootPrints X8.",
         ],
-        specs: ["- Announce few days befor event"],
-        team: ["Compulsory-2"],
+        Member: ["- Announce few days befor event"],
+        Price: ["Compulsory-2"],
       },
     },
     {
@@ -102,8 +102,8 @@ const Lycra = () => {
           "The content must be written in Times New Roman font of size 12 with 1.5” spacing.",
           "The topic of presentation, name of participant(s), college name and e-mail IDs must be clearly mentioned in the abstract.",
         ],
-        specs: ["- Announce few days befor event"],
-        team: ["Maximum-2"],
+        Member: ["- Announce few days befor event"],
+        Price: ["Maximum-2"],
       },
     },
     {
@@ -112,11 +112,11 @@ const Lycra = () => {
       details: {
         info: ["A quiz event pertaining to Textile Department."],
         rules: [
-          "Teams will be formed strictly by the Core Committee.",
+          "Prices will be formed strictly by the Core Committee.",
           "The Core Committee reserves the right to change any of the rules. Participants will be informed about the changes if any.",
         ],
-        specs: ["- Announce few days befor event"],
-        team: ["Individual"],
+        Member: ["- Announce few days befor event"],
+        Price: ["Individual"],
       },
     },
     {
@@ -130,8 +130,8 @@ const Lycra = () => {
           "The event comprises of two rounds. 1)Tie and Dye 2)Block Printing",
           "Specifications of the round will be disclosed on the day of the event.",
         ],
-        specs: ["- Announce few days befor event"],
-        team: ["Compulsory-2"],
+        Member: ["- Announce few days befor event"],
+        Price: ["Compulsory-2"],
       },
     },
   ];
@@ -237,18 +237,18 @@ const Lycra = () => {
                     </li>
                     <li
                       style={{ "--i": 5 }}
-                      onClick={() => toggleMenu("specs")}
+                      onClick={() => toggleMenu("Member")}
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Specs</span>
+                          <span>Member</span>
                         </div>
                       </div>
                     </li>
-                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("team")}>
+                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("Price")}>
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Team</span>
+                          <span>Price</span>
                         </div>
                       </div>
                     </li>
@@ -272,17 +272,17 @@ const Lycra = () => {
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "specs" && (
+                  {selectedMenu === "Member" && (
                     <ul>
-                      {details.specs.map((spec, index) => (
+                      {details.Member.map((spec, index) => (
                         <li key={index}>{spec}</li>
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "team" && (
+                  {selectedMenu === "Price" && (
                     <ul>
-                      {details.team.map((team, index) => (
-                        <li key={index}>{team}</li>
+                      {details.Price.map((Price, index) => (
+                        <li key={index}>{Price}</li>
                       ))}
                     </ul>
                   )}

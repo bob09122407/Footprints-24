@@ -10,7 +10,7 @@ import icon5 from "../../../assets/images/Logo/space.png";
 import icon6 from "../../../assets/images/Logo/space.png";
 import Heading from "../../Common/Headings/Heading";
 import { FaAmazon } from "react-icons/fa";
-import Vid from "../../../assets/images/Logo/c.mp4";
+import Vid from "../../../assets/images/Logo/cita.mp4";
 const Citadel = () => {
   const [isActive, setIsActive] = useState(false);
   const [selectedTab, setSelectedTab] = useState(); // Set default tab
@@ -55,8 +55,8 @@ const Citadel = () => {
           "Its Treasure hunt event based on immense consept and knowledge of  civil engineering.",
         ],
         rules: [""],
-        specs: ["- Announce before two days of event"],
-        team: [""],
+        Members: ["- Announce before two days of event"],
+        Price: [""],
       },
     },
     {
@@ -67,8 +67,8 @@ const Citadel = () => {
           "In this Participants have to design a multipurpose building based on a given detailed problem statement.",
         ],
         rules:[""],
-        specs: ["- Announce few days befor event"],
-        team: [""],
+        Members: ["- Announce few days befor event"],
+        Price: [""],
       },
     },
     {
@@ -79,8 +79,8 @@ const Citadel = () => {
           "It is a paper presentation event along with case study with a solution based approach.",
         ],
         rules: [""],
-        specs: ["- Announce few days befor event"],
-        team: [""],
+        Members: ["- Announce few days befor event"],
+        Price: [""],
       },
     },
     {
@@ -88,8 +88,8 @@ const Citadel = () => {
       background: icon4,
       details: {
         info: ["Participants have to make a model using  popsicle sticks"],
-        specs: ["- Announce few days befor event"],
-        team: [""],
+        Members: ["- Announce few days befor event"],
+        Price: [""],
         rules:[""],
       },
     },
@@ -195,18 +195,18 @@ const Citadel = () => {
                     </li>
                     <li
                       style={{ "--i": 5 }}
-                      onClick={() => toggleMenu("specs")}
+                      onClick={() => toggleMenu("Members")}
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Specs</span>
+                          <span>Member</span>
                         </div>
                       </div>
                     </li>
-                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("team")}>
+                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("Price")}>
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Team</span>
+                          <span>Price</span>
                         </div>
                       </div>
                     </li>
@@ -230,17 +230,17 @@ const Citadel = () => {
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "specs" && (
+                  {selectedMenu === "Members" && (
                     <ul>
-                      {details.specs.map((spec, index) => (
+                      {details.Members.map((spec, index) => (
                         <li key={index}>{spec}</li>
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "team" && (
+                  {selectedMenu === "Price" && (
                     <ul>
-                      {details.team.map((team, index) => (
-                        <li key={index}>{team}</li>
+                      {details.Price.map((Price, index) => (
+                        <li key={index}>{Price}</li>
                       ))}
                     </ul>
                   )}

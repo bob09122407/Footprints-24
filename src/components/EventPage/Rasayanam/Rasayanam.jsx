@@ -10,7 +10,7 @@ import icon5 from "../../../assets/images/Logo/space.png";
 import icon6 from "../../../assets/images/Logo/space.png";
 import Heading from "../../Common/Headings/Heading";
 import { FaAmazon } from "react-icons/fa";
-import Vid from "../../../assets/images/Logo/c.mp4";
+import Vid from "../../../assets/images/Logo/rasa.mp4";
 const Rasayanam = () => {
   const [isActive, setIsActive] = useState(false);
   const [selectedTab, setSelectedTab] = useState(); // Set default tab
@@ -59,8 +59,8 @@ const Rasayanam = () => {
           "- Dimensions: 50x40x30 cm",
           "Maximum 5 minutes would be given to the participant and the car must be autonomous and should not be remote controlled.",
         ],
-        specs: ["- Announce before two days of event"],
-        team: ["Maximum participation: 3", "Price: ₹150"],
+        Member: ["- Announce before two days of event"],
+        Price: ["Maximum participation: 3", "Price: ₹150"],
       },
     },
     {
@@ -71,8 +71,8 @@ const Rasayanam = () => {
           "It is a paper presentation event in which you have to select a topic based on Chemical Engineering or Pharmacy field.",
         ],
         rules: [""],
-        specs: ["- Announce few days befor event"],
-        team: ["Maximum Participation: 2", "Price: ₹120"],
+        Member: ["- Announce few days befor event"],
+        Price: ["Maximum Participation: 2", "Price: ₹120"],
       },
     },
     {
@@ -89,8 +89,8 @@ const Rasayanam = () => {
           "- And in final round there will be submission and QnA based on the submission",
           "- Visit the link provided to go to the website of HackPrints 2.0",
         ],
-        specs: ["- Announce few days befor event"],
-        team: ["Compulsory 2 participants should be there.", "Price:  ₹120"],
+        Member: ["- Announce few days befor event"],
+        Price: ["Compulsory 2 participants should be there.", "Price:  ₹120"],
       },
     },
 
@@ -102,8 +102,8 @@ const Rasayanam = () => {
           "Participant has to make a working or non working model based on the chemical field",
         ],
         rules: [""],
-        specs: ["- Announce few days befor event"],
-        team: ["Maximum participants: 3", "Price: ₹150"],
+        Member: ["- Announce few days befor event"],
+        Price: ["Maximum participants: 3", "Price: ₹150"],
       },
     },
   ];
@@ -208,18 +208,18 @@ const Rasayanam = () => {
                     </li>
                     <li
                       style={{ "--i": 5 }}
-                      onClick={() => toggleMenu("specs")}
+                      onClick={() => toggleMenu("Member")}
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Specs</span>
+                          <span>Member</span>
                         </div>
                       </div>
                     </li>
-                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("team")}>
+                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("Price")}>
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Team</span>
+                          <span>Price</span>
                         </div>
                       </div>
                     </li>
@@ -243,17 +243,17 @@ const Rasayanam = () => {
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "specs" && (
+                  {selectedMenu === "Member" && (
                     <ul>
-                      {details.specs.map((spec, index) => (
+                      {details.Member.map((spec, index) => (
                         <li key={index}>{spec}</li>
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "team" && (
+                  {selectedMenu === "Price" && (
                     <ul>
-                      {details.team.map((team, index) => (
-                        <li key={index}>{team}</li>
+                      {details.Price.map((Price, index) => (
+                        <li key={index}>{Price}</li>
                       ))}
                     </ul>
                   )}

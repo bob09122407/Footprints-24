@@ -3,7 +3,7 @@ import "./Quest.css";
 import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import Revealing from '../Common/RevealingText/Revealing';
-
+import Vid from "../../assets/images/Logo/quest.mp4"
 function Quest() {
 
 
@@ -15,18 +15,19 @@ function Quest() {
 
   return (
     <>
-      <div className="quest_header_img">
-        <img
-          src={
-            window.innerWidth > 800
-              ? "https://res.cloudinary.com/dm4earvp9/image/upload/v1674646527/Quest-_xjeizl.gif"
-              : "https://res.cloudinary.com/dm4earvp9/image/upload/v1674646522/Quest__1_q1rwbr.gif"
-          }
-          alt="Quest-header"
-          id="quest-header"
-        />
-        <hr />
+    <div className="video_main">
+        <video
+          autoPlay
+          loop
+          muted
+          className="w-full h-full object-cover"
+          width="100%"
+        >
+          <source src={Vid} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
+
       {/* <div className="reveal-text">
           <p className="reveal-soon-text">REVEALING SOON!</p>
         </div> */}

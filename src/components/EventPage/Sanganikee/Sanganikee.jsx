@@ -10,7 +10,7 @@ import icon5 from "../../../assets/images/Logo/space.png";
 import icon6 from "../../../assets/images/Logo/space.png";
 import Heading from "../../Common/Headings/Heading";
 import { FaAmazon } from "react-icons/fa";
-import Vid from "../../../assets/images/Logo/c.mp4";
+import Vid from "../../../assets/images/Logo/sanga.mp4";
 const Sanganikee = () => {
   const [isActive, setIsActive] = useState(false);
   const [selectedTab, setSelectedTab] = useState(); // Set default tab
@@ -55,8 +55,8 @@ const Sanganikee = () => {
           "Participants have to design a robot, which are capable of wrestling in a head-to-head bout based on the fundamental principle of conventional human wrestling matches.",
         ],
         rules: [""],
-        specs: ["- Announce before two days of event"],
-        team: ["- Individual Participation (Compulsory)"],
+        Member: ["- Announce before two days of event"],
+        Price: ["- Individual Participation (Compulsory)"],
       },
     },
     {
@@ -67,8 +67,8 @@ const Sanganikee = () => {
           "This event provides participants platform to show their robotic skill by developing wired/wireless bot which can play soccer in specially designed Arena.",
         ],
         rules: [""],
-        specs: ["- Announce few days befor event"],
-        team: [""],
+        Member: ["- Announce few days befor event"],
+        Price: [""],
       },
     },
     {
@@ -79,8 +79,8 @@ const Sanganikee = () => {
           "Participants have to design and construct a remote-controlled robot capable of fighting against another robot in a one-on-one combat.",
         ],
         rules: [""],
-        specs: ["- Announce few days befor event"],
-        team: [""],
+        Member: ["- Announce few days befor event"],
+        Price: [""],
       },
     },
     {
@@ -88,7 +88,7 @@ const Sanganikee = () => {
       background: icon3,
       details: {
         info: [
-          "Teams have to build an all-terrain robust RC vehicle that can work on dual frequency and has to complete the given track from starting point to the ending point in the minimum possible time",
+          "Prices have to build an all-terrain robust RC vehicle that can work on dual frequency and has to complete the given track from starting point to the ending point in the minimum possible time",
         ],
         rules: [
           "- It is an online event",
@@ -99,8 +99,8 @@ const Sanganikee = () => {
           "- And in final round there will be submission and QnA based on the submission",
           "- Visit the link provided to go to the website of HackPrints 2.0",
         ],
-        specs: ["- Announce few days befor event"],
-        team: [""],
+        Member: ["- Announce few days befor event"],
+        Price: [""],
       },
     },
     {
@@ -111,8 +111,8 @@ const Sanganikee = () => {
           "Participants have to design autonomous robot which can solve given line network.",
         ],
         rules: [],
-        specs: [""],
-        team: [""],
+        Member: [""],
+        Price: [""],
       },
     },
     {
@@ -123,8 +123,8 @@ const Sanganikee = () => {
           "knowledge based event for Electrical & Electronics engg. Dept.",
         ],
         rules: [],
-        specs: [""],
-        team: [""],
+        Member: [""],
+        Price: [""],
       },
     },
     {
@@ -133,8 +133,8 @@ const Sanganikee = () => {
       details: {
         info: ["Paper presentation event for EE/ELE engg."],
         rules: [],
-        specs: [""],
-        team: [""],
+        Member: [""],
+        Price: [""],
       },
     },
   ];
@@ -237,18 +237,18 @@ const Sanganikee = () => {
                     </li>
                     <li
                       style={{ "--i": 5 }}
-                      onClick={() => toggleMenu("specs")}
+                      onClick={() => toggleMenu("Member")}
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Specs</span>
+                          <span>Member</span>
                         </div>
                       </div>
                     </li>
-                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("team")}>
+                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("Price")}>
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Team</span>
+                          <span>Price</span>
                         </div>
                       </div>
                     </li>
@@ -272,17 +272,17 @@ const Sanganikee = () => {
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "specs" && (
+                  {selectedMenu === "Member" && (
                     <ul>
-                      {details.specs.map((spec, index) => (
+                      {details.Member.map((spec, index) => (
                         <li key={index}>{spec}</li>
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "team" && (
+                  {selectedMenu === "Price" && (
                     <ul>
-                      {details.team.map((team, index) => (
-                        <li key={index}>{team}</li>
+                      {details.Price.map((Price, index) => (
+                        <li key={index}>{Price}</li>
                       ))}
                     </ul>
                   )}

@@ -4,7 +4,7 @@ import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import "./Fsr.css";
 import Heading from "../Common/Headings/Heading";
-
+import Fsra from "../../assets/images/Logo/FSR.mp4"
 
 function Fsr() {
 
@@ -17,18 +17,18 @@ function Fsr() {
   return (
     <>
       <section id="Fsr">
-        <div className="FSR_header_img">
-          <img
-            src={
-              window.innerWidth > 800
-                ? "https://res.cloudinary.com/ds4a2i0b7/image/upload/v1674647378/Footprints_Social_Responsibility_-_hghlfp.gif"
-                : "https://res.cloudinary.com/ds4a2i0b7/image/upload/v1674647377/Footprints_Social_Responsibility__1_xkeuot.gif"
-            }
-            alt="FSR-header"
-            id="fsr-header"
-          />
-          <hr />
-        </div>
+      <div className="video_main">
+        <video
+          autoPlay
+          loop
+          muted
+          className="w-full h-full object-cover"
+          width="100%"
+        >
+          <source src={Fsra} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
         <div className="container">
           <Heading className="fsr_heading" id="glheading" title="FSR DRIVES" />

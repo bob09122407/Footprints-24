@@ -4,6 +4,7 @@ import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import ImageCarousel from "./ImageCaraousal";
 import Heading from "../Common/Headings/Heading";
+import Vid from "../../assets/images/Logo/rs.mp4"
 export default function RollingSquare() {
   useEffect(() => {
     document.title = "Rolling Sqares | FootPrints'23";
@@ -77,10 +78,23 @@ export default function RollingSquare() {
 
   return (
     <section>
+       <div className="video_main">
+        <video
+          autoPlay
+          loop
+          muted
+          className="w-full h-full object-cover"
+          width="100%"
+        >
+          <source src={Vid} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
       <Heading
               className="kaleido_heading"
               id="glheading"
-              title={"Technical Events for Textile Department"}
+              title={"Rolling Squares"}
             />
         <ImageCarousel />
       {/* <Sponsors />

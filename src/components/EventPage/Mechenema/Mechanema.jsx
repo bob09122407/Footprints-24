@@ -10,7 +10,7 @@ import icon5 from "../../../assets/images/Logo/space.png";
 import icon6 from "../../../assets/images/Logo/space.png";
 import Heading from "../../Common/Headings/Heading";
 import { FaAmazon } from "react-icons/fa";
-import Vid from "../../../assets/images/Logo/c.mp4";
+import Vid from "../../../assets/images/Logo/Mechenema.mp4";
 const Mechanema = () => {
   const [isActive, setIsActive] = useState(false);
   const [selectedTab, setSelectedTab] = useState(); // Set default tab
@@ -67,8 +67,8 @@ const Mechanema = () => {
           "The potential difference between any two points in the vehicle of the equipped with Reverse Gear Mechanism can be 18 volts.",
           "The participants are advised to use proper air filters as dirt might cause problems to the IC engine.",
         ],
-        specs: ["- Announce before two days of event"],
-        team: ["Maximum-5"],
+        Member: ["- Announce before two days of event"],
+        Price: ["Maximum-5"],
       },
     },
     {
@@ -86,8 +86,8 @@ const Mechanema = () => {
           "The arrow used must have a blunt head.",
           "A trigger mechanism is compulsory.",
         ],
-        specs: ["- Announce few days befor event"],
-        team: ["- Max 3"],
+        Member: ["- Announce few days befor event"],
+        Price: ["- Max 3"],
       },
     },
 
@@ -107,15 +107,15 @@ const Mechanema = () => {
           "A format for the presentation will be uploaded shortly and will be sent via mail to the participants short-listed for the first round.",
           "The 8 page report is excluding ‘only picture pages’ which may be added in between as per requirement. A page on bibliography is recommended to be added at the end of the report.",
           "Participants are requested to bring the files on a CD or a pen-drive (Floppy discs should not be used).The presentation’s soft copy and the text papers should under no circumstances bear the name of the participants or the college; any case of this rule being violated will lead to disqualification.",
-          "Only those teams whose abstract is short listed will be qualified to deliver the presentation on the event day. The selected teams will be notified by the Core Committee.",
+          "Only those Prices whose abstract is short listed will be qualified to deliver the presentation on the event day. The selected Prices will be notified by the Core Committee.",
           "The abstract must be concise consisting of 250-300 words either in word or pdf format.",
           "The abstract may contain maximum 3 pictures in relevance with the subject.",
           "The content must be written in Times New Roman font of size 12 with 1.5” spacing.",
           "The topic of presentation, name of participants, college name and e-mail ids must be clearly mentioned in the abstract.",
-          "Only those teams whose abstract is short listed are subjected to pay the event fees. The abstract has to be mailed on lustre@msufp.in by 13th feb’18.",
+          "Only those Prices whose abstract is short listed are subjected to pay the event fees. The abstract has to be mailed on lustre@msufp.in by 13th feb’18.",
         ],
-        specs: [""],
-        team: ["Max 2"],
+        Member: [""],
+        Price: ["Max 2"],
       },
     },
     {
@@ -126,8 +126,8 @@ const Mechanema = () => {
           "It is a knowledge based event related to Mechanical engineering department consisting of quiz, puzzles, crosswords, treasure hunt and industry defined problems.",
         ],
         rules: [""],
-        specs: ["- Announce few days befor event"],
-        team: ["- Max 2"],
+        Member: ["- Announce few days befor event"],
+        Price: ["- Max 2"],
       },
     },
     {
@@ -145,8 +145,8 @@ const Mechanema = () => {
           "Only commercial syringes (20ml) can be used with no restriction on number of syringes.",
           "Any fluid such as water or oil can be used.",
         ],
-        specs: ["- Announce few days befor event"],
-        team: ["- Max 4", "Fees-100 rupees"],
+        Member: ["- Announce few days befor event"],
+        Price: ["- Max 4", "Fees-100 rupees"],
       },
     },
   ];
@@ -251,18 +251,18 @@ const Mechanema = () => {
                     </li>
                     <li
                       style={{ "--i": 5 }}
-                      onClick={() => toggleMenu("Specs")}
+                      onClick={() => toggleMenu("Member")}
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Specs</span>
+                          <span>Member</span>
                         </div>
                       </div>
                     </li>
-                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("Team")}>
+                    <li style={{ "--i": 6 }} onClick={() => toggleMenu("Price")}>
                       <div className="a">
                         <div className="ripple-circle">
-                          <span>Team</span>
+                          <span>Price</span>
                         </div>
                       </div>
                     </li>
@@ -286,17 +286,17 @@ const Mechanema = () => {
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "Specs" && (
+                  {selectedMenu === "Member" && (
                     <ul>
-                      {details.specs.map((spec, index) => (
+                      {details.Member.map((spec, index) => (
                         <li key={index}>{spec}</li>
                       ))}
                     </ul>
                   )}
-                  {selectedMenu === "Team" && (
+                  {selectedMenu === "Price" && (
                     <ul>
-                      {details.team.map((team, index) => (
-                        <li key={index}>{team}</li>
+                      {details.Price.map((Price, index) => (
+                        <li key={index}>{Price}</li>
                       ))}
                     </ul>
                   )}

@@ -4,7 +4,7 @@ import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import "./Taleido.css";
 import Heading from "../Common/Headings/Heading";
-
+import Vid from "../../assets/images/Logo/c.mp4"
 function Taleido() {
 
   useEffect(() => {
@@ -16,18 +16,19 @@ function Taleido() {
   return (
     <>
       <section id="Taleido">
-        <div className="T_header_img">
-          <img
-            src={
-              window.innerWidth > 800
-                ? "https://res.cloudinary.com/dm4earvp9/image/upload/v1674626721/Kaleidoscope-_vvhne5.gif"
-                : "https://res.cloudinary.com/dm4earvp9/image/upload/v1674627307/Kaleidoscope__1_i8xzzp.gif"
-            }
-            alt="Kaleido-header"
-            id="kaleidoT-header"
-          />
-          <hr />
-        </div>
+      <div className="video_main">
+        <video
+          autoPlay
+          loop
+          muted
+          className="w-full h-full object-cover"
+          width="100%"
+        >
+          <source src={Vid} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
 
         <div className="container">
           <Heading
