@@ -113,7 +113,7 @@ const menuItems = [
     subItems: [
       {
         Department: 1,
-        title: "ALL Event",
+        title: "Events",
         link: "/quest",
       },
     ]
@@ -126,7 +126,7 @@ const menuItems = [
     subItems: [
       {
         Department: 1,
-        title: "FSE",
+        title: "Events",
         link: "/fse",
       },
     ]
@@ -138,7 +138,7 @@ const menuItems = [
     subItems: [
       {
         Department: 1,
-        title: "Game",
+        title: "Events",
         link: "/virtuosity",
       },
     ]
@@ -210,7 +210,7 @@ const menuItems = [
       },
       {
         Department: 8,
-        title: "Team FP'23",
+        title: "Team FP'24",
         link: "/teamfp",
       },
       {

@@ -21,9 +21,9 @@ const LandingPage = () => {
       <div id='earth'></div>
       <div id='title'>FOOTPRINTS 24</div>
       <div id='subtitle'>
-        <span onClick={handleSubtitleClick}>DONT</span>
-        <span onClick={handleSubtitleClick}>LET</span>
-        <span onClick={handleSubtitleClick}>GO</span>
+        <span onClick={handleSubtitleClick}> </span>
+        <span onClick={handleSubtitleClick}> </span>
+        <span onClick={handleSubtitleClick}></span>
       </div>
     </div>
   );

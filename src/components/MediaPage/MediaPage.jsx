@@ -25,21 +25,21 @@ function MediaPage() {
           {/* <img className="col-lg-12 col-md-12 col-sm-6 col-xs-12 border-solid" src="src/assets/images/Media/latest.jpeg" /> */}
 
           <img
-            className="col-md-4 col-sm-12 col-xs-12 border-solid"
-            src="https://res.cloudinary.com/dwdln9iy2/image/upload/v1676730002/Media/1_Media_iaznjj.jpg"
+            className="col-md-4 col-sm-12 col-xs-12 border-solid medias"
+            src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705170203/media/jdj1ijpmeh4g9j7ny4rz.png"
           />
           <img
-            className="col-md-4 col-sm-12 col-xs-12 border-solid"
-            src="https://res.cloudinary.com/dwdln9iy2/image/upload/v1676730002/Media/2_Media_epbo7c.jpg"
+            className="col-md-4 col-sm-12 col-xs-12 border-solid medias"
+            src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705170188/media/dbndhpwum0hort1u0etk.png"
           />
 
-          <img
+          {/* <img
             className="col-lg-4 col-md-4 col-sm-12 col-xs-12 border-solid"
             src="https://res.cloudinary.com/dwdln9iy2/image/upload/v1676730009/Media/3_Media_drenod.jpg"
-          />
+          /> */}
       
 
-          <img
+          {/* <img
             className="col-lg-12 col-md-12 col-sm-6 col-xs-12 border-solid"
             src="https://www.msufp.in/2019/images/media/m_2(1).jpg"
           />
@@ -115,7 +115,7 @@ function MediaPage() {
           <img
             className="col-md-12 col-sm-12 col-xs-12"
             src="https://www.msufp.in/2019/images/media/m_11.jpg"
-          />
+    /> */}
             </div>
             <Sponsors />
             <Footer />
