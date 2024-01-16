@@ -15,7 +15,7 @@ import YourComponent from "./Testimonials/Testimonials24";
 
 function Homepage() {
   useEffect(() => {
-    document.title = "Home | FootPrints'23";
+    document.title = "Home | FootPrints'24";
   }, []);
 
   return (

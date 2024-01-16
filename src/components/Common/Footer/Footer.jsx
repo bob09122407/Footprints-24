@@ -138,6 +138,13 @@ function Footer() {
                     <i className="fa fa-twitter social"></i>
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://www.threads.net/@footprints.msu"
+                    target="_blank">
+                    <i className="fa fa-threads fa-brands social"></i>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -220,13 +227,13 @@ function Footer() {
                   <p>
                     {" "}
                     <a className="footer_P_hover" href="tel:8141453979">
-                      +91-8141453979
+                      +91-8866282700
                     </a>
                   </p>
                   <p>
                     {" "}
                     <a className="footer_P_hover" href="tel:7990203367">
-                      +91-7990203367
+                      +91-9265574891
                     </a>
                   </p>
                 </div>
