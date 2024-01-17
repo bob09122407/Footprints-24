@@ -1,7 +1,8 @@
 .main-star {
   height: 100vh;
-
-  overflow: hidden !important;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden !important;
   background: fixed;
 }
 
@@ -824,7 +825,7 @@ body {
     }
   } */
 
-@media screen and (min-width:513px) and (max-width: 890px) {
+@media screen and (min-width: 513px) and (max-width: 890px) {
   #title {
     position: absolute;
     font-weight: 500;
@@ -837,13 +838,13 @@ body {
     animation-name: animGravitya;
   }
 
-
   #horizon {
-    width: 100%;
+    width: 200%;
     height: 60%;
     border-radius: 200%/200%;
     bottom: -20%;
-    margin-left: -56.5%;
+    left: -50%;
+  
   }
 
   #earth {
@@ -855,11 +856,6 @@ body {
     bottom: -20%;
     left: 0;
     margin-left: -50.5%;
-  }
-
-  #horizon{
-    left: 0;
-    width: 200%;
   }
 }
 
@@ -896,29 +892,58 @@ body {
 
     animation-name: animGravitya;
   }
-  body{
+  body {
     width: 100%;
     overflow-x: hidden;
   }
 
-
-  #horizon {
-    width: 113%; /* Set it to 100% */
+  /* #horizon {
+    width: 200%; Set it to 100%
     height: 62%;
     border-radius: 50% 50% 0% 0%;
     bottom: -20%;
-    margin-left: -59%; /* Adjusted margin to center the element */
-  }
+    height: 300px;
+    position: relative;
+    top: 270px;
+    margin-left: -59%; Adjusted margin to center the element
+  } */
 
+  #horizon{
+    width: 200%;
+    height: 62%;
+    border-radius: 50% 50% 0% 0%;
+    /* bottom: -20%; */
+    height: 300px;
+    left: -50%;
+    position: relative;
+    transform: translateY(50%);
+  }
+/* 
   #earth {
     background: #18031b;
-    border-radius: 600%/100%;
+    border-radius: 100%/100%;
     position: absolute;
-    width: 200%; /* Set it to 100% */
+    width: 200%; Set it to 100%
     height: 60%;
     bottom: -20%;
     left: 0;
-    margin-left: -56.5%; /* Adjusted margin to */
+    margin-left: -56.5%; Adjusted margin to
+  } */
+
+  #earth{
+    background: #18031b;
+    border-radius: 100%/100%;
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    top: 50%;
+  }
+
+  #earth::before {
+    border-radius: 100% 100% 0 0 !important;
+  }
+  #earth::after {
+    border-radius: 100% 100% 0 0 !important;
   }
 }
 
@@ -943,18 +968,23 @@ body {
   }
 }
 
-@media screen and (min-width:891px) and (max-width: 1025px) {
+@media screen and (min-width: 891px) and (max-width: 1025px) {
   #title {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
-@media screen and (min-width:1026px) {
-  #title{
-    font-size:75px;
+@media screen and (min-width: 1026px) and (max-width:1264px){
+  #title {
+    font-size: 60px;
   }
-  body{
+  body {
     overflow-x: hidden;
   }
-  
+}
+
+@media screen and (min-width:1265px) {
+  #title{
+    font-size: 75px;
+  }
 }
