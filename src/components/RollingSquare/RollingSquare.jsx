@@ -5,7 +5,7 @@ import Footer from "../Common/Footer/Footer";
 import ImageCarousel from "./ImageCaraousal";
 import Informal from "./Informal";
 import Heading from "../Common/Headings/Heading";
-import Vid from "../../assets/images/Logo/rs.mp4"
+import Vid from "../../assets/images/Logo/rs.mp4";
 import Jampad from "./Jampad";
 export default function RollingSquare() {
   useEffect(() => {
@@ -77,10 +77,9 @@ export default function RollingSquare() {
   //   })();
   // }, []);
 
-
   return (
     <section>
-       <div className="video_main">
+      <div className="video_main">
         <video
           autoPlay
           loop
@@ -94,33 +93,20 @@ export default function RollingSquare() {
       </div>
 
       <Heading
-              className="kaleido_heading"
-              id="glheading"
-              title={"Rolling Squares"}
-            />
-        <ImageCarousel />
-        
+        className="kaleido_heading"
+        id="glheading"
+        title={"Rolling Squares"}
+      />
+      <ImageCarousel />
 
-        <Heading
-              className="kaleido_heading"
-              id="glheading"
-              title={"Informal"}
-            />
-        <Informal />
+      <Heading className="kaleido_heading" id="glheading" title={"Informal"} />
+      <Informal />
 
-        <Heading
-              className="kaleido_heading"
-              id="glheading"
-              title={"Jampad"}
-            />
-        <Jampad />
+      <Heading className="kaleido_heading" id="glheading" title={"Jampad"} />
+      <Jampad />
 
-        
-      {/* <Sponsors />
-      <Footer /> */}
-      {/* <div className="next-block">
-
-      </div> */}
+      <Sponsors />
+      <Footer />
     </section>
   );
 }
