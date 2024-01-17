@@ -171,11 +171,11 @@ const TheMoonPage = ({theParent}) => {
                     </li>
                     <li
                       style={{ "--i": 5 }}
-                      onClick={() => toggleMenu("specs")}
+                      onClick={() => toggleMenu(details.specs?"specs":"price")}
                     >
                       <div className="a">
                         <div className="ripple-circle">
-                        <span>Specs</span>
+                        <span>{details.specs?"Specs":"Price"}</span>
                         </div>
                         
                       </div>
@@ -210,8 +210,15 @@ const TheMoonPage = ({theParent}) => {
                   )}
                   {selectedMenu === "specs" && (
                     <ul>
-                      {details.specs.map((spec, index) => (
+                      {details.specs?.map((spec, index) => (
                         <li key={index}>{spec}</li>
+                      ))}
+                    </ul>
+                  )}
+                  {selectedMenu === "price" && (
+                    <ul>
+                      {details.price?.map((price, index) => (
+                        <li key={index}>{price}</li>
                       ))}
                     </ul>
                   )}

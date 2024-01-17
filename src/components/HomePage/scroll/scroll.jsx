@@ -54,7 +54,7 @@ const Scroll = () => {
            
                            
        {/* <!-- MAIN MENU SLIDE 1 --> */}
-       <div className="swiper-slide" style={{"margin-right": "64px"}}>
+       <div className="swiper-slide" style={{marginRight: "64px"}}>
            <a className='scroll' href="#section-2">
                <img src="https://1.bp.blogspot.com/-dhIszFAhbcs/YEGqnGSHMqI/AAAAAAAAAj0/DSgpISv3JY4tYTeqFv9eiIlQOECRb8gmQCLcBGAsYHQ/s320/RoundedIcon.png" className="travel-slider-bg-image scroll" href='#section-2'/>
                    </a>
@@ -66,7 +66,7 @@ const Scroll = () => {
        
        
        {/* <!-- MAIN MENU SLIDE 2 --> */}
-       <div className="swiper-slide" style={{"margin-right": "64px"}}>
+       <div className="swiper-slide" style={{marginRight: "64px"}}>
            <a className='scroll' href="#section-3">
                <img src="https://1.bp.blogspot.com/-_O6a4B3N-2c/YD7-XIw-kcI/AAAAAAAAAjM/PnA1glSjei0GRpXkunc8DsgjsBPVLfg_gCPcBGAYYCw/s320/s1.png" className="travel-slider-bg-image scroll" href='#section-3'/>
                    </a>
@@ -77,7 +77,7 @@ const Scroll = () => {
        </div>
        
        {/* <!-- MAIN MENU SLIDE 3 --> */}
-       <div className="swiper-slide" style={{"margin-right": "64px"}}>
+       <div className="swiper-slide" style={{marginRight: "64px"}}>
            <a className='scroll' href="#section-4">
                <img src="https://1.bp.blogspot.com/-dhIszFAhbcs/YEGqnGSHMqI/AAAAAAAAAj0/DSgpISv3JY4tYTeqFv9eiIlQOECRb8gmQCLcBGAsYHQ/s320/RoundedIcon.png" className="travel-slider-bg-image scroll" href='#section-4'/>
                    </a>
@@ -88,7 +88,7 @@ const Scroll = () => {
        </div>
        
        {/* <!-- MAIN MENU SLIDE 4 --> */}
-       <div className="swiper-slide" style={{"margin-right": "64px"}}>
+       <div className="swiper-slide" style={{marginRight: "64px"}}>
            <a className='scroll' href="#section-5">
                <img src="https://1.bp.blogspot.com/-dhIszFAhbcs/YEGqnGSHMqI/AAAAAAAAAj0/DSgpISv3JY4tYTeqFv9eiIlQOECRb8gmQCLcBGAsYHQ/s320/RoundedIcon.png" className="travel-slider-bg-image scroll" href='#section-5'/>
                    </a>
@@ -99,7 +99,7 @@ const Scroll = () => {
        </div>
        
        {/* <!-- MAIN MENU SLIDE 5 --> */}
-       <div className="swiper-slide" style={{"margin-right": "64px"}}>
+       <div className="swiper-slide" style={{marginRight: "64px"}}>
            <a className='scroll' href="#section-6">
                <img src="https://1.bp.blogspot.com/-2mheDUqz6Ho/YEGswL8h8eI/AAAAAAAAAkE/PwoFW0gzXWQIPYB6vZk_7s8JCPDl_475QCLcBGAsYHQ/s320/RoundedIcon-2.png" className="travel-slider-bg-image scroll" href='#section-6'/>
                    </a>
@@ -109,7 +109,7 @@ const Scroll = () => {
            </div>
        </div>
 
-       <div className="swiper-slide" style={{"margin-right": "64px"}}>
+       <div className="swiper-slide" style={{marginRight: "64px"}}>
         <a className='scroll' href="#section-6">
             <img src="https://1.bp.blogspot.com/-2mheDUqz6Ho/YEGswL8h8eI/AAAAAAAAAkE/PwoFW0gzXWQIPYB6vZk_7s8JCPDl_475QCLcBGAsYHQ/s320/RoundedIcon-2.png" className="travel-slider-bg-image scroll" href='#section-6'/>
                 </a>
@@ -119,7 +119,7 @@ const Scroll = () => {
         </div>
     </div>
   
-    <div className="swiper-slide" style={{"margin-right": "64px"}}>
+    <div className="swiper-slide" style={{marginRight: "64px"}}>
         <a className='scroll' href="#section-6">
             <img src="https://1.bp.blogspot.com/-2mheDUqz6Ho/YEGswL8h8eI/AAAAAAAAAkE/PwoFW0gzXWQIPYB6vZk_7s8JCPDl_475QCLcBGAsYHQ/s320/RoundedIcon-2.png" className="travel-slider-bg-image scroll" href='#section-6'/>
                 </a>
@@ -129,7 +129,7 @@ const Scroll = () => {
         </div>
     </div>
 
-    <div className="swiper-slide" style={{"margin-right": "64px"}}>
+    <div className="swiper-slide" style={{marginRight: "64px"}}>
         <a className='scroll' href="#section-6">
             <img src="https://1.bp.blogspot.com/-2mheDUqz6Ho/YEGswL8h8eI/AAAAAAAAAkE/PwoFW0gzXWQIPYB6vZk_7s8JCPDl_475QCLcBGAsYHQ/s320/RoundedIcon-2.png" className="travel-slider-bg-image scroll" href='#section-6'/>
                 </a>
@@ -138,7 +138,7 @@ const Scroll = () => {
             <div className="travel-slider-subtitle">Our Company</div>
         </div>
     </div>
-    <div className="swiper-slide" style={{"margin-right": "64px"}}>
+    <div className="swiper-slide" style={{marginRight: "64px"}}>
         <a className='scroll' href="#section-6">
             <img src="https://1.bp.blogspot.com/-2mheDUqz6Ho/YEGswL8h8eI/AAAAAAAAAkE/PwoFW0gzXWQIPYB6vZk_7s8JCPDl_475QCLcBGAsYHQ/s320/RoundedIcon-2.png" className="travel-slider-bg-image scroll" href='#section-6'/>
                 </a>
@@ -147,7 +147,7 @@ const Scroll = () => {
             <div className="travel-slider-subtitle">Our Company</div>
         </div>
     </div>
-    <div className="swiper-slide" style={{"margin-right": "64px"}}>
+    <div className="swiper-slide" style={{marginRight: "64px"}}>
         <a className='scroll' href="#section-6">
             <img src="https://1.bp.blogspot.com/-2mheDUqz6Ho/YEGswL8h8eI/AAAAAAAAAkE/PwoFW0gzXWQIPYB6vZk_7s8JCPDl_475QCLcBGAsYHQ/s320/RoundedIcon-2.png" className="travel-slider-bg-image scroll" href='#section-6'/>
                 </a>
@@ -156,7 +156,7 @@ const Scroll = () => {
             <div className="travel-slider-subtitle">Our Company</div>
         </div>
     </div>
-    <div className="swiper-slide" style={{"margin-right": "64px"}}>
+    <div className="swiper-slide" style={{marginRight: "64px"}}>
         <a className='scroll' href="#section-6">
             <img src="https://1.bp.blogspot.com/-2mheDUqz6Ho/YEGswL8h8eI/AAAAAAAAAkE/PwoFW0gzXWQIPYB6vZk_7s8JCPDl_475QCLcBGAsYHQ/s320/RoundedIcon-2.png" className="travel-slider-bg-image scroll" href='#section-6'/>
                 </a>

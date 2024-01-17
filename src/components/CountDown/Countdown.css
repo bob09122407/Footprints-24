@@ -1,0 +1,59 @@
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .timer {
+    background-color: #efe9e9;
+    width:100vw;
+    height: 700px;
+    /* margin: 50px; */
+    /* padding: 50px; */
+    padding-left: 50px;
+    
+      }
+  
+  .countdown-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .countdown-item {
+    color: #f8f3f3; /* Darken the text color for better contrast */
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.2; /* Adjust line height for better spacing */
+    margin: 10px;
+    padding-top: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #fff; /* Add a white background */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .countdown-item span {
+    color: #555; /* Darken the span text color */
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .countdown-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* Match the countdown-item border radius */
+  }
+  
+  

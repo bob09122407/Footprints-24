@@ -57,7 +57,7 @@ const menuItems = [
         Department: 7,
 
         title: "TechX",
-        link: "/techx",
+        link: "/technotron/techx",
       },
     ],
   },

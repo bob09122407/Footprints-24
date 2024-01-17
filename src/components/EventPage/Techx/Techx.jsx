@@ -2,13 +2,13 @@
 
 import React, { useState, useRef } from "react";
 import "../technotron.css"; // Make sure this path is correct
-import icon1 from "../../../assets/images/Logo/runtime.png";
-import icon2 from "../../../assets/images/Logo/code-n-create.png";
-import icon3 from "../../../assets/images/Logo/hackprints.png";
-import icon4 from "../../../assets/images/Logo/space.png";
+import icon1 from "/src/assets/images/Logo/runtime.png";
+import icon2 from "/src/assets/images/Logo/code-n-create.png";
+import icon3 from "/src/assets/images/Logo/hackprints.png";
+import icon4 from "/src/assets/images/Logo/space.png";
 import Heading from "../../Common/Headings/Heading";
 
-import Vid from "../../../assets/images/Logo/c.mp4";
+import Vid from "/src/assets/images/Logo/c.mp4";
 
 const Techx = () => {
   const [isActive, setIsActive] = useState(false);
@@ -48,7 +48,7 @@ const Techx = () => {
   const iconsRow1 = [
     {
       name: "Runtime",
-      background: icon1,
+      background: "/src/assets/images/Logo/runtime.png",
       details: {
         info: [
           "This event tests your programming skills. The challenge is to code the real-life problems in the computer world using any programming language interviewing different stages of coding and scoring the most among them",

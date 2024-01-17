@@ -9,27 +9,52 @@ const Gallery = () => {
     document.title = "Gallery | FootPrints'23";
   }, []);
 
-  var [numLoaded, setLoaded] = useState(0);
+  // var [numLoaded, setLoaded] = useState(0);
 
-  function inrLoaded() {
-    console.log(numLoaded);
-    setLoaded((prevNum) => {
-      return prevNum + 1;
+  // function inrLoaded() {
+  //   console.log(numLoaded);
+  //   setLoaded((prevNum) => {
+  //     return prevNum + 1;
+  //   });
+  // }
+
+  useEffect(()=>{
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          console.log(entry.target.children);
+          if (entry.isIntersecting) {
+            entry.target.children[0].style.animation = "frontAnim 2s";
+            entry.target.children[1].style.animation = "backAnim 2s";
+            entry.target.children[1].classList.add("SheenAnimate");
+            // entry.target.classList.add("img-transition");
+          } 
+        });
+      },
+      {
+        threshold: "0.7",
+      }
+    );
+  
+    const imgBoxes = document.querySelectorAll(".img-card");
+    imgBoxes.forEach((el) => {
+      observer.observe(el);
     });
-  }
+  },[]);
+  
 
-  function animate() {
-    document.getElementById("img-loader").style.animation = "fadeLoader 2s";
-    setTimeout(() => {
-      data.forEach((item, idx) => {
-        setTimeout(() => {
-          document.querySelector(`#ImgCard${item.id} > .front`).style.animation = "frontAnim 2s";
-          document.querySelector(`#ImgCard${item.id} > .back`).style.animation = "backAnim 2s";
-          document.querySelector(`#ImgCard${item.id} > .back`).classList.add("SheenAnimate");
-        }, 350 * idx);
-      });
-    }, 4000);
-  }
+  // function animate() {
+  //   // document.getElementById("img-loader").style.animation = "fadeLoader 2s";
+  //   setTimeout(() => {
+  //     data.forEach((item, idx) => {
+  //       setTimeout(() => {
+  //         document.querySelector(`#ImgCard${item.id} > .front`).style.animation = "frontAnim 2s";
+  //         document.querySelector(`#ImgCard${item.id} > .back`).style.animation = "backAnim 2s";
+  //         document.querySelector(`#ImgCard${item.id} > .back`).classList.add("SheenAnimate");
+  //       }, 350 * idx);
+  //     });
+  //   }, 1000);
+  // }
 
   let data = [
     {
@@ -107,8 +132,7 @@ const Gallery = () => {
       </div>
       <section>
         <div className="card-gallery">
-          <div id="img-loader">Loading...</div>
-          {numLoaded === data.length ? animate() : ""}
+          {/* {numLoaded === data.length ? animate() : ""} */}
           {data.map((item) => {
             return (
               <div className="img-card" key={item.id} id={`ImgCard${item.id}`}>
@@ -120,13 +144,13 @@ const Gallery = () => {
                   {/* <div className="cardText">{item.cardText}</div> */}
                 </div>
                 <div className="back">
-                  <img src={item.imgSrc} alt="" onLoad={inrLoaded} />
+                  <img src={item.imgSrc} alt=""/>
                   <div className="imgtext" style={{ textAlign: "center" }}>
-                    <p className="imgtitle" style={{ fontSize: "25px" }}>
+                    <p className="imgtitle" style={{ fontSize: "1em" }}>
                       {item.title}
                     </p>
                     <hr />
-                    <p className="imgsubtitle" style={{ fontSize: "22px" }}>
+                    <p className="imgsubtitle" style={{ fontSize: "1em" }}>
                       {item.subtitle}
                     </p>
                   </div>

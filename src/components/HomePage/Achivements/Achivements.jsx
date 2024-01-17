@@ -17,7 +17,7 @@ function Achivements() {
               return (
                 <>
                   {/* Padding for last element so that it is displayed in the center on tablets */}
-                  {idx == achivementsData.length - 1 ? <div className="col-md-3 d-none d-md-block d-xl-none"></div> : <></>}
+                  {idx == achivementsData.length - 1 ? <div className="col-md-3 d-none d-md-block d-xl-none" key={idx}></div> : <></>}
                   <div
                     key={element.id}
                     className="cardBlock col-xl-4 col-md-6 col-sm-12"
