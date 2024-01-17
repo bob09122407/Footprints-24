@@ -19,7 +19,7 @@ const LandingPage = () => {
         <div className='glow'></div>
       </div>
       <div id='earth'></div>
-      <div id='title'>FOOTPRINTS 24</div>
+      <div id='title'>FootPrints'24</div>
       <div id='subtitle'>
         <span onClick={handleSubtitleClick}> </span>
         <span onClick={handleSubtitleClick}> </span>

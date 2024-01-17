@@ -6,7 +6,7 @@ import "./Gallery.css";
 
 const Gallery = () => {
   useEffect(() => {
-    document.title = "Gallery | FootPrints'23";
+    document.title = "Gallery | FootPrints'24";
   }, []);
 
   var [numLoaded, setLoaded] = useState(0);

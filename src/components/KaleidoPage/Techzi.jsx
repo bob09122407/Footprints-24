@@ -10,7 +10,7 @@ function Techzi() {
 
   useEffect(() => {
   
-    document.title="Techzibition | FootPrints'23"
+    document.title="Techzibition | FootPrints'24"
 
   }, [])
 

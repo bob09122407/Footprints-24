@@ -10,7 +10,7 @@ function Sponsor() {
     
   useEffect(() => {
   
-    document.title="Sponsors and Partners | FootPrints'23"
+    document.title="Sponsors and Partners | FootPrints'24"
 
   }, []);
 

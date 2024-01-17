@@ -9,7 +9,7 @@ const Schitron = () => {
   
   useEffect(() => {
   
-    document.title="Schitron | FootPrints'23"
+    document.title="Schitron | FootPrints'24"
 
   }, [])
   

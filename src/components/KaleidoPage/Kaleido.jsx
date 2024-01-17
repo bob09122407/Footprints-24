@@ -9,7 +9,7 @@ function Kaleido() {
   // console.log(screenSize);
 
   useEffect(() => {
-    document.title = "Guest Lecture | FootPrints'23";
+    document.title = "Guest Lecture | FootPrints'24";
   }, []);
 
   return (

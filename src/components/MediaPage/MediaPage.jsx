@@ -8,7 +8,7 @@ function MediaPage() {
 
     useEffect(() => {
   
-        document.title="Media | FootPrints'23"
+        document.title="Media | FootPrints'24"
     
       }, [])
 

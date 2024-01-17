@@ -9,7 +9,7 @@ function WebTeam() {
 
   useEffect(() => {
   
-    document.title="Website Team | FootPrints'23"
+    document.title="Website Team | FootPrints'24"
 
   }, [])
 

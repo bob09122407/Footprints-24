@@ -9,7 +9,7 @@ import Vid from "../../assets/images/Logo/rs.mp4"
 import Jampad from "./Jampad";
 export default function RollingSquare() {
   useEffect(() => {
-    document.title = "Rolling Sqares | FootPrints'23";
+    document.title = "Rolling Sqares | FootPrints'24";
   }, []);
 
   // let windowInnerWidth;

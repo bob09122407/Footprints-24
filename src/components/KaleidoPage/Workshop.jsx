@@ -7,7 +7,7 @@ import Heading from "../Common/Headings/Heading";
 import Vid from "../../assets/images/Logo/c.mp4"
 function Workshop() {
   useEffect(() => {
-    document.title = "Workshops | FootPrints'23";
+    document.title = "Workshops | FootPrints'24";
   }, []);
 
   return (

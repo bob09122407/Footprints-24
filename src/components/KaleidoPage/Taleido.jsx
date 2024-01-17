@@ -9,7 +9,7 @@ function Taleido() {
 
   useEffect(() => {
   
-    document.title="Taleidoscope | FootPrints'23"
+    document.title="Taleidoscope | FootPrints'24"
 
   }, [])
 

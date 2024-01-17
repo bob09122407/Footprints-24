@@ -12,7 +12,7 @@ function Contact() {
 
   useEffect(() => {
   
-    document.title="Contact us | FootPrints'23"
+    document.title="Contact us | FootPrints'24"
 
   }, [])
 

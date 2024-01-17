@@ -5,7 +5,7 @@ const FsrData = [
     name: "Food Campaign",
 
     imgSrc:
-      "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640476/Gallery/FSR-gallery-changed_iokgbp.jpg",
+      "https://res.cloudinary.com/du1tas6pe/image/upload/v1705477128/gallery/wup5lpfyueybusnuopoa.jpg",
 
     content:
       "In the tapestry of humanity, social responsibility is the thread that weaves compassion, ethics, and sustainability, creating a fabric that envelops us all in the warmth of collective well-being.In a world where people run behind materialistic and gold-coated things, we believe the greatest pleasure is uplifting someone's spirit. Team FootPrints'23 engaged in a joint effort with \"House of Humanity\" and \"Arpan Trust\" and spent some unforgettable moments with differently-abled children at Decathlon, where we played games, shared laughter, and distributed soft toys and bottles to brighten their morning. With the same enthusiastic spirit, in the evening we distributed food and essentials to the fighting warriors undergoing treatment at SSG Hospital. We ended our day with warm blessings and sweet memories with the elders of our old home. We will remain committed to giving our utmost to society.",
