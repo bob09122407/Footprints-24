@@ -14,9 +14,7 @@ const LandingPage = () => {
   return (
     <>
       <div className="main-star">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
+        
         <div id="horizon">
           <div className="glow"></div>
         </div>

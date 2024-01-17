@@ -22,7 +22,7 @@
 }
 #contact{
   color: var(--white) !important;
-  font-family: var(--text-family) !important;
+  /* font-family: var(--text-family) !important; */
 }
 .contact {
   text-align: center;

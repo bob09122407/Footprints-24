@@ -127,7 +127,7 @@
     font-size: 1rem;
     /* color: var(--icon-color); */
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-family: system-ui;
+    font-family: 'Century Gothic',system-ui;
     margin: 0;
     margin-bottom: -0.5rem;
 
@@ -156,7 +156,7 @@
 }
 
 .testimonials .testimonial-item p {
-    font-family: var(--text-family);
+    /* font-family: var(--text-family); */
     font-size: 1.05rem;
     margin: 1rem auto 15px auto;
     font-weight: var(--font-weight) !important;

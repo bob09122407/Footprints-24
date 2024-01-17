@@ -114,7 +114,7 @@
 .Revealing-text p {
     font-size: 6rem;
     color: var(--yellow);
-    font-family: var(--heading-family);
+    /* font-family: var(--heading-family); */
     margin: auto;
     text-align: center;
     margin-top: 30px;

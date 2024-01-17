@@ -149,6 +149,19 @@ body {
   max-width: 100%;
   /* overflow-x: hidden; */
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: 'Century Gothic';
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/src/fonts/Century\ Gothic.otf') format('otf'),
+       url('/src/fonts/Century\ Gothic\ Bold.otf') format('otf'),
+       url('/src/fonts/Century\ Gothic\ Italic.otf.otf') format('otf'),
+       url('/src/fonts/Century\ Gothic\ Bold\ Italic.otf.otf') format('otf');
+  /* Add more source formats if necessary */
+  font-weight: normal;
+  font-style: normal;
 }
 
 

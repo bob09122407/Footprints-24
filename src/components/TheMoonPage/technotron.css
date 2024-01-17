@@ -321,6 +321,7 @@ body {
 
 .details-content h1 {
   text-decoration: underline 2px solid;
+  text-transform: capitalize;
 }
 
 .additional-details.visible {

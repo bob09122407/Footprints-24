@@ -13,7 +13,7 @@
 }
 
 #footer p,a{
-    font-family: var(--text-family) !important;
+    /* font-family: var(--text-family) !important; */
 }
 
 /*  ---------- Styling in Newslwtter ---------- */

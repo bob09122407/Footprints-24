@@ -16,11 +16,7 @@ function Acco() {
   return (
     <>
       <div className="acco_header_img" id="parent_div">
-        {/* <img
-          src="https://res.cloudinary.com/doe7b5us3/image/upload/v1674731120/Kaleido/6228688_mo8sfs.jpg"
-          alt="Accomodation-header"
-          id="acco-header"
-        /> */}
+        
         <div className="text-on-image-acco">
           {/* <p>Accomodation</p> */}
           <Heading id="heading_sponsors_page" title="ACCOMODATION" />
@@ -30,7 +26,7 @@ function Acco() {
       {/* <div className="reveal-text">
         <p className="reveal-soon-text">REVEALING SOON!</p>
       </div> */}
-            <Revealing />
+      {/* <Revealing /> */}
 
       <Sponsors />
       <Footer />

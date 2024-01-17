@@ -33,7 +33,7 @@
   background: none;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
   font-size: 2.1rem;
   font-weight: 400;
 }
@@ -42,7 +42,7 @@
   color: var(--white);
   margin-top: -20px;
   background: none;
-  font-family: "Karla", sans-serif;
+  /* font-family: "Karla", sans-serif; */
   line-height: 1.2;
   font-size: 1rem;
   text-transform: none;
@@ -128,7 +128,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
   font-size: 1rem;
   font-weight: 100;
 }
@@ -152,7 +152,7 @@ img {
   padding-bottom: 5px;
   color: var(--white);
   line-height: 1.4;
-  font-family: "Karla", sans-serif;
+  /* font-family: "Karla", sans-serif; */
   font-size: 1.05rem;
   font-weight: 400;
 }
@@ -216,7 +216,7 @@ hr {
   background: none;
   padding-top: 30px;
   padding-bottom: 10px;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
   font-size: 1.8rem;
   font-weight: 400;
   padding-left: 10px;
@@ -227,7 +227,7 @@ hr {
   color: var(--white);
   margin-top: -5px;
   background: none;
-  font-family: "Karla", sans-serif;
+  /* font-family: "Karla", sans-serif; */
   line-height: 1.2;
   font-size: 17px;
   padding-left: 10px;
@@ -306,7 +306,7 @@ hr {
   top: 68%;
   left: 36.5%; */
   font-weight: 400;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
   margin: auto;
   letter-spacing: 0.8px;
 }

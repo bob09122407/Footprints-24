@@ -22,7 +22,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--text-family);
+  font-family: 'Century Gothic';
   text-transform: capitalize;
   text-decoration: none !important;
 
@@ -57,6 +57,7 @@
   color: white;
   display: block !important;
   text-decoration: none !important;
+  font-family: 'Century Gothic' !important;
 
   /* changed by abdeali */
 
@@ -67,6 +68,7 @@
   /* background: #333; */
   /* color:var(--icon-color); */
   color: rgb(205, 156, 225) !important;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .nav-header .custom-navbar ul li ul {
@@ -106,6 +108,7 @@
 
 .nav-header .custom-navbar .subItems a{
   text-decoration: none;
+  font-family: 'Century Gothic';
 }
 
 /* @media(max-width:1025px) { */
