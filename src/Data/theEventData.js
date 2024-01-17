@@ -474,6 +474,26 @@ const technotronData = {
       },
     },
   ],
+  techx: [
+    {
+      name: "Runtime",
+      background: "/src/assets/images/Logo/runtime.png",
+      details: {
+        info: [
+          "This event tests your programming skills. The challenge is to code the real-life problems in the computer world using any programming language interviewing different stages of coding and scoring the most among them",
+        ],
+        rules: [
+          "- No help from internet is allowed",
+          "- Programming languages preferred C, C++, C#, python, java etc",
+          "-	Criteria for qualification in round 2 and 3 will be filtered by the ranking given to each coder by Price footprints",
+          "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
+          "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
+        ],
+        Member: ["Individual"],
+        Price: ["100 Rs"],
+      },
+    },
+  ],
 };
 
 const questData = [
@@ -482,7 +502,8 @@ const questData = [
     background: "/src/assets/images/Logo/space.png",
     details: {
       info: [
-        "This event tests your programming skills. The challenge is to code the real-life problems in the computer world using any programming language interviewing different stages of coding and scoring the most among them",
+        "It is an event which checks your physical strength with games such as tug of war, wall climbing and much more."
+        
       ],
       rules: [
         "- No help from internet is allowed",
@@ -500,7 +521,7 @@ const questData = [
     background: "/src/assets/images/Logo/space.png",
     details: {
       info: [
-        "Participants will have to build a web/mobile application and incorporate the feature asked based on iOS/Windows or Android platform or any web technologies. Theme and design essentials for the website will be provided to them beforehand",
+        "It is a debate based event. This event would provide you a platform to exchange your views regarding a certain topic."
       ],
       rules: [
         "- Participants have to strictly design the web/mobile application based on the theme and design provided.",
@@ -520,7 +541,7 @@ const questData = [
     background: "/src/assets/images/Logo/space.png",
     details: {
       info: [
-        "It is a 3-day online Hackathon based event wherein the participants have to submit a developed project i.e., a mobile/web application based on a given theme provided on the website of HackPrints 2.0",
+        "It is a event based on web series with fun and exciting games.",
       ],
       rules: [
         "- It is an online event",
@@ -540,7 +561,7 @@ const questData = [
     background: "/src/assets/images/Logo/space.png",
     details: {
       info: [
-        "It is a paper presentation event related to computer and IT department.",
+        "In this participants will be able to experience 4 different games. i.e. Axe throw, Paintball shooting, Shuriken and archery.",
       ],
       rules: [
         "-	Participants have to submit the abstract of the presentation to protocol4fp23@gmail.com by 26th February 2023",
@@ -561,7 +582,7 @@ const questData = [
     background: "/src/assets/images/Logo/space.png",
     details: {
       info: [
-        "It is a paper presentation event related to computer and IT department.",
+        "It is a treasure hunt based event.Here the participants would have to decode a plot based on clues which would be hidden at various locations in the college.",
       ],
       rules: [
         "-	Participants have to submit the abstract of the presentation to protocol4fp23@gmail.com by 26th February 2023",
@@ -626,7 +647,7 @@ const fseData = [
     background: "/src/assets/images/Logo/space.png",
     details: {
       info: [
-        "This event tests your programming skills. The challenge is to code the real-life problems in the computer world using any programming language interviewing different stages of coding and scoring the most among them",
+        "In this event participants have to use their financial knowledge and get the maximum return for their money in different rounds and scenarios.",
       ],
       rules: [
         "- No help from internet is allowed",
@@ -635,8 +656,8 @@ const fseData = [
         "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
         "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
       ],
-      specs: ["- Announce before two days of event"],
-      team: ["- Individual Participation (Compulsory)"],
+      price: ["INR 180/-"],
+      team: ["- Compulsory 3"],
     },
   },
   {
@@ -644,7 +665,11 @@ const fseData = [
     background: "/src/assets/images/Logo/space.png",
     details: {
       info: [
-        "Participants will have to build a web/mobile application and incorporate the feature asked based on iOS/Windows or Android platform or any web technologies. Theme and design essentials for the website will be provided to them beforehand",
+        `\"Pitchers Project\" is an entrepreneurship event tailored for Footprints 24, designed to
+        foster innovation and support budding entrepreneurs in bringing their startup ideas to
+        fruition. This event serves as a platform for individuals with entrepreneurial aspirations
+        to showcase their business concepts, receive valuable feedback, and potentially secure
+        support for their ventures.`,
       ],
       rules: [
         "- Participants have to strictly design the web/mobile application based on the theme and design provided.",
@@ -655,8 +680,8 @@ const fseData = [
         "- Participants must bring their own laptops and internet, charging points will be provided",
         "- Final decision of judging criteria lies in the hands of team FootPrints",
       ],
-      specs: ["- Announce few days befor event"],
-      team: ["- Max 4"],
+      price: ["INR 250/-"],
+      team: ["Max 5"],
     },
   },
 ];
@@ -665,7 +690,7 @@ const theEventData = {
   technotron: technotronData,
   quest: questData,
   virtuosity: virtuosityData,
-  fse:fseData
+  fse: fseData,
 };
 
 export default theEventData;

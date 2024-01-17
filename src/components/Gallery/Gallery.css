@@ -20,7 +20,12 @@
   height: 100%;
   z-index: 20;
   transform: translateX(-100%);
-  background: linear-gradient(70deg, rgba(128, 186, 232, 0) 20%, rgba(255, 255, 255, 0.8) 50%, rgba(128, 186, 232, 0) 80%);
+  background: linear-gradient(
+    70deg,
+    rgba(128, 186, 232, 0) 20%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(128, 186, 232, 0) 80%
+  );
 }
 
 @keyframes sheenAnim {
@@ -34,14 +39,17 @@
 
 #img-loader {
   position: absolute;
-  background-color: seagreen;
-  font-size: 10em;
+  /* background-color: rgba(0, 0, 0, 0.578); */
+  font-size: 2em;
   z-index: 1000;
   left: 0;
   top: 0;
   animation-fill-mode: forwards !important;
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @keyframes fadeLoader {
   from {
@@ -57,14 +65,20 @@
   position: relative;
   display: grid;
   grid-template-columns: 100%;
-  width: 50%;
+  /* width: 100%; */
+  height: 300px;
+  margin: 10px;
+  border: 1px solid rgb(244, 157, 255);
   /* border-radius: 30px; */
-  aspect-ratio: 4/5;
 }
 
-@media screen and (min-width: 991px) {
-  .img-card {
-    width: 20%;
+@media screen and (max-width: 895px) {
+  .imgtext{
+    opacity: 1 !important;
+  }
+
+  .img-card:hover .back img{
+    opacity: 1 !important;
   }
 }
 
@@ -74,10 +88,10 @@
 }
 
 .img-card > .front {
-  grid-column: 1/1;
+  /* grid-column: 1/1; */
   height: 100%;
   border-radius: inherit;
-  background-size: contain;
+  /* background-size: contain; */
   z-index: 10;
   font-size: 10em;
   color: white;
@@ -89,21 +103,27 @@
   grid-column: 1/1;
   width: 100%;
   border-radius: inherit;
-  background: red;
-  border: 2px solid white;
+  /* background: red; */
+  border: 1px solid rgb(240, 154, 255);
   z-index: -10;
   opacity: 0;
   overflow: hidden;
-
-  img {
-    width: 100% !important;
-    border-radius: inherit;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    display: block;
-    margin-block: auto;
-  }
+  position: relative;
 }
+
+.img-card > .back  > img{
+  width: 100% !important;
+  border-radius: inherit;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  display: block;
+  margin-block: auto;
+  position: relative;
+  height: 100%;
+  z-index: 2;
+  transition: opacity 0.40s ease ;
+}
+
 
 @keyframes frontAnim {
   from {
@@ -142,6 +162,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 @media screen and (max-width: 500px) {
   .gal_header_img {
     height: 300px;
@@ -194,18 +215,27 @@
   }
 }
 
-.card-gallery .pics:hover .img-overlay .imgtext {
-  display: block;
+
+
+.imgtext{
+  width: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
   bottom: 0;
-  right: 0;
-  margin: auto;
-  color: var(--footer-icon-color);
-  z-index: 1;
-  width: fit-content;
-  height: fit-content;
+  z-index: 10;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.img-card:hover .imgtext{
+  opacity: 1;
+}
+
+.img-card:hover .back > img{
+  opacity: 0.6;
 }
 
 .card-gallery .pics:hover .img-overlay {

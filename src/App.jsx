@@ -31,7 +31,8 @@ import "./components/Common/CSS/Root.css";
 const queryClient = new QueryClient();
 import AOS from 'aos';
 import TheMoonPage from "./components/TheMoonPage/TheMoonPage";
-import LandingPage from "./components/LandingPage/landingpage";
+import LandingPage from "./components/LandingPage/Landingpage";
+// import Countdown from "./components/CountDown/Countdown"
 import Slider from "./components/HomePage/Segment/Segmentnew";
 
 import Techx from "./components/EventPage/Techx/Techx";
@@ -80,17 +81,15 @@ function App() {
             <Route exact path="/taleidoscope" element={<Taleido />} />
             <Route exact path="/fsr" element={<Fsr />} />
             <Route exact path="/schitron" element={<Schitron />} />
-            <Route exact path="/media" element={<MediaPage />} />
-            <Route exact path="/acco" element={<Acco />} />
+            <Route exact path="/accomodation" element={<Acco />} />
             <Route exact path="/media" element={<MediaPage />} />
             <Route exact path="/quest" element={<TheMoonPage theParent={"quest"}/>} />
             <Route exact path="/fse" element={<TheMoonPage theParent={"fse"} />} />
             <Route exact path="/virtuosity" element={<TheMoonPage theParent={"virtuosity"} />} />
             <Route exact path="/technotron/:event" element={<TheMoonPage theParent={"technotron"}/>} />   
             <Route exact path="/error" element={<Error/>}/>        
+            {/* <Route path="/count" element={<Countdown/>}/>        */}
             <Route path="/*" element={<Error/>}/>       
-            <Route exact path="/techx" element={<Techx/>} />
-           
           </Routes>
         </Router>
       </ThemeState>

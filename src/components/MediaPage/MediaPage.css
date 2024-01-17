@@ -23,8 +23,8 @@
   border-bottom: none;
   font-weight: 600;
 }
-.section-xs{
-        padding: 50px 0;
+.media-container{
+        padding: 50px 25px;
         /* background-color: white !important; */
 }
 
@@ -50,6 +50,5 @@
     /* color: var(--white); */
 }
 .media{
-    width: 100vw;
-
+    width: 100%;
 }

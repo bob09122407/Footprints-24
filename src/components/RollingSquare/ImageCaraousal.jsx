@@ -27,7 +27,7 @@ const ImageCarousel = () => {
         }
       );
   
-      const imgBoxes = document.querySelectorAll(".gallery img");
+      const imgBoxes = document.querySelectorAll(".rs_images-container .gallery img");
       imgBoxes.forEach((el) => {
         observer.observe(el);
       });

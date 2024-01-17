@@ -19,17 +19,17 @@ function MediaPage() {
             <Heading id="heading_media" title="MEDIA COVERAGE" />
           </div>
         </div>
-        <div className="section-xs container">
+        <div className="media-container">
           {/* <Heading id="heading_media" title="MEADIA COVERAGE"/> */}
 
           {/* <img className="col-lg-12 col-md-12 col-sm-6 col-xs-12 border-solid" src="src/assets/images/Media/latest.jpeg" /> */}
 
           <img
-            className="col-md-4 col-sm-12 col-xs-12 border-solid medias"
+            className="media"
             src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705170203/media/jdj1ijpmeh4g9j7ny4rz.png"
           />
           <img
-            className="col-md-4 col-sm-12 col-xs-12 border-solid medias"
+            className="media"
             src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705170188/media/dbndhpwum0hort1u0etk.png"
           />
 
