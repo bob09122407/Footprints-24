@@ -26,7 +26,7 @@ function Acco() {
       {/* <div className="reveal-text">
         <p className="reveal-soon-text">REVEALING SOON!</p>
       </div> */}
-      {/* <Revealing /> */}
+      <Revealing />
 
       <Sponsors />
       <Footer />
