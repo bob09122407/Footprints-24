@@ -17,7 +17,7 @@ const Glimpse = () => {
           <iframe
             width="373"
             height="210"
-            src="https://www.youtube.com/embed/8WBh9tEzzeQ"
+            src="https://www.youtube.com/embed/8K0BR9-wBNk?si=fzRs0h5xRDreDXnU"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -32,7 +32,7 @@ const Glimpse = () => {
           <iframe
             width="373"
             height="210"
-            src="https://www.youtube.com/embed/6p5UVHeReA0"
+            src="https://www.youtube.com/embed/8ox93Blaxqc?si=hcz2KQmPSfgUOzkU"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -67,15 +67,15 @@ const Glimpse = () => {
           data-aos-delay="100"
           data-aos-duration="1200"
         >
-          <a target="_blank" href="https://www.instagram.com/reel/ChuvQ05g7gI/?utm_source=ig_web_copy_link">
+          <a target="_blank" href="https://www.instagram.com/reel/CvmwsvAgR2U/?igshid=NTc4MTIwNjQ2YQ==">
             <img
-              src="https://res.cloudinary.com/dg894hntd/image/upload/v1703326648/Jasleen_Royal_thumbnail_xkevdc.jpg"
+              src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705426901/reel/veozcwrvwumlxv794d5x.jpg"
               className="imagef"
               alt=""
               width="300px"
             />
             <div className="ig-overlay">
-              <img src="https://res.cloudinary.com/dtddbqymx/image/upload/v1674675468/Insta-icon3_z0wufu.png" alt="" />
+              <img src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705427552/reel/ncbl5lrsub6rybpi1zpa.png" alt="" />
             </div>
           </a>
         </div>
@@ -86,15 +86,15 @@ const Glimpse = () => {
           data-aos-delay="100"
           data-aos-duration="1200"
         >
-          <a target="_blank" href="https://www.instagram.com/reel/Cg3PD3QKGj7/?utm_source=ig_web_copy_link">
+          <a target="_blank" href="https://www.instagram.com/reel/Ct0h_36At9K/?igshid=NTc4MTIwNjQ2YQ==">
             <img
-              src="https://res.cloudinary.com/dg894hntd/image/upload/v1703326649/FSR_Thumbnail_wnk7nj.jpg"
+              src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705426791/reel/y3nh8xyomrreujzpqpxh.jpg"
               className="imagef"
               alt=""
               width="300px"
             />
             <div className="ig-overlay">
-              <img src="https://res.cloudinary.com/dtddbqymx/image/upload/v1674675468/Insta-icon3_z0wufu.png" alt="" />
+              <img src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705427552/reel/ncbl5lrsub6rybpi1zpa.png" alt="" />
             </div>
           </a>
         </div>
@@ -107,15 +107,15 @@ const Glimpse = () => {
           data-aos-delay="100"
           data-aos-duration="1200"
         >
-          <a target="_blank" href="https://www.instagram.com/reel/CeVyZm6KR3S/?utm_source=ig_web_copy_link">
+          <a target="_blank" href="https://www.instagram.com/reel/CvhA84wARr2/?igshid=NTc4MTIwNjQ2YQ==">
             <img
-              src="https://res.cloudinary.com/dg894hntd/image/upload/v1703326761/Immortalise_memory_thumbnail_vbfkxq.jpg"
+              src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705426823/reel/tzwpochuotli4yjurkdy.jpg"
               className="imagef"
               alt=""
               width="300px"
             />
             <div className="ig-overlay">
-              <img src="https://res.cloudinary.com/dtddbqymx/image/upload/v1674675468/Insta-icon3_z0wufu.png" alt="" />
+              <img src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705427552/reel/ncbl5lrsub6rybpi1zpa.png" alt="" />
             </div>
           </a>
         </div>

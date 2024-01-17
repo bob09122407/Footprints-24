@@ -52,17 +52,11 @@ const Fse = () => {
       background: icon1,
       details: {
         info: [
-          "This event tests your programming skills. The challenge is to code the real-life problems in the computer world using any programming language interviewing different stages of coding and scoring the most among them",
+          "Capital represents your investment, the cost signifies your expenditure, value denotesyour return, and profit stands as your achievement. Dive into the dynamic market ofFootPrints X24, featuring the Market under FSE. Hone your skills in an immersive virtualstock market, presenting an opportunity to test your abilities and experience theexcitement of financial trading."
         ],
-        rules: [
-          "- No help from internet is allowed",
-          "- Programming languages preferred C, C++, C#, python, java etc",
-          "-	Criteria for qualification in round 2 and 3 will be filtered by the ranking given to each coder by team footprints",
-          "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
-          "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
-        ],
-        specs: ["- Announce before two days of event"],
-        team: ["- Individual Participation (Compulsory)"],
+        rules: ["Your Stock Broking skills will be tested"],
+        specs: ["180 Rs"],
+        team: ["Compulsary 3"],
       },
     },
     {
@@ -70,19 +64,11 @@ const Fse = () => {
       background: icon2,
       details: {
         info: [
-          "Participants will have to build a web/mobile application and incorporate the feature asked based on iOS/Windows or Android platform or any web technologies. Theme and design essentials for the website will be provided to them beforehand",
+          "\"Pitchers Project\" is an entrepreneurship event tailored for Footprints 24, designed tofoster innovation and support budding entrepreneurs in bringing their startup ideas tofruition. This event serves as a platform for individuals with entrepreneurial aspirationsto showcase their business concepts, receive valuable feedback, and potentially securesupport for their ventures"
         ],
-        rules: [
-          "- Participants have to strictly design the web/mobile application based on the theme and design provided.",
-          "- 36 hours will be given to complete the whole application",
-          "-	Questions based on the designed application may be asked by the judges",
-          "- Knowledge of frontend as well as backend is required",
-          "- Use of any technology is allowed",
-          "- Participants must bring their own laptops and internet, charging points will be provided",
-          "- Final decision of judging criteria lies in the hands of team FootPrints",
-        ],
-        specs: ["- Announce few days befor event"],
-        team: ["- Max 4"],
+        rules: ["Your Enterpreneurs skills will be tested"],
+        specs: ["250 Rs"],
+        team: ["- Max 5"],
       },
     },
   ];
