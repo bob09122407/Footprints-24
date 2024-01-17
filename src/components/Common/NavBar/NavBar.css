@@ -14,7 +14,7 @@
   right: 0 !important;
   background-color: rgba(0, 0, 0, 0.404);
   box-shadow: 0 5px 10px var(--navbar-shadow) !important;
-  padding: 0px 7% !important;
+  padding: 0px 1% !important;
   display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;

@@ -913,7 +913,6 @@ body {
     height: 62%;
     border-radius: 50% 50% 0% 0%;
     /* bottom: -20%; */
-    height: 300px;
     left: -50%;
     position: relative;
     transform: translateY(50%);
