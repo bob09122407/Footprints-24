@@ -117,6 +117,7 @@ body::-webkit-scrollbar-thumb {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(205, 156, 225);
 }
+
 [data-theme="light"] {
   --background-color: white;
   --white: black;
