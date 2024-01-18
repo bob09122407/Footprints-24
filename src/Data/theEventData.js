@@ -485,8 +485,8 @@ const technotronData = {
         rules: [
           "Introducing our advanced language model designed to tackle a myriad of tasks and solve complex problems. Whether it's generating creative content, providing detailed information, or assisting with various queries, our model is a versatile solution. The judging panel is invited to explore the capabilities of this powerful tool and ask any questions to witness its adaptability and effectiveness in addressing a wide range of challenges.",
         ],
-        Member: ["Maximum 5"],
-        Price: ["250 Rs"],
+        team: ["Maximum 5"],
+        price: ["250 Rs"],
       },
     },
   ],
