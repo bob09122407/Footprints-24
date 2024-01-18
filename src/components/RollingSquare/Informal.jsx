@@ -35,14 +35,14 @@ const Informal = () => {
   },[])
 
   const imageSources = [
-    "https://res.cloudinary.com/du1tas6pe/image/upload/v1705577440/informals/kgikhykjkrjpbgttg8m0.jpg",
-    "src/assets/images/temp/2.jpg",
-    "src/assets/images/temp/3.jpg",
-    "src/assets/images/temp/4.jpg",
-    "https://res.cloudinary.com/doe7b5us3/image/upload/v1673973552/Kaleido-Prev/Ornithopter_yshgxm.jpg",
-    "https://res.cloudinary.com/doe7b5us3/image/upload/v1673973507/Kaleido-Prev/army-robot_drvgpl.jpg",
-    "https://res.cloudinary.com/doe7b5us3/image/upload/v1673971053/Kaleido-Prev/Star_syjsrh.jpg",
-    "https://res.cloudinary.com/doe7b5us3/image/upload/v1673971053/Kaleido-Prev/Star_syjsrh.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705584343/informals/e9vlvfynbfwz0eyfplvr.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705584341/informals/yyddv5gxwbjlijonfkm3.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705584341/informals/c5dcsdohe57wpftlfsur.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705584343/informals/vivkdxmf4gmym2y9rksk.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705584342/informals/lkqef1sdgmfqp1gia4iw.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705584340/informals/yjciwf8d5tzqqrfrfnt2.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705584340/informals/fi4pdlzn0jonzoy6fyfj.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705584343/informals/ie1ebasip8grgmnoh3ff.jpg",
 
     // "src/assets/images/temp/1.jpg",
     // "src/assets/images/temp/2.jpg",
