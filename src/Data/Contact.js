@@ -2,22 +2,22 @@ const ContactData = [
   {
     id: 1,
     imgSrc:
-      "https://res.cloudinary.com/dm4earvp9/image/upload/v1673867315/Vedant_Shah_1_qpnkk3.jpg",
-    name: "Harshil Chavda",
-    details: "Head, Core Committee",
-    fp: "FootPrints'24",
-    contact: "+91-9265574891",
-    mail: "harshil.chavda@msufp.in",
-  },
-  {
-    id: 2,
-    imgSrc:
-      "https://res.cloudinary.com/dm4earvp9/image/upload/v1673885153/Khushal_S_piefyx.jpg",
+      "https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/rsawplbwagoinwpjsehb.jpg",
     name: "Varun Patel",
     details: "Head, Core Committee",
     fp: "FootPrints'24",
     contact: "+91-7874287905",
     mail: "varun.patel@msufp.in",
+  },
+  {
+    id: 2,
+    imgSrc:
+      "https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/mwlv12pzb5ytmbuegixi.jpg",
+    name: "Harshil Chavda",
+    details: "Head, Core Committee",
+    fp: "FootPrints'24",
+    contact: "+91-9265574891",
+    mail: "harshil.chavda@msufp.in",
   },
 ];
 
