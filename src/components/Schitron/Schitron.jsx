@@ -58,6 +58,14 @@ To encourage young brains and introduce school students to the fascinating world
           </p>
         </div>
         <div className="robo-outside">
+          <Heading title="Monochrome Workshop" />
+          <div className="robo">
+            <p className="scitron-des">
+            Under the ‘Schitron' banner , FootPrints’24 organised a workshop for the students of The Mother’s school which focused on the development of autonomous line follower bots for higher secondary students. The participants were exposed to a comprehensive introduction to mechatronics and electric vehicles (EV). The instructional content encompassed fundamental programming skills and adept utilization of Arduino and infrared (IR) sensors. A cohort of approximately 60 students actively engaged in the workshop, constructing their autonomous bots. All requisite materials were provided by us. The workshop achieved commendable success in instilling a zealous curiosity among novices, inspiring them to delve into the rudiments of mechatronics and fostering a heightened interest in the technical realm.
+            </p>
+          </div>
+        </div>
+        <div className="robo-outside">
           <Heading title="Home Automation Workshop" />
           <div className="robo">
             <p className="scitron-des">
