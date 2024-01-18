@@ -142,7 +142,7 @@ function Contact() {
                     <div className="contact-details tb-logo">
                       <img
                         className="tbLogo"
-                        src="https://res.cloudinary.com/dnsvjhy0a/image/upload/v1664481616/About/try1_l05d0o.gif"
+                        src="/src/assets/tb.gif"
                         alt="#Think Beyond"
                         height="250px"
                         width="300px"
@@ -159,7 +159,7 @@ function Contact() {
                     <div className="contact-details tb-logo1">
                       <img
                         className="tbLogo"
-                        src="https://res.cloudinary.com/dnsvjhy0a/image/upload/v1664481616/About/try1_l05d0o.gif"
+                        src="/src/assets/tb.gif"
                         alt="# Think Beyond"
                         height="250px"
                         width="300px"

@@ -9,14 +9,14 @@ const menuItems = [
         Department: 1,
 
         title: "Cybernetics",
-        link: "/technotron/cybernatics",
+        link: "/technotron/cybernetics",
       },
 
       {
         Department: 2,
 
-        title: "Mechenema",
-        link: "/technotron/mechenema",
+        title: "Macheanema",
+        link: "/technotron/macheanema",
      
       },
 
@@ -71,7 +71,7 @@ const menuItems = [
       {
         Department: 1,
         title: "Guest Lectures",
-        link: "/guestlecture",
+        link: "/guest-lecture",
       },
 
       {

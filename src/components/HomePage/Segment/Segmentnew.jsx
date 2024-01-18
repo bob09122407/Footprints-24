@@ -3,6 +3,7 @@ import './segmentnew.css'; // Replace with your CSS file
 // import phoo from "../../../assets/images/Logo/center.png"
 import phoo from "../../../assets/images/Logo/segment.png"
 import Heading from '../../Common/Headings/Heading';
+
 const Slider = () => {
   const slideRef = useRef(null);
   const nextSlide = () => {

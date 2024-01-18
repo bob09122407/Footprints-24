@@ -87,7 +87,7 @@ export default function RollingSquare() {
           className="w-full h-full object-cover"
           width="100%"
         >
-          <source src={Vid} type="video/mp4" />
+          <source src={'/src/assets/headingVFX/rolling-squares.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

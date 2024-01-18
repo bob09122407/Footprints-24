@@ -1,5 +1,5 @@
 const technotronData = {
-  cybernatics: [
+  cybernetics: [
     {
       name: "Runtime",
       background: "/src/assets/images/Logo/space.png",
@@ -19,7 +19,7 @@ const technotronData = {
       },
     },
     {
-      name: "Code&Create",
+      name: "WebTech",
       background: "/src/assets/images/Logo/space.png",
       details: {
         info: [
@@ -59,7 +59,7 @@ const technotronData = {
       },
     },
     {
-      name: "Protocol",
+      name: "AlgoSync",
       background: "/src/assets/images/Logo/space.png",
       details: {
         info: [
@@ -169,7 +169,7 @@ const technotronData = {
       },
     },
   ],
-  mechenema: [
+  macheanema: [
     {
       name: "Burnout",
       background: "/src/assets/images/Logo/space.png",
@@ -616,7 +616,7 @@ const virtuosityData = [
     },
   },
   {
-    name: "Valorent",
+    name: "Valorant",
     background: "/src/assets/images/Logo/space.png",
     details: {
       info: [

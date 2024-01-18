@@ -2,14 +2,7 @@
 
 import React, { useState, useRef } from "react";
 import "./technotron.css"; // Make sure this path is correct
-import icon1 from "/src/assets/images/Logo/space.png";
-import icon2 from "/src/assets/images/Logo/space.png";
-import icon3 from "/src/assets/images/Logo/space.png";
-import icon4 from "/src/assets/images/Logo/space.png";
-import icon5 from "/src/assets/images/Logo/space.png";
-import icon6 from "/src/assets/images/Logo/space.png";
-import Vid from "/src/assets/images/Logo/c.mp4";
-import { Navigate, redirect, useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import theEventData from "../../Data/theEventData";
 import Heading from "../Common/Headings/Heading";
 import Sponsors from "../Common/SponsorSlide/Sponsors";
@@ -33,7 +26,6 @@ const TheMoonPage = ({ theParent }) => {
   const [selectedTab, setSelectedTab] = useState(); // Set default tab
   const [selectedMenu, setSelectedMenu] = useState(null);
   const detailsRef = useRef(null);
-  const [activeIcons, setActiveIcons] = useState({});
   // const sectionRef= useRef(null);
 
   const toggleMenu = (menu) => {
@@ -85,7 +77,7 @@ const TheMoonPage = ({ theParent }) => {
             className="w-full h-full object-cover"
             width="100%"
           >
-            <source src={Vid} type="video/mp4" />
+            <source src={`/src/assets/headingVFX/${event===undefined?theParent:event}.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
