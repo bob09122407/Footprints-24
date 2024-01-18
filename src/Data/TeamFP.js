@@ -2,9 +2,9 @@
 const coordinatorsData = [
   {
     id: 1,
-    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/j5skfzf4wihdy7oj4hgn.jpg`,
-    name: "Kuntal Avaiya",
-    linked: `https://www.linkedin.com/in/kuntal-avaiya-5636b0188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app`,
+    imgSrc: `https://res.cloudinary.com/dez7ewrzk/image/upload/v1673864805/Akshit_Patel_xs73lr.jpg`,
+    name: "Akshit Patel",
+    linked: `https://www.linkedin.com/in/akshit-patel-a54643177`,
   },
   {
     id: 2,
@@ -14,32 +14,35 @@ const coordinatorsData = [
   },
   {
     id: 3,
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/j5skfzf4wihdy7oj4hgn.jpg`,
+    name: "Kuntal Avaiya",
+    linked: `https://www.linkedin.com/in/kuntal-avaiya-5636b0188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app`,
+  },
+  
+  {
+    id: 4,
     imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/qx865rlhdhr8iagaarbj.jpg`,
     name: "Raj Doshi",
     linked: `https://www.linkedin.com/in/raj-doshi-6b3869243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
   },
-  {
-    id: 4,
-    imgSrc: `https://res.cloudinary.com/dez7ewrzk/image/upload/v1673864805/Akshit_Patel_xs73lr.jpg`,
-    name: "Akshit Patel",
-    linked: `https://www.linkedin.com/in/akshit-patel-a54643177`,
-  },
+  
 ];
 
 //Heads
 const headsData = [
   {
     id: 1,
-    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/rsawplbwagoinwpjsehb.jpg`,
-    name: "Varun Patel",
-    linked: `https://www.linkedin.com/in/varun-patel-24405a222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
-  },
-  {
-    id: 2,
     imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/mwlv12pzb5ytmbuegixi.jpg`,
     name: "Harshil Chavda",
     linked: `https://www.linkedin.com/in/chavda-harshil?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
   },
+  {
+    id: 2,
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/rsawplbwagoinwpjsehb.jpg`,
+    name: "Varun Patel",
+    linked: `https://www.linkedin.com/in/varun-patel-24405a222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
+  },
+  
 ];
 
 //Core commitee
