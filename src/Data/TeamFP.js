@@ -170,18 +170,18 @@ const ccData = [
 const orgcData = [
   {
     id: 1,
-    imgSrc: `https://res.cloudinary.com/ddf6vdpkz/image/upload/v1673875981/Aditi_Jethwa_tmvvlo.jpg`,
-    name: "Aditi Jethwa",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/kd6ymo1rq3mwtqp8pzj1.jpg`,
+    name: "Ayesha Patel",
   },
   {
     id: 2,
-    imgSrc: `https://res.cloudinary.com/ddf6vdpkz/image/upload/v1673875981/Aditya_Lad_ryazog.jpg`,
-    name: "Aditya Lad",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/uwfb6ow2mzegpv3zfqv3.jpg`,
+    name: "Ayush Alsika",
   },
   {
     id: 3,
-    imgSrc: `https://res.cloudinary.com/ddf6vdpkz/image/upload/v1673875980/Aditya_Vaishishth_kfg4gy.jpg`,
-    name: "Aditya Vashishtha",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/whgn2ehusp3afk5scgry.jpg`,
+    name: "Dev Sanchla",
   },
   // {
   //   id: 4,
@@ -190,33 +190,33 @@ const orgcData = [
   // },
   {
     id: 5,
-    imgSrc: `https://res.cloudinary.com/ddf6vdpkz/image/upload/v1673875980/Amit_Rohit_fjjc3i.jpg`,
-    name: "Amit Rohit",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705595489/FP%2724%20Website%20Photos/pfl4ihppfjyze37n0uif.jpg`,
+    name: "Dhaval Saxena",
   },
   {
     id: 6,
-    imgSrc: `https://res.cloudinary.com/ddf6vdpkz/image/upload/v1673875980/Ayushi_Sharma_b8mccb.jpg`,
-    name: "Ayushi Sharma",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/l2g02jdtyepkypz84y4s.jpg`,
+    name: "Dhruv Tapre",
   },
   {
     id: 7,
-    imgSrc: `https://res.cloudinary.com/ddf6vdpkz/image/upload/v1674561173/Dev_Patel_uyhbvb.jpg`,
-    name: "Dev Patel",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/nfmcatefysa1xtrqo3jv.jpg`,
+    name: "Dhruv Vyas",
   },
   {
     id: 8,
-    imgSrc: `https://res.cloudinary.com/ddf6vdpkz/image/upload/v1673875980/Dhrumi_Patel_jhiybn.jpg`,
-    name: "Dhrumi Patel",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/lclryzbt4vv9ubk6dtkh.jpg`,
+    name: "Dhyey",
   },
   {
     id: 9,
-    imgSrc: `https://res.cloudinary.com/ddf6vdpkz/image/upload/v1673875980/Gurudatt_Dave_eyvbq0.jpg`,
-    name: "Gurudutt Dave",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/brjnxdqmrywg4rnrimu7.jpg`,
+    name: "Digvijay Shekhawat",
   },
   {
     id: 10,
-    imgSrc: `https://res.cloudinary.com/ddf6vdpkz/image/upload/v1673875981/Harshil_Chavda_ilyylo.jpg`,
-    name: "Harshil Chavda",
+    imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877241/Divyesh_Rathwa_ollk0v.jpg`,
+    name: "Divyeshkumar Rathwa",
   },
   // {
   //   id: 11,
@@ -225,18 +225,18 @@ const orgcData = [
   // },
   {
     id: 12,
-    imgSrc: `https://res.cloudinary.com/dloshnz11/image/upload/v1673876441/Het_Agnihotri_p9ubdv.jpg`,
-    name: "Het Aghnihotri",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/o7l40dpaz4wj2olbdnui.jpg`,
+    name: "Diya Patel",
   },
   {
     id: 13,
-    imgSrc: `https://res.cloudinary.com/dloshnz11/image/upload/v1673876439/Hiral_Patel_azdc1h.jpg`,
-    name: "Hiral Patel",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/kehlwjmdg97a1am3ssuz.jpg`,
+    name: "Heer Mistry",
   },
   {
     id: 14,
-    imgSrc: `https://res.cloudinary.com/dloshnz11/image/upload/v1673876441/Jacob_iicf8u.jpg`,
-    name: "Jacob Teye Sappor",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705595479/FP%2724%20Website%20Photos/cet6dag0kyflslaaw8ws.jpg`,
+    name: "Joy Patel",
   },
   // {
   //   id: 15,
@@ -245,33 +245,33 @@ const orgcData = [
   // },
   {
     id: 16,
-    imgSrc: `https://res.cloudinary.com/dloshnz11/image/upload/v1673876439/Khushi_Prajapati_pz1j5g.jpg`,
-    name: "Khushee Prajapati",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/tbnaqxymdh2vmavlyt4z.jpg`,
+    name: "Krina Mehta",
   },
   {
     id: 17,
-    imgSrc: `https://res.cloudinary.com/dloshnz11/image/upload/v1673876438/Krisha_Desai_ckqip4.jpg`,
-    name: "Krisha Desai",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/ztkqb6fos69ee3tqroyp.jpg`,
+    name: "Krisha Gandhi",
   },
   {
     id: 18,
-    imgSrc: `https://res.cloudinary.com/dloshnz11/image/upload/v1673876438/Marmik_Sharma_pyftju.jpg`,
-    name: "Marmik Sharma",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/qoaoqxib0jplobza4lr8.jpg`,
+    name: "Krunal Vankar",
   },
   {
     id: 19,
-    imgSrc: `https://res.cloudinary.com/dloshnz11/image/upload/v1673876438/Mihir_Bhavsar_tt5bvq.jpg`,
-    name: "Mihir Bhavsar",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/gv2syd5uzwftsuhlncib.jpg`,
+    name: "Meghana Vasava",
   },
   {
     id: 20,
-    imgSrc: `https://res.cloudinary.com/dloshnz11/image/upload/v1673876437/Naina_Mathad_n5zs5n.jpg`,
-    name: "Naina Mathad",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/lnqvlszehwbw3twq5xbo.jpg`,
+    name: "Mohammad Sahal Jethra",
   },
   {
     id: 21,
-    imgSrc: `https://res.cloudinary.com/dloshnz11/image/upload/v1673876437/Parthiv_Ghedia_cbuk7m.jpg`,
-    name: "Parthiv Ghedia",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/otijahksoz9ip5budxsz.jpg`,
+    name: "Mokshesh shah",
   },
   // {
   //   id: 22,
@@ -280,33 +280,33 @@ const orgcData = [
   // },
   {
     id: 23,
-    imgSrc: `https://res.cloudinary.com/dloshnz11/image/upload/v1673876437/Pulin_Makwana_tnrbvs.jpg`,
-    name: "Pulin Makwana",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/bzkwfet2sj42niz56qcg.jpg`,
+    name: "Nachiket Karambelkar",
   },
   {
     id: 24,
-    imgSrc: `https://res.cloudinary.com/dllzwhvqp/image/upload/v1673876842/Raj_Lad_satgp2.jpg`,
-    name: "Raj Lad",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/n4wcbvmyj6ek9wtgvoiu.jpg`,
+    name: "Niramay Patel",
   },
   {
     id: 25,
-    imgSrc: `https://res.cloudinary.com/dllzwhvqp/image/upload/v1673876843/Rajanya_Gupta_q9z3cp.jpg`,
-    name: "Raajanya Gupta",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/mletlvnippyaf1v6nemp.jpg`,
+    name: "Nishi Modi",
   },
   {
     id: 26,
-    imgSrc: `https://res.cloudinary.com/dllzwhvqp/image/upload/v1673876841/Satyam_Goswami_vfoatp.jpg`,
-    name: "Satyam Goswami",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/sk5qka7eago4g0zhzk7x.jpg`,
+    name: "Pavan Khemani",
   },
   {
     id: 27,
-    imgSrc: `https://res.cloudinary.com/dllzwhvqp/image/upload/v1673876843/Shabbir_kbsqff.jpg`,
-    name: "Shabbir Bharmal",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/bp5nunswgkt7njdihoqc.jpg`,
+    name: "Pearl Sharma",
   },
   {
     id: 28,
-    imgSrc: `https://res.cloudinary.com/dllzwhvqp/image/upload/v1673876841/Shardul_Bhave_bhc0tw.jpg`,
-    name: "Shardul Bhave",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/lffr1dkp8m6aqebablww.jpg`,
+    name: "Priyanshu Chauhan",
   },
   // {
   //   id: 29,
@@ -315,23 +315,23 @@ const orgcData = [
   // },
   {
     id: 30,
-    imgSrc: `https://res.cloudinary.com/dllzwhvqp/image/upload/v1674561314/Shruti_Patel_gb20bi.jpg`,
-    name: "Shruti Patel",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/fp4p131fkz97pe2qd2kw.jpg`,
+    name: "Rajal Mandalia",
   },
   {
     id: 31,
-    imgSrc: `https://res.cloudinary.com/dllzwhvqp/image/upload/v1673876845/Tia_Patel_kh3swt.jpg`,
-    name: "Tiya Patel",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/h4pjrdtip6mjt6pz93i0.jpg`,
+    name: "Satchit Bhatt",
   },
   {
     id: 32,
-    imgSrc: `https://res.cloudinary.com/dllzwhvqp/image/upload/v1673876841/Varun_Patel_exhzwd.jpg`,
-    name: "Varun Patel",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705595463/FP%2724%20Website%20Photos/qjj2hinbazhc9x1d238u.jpg`,
+    name: "Sumit Vankar",
   },
   {
     id: 33,
-    imgSrc: `https://res.cloudinary.com/dllzwhvqp/image/upload/v1673876841/Yeshi_Kando_kmqvoa.jpg`,
-    name: "Yeshi Kando",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/ic7dce8iehvqhcj5fil6.jpg`,
+    name: "Vishwa Prajapati",
   },
   // {
   //   id: 34,
@@ -340,8 +340,8 @@ const orgcData = [
   // },
   {
     id: 35,
-    imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877245/Zenil_Kalariya_udi5xy.jpg`,
-    name: "Zenil Kalariya",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/k0t8xvlnofh8aj6rzdy1.jpg`,
+    name: "Vrunda Radadiya",
   },
   // {
   //   id: 36,
@@ -350,79 +350,79 @@ const orgcData = [
   // },
   {
     id: 37,
-    imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877256/Ayesha_Patel_xvqdb3.jpg`,
-    name: "Ayesha Patel",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/tdghg2nombinc3ozjh9i.jpg`,
+    name: "Yana Velani",
   },
   {
     id: 38,
-    imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877245/Dhaval_Sucsena_y44frb.jpg`,
-    name: "Dhaval Saxena",
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/t35f7izmzo0b0udsi2rp.jpg`,
+    name: "Yashvi Soni",
   },
-  {
-    id: 39,
-    imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877244/Digvijay_Shikhawat_bxnxip.jpg`,
-    name: "Digvijay Shekhawat",
-  },
-  {
-    id: 40,
-    imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877241/Divyesh_Rathwa_ollk0v.jpg`,
-    name: "Divyesh Rathwa",
-  },
-  {
-    id: 41,
-    imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877243/Harsh_Makwana_i2suza.jpg`,
-    name: "Harsh Makwana",
-  },
-  {
-    id: 42,
-    imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877242/Heer_Mistry_lvcitt.jpg`,
-    name: "Heer Mistry",
-  },
-  {
-    id: 43,
-    imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877241/Joy_Patel_ielinr.jpg`,
-    name: "Joy Patel",
-  },
+  // {
+  //   id: 39,
+  //   imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877244/Digvijay_Shikhawat_bxnxip.jpg`,
+  //   name: "Digvijay Shekhawat",
+  // },
+  // {
+  //   id: 40,
+  //   imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877241/Divyesh_Rathwa_ollk0v.jpg`,
+  //   name: "Divyesh Rathwa",
+  // },
+  // {
+  //   id: 41,
+  //   imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877243/Harsh_Makwana_i2suza.jpg`,
+  //   name: "Harsh Makwana",
+  // },
+  // {
+  //   id: 42,
+  //   imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877242/Heer_Mistry_lvcitt.jpg`,
+  //   name: "Heer Mistry",
+  // },
+  // {
+  //   id: 43,
+  //   imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877241/Joy_Patel_ielinr.jpg`,
+  //   name: "Joy Patel",
+  // },
   // {
   //   id: 44,
   //   imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877241/Karan_Baria_it6psf.jpg`,
   //   name: "Karan Bariya",
   // },
-  {
-    id: 45,
-    imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877240/Krunal_Vankar_of31g8.jpg`,
-    name: "Krunal Vankar",
-  },
-  {
-    id: 46,
-    imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877963/Meet_Nathwani_z4hgba.jpg`,
-    name: "Meet Nathwani",
-  },
-  {
-    id: 47,
-    imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877963/Meghna_wxoduk.jpg`,
-    name: "Meghana Vasava",
-  },
-  {
-    id: 48,
-    imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877963/Nachiket_q5vcep.jpg`,
-    name: "Nachiket Karambelkar",
-  },
-  {
-    id: 49,
-    imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877963/Sahil_Bhanderi_doffhc.jpg`,
-    name: "Sahil Bhanderi",
-  },
-  {
-    id: 50,
-    imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877962/Sanket_Agrawal_iluzqk.jpg`,
-    name: "Sanket Agrawal",
-  },
-  {
-    id: 51,
-    imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877962/Satchit_Bhatt_sbtj4d.jpg`,
-    name: "Satchit Bhatt",
-  },
+  // {
+  //   id: 45,
+  //   imgSrc: `https://res.cloudinary.com/dxglkatw1/image/upload/v1673877240/Krunal_Vankar_of31g8.jpg`,
+  //   name: "Krunal Vankar",
+  // },
+  // {
+  //   id: 46,
+  //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877963/Meet_Nathwani_z4hgba.jpg`,
+  //   name: "Meet Nathwani",
+  // },
+  // {
+  //   id: 47,
+  //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877963/Meghna_wxoduk.jpg`,
+  //   name: "Meghana Vasava",
+  // },
+  // {
+  //   id: 48,
+  //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877963/Nachiket_q5vcep.jpg`,
+  //   name: "Nachiket Karambelkar",
+  // },
+  // {
+  //   id: 49,
+  //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877963/Sahil_Bhanderi_doffhc.jpg`,
+  //   name: "Sahil Bhanderi",
+  // },
+  // {
+  //   id: 50,
+  //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877962/Sanket_Agrawal_iluzqk.jpg`,
+  //   name: "Sanket Agrawal",
+  // },
+  // {
+  //   id: 51,
+  //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877962/Satchit_Bhatt_sbtj4d.jpg`,
+  //   name: "Satchit Bhatt",
+  // },
   // {
   //   id: 52,
   //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877959/Smit_Panchal_qyn5et.jpg`,
@@ -433,26 +433,26 @@ const orgcData = [
   //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877959/Sujal_Patel_urvn7h.jpg`,
   //   name: "Sujal Patel",
   // },
-  {
-    id: 54,
-    imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877958/Sumit_Vankar_ev5zuf.jpg`,
-    name: "Sumit Vankar",
-  },
-  {
-    id: 55,
-    imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877959/Vikrant_Bhatt_mqk5vu.jpg`,
-    name: "Vikrant Bhatt",
-  },
-  {
-    id: 56,
-    imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877958/Vishwa_Prajapati_kpjshe.jpg`,
-    name: "Vishwa Prajapati",
-  },
-  {
-    id: 57,
-    imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877959/Vrunda_Radadiya_audhqm.jpg`,
-    name: "Vrunda Radadiya",
-  },
+  // {
+  //   id: 54,
+  //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877958/Sumit_Vankar_ev5zuf.jpg`,
+  //   name: "Sumit Vankar",
+  // },
+  // {
+  //   id: 55,
+  //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877959/Vikrant_Bhatt_mqk5vu.jpg`,
+  //   name: "Vikrant Bhatt",
+  // },
+  // {
+  //   id: 56,
+  //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877958/Vishwa_Prajapati_kpjshe.jpg`,
+  //   name: "Vishwa Prajapati",
+  // },
+  // {
+  //   id: 57,
+  //   imgSrc: `https://res.cloudinary.com/djgzic4pc/image/upload/v1673877959/Vrunda_Radadiya_audhqm.jpg`,
+  //   name: "Vrunda Radadiya",
+  // },
 ];
 
 
