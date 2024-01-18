@@ -4,7 +4,7 @@ import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import "./Workshop.css";
 import Heading from "../Common/Headings/Heading";
-import Vid from "../../assets/images/Logo/c.mp4"
+
 function Workshop() {
   useEffect(() => {
     document.title = "Workshops | FootPrints'24";
@@ -21,7 +21,7 @@ function Workshop() {
           className="w-full h-full object-cover"
           width="100%"
         >
-          <source src={Vid} type="video/mp4" />
+          <source src={'https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597470/vdos/mwwq0k4owswdxmab3a3e.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

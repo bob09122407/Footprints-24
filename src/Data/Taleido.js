@@ -2,31 +2,28 @@ const TaleidoData = [
   {
     id: 1,
 
-    name: "AMORY LOVINS",
+    name: "Lynn Chominsky",
 
     details: "Adjunct Professor & Scholar, Stanford University",
 
     imgSrc:
-      "https://res.cloudinary.com/doe7b5us3/image/upload/v1673978954/Kaleido-Prev/Taleido-1_mumfcc.jpg",
+      "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705602186/taleido/eqlborwa2uihmsh1ft30.jpg",
 
-    content:
-      "Professor at Stanford University. Former chairman/chief scientist of Rocky Mountain Institute. He has won many awards like Time Magazines for world’s 100 most influential people and Blue Planet Prize. Wrote energy policy for 4 decades and served on US National Petroleum Council. Works for environment efficient energy since he started RMI and made many projects like Hypercar, Solar heater, etc. Worked with many companies listed under Fortune 500 and UN for energy consumption. Wrote over 31 books, he's a physicist and an advocate.",
+    content: `Lynn Chominsky, current Project Head at NASA's Education and Public Outreach Group, is an American astrophysicist and Chair of Astronomy and Physics at Sonoma State University. With over 225 research papers, she founded SSU's EdEon STEM Learning, contributing educational materials to NASA, NSF, and the US Department of Education. Chominsky, a recipient of the 2016 Education Prize from the American Astronomical Society, the 2016 Wang Family Excellence Award, and the 2017 Frank J. Malina Education Medal, demonstrates a commitment to advancing both astrophysics and education.`,
 
     ytlink: "https://youtu.be/HxMQa-1-TLk",
   },
   {
     id: 2,
 
-    name: "VIRGINIA SHARMA",
+    name: "Iman Ghanizada",
 
     details: "India Marketing Head, Google Cloud",
 
     imgSrc:
-      "https://res.cloudinary.com/doe7b5us3/image/upload/v1673978953/Kaleido-Prev/Taleido-2_rg97ma.jpg",
+      "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705602186/taleido/bl1lkjha9ak1bwcfvioa.jpg",
 
-    content:
-      "Current Head of Marketing at Google. Non-executive independent board director at Pennar Industries. Before Google, she was Vice President of Marketing at IBM. Also worked for LinkedIn as Sales Director of Marketing and JioSaavn as Vice President of Brand Solutions.First chairperson for the Marketing Society India Chapter. Awarded with top 100 Indian business leaders by Exchange4media, Economics Times Women Ahead and Impact top 50 women in Marketing Media & Advertising 3 years in a row, 2018, 2019 and 2020. She has also received recognition as LinkedIn Top Voices in Gender Equity",
-
+    content:`Iman Ghanizada, the Global Head of Autonomic Security at Google, is a distinguished figure in technology. Recognized in Forbes 30 under 30 for Enterprise and Technology in 2022, he is also a leader at the World CIO Summit 2023. An author of the Google Cloud Certified Professional Cloud Architect, Ghanizada is an investor, startup advisor, and Board Advisor at Virginia Tech University. Co-founder and Board member at Afghan Refugee Relief, he balances technology leadership with philanthropic initiatives, showcasing a versatile and impactful career.`,
     ytlink: "https://youtu.be/s88Yz2QRSHQ",
   },
 ];

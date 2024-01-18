@@ -4,8 +4,7 @@ import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import "./Techzi.css";
 import Heading from "../Common/Headings/Heading";
-import Revealing from "../Common/RevealingText/Revealing";
-import Vid from "../../assets/images/Logo/c.mp4"
+
 function Techzi() {
 
   useEffect(() => {
@@ -26,7 +25,7 @@ function Techzi() {
           className="w-full h-full object-cover"
           width="100%"
         >
-          <source src={Vid} type="video/mp4" />
+          <source src={'https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597501/vdos/cfmja2rurhpbh4xkgyls.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

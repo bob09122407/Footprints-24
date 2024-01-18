@@ -4,7 +4,7 @@ import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import "./Kaleido.css";
 import Heading from "../Common/Headings/Heading";
-import Vid from "../../assets/images/Logo/c.mp4";
+
 function Kaleido() {
   // console.log(screenSize);
 
@@ -23,7 +23,7 @@ function Kaleido() {
           className="w-full h-full object-cover"
           width="100%"
         >
-          <source src={Vid} type="video/mp4" />
+          <source src={'https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597503/vdos/xjts8oh5ts0ux8mzpqcu.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

@@ -68,7 +68,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<LandingPage/>}></Route>
             <Route exact path="/home" element={<Homepage />}></Route>
-            <Route exact path="/guestlecture" element={<Kaleido />}></Route>
+            <Route exact path="/guest-lecture" element={<Kaleido />}></Route>
             <Route exact path="/contact" element={<Contact />}></Route>
             <Route exact path="/sponsor" element={<SponsorPage />}></Route>
             <Route exact path="/history" element={<HistoryPage />}></Route>

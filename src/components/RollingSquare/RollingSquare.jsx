@@ -5,8 +5,8 @@ import Footer from "../Common/Footer/Footer";
 import ImageCarousel from "./ImageCaraousal";
 import Informal from "./Informal";
 import Heading from "../Common/Headings/Heading";
-import Vid from "../../assets/images/Logo/rs.mp4";
 import Jampad from "./Jampad";
+
 export default function RollingSquare() {
   useEffect(() => {
     document.title = "Rolling Sqares | FootPrints'24";
@@ -87,7 +87,7 @@ export default function RollingSquare() {
           className="w-full h-full object-cover"
           width="100%"
         >
-          <source src={Vid} type="video/mp4" />
+          <source src={'https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597475/vdos/pgr6s6xhnbxbamh8gpld.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
