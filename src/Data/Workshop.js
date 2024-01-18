@@ -40,7 +40,7 @@ const CurrentWorkshopData = [
       "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705601916/workshop/r6eda7ddi8ycszya2pl1.jpg",
 
     content:
-      "Predicting the future isn't magic, it's artificial intelligence. The whole world is shifting to AI day-by-day. Everyone tends to start their business and taking it to great heights, with AI. Grab a wonderful chance of learning business development with AI in our workshop where you will learn to build a large language model on distributed network, process optimisation with AI, Business insights, improved customer experience & improved cyber security.",
+      " Introduction to ethical hacking Scanning and enumeration. Exploitation Post exploitation and privilege escalation Persistence and covering tracks. Network hacking and defense. Web Application penetration testing. Conclusion.",
 
     date: "3rd March, 2023",
   },

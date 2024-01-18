@@ -94,7 +94,7 @@ const ccData = [
   },
   {
     id: 9,
-    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705595499/FP%2724%20Website%20Photos/eudnyi5klnlas4itavnx.jpg`,
+    imgSrc: `https://res.cloudinary.com/dwevqwmg7/image/upload/v1705607591/xh3ne4eheexynpnepujq.jpg`,
     name: "Krisha Desai",
     linked: `https://www.linkedin.com/in/krisha-desai-516928231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
   },
