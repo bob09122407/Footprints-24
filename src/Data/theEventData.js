@@ -622,6 +622,20 @@ const questData = {
         team: ["- Max 2"],
       },
     },
+    {
+      name: "Air Ball",
+      background: "/src/assets/images/Logo/space.png",
+      details: {
+        info: [
+          "Fasten  your seatbelts and get ready to participate in a very exciting and never witnessed game ever. A game named after football , also can be called as a unique version of football. Team up and participate in the AirBall. Rules will remain same as football but with a twist as it will be played in the air.",
+        ],
+        rules: [
+          "Similar to Football",
+        ],
+        price: ["180 Rs"],
+        team: ["Compulsary 3"],
+      },
+    },
   ],
   headingSource:
     "https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597495/vdos/ps1vj1shmdsjzzwbykiw.mp4",
