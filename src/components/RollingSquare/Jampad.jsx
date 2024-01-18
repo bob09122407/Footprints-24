@@ -35,11 +35,11 @@ const Jampad = () => {
   },[])
 
   const imageSources = [
-    "src/assets/images/temp/1.jpg",
-    "src/assets/images/temp/2.jpg",
-    "src/assets/images/temp/3.jpg",
-    "src/assets/images/temp/4.jpg",
-    "src/assets/images/temp/1.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705585124/jampad/khs3csir5vbtslfv6mj9.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705585124/jampad/nneqgku4asvxkpjefb2t.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705585121/jampad/k8mhe00ewoqlqddmpaba.jpg",
+    "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705585114/jampad/fzkp0hnpxb6qfwuu1svr.jpg",
+    "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640187/Gallery/Jampad_f4edla_uyok1p.jpg",
     "src/assets/images/temp/2.jpg",
     "src/assets/images/temp/3.jpg",
     "src/assets/images/temp/4.jpg",

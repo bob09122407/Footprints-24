@@ -1,40 +1,40 @@
-const PrevWorkshopData = [
+const CurrentWorkshopData = [
   {
     id: 1,
 
-    name: "Hybrid EV Design",
+    name: "Power BI",
 
-    details: "By Mercedes",
+    details: "",
 
     imgSrc:
       "https://res.cloudinary.com/doe7b5us3/image/upload/v1674717276/Kaleido/Mercedes_bywqlg.jpg",
 
     content:
-      "Introduction to basics of steering mechanisms in SUVs/F1 cars, suspension systems, tyre tractions and the working of moving engine. Relation between power consumption, motor battery and controller along with dynamic balancing, BMS and thermal control of the EV Engine.",
+      "Theprogram consists of blocks combining theory and practice.Introduction into Microsoft Power BI and the Power Query EditorHands-on: extracting, transforming and loading data into the Power Query EditorDatamodeling and data visualizationHands-on: building a data model and creating and sharing a dashboardHands-on: adding extra functionalities to your dashboards, such as navigation andteraction or building a dashboard based on your own data set.Extract, transform and load data into Microsoft Power BI from various sourcesDescribe storage options using Microsoft Power BI when connecting to databasePerform various types of data transformation in Power Query EditorMashupdatabyintegrating different sourcesNOTE: This software is useful for all the business purposes, to manage the data.-It is very useful for stock related ratios and to maintain the record",
 
     date: "3rd March, 2023",
   },
   {
     id: 2,
 
-    name: "3d Game Development",
+    name: "AeroTech Drone",
 
-    details: "With Unity",
+    details: "",
 
     imgSrc:
       "https://res.cloudinary.com/doe7b5us3/image/upload/v1674717275/Kaleido/Unity_c2kjep.jpg",
 
     content:
-      "This workshop starts with installation of Unity Engine, basics of game development, explaining the logics behind android games. Implementation of certain logics within the game, followed by live testing of the game in android emulator.",
+      "Engage in an immersive Workshop that introduces Engineering Students to the exciting World of Unmanned Aerial Vehicles(UAVs) through a hands on DIY approach. Participants will gain practical Insights into drone design, assembly, programming and flight testing.",
 
     date: "4th March, 2023",
   },
   {
     id: 3,
 
-    name: "Building Business Using AI ",
+    name: "Ethical Hacking ",
 
-    details: "By Permissionless",
+    details: "",
 
     imgSrc:
       "https://res.cloudinary.com/doe7b5us3/image/upload/v1674753848/Kaleido/AI_yjqc4o.jpg",
@@ -45,7 +45,7 @@ const PrevWorkshopData = [
     date: "3rd March, 2023",
   },
 ];
-const CurrentWorkshopData = [
+const PrevWorkshopData = [
   {
     id: 1,
 
