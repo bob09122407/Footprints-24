@@ -2,80 +2,6 @@ const AboutGuestData = [
   {
     id: 1,
 
-    name: "DR. PAWAN AGRAWAL",
-
-    details: "PhD On Mumbai Dabbawala",
-
-    imgSrc:
-      "https://res.cloudinary.com/doe7b5us3/image/upload/v1673960982/Kaleido-Prev/PA_jnjtfm.jpg",
-
-    content:
-      'Dr. Pawan Agrawal is an internationally acclaimed motivational speaker, author, educationist, successful entrepreneur, business consultant, and a TEDx speaker. Dr. Agrawal is also the founder and president of Kamalabai Educational and Charitable Trust, Mumbai. His thesis on "Supply Chain Management of Mumbai Dabbawala and Mumbai Paperwalla" has noteworthy key takeaways such as logistics and supply chain theories, leadership and time management skills, etc. He has delivered numerous inspiring speeches and has helped people from all walks of life in personal growth and organizational fulfillment, with his 30 years of expertise and research.',
-
-    date: "5th March, 2022. 6:00 PM",
-
-    venue: "Main Auditorium",
-  },
-
-  {
-    id: 2,
-
-    name: "NIKHIL TANEJA",
-
-    // details:'PHD ON MUMBAI DABBAWALA',
-    details: "CEO And Co-Founder Of Yuvaa",
-
-    imgSrc:
-      "https://res.cloudinary.com/doe7b5us3/image/upload/v1673960974/Kaleido-Prev/NT_cyu7mh.jpg",
-
-    content:
-      "Mr.Nikhil Taneja is a Mumbai-based entrepreneur, writer, storyteller, teacher,public speaker and mental health advocate. He is the CEO and co-founder of Yuvaa, an organization that works on creating socially conscious content, among and about Indian youth. He also serves on the Global Advisory Board of Bill and Melinda Gates Foundations' event and community, Goalkeepers.He also won the Goalkeepers Youth Action Accelerator Award in 2019. He has been responsible for the biggest hits in the digital space at Yash Raj Films. He is the Festival Creative Director of the Indian Film Project, India's largest youth film festival. He has also been a teacher at Jay Hind College for over 7 years.",
-
-    date: "5th March, 2022. 6:00 PM",
-
-    venue: "Main Auditorium",
-  },
-  {
-    id: 3,
-
-    name: "RAVI VENKATESAN",
-
-    details: "Bussisness Executive & Venture Capitalist",
-
-    imgSrc:
-      "https://res.cloudinary.com/doe7b5us3/image/upload/v1673960996/Kaleido-Prev/RV_gtowv9.jpg",
-
-    content:
-      'He has been chairman of Microsoft India from 2004 to 2011 and Bank of Baroda from 2015 to 2018. He has been co chairman to board of Infosys from 2011 to 2018. He is the UNICEF Special Representative for young people and innovation. He is a prominent alumni of IIT Bombay and Harvard Business School. He is an Indian business executive and venture capitalist. He is author of "Conquering the Chaos: Win in India,Win Everywhere". He is also a columnist of The Economic Times and Outlook. His book "What the Heck Do I Do with my Life" is soon going to be launched.',
-
-    date: "5th March, 2022. 6:00 PM",
-
-    venue: "Main Auditorium",
-  },
-
-  {
-    id: 4,
-
-    name: "SURESH PRABHU",
-
-    details: "Current Member Of Rajya Sabha",
-
-    imgSrc:
-      "https://res.cloudinary.com/doe7b5us3/image/upload/v1673960988/Kaleido-Prev/SP_eepzn8.jpg",
-
-    content:
-      "He is India's Sherpa to G7 and G20 annual summits. He is a member of Rajya Sabha from Andhra Pradesh. He has handled many ministries like Civil Aviation, Railways, Commerce and Industries, Power and etc. By profession he is a Charatered Accountant (CA) and has secured AIR-11. He is a member of Institute of Charatered Accountants of India (ICAI). He is a part of 16 global organizations and 9 strategic dialogues. He was awarded by 'Indian of the year' in 2017, constantly featured in Top 5 ministers in India from 2014-17.",
-
-    date: "5th March, 2022. 6:00 PM",
-
-    venue: "Main Auditorium",
-  },
-];
-
-const CurrentGuestData = [
-  {
-    id: 1,
-
     name: "Lt Gen Satish Dua",
 
     details: "Mastermind of URI Surgical Strike",
@@ -122,6 +48,79 @@ const CurrentGuestData = [
       "Abhiraj Rajadhyaksha and Niyati Mavinkurve aka Abhi and Niyu are the only Indian content creators — of informative vlogs — to represent India at the 27th Conference of the Parties (COP27) in Egypt, the only Asians invited to attend the conference of the United Nations Framework Convention on Climate Change (UNFCCC). The duos #100ReasonsToLoveIndia had them travelling across India to find 100 heartwarming stories of change, positivity and inspiration, endearing them to netizens.",
     
     date: "5th March, 2023",
+
+    venue: "FoTE, MSU Baroda",
+  },
+];
+
+const CurrentGuestData = [
+  {
+    id: 1,
+
+    name: "Admiral Karambir Singh, PVSM, AVSM, IN (Retd)",
+
+    details: "Chairman, NMF and Former Chief of the Naval Staff, Indian Navy ",
+
+    imgSrc:
+      "https://res.cloudinary.com/du1tas6pe/image/upload/v1705573927/gl/bcx3hot7jatftcyeify5.jpg",
+
+    content:
+      "Admiral Karambir Singh, PVSM, AVSM, IN (Retd), who was the Republic of India’s 24th Chief of the Naval Staff (31 May 2019 to 30 November 2021), assumed the chairmanship of the National Maritime Foundation, New Delhi, on 17 January 2022. An alumnus of the National Defence Academy, Khadakwasla, the Defence Services Staff College, Wellington, and the College of Naval Warfare, Mumbai, the Admiral was commissioned into the Indian Navy in July of 1980. A Naval aviator, he earned his wings in 1981 as a helicopter pilot and has flown extensively on the Chetak (Alouette Mk III) and several variants of Kamov helicopters. ",
+
+    date: "4th March, 2024",
+
+    venue: "FoTE, MSU Baroda",
+  },
+  {
+    id: 2,
+
+    name: "Sanjay Raval",
+
+    details: "Motivational Speaker",
+
+    imgSrc:
+      "https://res.cloudinary.com/du1tas6pe/image/upload/v1705573929/gl/iozzcbb9ulgxy5run4ig.jpg",
+
+    content:
+      "He is motivational speaker, entrepreneur, builder and author.Founder of SMSR Skill Centre.Founder of skill city at Anand.Producer of Gujarati movie ‘Vitamin She’.He has ability to deliver original and useful insights via daily routine examples.He motivates individuals to live fearless life, develop personality and live life positive way. His books, ‘Now I feel better than before’ and ‘I like it you also like it’ have sold more than 2 lacs copies all over India. His 3rd book ‘Fearless life’ will release shortly.He has over 1.1 Millon followers on his social media handle.He has conducted more than 2000 seminars in last five year.",
+
+    date: "3rd March, 2024",
+
+    venue: "FoTE, MSU Baroda",
+  },
+
+  {
+    id: 3,
+
+    name: "Vivek Atray",
+
+    details: "Ex IAS Officer, Ted X Speaker",
+
+    imgSrc:
+      "https://res.cloudinary.com/du1tas6pe/image/upload/v1705573927/gl/qludndzw47v5f5raorlq.jpg",
+
+    content:
+      "Vivek Atray, ex IAS, TEDx is a Motivational Speaker, Author of \"Finding Success Within\", Mentor, Advisor, Columnist & Visiting Professor. He resigned from the Indian Administrative Service, IAS, in 2017. He has 8 TEDx Talks & 3 JOSH Talks. Over 6 million (60 Lakh) views on YouTube • He is the Chairman of the Yogananda Centre for Theology & Visiting Professor at Shoolini University, founder of SUVICHAR-THINK TANK. •  Chairman of the Public Relations Council of India, PRCI, Chandigarh, empanelled with Speaking Minds International Speakers Bureau, member of the Governor's Advisory Council for Chandigarh. founder of Vibrant Networking Forum, Chandigarh Literary Society & Co-Convenor of INTACH Chandigarh. ",
+    
+    date: "5th March, 2024",
+
+    venue: "FoTE, MSU Baroda",
+  },
+
+  {
+    id: 4,
+
+    name: "Mr. Asutosh Chadha",
+
+    details: " Director and Country Head Corporate Affairs & Public Policy at Microsoft India and South Asia",
+
+    imgSrc:
+      "https://res.cloudinary.com/du1tas6pe/image/upload/v1705573927/gl/v5gyldqgmxczgs6pxlna.jpg",
+
+    content:
+      "Ex-Vice President Public Policy South Asia at Mastercard Advisors. Ex-Director & Member of the Board at Wipro Airport IT Service Ltd. Ex-Director Corporate Affairs South Asia at Intel Technology India Pvt Ltd. Ex-Manager - Business Development at Shell. Ex-Business Manager at NIIT Ltd. Over 35 years of National and International Experience in Corporate and. Government Affairs, Policy Advocacy, Channel Management and Strategic Planning. Worked closely at very senior levels with stakeholders in the Government, Academia, Industry as well as Multilaterals. ",
+    
+    date: "5th March, 2024",
 
     venue: "FoTE, MSU Baroda",
   },
