@@ -55,7 +55,7 @@ const TheMoonPage = ({ theParent }) => {
     }
   };
 
-  const iconsRow1 = theData;
+  const iconsRow1 = theData["data"];
 
   const getSelectedDetails = () => {
     const selectedIcon = [...iconsRow1].find(
@@ -77,7 +77,7 @@ const TheMoonPage = ({ theParent }) => {
             className="w-full h-full object-cover"
             width="100%"
           >
-            <source src={`/src/assets/headingVFX/${event===undefined?theParent:event}.mp4`} type="video/mp4" />
+            <source src={`${theData["headingSource"]}`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

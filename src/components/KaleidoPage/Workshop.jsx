@@ -21,7 +21,7 @@ function Workshop() {
           className="w-full h-full object-cover"
           width="100%"
         >
-          <source src={'/src/assets/headingVFX/workshops.mp4'} type="video/mp4" />
+          <source src={'https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597470/vdos/mwwq0k4owswdxmab3a3e.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

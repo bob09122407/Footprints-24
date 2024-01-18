@@ -7,7 +7,7 @@ const CurrentWorkshopData = [
     details: "",
 
     imgSrc:
-      "https://res.cloudinary.com/doe7b5us3/image/upload/v1674717276/Kaleido/Mercedes_bywqlg.jpg",
+      "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705601916/workshop/drxpaq9ovfpno9mvinhl.jpg",
 
     content:
       "Theprogram consists of blocks combining theory and practice.Introduction into Microsoft Power BI and the Power Query EditorHands-on: extracting, transforming and loading data into the Power Query EditorDatamodeling and data visualizationHands-on: building a data model and creating and sharing a dashboardHands-on: adding extra functionalities to your dashboards, such as navigation andteraction or building a dashboard based on your own data set.Extract, transform and load data into Microsoft Power BI from various sourcesDescribe storage options using Microsoft Power BI when connecting to databasePerform various types of data transformation in Power Query EditorMashupdatabyintegrating different sourcesNOTE: This software is useful for all the business purposes, to manage the data.-It is very useful for stock related ratios and to maintain the record",
@@ -22,7 +22,7 @@ const CurrentWorkshopData = [
     details: "",
 
     imgSrc:
-      "https://res.cloudinary.com/doe7b5us3/image/upload/v1674717275/Kaleido/Unity_c2kjep.jpg",
+      "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705601916/workshop/ge6iq2stgsd9oddnptgs.jpg",
 
     content:
       "Engage in an immersive Workshop that introduces Engineering Students to the exciting World of Unmanned Aerial Vehicles(UAVs) through a hands on DIY approach. Participants will gain practical Insights into drone design, assembly, programming and flight testing.",
@@ -37,7 +37,7 @@ const CurrentWorkshopData = [
     details: "",
 
     imgSrc:
-      "https://res.cloudinary.com/doe7b5us3/image/upload/v1674753848/Kaleido/AI_yjqc4o.jpg",
+      "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705601916/workshop/r6eda7ddi8ycszya2pl1.jpg",
 
     content:
       "Predicting the future isn't magic, it's artificial intelligence. The whole world is shifting to AI day-by-day. Everyone tends to start their business and taking it to great heights, with AI. Grab a wonderful chance of learning business development with AI in our workshop where you will learn to build a large language model on distributed network, process optimisation with AI, Business insights, improved customer experience & improved cyber security.",
