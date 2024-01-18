@@ -35,7 +35,7 @@ const Informal = () => {
   },[])
 
   const imageSources = [
-    "src/assets/images/temp/1.jpg",
+    "https://res.cloudinary.com/du1tas6pe/image/upload/v1705577440/informals/kgikhykjkrjpbgttg8m0.jpg",
     "src/assets/images/temp/2.jpg",
     "src/assets/images/temp/3.jpg",
     "src/assets/images/temp/4.jpg",
