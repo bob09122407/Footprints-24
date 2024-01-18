@@ -7,7 +7,7 @@ import Footer from "../Common/Footer/Footer";
 
 function HistoryPage() {
   useEffect(() => {
-    document.title = "History | FootPrints'24";
+    document.title = "History | FootPrints'23";
   }, []);
 
   useEffect(() => {
@@ -88,7 +88,7 @@ function HistoryPage() {
         }
       });
     })(jQuery);
-  });
+  },[]);
 
   return (
     <>

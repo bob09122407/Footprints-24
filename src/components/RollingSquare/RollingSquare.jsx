@@ -5,8 +5,8 @@ import Footer from "../Common/Footer/Footer";
 import ImageCarousel from "./ImageCaraousal";
 import Informal from "./Informal";
 import Heading from "../Common/Headings/Heading";
-import Vid from "../../assets/images/Logo/rs.mp4";
 import Jampad from "./Jampad";
+
 export default function RollingSquare() {
   useEffect(() => {
     document.title = "Rolling Sqares | FootPrints'24";

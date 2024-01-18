@@ -4,7 +4,7 @@ import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import "./Taleido.css";
 import Heading from "../Common/Headings/Heading";
-import Vid from "../../assets/images/Logo/c.mp4"
+
 function Taleido() {
 
   useEffect(() => {

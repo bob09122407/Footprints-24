@@ -4,7 +4,7 @@ import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import "./Workshop.css";
 import Heading from "../Common/Headings/Heading";
-import Vid from "../../assets/images/Logo/c.mp4"
+
 function Workshop() {
   useEffect(() => {
     document.title = "Workshops | FootPrints'24";

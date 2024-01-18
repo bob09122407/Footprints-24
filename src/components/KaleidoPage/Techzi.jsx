@@ -4,8 +4,7 @@ import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import "./Techzi.css";
 import Heading from "../Common/Headings/Heading";
-import Revealing from "../Common/RevealingText/Revealing";
-import Vid from "../../assets/images/Logo/c.mp4"
+
 function Techzi() {
 
   useEffect(() => {
