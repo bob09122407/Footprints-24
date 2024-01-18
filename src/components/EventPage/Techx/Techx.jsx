@@ -47,21 +47,17 @@ const Techx = () => {
 
   const iconsRow1 = [
     {
-      name: "Runtime",
+      name: "TechX",
       background: "/src/assets/images/Logo/runtime.png",
       details: {
         info: [
-          "This event tests your programming skills. The challenge is to code the real-life problems in the computer world using any programming language interviewing different stages of coding and scoring the most among them",
+          "Step into the forefront of tech evolution at our Open Hardware and Software Project Exhibition! Explore both working and non-working models, showcasing the latest innovations. Don't miss this chance to witness groundbreaking projects and be part of the technological revolution!",
         ],
         rules: [
-          "- No help from internet is allowed",
-          "- Programming languages preferred C, C++, C#, python, java etc",
-          "-	Criteria for qualification in round 2 and 3 will be filtered by the ranking given to each coder by Price footprints",
-          "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
-          "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
+          "Introducing our advanced language model designed to tackle a myriad of tasks and solve complex problems. Whether it's generating creative content, providing detailed information, or assisting with various queries, our model is a versatile solution. The judging panel is invited to explore the capabilities of this powerful tool and ask any questions to witness its adaptability and effectiveness in addressing a wide range of challenges."
         ],
-        Member: ["Individual"],
-        Price: ["100 Rs"],
+        Member: ["Maximum 5"],
+        Price: ["250 Rs"],
       },
     },
     

@@ -39,66 +39,66 @@ const Slider = () => {
       <div id="slide" ref={slideRef}>
         <div className="item-seg" style={{ backgroundImage: `url(${phoo})`}}>
           <div className="content">
-            <div className="name">Cybernetics</div>
+            <div className="name">Technotron</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-            <button>Runtime</button>
-            <button>Code&Create</button>
-            <button>Hackprints 2.0</button>
-            <button>Protocol</button>
+            <button>Cybernetics</button>
+            <button>Macheanema</button>
+            <button>Sanganikee</button>
+            <button>Citadel</button>
+            <button>Rasayanam</button>
+            <button>Lycra</button>
+            <button>TechX</button>
           </div>
         </div>
         <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
           <div className="content">
-            <div className="name">Mechenema</div>
+            <div className="name">Kaleidoscope</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-            <button>Burnout</button>
-            <button>Ballista</button>
-            <button>Hydrex</button>
-            <button>Powered Echo</button>
-            <button>Gizmo</button>
+            <button>Guest Lectures</button>
+            <button>Workshops</button>
+            <button>Techzibition</button>
+            <button>Taleidoscope</button>
+            
           </div>
         </div>
         <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
           <div className="content">
-            <div className="name">Sanganikee</div>
+            <div className="name">Rolling Square</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-            <button>Wrestlemania</button>
-            <button>Technokik</button>
-            <button>D.F.A 6.0</button>
-            <button>Monochrome</button>
-            <button>Insight</button>
-            <button>Renaissance</button>
+            <button>Concert</button>
+            <button>Informals</button>
+            <button>Jampad</button>
           </div>
         </div>
         <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
           <div className="content">
-            <div className="name">Lycra</div>
+            <div className="name">Quest</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-            <button>Diz-O-Spot</button>
-            <button>Broken Floats</button>
-            <button>10's Count</button>
-            <button>Quiz-O-Tex</button>
-            <button>Imprints</button>
+            <button>12th Batallian</button>
+            <button>War of Words</button>
+            <button>Squid Games</button>
+            <button>Shooting Arcade</button>
+            <button>Lost</button>
+            <button>Air Balls</button>
+
           </div>
         </div>
         <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
           <div className="content">
-            <div className="name">Citadel</div>
+            <div className="name">Footprints Stock Exchange</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-            <button>CivIQ</button>
-            <button>CAD</button>
-            <button>WWE</button>
-            <button>Tremors</button>
+            <button>Inversion</button>
+            <button>Pitcher's Project</button>
+            
           </div>
         </div>
         <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
           <div className="content">
-            <div className="name">Rasayanam</div>
+            <div className="name">Virtuosity</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-            <button>Chem-o-Hustle</button>
-            <button>Synopsis</button>
-            <button>Chemaze</button>
-            <button>ChemX</button>
+            <button>BGMI</button>
+            <button>Valorant</button>
+            
           </div>
         </div>
         {/* ... Add other item-segs as needed */}
