@@ -150,7 +150,7 @@ const menuItems = [
     subItems: [
       {
         Department: 1,
-        title: "Acco",
+        title: "Details",
         link: "/accomodation",
       },
     ]

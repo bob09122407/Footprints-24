@@ -35,7 +35,7 @@ function Techzi() {
         <div className="container">
           {/* <p id="reveling-heading"> REVEALING SOON! </p> */}
           
-          <Revealing/>
+          {/* <Revealing/> */}
 
           <Heading
             className="kaleido_heading"
