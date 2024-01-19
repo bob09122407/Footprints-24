@@ -2,7 +2,7 @@
 const coordinatorsData = [
   {
     id: 1,
-    imgSrc: `https://res.cloudinary.com/dez7ewrzk/image/upload/v1673864805/Akshit_Patel_xs73lr.jpg`,
+    imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705673980/z4vgnqwwwojgbciejlra.jpg`,
     name: "Akshit Patel",
     linked: `https://www.linkedin.com/in/akshit-patel-a54643177`,
   },

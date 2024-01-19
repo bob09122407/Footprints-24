@@ -32,7 +32,7 @@ const Glimpse = () => {
           <iframe
             width="373"
             height="210"
-            src="https://www.youtube.com/embed/8ox93Blaxqc?si=hcz2KQmPSfgUOzkU"
+            src="https://www.youtube.com/embed/laV4us-nGPQ?si=pIxYjP_Tv9N0qDNA"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -50,7 +50,7 @@ const Glimpse = () => {
           <iframe
             width="373"
             height="210"
-            src="https://www.youtube.com/embed/W-vxQZUhKDw"
+            src="https://www.youtube.com/embed/8ox93Blaxqc?si=hcz2KQmPSfgUOzkU"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
