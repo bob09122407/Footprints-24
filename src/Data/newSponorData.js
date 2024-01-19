@@ -8,7 +8,7 @@ const newSponsorData = [
     {
         id: 1.1,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677774/sponsor/butzddkhgubnovsr5eez.png`,
-        alt: ``,
+        alt: `Title Sponsor`,
         href: `https://www.matrixcomsec.com/`,
         type: "TITLE SPONSOR"
     },
@@ -25,7 +25,7 @@ const newSponsorData = [
     {
         id: 1.2,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/btyfcmitkiwtds75fq6e.png`,
-        alt: ``,
+        alt: `Associate Sponsor`,
         href: `https://conmatindia.com/`,
         type: "ASSOCIATE SPONSOR"
     },
