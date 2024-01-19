@@ -15,7 +15,6 @@ function Sponsors() {
       speed: 300,
       infinite: true,
       autoplaySpeed: 3000,
-
       autoplay: true,
       responsive: [
         {

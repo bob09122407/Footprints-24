@@ -7,7 +7,7 @@ const newSponsorData = [
 
     {
         id: 1.1,
-        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677774/sponsor/butzddkhgubnovsr5eez.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705688986/astronout/bdsjpbmuo8itjovgcutl.png`,
         alt: `Title Sponsor`,
         href: `https://www.matrixcomsec.com/`,
         type: "TITLE SPONSOR"
