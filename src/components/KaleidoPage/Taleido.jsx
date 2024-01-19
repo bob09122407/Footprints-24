@@ -9,7 +9,7 @@ function Taleido() {
 
   useEffect(() => {
   
-    document.title="Taleidoscope | FootPrints'24"
+    document.title="Teleidoscope | FootPrints'24"
 
   }, [])
 
@@ -24,7 +24,7 @@ function Taleido() {
           className="w-full h-full object-cover"
           width="100%"
         >
-          <source src={'/src/assets/headingVFX/techzibition.mp4'} type="video/mp4" />
+          <source src={'https://res.cloudinary.com/du1tas6pe/video/upload/v1705679364/vdo/nwhsgnzgd80yqspqfcap.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
