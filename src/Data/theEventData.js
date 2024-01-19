@@ -4,7 +4,7 @@ const technotronData = {
     data: [
       {
         name: "Runtime",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "This event tests your programming skills. The challenge is to code the real-life problems in the computer world using any programming language interviewing different stages of coding and scoring the most among them",
@@ -22,7 +22,7 @@ const technotronData = {
       },
       {
         name: "WebTech",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Participants will have to build a web/mobile application and incorporate the feature asked based on iOS/Windows or Android platform or any web technologies. Theme and design essentials for the website will be provided to them beforehand",
@@ -42,7 +42,7 @@ const technotronData = {
       },
       {
         name: "HackPrints 3.0",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "It is a 3-day online Hackathon based event wherein the participants have to submit a developed project i.e., a mobile/web application based on a given theme provided on the website of HackPrints 2.0",
@@ -62,7 +62,7 @@ const technotronData = {
       },
       {
         name: "AlgoSync",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Exploring supervised and unsupervised realms, a pivotal machine learning event.",
@@ -84,7 +84,7 @@ const technotronData = {
     data: [
       {
         name: "The Vogue",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Make an innovative product based on theme using given material and decorate it.",
@@ -100,7 +100,7 @@ const technotronData = {
       },
       {
         name: "Broken Floats",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Weave a fabric on a handloom with maximum speed and accuracy in given interval of time.",
@@ -117,7 +117,7 @@ const technotronData = {
       },
       {
         name: "The 10s Count",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "It is a paper presentation event related to Textile Department.",
@@ -143,7 +143,7 @@ const technotronData = {
       },
       {
         name: "Quiz-O-Tex",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: ["A quiz event pertaining to Textile Department."],
           rules: [
@@ -156,7 +156,7 @@ const technotronData = {
       },
       {
         name: "Imprints",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Dye and print the given fabric using creativity and maximum accuracy.",
@@ -178,7 +178,7 @@ const technotronData = {
     data: [
       {
         name: "Burnout",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "The participants have to design a vehicle powered by an internal combustion engine which can complete the given track in least possible time along with certain obstacles on the way.",
@@ -202,7 +202,7 @@ const technotronData = {
       },
       {
         name: "Ballista",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "It is an event in which participants will have to design an X-bow using elastic, torsional or any other mechanism capable of hitting a given target with variable height and distance.",
@@ -222,7 +222,7 @@ const technotronData = {
 
       {
         name: "Powered Epoch",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "It is a paper presentation event related to Mechanical Engineering department.",
@@ -249,7 +249,7 @@ const technotronData = {
       },
       {
         name: "Gizmo",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "It is a knowledge based event related to Mechanical engineering department consisting of quiz, puzzles, crosswords, treasure hunt and industry defined problems.",
@@ -261,7 +261,7 @@ const technotronData = {
       },
       {
         name: "Hydrex",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "The participants have to build a machine propelled by hydraulics which can climb a given vertical rod and build a hydraulic arm with a hook attached to the machine to lift the given load.",
@@ -287,7 +287,7 @@ const technotronData = {
     data: [
       {
         name: "Chem-o-Hustle",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "You have to design a Car which should be powered by a chemical reaction ",
@@ -303,7 +303,7 @@ const technotronData = {
       },
       {
         name: "Synopsis",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "It is a paper presentation event in which you have to select a topic based on Chemical Engineering or Pharmacy field.",
@@ -315,7 +315,7 @@ const technotronData = {
       },
       {
         name: "Chemaze",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: ["It is a knowledge based event."],
           rules: ["- "],
@@ -326,7 +326,7 @@ const technotronData = {
 
       {
         name: "ChemX",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Participant has to make a working or non working model based on the chemical field",
@@ -345,7 +345,7 @@ const technotronData = {
     data: [
       {
         name: "Wrestlemania",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Participants have to design a robot, which are capable of wrestling in a head-to-head bout based on the fundamental principle of conventional human wrestling matches.",
@@ -396,7 +396,7 @@ const technotronData = {
       },
       {
         name: "Technokick",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "This event provides participants platform to show their robotic skill by developing wired/wireless bot which can play soccer in specially designed Arena.",
@@ -461,7 +461,7 @@ const technotronData = {
       },
       {
         name: "Smackbotz",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Participants have to design and construct a remote-controlled robot capable of fighting against another robot in a one-on-one combat.",
@@ -509,7 +509,7 @@ const technotronData = {
       },
       {
         name: "D.F.A 7.0",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Teams have to build an all-terrain robust RC vehicle that can work on dual frequency and has to complete the given track from starting point to the ending point in the minimum possible time",
@@ -571,7 +571,7 @@ const technotronData = {
       },
       {
         name: "Monochrome",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Participants have to design autonomous robot which can solve given line network.",
@@ -624,7 +624,7 @@ const technotronData = {
       },
       {
         name: "Insight",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "knowledge based event for Electrical & Electronics engg. Dept.",
@@ -636,7 +636,7 @@ const technotronData = {
       },
       {
         name: "Renaissance",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: ["Paper presentation event for EE/ELE engg."],
           rules: ["Rules",
@@ -668,7 +668,7 @@ const technotronData = {
     data: [
       {
         name: "CivIQ",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Its Treasure hunt event based on immense consept and knowledge of  civil engineering.",
@@ -680,7 +680,7 @@ const technotronData = {
       },
       {
         name: "CAD",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "In this Participants have to design a multipurpose building based on a given detailed problem statement.",
@@ -704,7 +704,7 @@ const technotronData = {
       },
       {
         name: "WWE",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "It is a paper presentation event along with case study with a solution based approach.",
@@ -716,7 +716,7 @@ const technotronData = {
       },
       {
         name: "Tremors Setu",
-        background: "/src/assets/images/Logo/space.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: ["Participants have to make a model using  popsicle sticks"],
           rules: ["- Dimensions of the Warren Truss",
@@ -753,7 +753,7 @@ const technotronData = {
     data: [
       {
         name: "TechX",
-        background: "/src/assets/images/Logo/runtime.png",
+        background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
             "Step into the forefront of tech evolution at our Open Hardware and Software Project Exhibition! Explore both working and non-working models, showcasing the latest innovations. Don't miss this chance to witness groundbreaking projects and be part of the technological revolution!",
@@ -776,7 +776,7 @@ const questData = {
   data: [
     {
       name: "12th Battalion",
-      background: "/src/assets/images/Logo/space.png",
+      background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
           "It is an event which checks your physical strength with games such as tug of war, wall climbing and much more.",
@@ -791,7 +791,7 @@ const questData = {
     },
     {
       name: "War Of Words",
-      background: "/src/assets/images/Logo/space.png",
+      background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
           "It is a debate based event. This event would provide you a platform to exchange your views regarding a certain topic.",
@@ -805,7 +805,7 @@ const questData = {
     },
     {
       name: "Squid Game",
-      background: "/src/assets/images/Logo/space.png",
+      background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
           "It is a event based on web series with fun and exciting games.",
@@ -819,7 +819,7 @@ const questData = {
     },
     {
       name: "Shooting Arcade",
-      background: "/src/assets/images/Logo/space.png",
+      background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
           "In this participants will be able to experience 4 different games. i.e. Axe throw, Paintball shooting, Shuriken and archery.",
@@ -834,7 +834,7 @@ const questData = {
     },
     {
       name: "Lost",
-      background: "/src/assets/images/Logo/space.png",
+      background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
           "It is a treasure hunt based event.Here the participants would have to decode a plot based on clues which would be hidden at various locations in the college.",
@@ -848,7 +848,7 @@ const questData = {
     },
     {
       name: "Air Ball",
-      background: "/src/assets/images/Logo/space.png",
+      background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
           "Fasten  your seatbelts and get ready to participate in a very exciting and never witnessed game ever. A game named after football , also can be called as a unique version of football. Team up and participate in the AirBall. Rules will remain same as football but with a twist as it will be played in the air.",
@@ -870,7 +870,7 @@ const virtuosityData = {
   data: [
     {
       name: "BGMI",
-      background: "/src/assets/images/Logo/space.png",
+      background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
           "Dive into the heart of thrilling battles and strategic gameplay in this captivating gaming experience.",
@@ -884,7 +884,7 @@ const virtuosityData = {
     },
     {
       name: "Valorant",
-      background: "/src/assets/images/Logo/space.png",
+      background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
           " Where precise aim meets tactical prowess in a high-stakes, team-based shooter.",
@@ -905,7 +905,7 @@ const fseData = {
   data: [
     {
       name: "Inversion",
-      background: "/src/assets/images/Logo/space.png",
+      background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
           "In this event participants have to use their financial knowledge and get the maximum return for their money in different rounds and scenarios.",
@@ -924,7 +924,7 @@ const fseData = {
     },
     {
       name: "Pitchers Project",
-      background: "/src/assets/images/Logo/space.png",
+      background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
           `\"Pitchers Project\" is an entrepreneurship event tailored for Footprints 24, designed to
