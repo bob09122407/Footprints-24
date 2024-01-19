@@ -184,19 +184,19 @@ const newSponsorData = [
         href: ``
     },
 
-    {
-        id: 15,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370199/NewSponsorFp-23/Tulsi_nofaow.png`,
-        alt: `Tulsi Hotel`,
-        href: `http://www.tulsihotel.in/`
-    },
+    // {
+    //     id: 15,
+    //     imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370199/NewSponsorFp-23/Tulsi_nofaow.png`,
+    //     alt: `Tulsi Hotel`,
+    //     href: `http://www.tulsihotel.in/`
+    // },
 
-    {
-        id: 16,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370200/NewSponsorFp-23/TimeSquare_eiwewy.png`,
-        alt: `TimeSqaure`,
-        href: ``
-    },
+//    {
+//         id: 16,
+//         imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370200/NewSponsorFp-23/TimeSquare_eiwewy.png`,
+//         alt: `TimeSqaure`,
+//         href: ``
+//     }, 
 
     {
         id: 17,
