@@ -16,9 +16,9 @@ const WebteamData = [
   },
   {
     id: 3,
-    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705604894/FP%2724%20Website%20Photos/ppfdf6dmrs8vu4dwac3u.jpg`,
-    name: "Karm Soni",
-    linked: `https://www.linkedin.com/in/karm-soni-8206a6227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705604898/FP%2724%20Website%20Photos/czuh1nmfcl3e8yyxp6yf.jpg`,
+    name: "Kunj Patel",
+    linked: `https://www.linkedin.com/in/kunj-patel-0148a5295`
   },
   {
     id: 4,
@@ -34,9 +34,9 @@ const WebteamData = [
   },
   {
     id: 6,
-    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705604898/FP%2724%20Website%20Photos/czuh1nmfcl3e8yyxp6yf.jpg`,
-    name: "Kunj Patel",
-    linked: `https://www.linkedin.com/in/kunj-patel-0148a5295`,
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705604894/FP%2724%20Website%20Photos/ppfdf6dmrs8vu4dwac3u.jpg`,
+    name: "Karm Soni",
+    linked: `https://www.linkedin.com/in/karm-soni-8206a6227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
   },
   {
     id: 7,
