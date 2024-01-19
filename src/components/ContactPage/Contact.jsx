@@ -159,7 +159,7 @@ function Contact() {
                     <div className="contact-details tb-logo1">
                       <img
                         className="tbLogo"
-                        src="/src/assets/tb.gif"
+                        src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705692235/fp%20logo/ls3fe1c5q47ew1umyyem.gif"
                         alt="# Think Beyond"
                         height="250px"
                         width="300px"

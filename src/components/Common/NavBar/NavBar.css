@@ -149,6 +149,13 @@
     left: 0;
   }
 
+  .nav-header .navbar-logo img {
+    width: 100px !important;
+    object-fit: contain;
+    margin: 6px;
+    margin-left: -25px;
+  }
+
   #menu-bar:checked ~ .custom-navbar {
     display: initial;
   }
