@@ -88,7 +88,7 @@ const menuItems = [
 
       {
         Department: 4,
-        title: "Taleidoscope",
+        title: "Teleidoscope",
         link: "/taleidoscope",
       },
     ],
