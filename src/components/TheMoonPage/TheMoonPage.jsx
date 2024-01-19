@@ -85,9 +85,9 @@ const TheMoonPage = ({ theParent }) => {
           <Heading
             className="kaleido_heading"
             id="glheading"
-            title={"Technical Events for Computer and IT Department"}
+            title={theData.title}
           />
-          <div className="statement">
+          {/* <div className="statement">
             <h4>
               {" "}
               Walking on water and developing software from scratch is easy only
@@ -99,7 +99,7 @@ const TheMoonPage = ({ theParent }) => {
               set, codes are built, but the question is will you be the first
               one to match it?
             </h4>
-          </div>
+          </div> */}
         </div>
         <div className="main-tech">
           <div className="tech">

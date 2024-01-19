@@ -1,5 +1,6 @@
 const technotronData = {
   cybernetics: {
+    title : "Event Related to Computer And IT Department",
     data: [
       {
         name: "Runtime",
@@ -40,7 +41,7 @@ const technotronData = {
         },
       },
       {
-        name: "HackPrints 2.0",
+        name: "HackPrints 3.0",
         background: "/src/assets/images/Logo/space.png",
         details: {
           info: [
@@ -85,6 +86,7 @@ const technotronData = {
       "https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597489/vdos/avcm5iaaztsgrjnevfym.mp4",
   },
   lycra: {
+    title : "Event Related to Textile Department",
     data: [
       {
         name: "The Vogue",
@@ -178,6 +180,7 @@ const technotronData = {
       "https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597497/vdos/bzwnuwlp0ynmhvdzonlw.mp4",
   },
   macheanema: {
+    title : "Event Related to Mechanical And Metallurgy Department",
     data: [
       {
         name: "Burnout",
@@ -286,6 +289,7 @@ const technotronData = {
       "https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597482/vdos/lgxbaguxqaytbc5hdmms.mp4",
   },
   rasayanam: {
+    title : "Event Related to Chemical Department",
     data: [
       {
         name: "Chem-o-Hustle",
@@ -343,6 +347,7 @@ const technotronData = {
       "https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597503/vdos/dtcd0klnsxhtybh13uw2.mp4",
   },
   sanganikee: {
+    title : "Event Related to Electrical And Electronics Department",
     data: [
       {
         name: "Wrestlemania",
@@ -665,6 +670,7 @@ const technotronData = {
       "https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597488/vdos/ovmwks27oc6mqrldvfl4.mp4",
   },
   citadel: {
+    title : "Event Related to Civil And IWM Department",
     data: [
       {
         name: "CivIQ",
@@ -749,6 +755,7 @@ const technotronData = {
       "https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597496/vdos/pkniafcpxrsayqrzmqml.mp4",
   },
   techx: {
+    title : "Event Related to Projects",
     data: [
       {
         name: "TechX",
@@ -771,6 +778,7 @@ const technotronData = {
 };
 
 const questData = {
+  title : "Fun Based Non-Technical Events",
   data: [
     {
       name: "12th Battalion",
@@ -893,6 +901,7 @@ const questData = {
 };
 
 const virtuosityData = {
+  title : "Gaming Events",
   data: [
     {
       name: "BGMI",
@@ -938,6 +947,7 @@ const virtuosityData = {
 };
 
 const fseData = {
+  title : "Event Related to Stock Market",
   data: [
     {
       name: "Inversion",

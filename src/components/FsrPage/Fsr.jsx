@@ -25,7 +25,7 @@ function Fsr() {
           className="w-full h-full object-cover"
           width="100%"
         >
-          <source src={Fsra} type="video/mp4" />
+          <source src={'https://res.cloudinary.com/du1tas6pe/video/upload/v1705679349/vdo/vpwrc3ofzmnvxl4spo4s.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
