@@ -629,7 +629,7 @@ const technotronData = {
           info: [
             "knowledge based event for Electrical & Electronics engg. Dept.",
           ],
-          rules: [],
+          rules: [""],
           price: ["-100 Rs"],
           team: ["Individual(Compulsory)"],
         },
@@ -781,13 +781,9 @@ const questData = {
         info: [
           "It is an event which checks your physical strength with games such as tug of war, wall climbing and much more.",
         ],
-        // rules: [
-        //   "- No help from internet is allowed",
-        //   "- Programming languages preferred C, C++, C#, python, java etc",
-        //   "-	Criteria for qualification in round 2 and 3 will be filtered by the ranking given to each coder by team footprints",
-        //   "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
-        //   "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
-        // ],
+        rules: [
+          "In quest there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences."
+        ],
         price: ["-Individual: 100 Rs",
       "Team of 3: 180 Rs"],
         team: ["- Individual or Max 3"],
@@ -801,13 +797,7 @@ const questData = {
           "It is a debate based event. This event would provide you a platform to exchange your views regarding a certain topic.",
         ],
         rules: [
-          "- Participants have to strictly design the web/mobile application based on the theme and design provided.",
-          "- 36 hours will be given to complete the whole application",
-          "-	Questions based on the designed application may be asked by the judges",
-          "- Knowledge of frontend as well as backend is required",
-          "- Use of any technology is allowed",
-          "- Participants must bring their own laptops and internet, charging points will be provided",
-          "- Final decision of judging criteria lies in the hands of team FootPrints",
+"In quest there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences."
         ],
         price: ["- 100 rs"],
         team: ["- Max 2"],
@@ -821,13 +811,7 @@ const questData = {
           "It is a event based on web series with fun and exciting games.",
         ],
         rules: [
-          "- It is an online event",
-          "- Dates:  24th Feb to 26th Feb",
-          "- There will 3 rounds in the event",
-          "- In the first round participants have to pitch their design",
-          "- In the second round they have to present their progress",
-          "- And in final round there will be submission and QnA based on the submission",
-          "- Visit the link provided to go to the website of HackPrints 2.0",
+         "In quest there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences."
         ],
         price: ["- 100 Rs"],
         team: ["- Individual"],
@@ -841,14 +825,8 @@ const questData = {
           "In this participants will be able to experience 4 different games. i.e. Axe throw, Paintball shooting, Shuriken and archery.",
         ],
         rules: [
-          "-	Participants have to submit the abstract of the presentation to protocol4fp23@gmail.com by 26th February 2023",
-          "- Participants can make a Presentation on any technical topic related to the Computer/IT field. The time specifications are 8 + 2 + 2 = 12 min’.",
-          "- Presentation time is limited to a maximum of 12 minutes. There will be a warning bell at the end of 8 minutes, indicating the remainder of 2 minutes to conclude your presentation. The next 2 minutes are reserved for questions from the judges or the present audience.",
-          "-	No extra time after 10 minutes will be given to any participant, and he/she is expected to stop as soon as their time is completed.",
-          "-	Participants are free to bring their own Laser Pointers or Hand Pointers, and none will be provided by the Core Committee. The presentation can be made in PowerPoint or Flash. All the participants are required to bring a hard copy of a typewritten report containing all the descriptive details of the topic of the presentation",
-          "- The text should not exceed 8 A4 sheets, with details being — Font: Times New Roman, Size 12 with1.5 line spacing being mandatory. This copy is to be handed over to the coordinator present during the event.",
-          "- A format for the presentation will be uploaded shortly and will be sent via mail to the participant short-listed for the first round. The 8 page report is excluding ‘only picture pages’ which may be added in between as per requirement. A page on bibliography is recommended to be added at the end of the report. Participants are requested to bring the files on a CD or a pen-drive (Floppy discs should not be used). The presentation soft copy and the text papers should under no circumstances bear the name of the participants or the college; any case of this rule being violated will lead to disqualification.",
-          "-	Only those teams whose abstract is shortlisted will be qualified to deliver the presentation on event day. The selected teams will be notified by the Core Committee.",
+          "In quest there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences.",
+          
         ],
         price: ["- 250 Rs"],
         team: ["- Individual"],
@@ -862,14 +840,7 @@ const questData = {
           "It is a treasure hunt based event.Here the participants would have to decode a plot based on clues which would be hidden at various locations in the college.",
         ],
         rules: [
-          "-	Participants have to submit the abstract of the presentation to protocol4fp23@gmail.com by 26th February 2023",
-          "- Participants can make a Presentation on any technical topic related to the Computer/IT field. The time specifications are 8 + 2 + 2 = 12 min’.",
-          "- Presentation time is limited to a maximum of 12 minutes. There will be a warning bell at the end of 8 minutes, indicating the remainder of 2 minutes to conclude your presentation. The next 2 minutes are reserved for questions from the judges or the present audience.",
-          "-	No extra time after 10 minutes will be given to any participant, and he/she is expected to stop as soon as their time is completed.",
-          "-	Participants are free to bring their own Laser Pointers or Hand Pointers, and none will be provided by the Core Committee. The presentation can be made in PowerPoint or Flash. All the participants are required to bring a hard copy of a typewritten report containing all the descriptive details of the topic of the presentation",
-          "- The text should not exceed 8 A4 sheets, with details being — Font: Times New Roman, Size 12 with1.5 line spacing being mandatory. This copy is to be handed over to the coordinator present during the event.",
-          "- A format for the presentation will be uploaded shortly and will be sent via mail to the participant short-listed for the first round. The 8 page report is excluding ‘only picture pages’ which may be added in between as per requirement. A page on bibliography is recommended to be added at the end of the report. Participants are requested to bring the files on a CD or a pen-drive (Floppy discs should not be used). The presentation soft copy and the text papers should under no circumstances bear the name of the participants or the college; any case of this rule being violated will lead to disqualification.",
-          "-	Only those teams whose abstract is shortlisted will be qualified to deliver the presentation on event day. The selected teams will be notified by the Core Committee.",
+          "In quest there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences.",
         ],
         specs: ["- 180 rs"],
         team: ["- Max 3"],
@@ -939,12 +910,13 @@ const fseData = {
         info: [
           "In this event participants have to use their financial knowledge and get the maximum return for their money in different rounds and scenarios.",
         ],
-        rules: [
-          "- No help from internet is allowed",
-          "- Programming languages preferred C, C++, C#, python, java etc",
-          "-	Criteria for qualification in round 2 and 3 will be filtered by the ranking given to each coder by team footprints",
-          "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
-          "-	Event will take place in the computer lab of the faculty, so no laptop is required from the participant",
+        rules: ["ROUND 1",
+          "Capital represents your investment, the cost signifies your expenditure, value denotes your return, and profit stands as your achievement. Dive into the dynamic market of FootPrints X24, featuring the Market under FSE. Hone your skills in an immersive virtual stock market, presenting an opportunity to test your abilities and experience the excitement of financial trading.",
+          "NOTE:",
+          "The Winners will earn a direct entry into Round 2.",
+          "ROUND 2",
+         " Get ready for an exciting twist as Footprints Stock Exchange introduces a new dimension, promising even greater thrills for all aspiring and soon-to-be hotshot investors.Stay tuned, as the details of this exhilarating event will be unveiled on the day of the event itself. Get ready for an adventure in the world of stocks AND exciting problems!",
+          
         ],
         price: ["INR 180/-"],
         team: ["- Compulsory 3"],
@@ -962,13 +934,7 @@ const fseData = {
         support for their ventures.`,
         ],
         rules: [
-          "- Participants have to strictly design the web/mobile application based on the theme and design provided.",
-          "- 36 hours will be given to complete the whole application",
-          "-	Questions based on the designed application may be asked by the judges",
-          "- Knowledge of frontend as well as backend is required",
-          "- Use of any technology is allowed",
-          "- Participants must bring their own laptops and internet, charging points will be provided",
-          "- Final decision of judging criteria lies in the hands of team FootPrints",
+          "Any idea is accepted",
         ],
         price: ["INR 250/-"],
         team: ["Max 5"],
