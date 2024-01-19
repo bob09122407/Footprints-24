@@ -68,8 +68,8 @@ const Testimonials24 = () => {
         </div>
 
         <div className="buttons">
-          <div className="previous" onClick={prevSlide}>Left</div>
-          <div className="next" onClick={nextSlide}>Right</div>
+          <div className="previous" onClick={prevSlide}></div>
+          <div className="next" onClick={nextSlide}></div>
         </div>
       </div>
     </main>
