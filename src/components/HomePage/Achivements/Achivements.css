@@ -8,6 +8,11 @@
   align-items: center;
 }
 
+.cardBlock .heading_segment{
+  font-size: 1.30rem !important;
+  margin: 15px 5px !important;
+}
+
 .achievements-img {
   width: 100%;
   border-radius: 20px;
@@ -18,7 +23,7 @@
   background: rgba(184, 237, 255, 0.05);
   border: solid 3px rgba(127, 222, 254, 0.2);
   border-radius: 15px;
-  min-height: 25em;
+  min-height: 27em;
   /* border: 1px solid var(--black-to-white); */
   /* box-shadow: 7px 7px 5px var(--black); */
   /* box-shadow: var(--box-shadow); */

@@ -19,7 +19,7 @@ function Achivements() {
                   {/* Padding for last element so that it is displayed in the center on tablets */}
                   {idx == achivementsData.length - 1 ? <div className="col-md-3 d-none d-md-block d-xl-none" key={idx}></div> : <></>}
                   <div
-                    key={element.id}
+                    key={element.id+1000}
                     className="cardBlock col-xl-4 col-md-6 col-sm-12"
                     // prettier-ignore
                     data-aos={screen.width > 1024 ? 
