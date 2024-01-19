@@ -200,7 +200,7 @@ const TheMoonPage = ({ theParent }) => {
                     <h1>{selectedMenu}</h1>
                     {selectedMenu === "rules" && (
                       <ul>
-                        {details.rules.map((rule, index) => (
+                        {details.rules?.map((rule, index) => (
                           <li key={index}>{rule}</li>
                         ))}
                       </ul>
@@ -221,7 +221,7 @@ const TheMoonPage = ({ theParent }) => {
                     )}
                     {selectedMenu === "team" && (
                       <ul>
-                        {details.team.map((team, index) => (
+                        {details.team?.map((team, index) => (
                           <li key={index}>{team}</li>
                         ))}
                       </ul>
