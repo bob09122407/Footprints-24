@@ -8,7 +8,7 @@ const newSponsorData = [
     {
         id: 1.1,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677774/sponsor/butzddkhgubnovsr5eez.png`,
-        alt: `Matrix`,
+        alt: `Title Sponsor`,
         href: `https://www.matrixcomsec.com/`,
         type: "TITLE SPONSOR"
     },
@@ -25,7 +25,7 @@ const newSponsorData = [
     {
         id: 1.2,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/btyfcmitkiwtds75fq6e.png`,
-        alt: `KYB`,
+        alt: `Associate Sponsor`,
         href: `https://conmatindia.com/`,
         type: "ASSOCIATE SPONSOR"
     },
@@ -50,14 +50,14 @@ const newSponsorData = [
     {
         id: 3,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/p8mtyjzmg67mttj2tghj.png`,
-        alt: `Axtel`,
+        alt: `Macheanema Sponsor`,
         href: `https://www.axtelindia.com/`
     },
 
     {
         id: 4,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677776/sponsor/xhpvnr8d5rhlfb784wor.png`,
-        alt: `Cosmos`,
+        alt: `Sanganikee Sponsor`,
         href: `https://www.cosmos.in/`
     },
 
@@ -65,14 +65,14 @@ const newSponsorData = [
     {
         id: 5,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/eqarltzbdpnwvlzffoil.png`,
-        alt: `Acumen`,
+        alt: `Gate Sponsor`,
         href: `https://acumenhr.in/`
     },
 
     {
         id: 6,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677776/sponsor/mgnc7i21lo2uuiw6adly.png`,
-        alt: `Robowala`,
+        alt: `Schitron Sponsor`,
         href: `https://robowala.com/`
     },
 
@@ -80,43 +80,43 @@ const newSponsorData = [
     {
         id: 7,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677776/sponsor/jqoiungip2lgilslch37.png`,
-        alt: `Kats`,
+        alt: `Rasayanam Sponsor`,
         href: ``
     },
 
     {
         id: 8,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677776/sponsor/heyvngjbh7lnikytmcsw.png`,
-        alt: `Mir India`,
+        alt: `Mascot Sponsor`,
         href: ``
     },
 
-    {
-        id: 9,
-        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/lpos33asaza5ocq10gdp.png`,
-        alt: `Prapti group`,
-        href: ``,
-    },
+    // {
+    //     id: 9,
+    //     imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/lpos33asaza5ocq10gdp.png`,
+    //     alt: `Prapti group`,
+    //     href: ``,
+    // },
 
 
     {
         id: 9,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677777/sponsor/cylho8br1djqvisstyd5.png`,
-        alt: `Ims`,
+        alt: `CAT Sponsor`,
         href: ``,
     },
 
     {
         id: 10,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/t8gwwdi5qi9z5wyzmk2y.png`,
-        alt: `Arkel`,
+        alt: `Supported By`,
         href: ``,
     },
 
     {
         id: 11,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/agqhysxew9tbzrttxxon.png`,
-        alt: `RFME`,
+        alt: `Energy Sponsor`,
         href: `https://instagram.com/thenix_studio?igshid=Yzg5MTU1MDY=`,
     },
 
@@ -173,14 +173,14 @@ const newSponsorData = [
     {
         id: 13,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677419/partners/uucmqd8riciyfz7brx0e.png`,
-        alt: `OmPrinters`,
+        alt: `Paint Partner`,
         href: `https://www.omkarpaints.com/`
     },
 
     {
         id: 14,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677419/partners/dphhpmfjzzhkgnljlfxk.png`,
-        alt: `JayPrinters`,
+        alt: `Printing Partner`,
         href: ``
     },
 
@@ -194,21 +194,21 @@ const newSponsorData = [
    {
         id: 16,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677418/partners/qnncp1tqjkmoopbwu4ll.png`,
-        alt: `Dalson`,
+        alt: `Watch Partner`,
         href: ``
     }, 
 
     {
         id: 17,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677419/partners/klnig8b2jtdwrcvej1yz.png`,
-        alt: `RobotSkull`,
+        alt: `Drone Partner`,
         href: `https://www.decathlon.in/`
     },
 
     {
         id: 17.1,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677419/partners/jqut8sjmcznp1373bosp.png`,
-        alt: `Devfolio`,
+        alt: `Hackprints Partner`,
         href: `https://devfolio.co/`
     },
 
@@ -223,35 +223,35 @@ const newSponsorData = [
     {
         id: 18,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677418/partners/gwllay9kraxa3zwituis.png`,
-        alt: `Goodies`,
+        alt: `Cake Partner`,
         href: `https://www.goodiescafe.in/`
     },
 
     {
         id: 19,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677418/partners/flc0wyentci3jnhmnoll.png`,
-        alt: `TPOV`,
+        alt: `Youth Partner`,
         href: ``
     },
 
     {
         id: 20,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677419/partners/fwx5mpyk02fm6wmplxog.png`,
-        alt: `yellow360`,
+        alt: `Youth Partner`,
         href: ``
     },
 
     {
         id: 21,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677418/partners/v7f3qsalqxnxlvvu4bmh.png`,
-        alt: `YouthBaroda`,
+        alt: `Online Media Partner`,
         href: ``
     },
 
     {
         id: 22,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677418/partners/dzsxggfoedtwqobours8.png`,
-        alt: `VadodraMirror`,
+        alt: `Online Media Partner`,
         href: ``
     },
 
@@ -259,14 +259,14 @@ const newSponsorData = [
     {
         id: 23,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677418/partners/eha5veyalokxama8gpsx.png`,
-        alt: `AsgardMedia`,
+        alt: `Online Media Partner`,
         href: ``
     },
 
     {
         id: 24,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677419/partners/gtvuol9jiyzumftmvrkl.png`,
-        alt: `Chikoo`,
+        alt: `Official Whatsapp Assistant Partner`,
         href: `https://itcgindia.com/`
     },
 
@@ -291,7 +291,7 @@ const newSponsorData = [
     {
         id: 25,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677419/partners/uyhkzo7cuj9ds9x3xekn.png`,
-        alt: `TripWell`,
+        alt: `Travel Partner`,
         href: `https://www.tripwell.in/`
     },
     
