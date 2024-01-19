@@ -172,14 +172,14 @@ const newSponsorData = [
 
     {
         id: 13,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370199/NewSponsorFp-23/OmKar_ea9pwi.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675880/partners/horueurwplfygbtboaua.png`,
         alt: `OmPrinters`,
         href: `https://www.omkarpaints.com/`
     },
 
     {
         id: 14,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370199/NewSponsorFp-23/JayPrinters_rvgqoi.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675880/partners/yev6bltija29einkq9gt.png`,
         alt: `JayPrinters`,
         href: ``
     },
@@ -200,57 +200,57 @@ const newSponsorData = [
 
     {
         id: 17,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674376756/NewSponsorFp-23/Decathlon_pujjcv.png`,
-        alt: `Decathlon`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675880/partners/ccf2wlwdjwshsrpom8f1.png`,
+        alt: `RobotSkull`,
         href: `https://www.decathlon.in/`
     },
 
     {
         id: 17.1,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677361498/NewSponsorFp-23/Devfolio_fbv7dp.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675880/partners/wppuk3ljnr1ylz4wpz3r.png`,
         alt: `Devfolio`,
         href: `https://devfolio.co/`
     },
 
         
-    {
-        id: 17.2,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677515668/NewSponsorFp-23/Realme_j2p3jv.png`,
-        alt: `RealMe`,
-        href: `https://www.realme.com/in/`
-    },
+    // {
+    //     id: 17.2,
+    //     imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677515668/NewSponsorFp-23/Realme_j2p3jv.png`,
+    //     alt: `RealMe`,
+    //     href: `https://www.realme.com/in/`
+    // },
 
     {
         id: 18,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370199/NewSponsorFp-23/Goodies_ryt32g.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675881/partners/tkwvixjua5zjw9qgqmmi.png`,
         alt: `Goodies`,
         href: `https://www.goodiescafe.in/`
     },
 
     {
         id: 19,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370200/NewSponsorFp-23/TPOV_m1srei.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675881/partners/q2omla0l8gpsqtxtepjk.png`,
         alt: `TPOV`,
         href: ``
     },
 
     {
         id: 20,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370200/NewSponsorFp-23/yellow360_xmgujm.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675880/partners/h1e3opkh5ggapwltamlr.png`,
         alt: `yellow360`,
         href: ``
     },
 
     {
         id: 21,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370200/NewSponsorFp-23/youthBarodian_whzw5e.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675881/partners/dbsqk0wgho3eh2eu0ube.png`,
         alt: `YouthBaroda`,
         href: ``
     },
 
     {
         id: 22,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370200/NewSponsorFp-23/vadodraMirror_dvch7v.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675881/partners/m4vzuqmsxbeekt2zbztu.png`,
         alt: `VadodraMirror`,
         href: ``
     },
@@ -258,80 +258,80 @@ const newSponsorData = [
 
     {
         id: 23,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370198/NewSponsorFp-23/Asgard_t8blqd.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675881/partners/kbbemyezsfborevtjdam.png`,
         alt: `AsguardMedia`,
         href: ``
     },
 
     {
         id: 24,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1675347545/NewSponsorFp-23/ITCG_jxdbra.png`,
-        alt: `ITCG`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675880/partners/ngljinkguz4zpumthcsn.png`,
+        alt: `Chikoo`,
         href: `https://itcgindia.com/`
     },
 
     
-    {
-        id: 24.1,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677515669/NewSponsorFp-23/RadioPartner_vta93t.png`,
-        alt: `Radio Partner`,
-        href: `https://onlineradiofm.in/gujarat/vadodara/city-91.1-fm`
-        /*External Website */
-    },
+    // {
+    //     id: 24.1,
+    //     imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677515669/NewSponsorFp-23/RadioPartner_vta93t.png`,
+    //     alt: `Radio Partner`,
+    //     href: `https://onlineradiofm.in/gujarat/vadodara/city-91.1-fm`
+    //     /*External Website */
+    // },
 
     
-    {
-        id: 24.2,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677515668/NewSponsorFp-23/PhotoGraphy_Partner_dtatfb.png`,
-        alt: `Photography Partner`,
-        href: `https://krishnashah.photography/`
-    },
+    // {
+    //     id: 24.2,
+    //     imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677515668/NewSponsorFp-23/PhotoGraphy_Partner_dtatfb.png`,
+    //     alt: `Photography Partner`,
+    //     href: `https://krishnashah.photography/`
+    // },
     
 
     {
         id: 25,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1675347546/NewSponsorFp-23/Travel_mwbmop.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705675880/partners/ndsssrgzrlentsyxnfmv.png`,
         alt: `TripWell`,
         href: `https://www.tripwell.in/`
     },
     
 
-    {
-        id: 26,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1675515326/NewSponsorFp-23/Yatri-partner_pfzvnx.png`,
-        alt: `Yatri`,
-        href: `http://yatritravelsvadodara.com/`
-    },
+    // {
+    //     id: 26,
+    //     imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1675515326/NewSponsorFp-23/Yatri-partner_pfzvnx.png`,
+    //     alt: `Yatri`,
+    //     href: `http://yatritravelsvadodara.com/`
+    // },
 
-    {
-        id: 27,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677359063/NewSponsorFp-23/SecurityPartner_ewiuim.png`,
-        alt: `King Inteligence`,
-        href: `https://www.facebook.com/KingIntelligenceService/`
-    },
+    // {
+    //     id: 27,
+    //     imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677359063/NewSponsorFp-23/SecurityPartner_ewiuim.png`,
+    //     alt: `King Inteligence`,
+    //     href: `https://www.facebook.com/KingIntelligenceService/`
+    // },
 
-    {
-        id: 28,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677361498/NewSponsorFp-23/Floral_Partner_sgloce.png`,
-        alt: `MalharFlorist`,
-        href: ``
-    },
+    // {
+    //     id: 28,
+    //     imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677361498/NewSponsorFp-23/Floral_Partner_sgloce.png`,
+    //     alt: `MalharFlorist`,
+    //     href: ``
+    // },
 
-    {
-        id: 29,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677361498/NewSponsorFp-23/GrapVine_nfjfbk.png`,
-        alt: `Grapwine`,
-        href: `https://thegrapevine.co.in/`
-    },
+    // {
+    //     id: 29,
+    //     imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677361498/NewSponsorFp-23/GrapVine_nfjfbk.png`,
+    //     alt: `Grapwine`,
+    //     href: `https://thegrapevine.co.in/`
+    // },
 
 
 
-    {
-        id: 29.1,
-        imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677515668/NewSponsorFp-23/EPositive_mgfiv5.png`,
-        alt: `E-Positive`,
-        href: `https://epositiveentertainment.com/`
-    },
+    // {
+    //     id: 29.1,
+    //     imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1677515668/NewSponsorFp-23/EPositive_mgfiv5.png`,
+    //     alt: `E-Positive`,
+    //     href: `https://epositiveentertainment.com/`
+    // },
 
 
     
