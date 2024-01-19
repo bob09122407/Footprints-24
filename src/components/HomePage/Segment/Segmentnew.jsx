@@ -38,7 +38,7 @@ const Slider = () => {
     <div className="container-seg">
         
       <div id="slide" ref={slideRef}>
-        <div className="item-seg" style={{ backgroundImage: `url(${phoo})`}}>
+        <div className="item-seg" style={{ backgroundImage: `url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705639941/segments/dxxo6qup3tjckntgkflt.png)`}}>
           <div className="content">
             <div className="name">Technotron</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
@@ -51,7 +51,7 @@ const Slider = () => {
             <button>TechX</button>
           </div>
         </div>
-        <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
+        <div className="item-seg" style={{ backgroundImage:`url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705639940/segments/aafofhgqrw98mnsh4ixp.png)`}}>
           <div className="content">
             <div className="name">Kaleidoscope</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
@@ -62,7 +62,7 @@ const Slider = () => {
             
           </div>
         </div>
-        <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
+        <div className="item-seg" style={{ backgroundImage:`url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705639941/segments/zypzsigjwnyfmmvoerkh.png)`}}>
           <div className="content">
             <div className="name">Rolling Square</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
@@ -71,7 +71,7 @@ const Slider = () => {
             <button>Jampad</button>
           </div>
         </div>
-        <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
+        <div className="item-seg" style={{ backgroundImage:`url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705638069/segments/wapb8ls74dje81z5zpmy.png)`}}>
           <div className="content">
             <div className="name">Quest</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
@@ -84,7 +84,7 @@ const Slider = () => {
 
           </div>
         </div>
-        <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
+        <div className="item-seg" style={{ backgroundImage:`url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705639940/segments/tihoc8phxiwacbl6wmcd.png)`}}>
           <div className="content">
             <div className="name">Footprints Stock Exchange</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
@@ -93,7 +93,7 @@ const Slider = () => {
             
           </div>
         </div>
-        <div className="item-seg" style={{ backgroundImage:`url(${phoo})`}}>
+        <div className="item-seg" style={{ backgroundImage:`url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705639940/segments/hnzveh0zifwicjmtkyqi.png)`}}>
           <div className="content">
             <div className="name">Virtuosity</div>
             {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
