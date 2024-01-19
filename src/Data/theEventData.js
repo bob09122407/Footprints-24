@@ -719,7 +719,7 @@ const technotronData = {
         background: "/src/assets/images/Logo/space.png",
         details: {
           info: ["Participants have to make a model using  popsicle sticks"],
-          specs: ["- Dimensions of the Warren Truss",
+          rules: ["- Dimensions of the Warren Truss",
  
           "-Clear Span of Truss = 65-70cm",
           "-Height of truss: 8 to 10cm",
