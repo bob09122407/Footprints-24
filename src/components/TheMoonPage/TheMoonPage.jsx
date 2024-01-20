@@ -102,7 +102,7 @@ const TheMoonPage = ({ theParent }) => {
           </div> */}
         </div>
         <div className="main-tech">
-          <div className={`tech ${iconsRow1.length===5?"when-five":""}`}>
+          <div className={`tech ${iconsRow1.length===5?"when-five":""} ${iconsRow1.length===7?"when-seven":""} ${iconsRow1.length===1?"when-one":""}`}>
             {iconsRow1?.map(({ name, background, details }, index) => (
               <div className="moon-icon-block" key={index}>
                 <div
