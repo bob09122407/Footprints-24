@@ -1,46 +1,60 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './testimonial.css';
 import Heading from '../../Common/Headings/Heading';
 import testiData from '../../../Data/Testimonial';
 
 const Testimonials24 = () => {
-  const [position, setPosition] = useState(0);
-  const [autoPlayInterval, setAutoPlayInterval] = useState(null);
-
+  // const [position, setPosition] = useState(0);
+  // const [autoPlayInterval, setAutoPlayInterval] = useState(null);
+  const sliderWrapper = useRef(null);
+  let position = 0;
   const testimonials = testiData;
+
 
   useEffect(() => {
     startAutoPlay();
 
-    return () => {
+    return ()=>{
       stopAutoPlay();
-    };
-  }, [position]);
+    }
+  }, []);
 
   const moveSlider = (direction) => {
+    // console.log("Hello");
     const newPosition = direction === 'right' ? position + 1 : position - 1;
-    setPosition(newPosition >= testimonials.length ? 0 : newPosition < 0 ? testimonials.length - 1 : newPosition);
+    position = (newPosition >= testimonials.length ? 0 : newPosition < 0 ? testimonials.length - 1 : newPosition);
+    // position = position >= testimonials.length ? 0 : position < 0 ? testimonials.length - 1 : position;
+    // console.log(sliderWrapper.current.target,direction);
+    sliderWrapper.current.style.transform = `translateX(-${position * 100}%)`;
+    // setPosition(newPosition >= testimonials.length ? 0 : newPosition < 0 ? testimonials.length - 1 : newPosition);
   };
 
-  const startAutoPlay = () => {
-    const intervalId = setInterval(() => {
-      moveSlider('right');
-    }, 3000); // Adjust the interval as needed
+  let intervalId;
 
-    setAutoPlayInterval(intervalId);
+  const startAutoPlay = () => {
+    intervalId = setInterval(() => {
+      moveSlider('right');
+    }, 5000); // Adjust the interval as needed
+
+    // setAutoPlayInterval(intervalId);
   };
 
   const stopAutoPlay = () => {
-    clearInterval(autoPlayInterval);
-    setAutoPlayInterval(null);
+    clearInterval(intervalId);
+    // setAutoPlayInterval(null);
   };
 
   const nextSlide = () => {
+    // console.log("hello");
     moveSlider('right');
+    stopAutoPlay();
+    startAutoPlay();
   };
-
+  
   const prevSlide = () => {
     moveSlider('left');
+    stopAutoPlay();
+    startAutoPlay();
   };
 
   return (
@@ -51,7 +65,7 @@ const Testimonials24 = () => {
               id="glheading"
               title={"Testimonials"}
             />
-        <div className="slide-wrappers" style={{ transform: `translateX(-${position * 100}%)` }}>
+        <div className="slide-wrappers" ref={sliderWrapper} style={{transform:`translateX(-${position * 100}%)`}}>
           {testimonials.map((testimonial, i) => (
             <div key={i} className="slide">
               <div className="testimonial">
