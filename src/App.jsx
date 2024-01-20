@@ -8,8 +8,6 @@ import SponsorPage from "./components/SponsorPage/SponsorPage";
 import TeamFP from "./components/TeamFpPage/TeamFP";
 import HistoryPage from "./components/HistoryPage/HistoryPage";
 import Gallery from "./components/Gallery/Gallery";
-import EventPage from "./components/EventPage/EventPage";
-import SubEvent from "./components/SubEvent/SubEvent";
 import ThemeState from "./Context/Theme/ThemeState";
 import WebTeam from "./components/WebTeam/Webteam";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -19,9 +17,6 @@ import Techzi from "./components/KaleidoPage/Techzi";
 import Taleido from "./components/KaleidoPage/Taleido";
 import Fsr from "./components/FsrPage/Fsr";
 import Schitron from "./components/Schitron/Schitron";
-import Quest from "./components/QuestPage/Quest";
-import Fse from "./components/FsePage/Fse";
-import Virtuosity from "./components/VirtuosityPage/Virtuosity";
 import Acco from "./components/Acco/Acco";
 
 import MediaPage from "./components/MediaPage/MediaPage";
@@ -33,9 +28,7 @@ import AOS from 'aos';
 import TheMoonPage from "./components/TheMoonPage/TheMoonPage";
 import LandingPage from "./components/LandingPage/Landingpage";
 // import Countdown from "./components/CountDown/Countdown"
-import Slider from "./components/HomePage/Segment/Segmentnew";
 
-import Techx from "./components/EventPage/Techx/Techx";
 
 AOS.init();
 

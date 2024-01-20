@@ -107,6 +107,11 @@ margin-top: 1rem !important;
     padding: 10px;
 }
 
+.sponsors-block a{
+    text-decoration: none;
+    color: black;
+}
+
 .sponsors-block{
     transition: all 0.5s ease;
     padding: 10px 10px;
