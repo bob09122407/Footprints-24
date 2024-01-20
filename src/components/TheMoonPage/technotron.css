@@ -151,7 +151,7 @@ body {
 
 @media (max-width: 1024px) {
   .tech {
-    grid-template-columns: repeat(2, 1fr); /* Two columns on tablets */
+    /* grid-template-columns: repeat(2, 1fr); Two columns on tablets */
   }
 }
 
@@ -176,6 +176,10 @@ body {
   }
   .moon-icon,
   .moon-icon-2 {
+    margin: 0 !important;
+  }
+
+  .moon-icon-block{
     margin: 0 !important;
   }
 }
