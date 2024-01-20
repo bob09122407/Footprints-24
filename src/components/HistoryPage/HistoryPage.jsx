@@ -118,7 +118,7 @@ function HistoryPage() {
                                 {element.heading}
                               </h3>
                               <div className="timeline-year">
-                                Footprints'{element.year}
+                                FootPrints'{element.year}
                               </div>
                             </div>
                             <div className="timeline-content">
