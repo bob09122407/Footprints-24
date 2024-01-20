@@ -11,6 +11,15 @@
   box-sizing: border-box;
 }
 
+#root{
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: -5px;
+  margin-bottom: -7px;
+}
+
 
 :root {
   /* <------- MainWeb -------> */
