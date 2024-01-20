@@ -51,15 +51,49 @@ body {
   /* opacity: 0.5; */
 }
 
-.tech > div:nth-child(4n),
-.tech > div:nth-child(4n - 1) {
+.tech > .moon-icon-block:nth-child(4n),
+.tech > .moon-icon-block:nth-child(4n - 1) {
   /* Style B */
-  margin-left: 10rem; /* Adjust margin as needed */
+  margin-left: 10rem; /*Adjust margin as needed*/
   margin-top: 2rem;
 }
 
 .tech > div:last-child:nth-child(odd) {
   /* opacity: 0.5; */
+}
+
+.moon-icon-block{
+  display: flex;
+  justify-content: center;
+}
+
+.when-five{
+
+}
+
+.tech.when-five{
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(2,1fr);
+  max-width: 100%;
+}
+
+.tech.when-five .moon-icon-block{
+  margin: 0;
+}
+
+.when-five .moon-icon-block:nth-child(-n+3){
+  grid-row: 1 / 2;
+  grid-column: span 2;
+}
+
+.when-five .moon-icon-block:nth-child(4){
+  grid-row: 2 / -1;
+  grid-column: 1 / 5;
+}
+
+.when-five .moon-icon-block:nth-child(5){
+  grid-row: 2 / -1;
+  grid-column: -5 / -1;
 }
 
 @media (max-width: 1024px) {

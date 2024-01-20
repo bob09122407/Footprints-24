@@ -102,19 +102,20 @@ const TheMoonPage = ({ theParent }) => {
           </div> */}
         </div>
         <div className="main-tech">
-          <div className="tech">
+          <div className={`tech ${iconsRow1.length===5?"when-five":""}`}>
             {iconsRow1?.map(({ name, background, details }, index) => (
-              <div
-                key={index}
-                className="moon-icon"
-                data-name={name}
-                style={{
-                  backgroundImage: `url(${background})`,
-                  ...details.styles,
-                }}
-                data-aos="zoom-in-up"
-                onClick={() => toggle(name)}
-              ></div>
+              <div className="moon-icon-block" key={index}>
+                <div
+                  className="moon-icon"
+                  data-name={name}
+                  style={{
+                    backgroundImage: `url(${background})`,
+                    ...details.styles,
+                  }}
+                  data-aos="zoom-in-up"
+                  onClick={() => toggle(name)}
+                ></div>
+              </div>
             ))}
           </div>
         </div>
@@ -233,8 +234,8 @@ const TheMoonPage = ({ theParent }) => {
           ))}
         </div>
       </div>
-      <Sponsors/>
-      <Footer/>
+      <Sponsors />
+      <Footer />
     </>
   );
 };
