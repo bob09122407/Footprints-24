@@ -70,7 +70,13 @@ const HistoryData=[
          year:"22",
          heading:"SUCCESS AFTER COVID-19",
          description:"Post pandemic, FootPrints'22 was one of the largest technical fest organised with new inclusions of Envirosavy, a segment to flourish conservational side, Pitcher's Project, an event to promote start-up culture and new age workshops like a Non-fungible Tokens (NFT), Amazon Web Services (AWS) and E-bike. The fiesta ended with alluring performance by Jasleen Royal."
-    }
+    },
+
+    {
+     year:"23",
+     heading:"BREAKING RECORDS",
+     description:"In FootPrints'24, we excelled in technical events, setting new benchmarks, and elevated our podcast's success with strategic planning and diverse content. A highlight was hosting Darshan Raval in concert, propelling our reach. "
+     }
 
 ];
 
