@@ -75,7 +75,7 @@ const HistoryData=[
     {
      year:"23",
      heading:"BREAKING RECORDS",
-     description:"In FootPrints'24, we excelled in technical events, setting new benchmarks, and elevated our podcast's success with strategic planning and diverse content. A highlight was hosting Darshan Raval in concert, propelling our reach. "
+     description:"In FootPrints'23, we excelled in technical events, setting new benchmarks, and elevated our podcast's success with strategic planning and diverse content. A highlight was hosting Darshan Raval in concert, propelling our reach. "
      }
 
 ];
