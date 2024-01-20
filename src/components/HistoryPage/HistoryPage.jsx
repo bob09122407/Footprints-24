@@ -7,7 +7,7 @@ import Footer from "../Common/Footer/Footer";
 
 function HistoryPage() {
   useEffect(() => {
-    document.title = "History | FootPrints'23";
+    document.title = "History | FootPrints'24";
   }, []);
 
   useEffect(() => {
