@@ -142,7 +142,8 @@
     border-radius: 50%;
     border:1px solid #555;
     transition: 0.5s;
-}.buttons-seg button:hover{
+}
+.buttons-seg button:hover{
     background-color: #bac383;
 }
 
@@ -160,16 +161,16 @@
         max-width: 100%;
         top: 80%;
     }
-    .item-seg .name{
+    /* .item-seg .name{
         margin-left: -70px;
         margin-top: -150px;
-        /* visibility: hidden; */
-    }
-    .item-seg .des{
+        visibility: hidden;
+    } */
+    /* .item-seg .des{
         margin-left: -70px;
         margin-top: 0px;
-        /* visibility: hidden; */
-    }
+        visibility: hidden;
+    } */
     .item-seg{
         width:100px;
         height:120px;
@@ -192,19 +193,31 @@
         width:100%;
         height:100%;
         box-shadow: none;
+        background-image: url("https://res.cloudinary.com/du1tas6pe/image/upload/v1705769685/segment%20bg/msgawvvtxc5ohmickgvl.png") !important;
     }
     .item-seg:nth-child(3){
         left:62%;
+        /* background-image: url("https://res.cloudinary.com/du1tas6pe/image/upload/v1705769685/segment%20bg/msgawvvtxc5ohmickgvl.png") !important; */
+
+
     }
     .item-seg:nth-child(4){
         left:calc(44% + 180px);
+        /* background-image: url("https://res.cloudinary.com/du1tas6pe/image/upload/v1705769685/segment%20bg/msgawvvtxc5ohmickgvl.png") !important; */
+
+
     }
     .item-seg:nth-child(5){
         left:calc(70% + 360px);
+        /* background-image: url("https://res.cloudinary.com/du1tas6pe/image/upload/v1705769685/segment%20bg/msgawvvtxc5ohmickgvl.png") !important; */
     }
+
+    
     .item-seg:nth-child(n+6){
         left:calc(50% + 660px);
         opacity: 0;
+        background-image: none;
+
     }
     .buttons-seg{
         justify-content: space-between !important;
@@ -216,8 +229,11 @@
        width: 48%;
     }
     .item-seg .name{
-        margin-top: -3.5rem;
-        margin-left:-3.4rem;
+        /* margin-top: -3.5rem; */
+        margin-top: -7rem;
+        /* margin-left:-3.4rem; */
+        margin-left:-5rem;
+
     }
   
 }
