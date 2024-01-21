@@ -10,16 +10,16 @@ const Slider = () => {
     const lists = slideRef.current.querySelectorAll(".item-seg");
     slideRef.current.appendChild(lists[0].cloneNode(true));
     slideRef.current.removeChild(lists[0]);
-    // clearInterval(intervalId);
-    // intervalId = setInterval(nextSlide, 3000);
+    clearInterval(intervalId);
+    intervalId = setInterval(nextSlide, 3000);
   };
 
   const prevSlide = () => {
     const lists = slideRef.current.querySelectorAll(".item-seg");
     slideRef.current.prepend(lists[lists.length - 1].cloneNode(true));
     slideRef.current.removeChild(lists[lists.length - 1]);
-    // clearInterval(intervalId);
-    // intervalId = setInterval(nextSlide, 3000);
+    clearInterval(intervalId);
+    intervalId = setInterval(nextSlide, 3000);
   };
 
   let intervalId;
