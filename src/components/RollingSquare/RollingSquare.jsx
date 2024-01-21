@@ -8,7 +8,7 @@ import imageSources from "../../Data/RollingSquaresImages";
 
 export default function RollingSquare() {
   useEffect(() => {
-    document.title = "Rolling Sqares | FootPrints'24";
+    document.title = "Rolling Squares | FootPrints'24";
   }, []);
 
   return (
