@@ -32,7 +32,8 @@ function Fsr() {
 
         <div className="container">
           <Heading className="fsr_heading" id="glheading" title="FSR DRIVES" />
-
+          <div id="stars"></div>
+          <div id="stars2"></div>
           {FsrData.map((element) => {
             if (element.id % 2 == 0) {
               return (
@@ -99,8 +100,12 @@ function Fsr() {
             );
           })}
         </div>
+        <div id="stars"></div>
+        <div id="stars2"></div>
       </section>
       <Sponsors />
+      <div id="stars"></div>
+      <div id="stars2"></div>
       <Footer />
     </>
   );

@@ -125,6 +125,8 @@ function Kaleido() {
               </div>
             );
           })}
+          <div id="stars"></div>
+          <div id="stars2"></div>
           <Heading className="kaleido_heading" id="glheading" title="PREVIOUS GUEST LECTURES" />
           {AboutGuestData.map((element) => {
             if (element.id % 2 == 0) {
@@ -151,7 +153,8 @@ function Kaleido() {
                       {/* <p className="location-icon">{element.venue}</p> */}
                       {/* </div> */}
                     </div>
-
+                    <div id="stars"></div>
+                    <div id="stars2"></div>
                     <div className="guest_img guest_img_style" data-aos="fade-right" data-aos-duration="1800" data-aos-delay="100">
                       <img src={element.imgSrc} className="Kaleido-img" alt={element.name} />
                     </div>
@@ -266,6 +269,8 @@ function Kaleido() {
         {/* </div> */}
       </section>
       <Sponsors />
+      <div id="stars"></div>
+      <div id="stars2"></div>
       <Footer />
     </>
   );
