@@ -225,14 +225,15 @@
         display: flex; 
     }
     .item-seg button{
-       left: -20%;
+       left: -25%;
        width: 48%;
     }
     .item-seg .name{
-        /* margin-top: -3.5rem; */
-        margin-top: -7rem;
-        /* margin-left:-3.4rem; */
-        margin-left:-5rem;
+        margin-top: -3.5rem;
+        /* margin-top: -7rem; */
+        margin-left:-4.4rem;
+        /* margin-left:-5rem; */
+        font-size: 35px;
 
     }
   
