@@ -45,16 +45,16 @@ const technotronData = {
         background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
-            "It is a 3-day online Hackathon based event wherein the participants have to submit a developed project i.e., a mobile/web application based on a given theme provided on the website of HackPrints 2.0",
+            "It is a 3-day online Hackathon based event wherein the participants have to submit a developed project i.e., a mobile/web application based on a given theme provided on the website of HackPrints 3.0",
           ],
           rules: [
             "- It is an online event",
-            "- Dates:  24th Feb to 26th Feb",
+            "- Dates:  23rd Feb to 25th Feb",
             "- There will 3 rounds in the event",
             "- In the first round participants have to pitch their design",
             "- In the second round they have to present their progress",
             "- And in final round there will be submission and QnA based on the submission",
-            "- Visit the link provided to go to the website of HackPrints 2.0",
+            "- Visit the link provided to go to the website of HackPrints 3.0",
           ],
           price: ["- Free"],
           team: ["- Max 4"],
@@ -187,7 +187,7 @@ const technotronData = {
             "The dimensions of vehicle should be 70 x 50 x 50 cm",
             "The fuel to be used can be methanol along with castor Oil. The proportion is 70% methanol and 30% castor oil. Also, you can use 10% nitro methane along with it.",
             "The minimum tire size should be 25mm x 75mm.",
-            "Antennae are exempted from height constraint.",
+            "Antenna are exempted from height constraint.",
             "The chassis of the machine should be at least 2cm above the ground.",
             "Braking Mechanism is compulsory.",
             "Guards on front and rear side are compulsory to prevent damage to the vehicle.",
@@ -225,10 +225,10 @@ const technotronData = {
         background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
-            "It is a paper presentation event related to Mechanical Engineering department.",
+            "It is a paper presentation event related to Mechanical and Metallurgy Engineering department.",
           ],
           rules: [
-            "Make a presentation on any technical topic related to Mechanical Engineering field.",
+            "Make a presentation on any technical topic related to Mechanical and Metallurgy Engineering field.",
             "The time specifications are ‘8 + 2 + 2 = 12 min’. Presentation time is limited to a maximum of 10 minutes.",
             "There will be a warning bell at the end of 8 minutes, indicating the remainder of 2 minutes to conclude your presentation. The next 2 minutes are reserved for questions from the judges or the present audience.",
             "No extra time after 10 minutes will be given to any participant and he/she is expected to stop as soon as their time is completed. Participants are free to bring their own Laser Pointers or Hand Pointers and none will be provided by the Core Committee.",
