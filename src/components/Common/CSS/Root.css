@@ -20,6 +20,11 @@
   margin-bottom: -7px;
 }
 
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 
 :root {
   /* <------- MainWeb -------> */
