@@ -365,10 +365,10 @@ const technotronData = {
           "-The organizers will check the machine before the participants are allowed to compete and the decision regarding the machine's compliance with the specifications shall be solely in the hands of the judges.",
           "-The weight of the robot(Including the battery) must not exceed 8kgs.",  
           
-          "RULES:"
-          -"The robot must not damage the Sumo Ring."
-          -"Intentional cutting of other wires and damaging of other bots is not allowed, failure to do that may lead to disqualification."
-          -"After each round, the winning team will be granted three minutes to repair their robots (if any).",
+          "RULES:",
+          "-The robot must not damage the Sumo Ring.",
+          "-Intentional cutting of other wires and damaging of other bots is not allowed, failure to do that may lead to disqualification.",
+          "-After each round, the winning team will be granted three minutes to repair their robots (if any).",
           
           "ROUND DETAILS",
           "-The matches will be played in a knockout format.",
