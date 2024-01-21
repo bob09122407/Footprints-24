@@ -2,14 +2,14 @@ const TaleidoData = [
   {
     id: 1,
 
-    name: "Lynn Chominsky",
+    name: "Lynn Cominsky",
 
     details: "Adjunct Professor & Scholar, Stanford University",
 
     imgSrc:
       "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705602186/taleido/eqlborwa2uihmsh1ft30.jpg",
 
-    content: `Lynn Chominsky, current Project Head at NASA's Education and Public Outreach Group, is an American astrophysicist and Chair of Astronomy and Physics at Sonoma State University. With over 225 research papers, she founded SSU's EdEon STEM Learning, contributing educational materials to NASA, NSF, and the US Department of Education. Chominsky, a recipient of the 2016 Education Prize from the American Astronomical Society, the 2016 Wang Family Excellence Award, and the 2017 Frank J. Malina Education Medal, demonstrates a commitment to advancing both astrophysics and education.`,
+    content: `Lynn Cominsky, current Project Head at NASA's Education and Public Outreach Group, is an American astrophysicist and Chair of Astronomy and Physics at Sonoma State University. With over 225 research papers, she founded SSU's EdEon STEM Learning, contributing educational materials to NASA, NSF, and the US Department of Education. Cominsky, a recipient of the 2016 Education Prize from the American Astronomical Society, the 2016 Wang Family Excellence Award, and the 2017 Frank J. Malina Education Medal, demonstrates a commitment to advancing both astrophysics and education.`,
 
     ytlink: "https://youtu.be/HxMQa-1-TLk",
   },
