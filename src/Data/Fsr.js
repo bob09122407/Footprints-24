@@ -41,7 +41,7 @@ const FsrData = [
       "https://res.cloudinary.com/ds4a2i0b7/image/upload/v1673985051/Edu_FSR_vndn3r.jpg",
 
     content:
-      "Team Footprints tried to stimulate the notion of benevolence by visiting Shahpura, Sundarpura, Hansapura, Ajitpura and Umarva where in collaboration with the Leo Club of Baroda, we distributed notebooks and pencils emphasizing the importance of education to the students. Our sense of purpose is what drives us as humans. With the motive and hope to see them in our places and higher, we strive to provide value to the young minds.",
+      "Team FootPrints tried to stimulate the notion of benevolence by visiting Shahpura, Sundarpura, Hansapura, Ajitpura and Umarva where in collaboration with the Leo Club of Baroda, we distributed notebooks and pencils emphasizing the importance of education to the students. Our sense of purpose is what drives us as humans. With the motive and hope to see them in our places and higher, we strive to provide value to the young minds.",
   },
   {
     id: 5,

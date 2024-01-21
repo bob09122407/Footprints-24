@@ -9,7 +9,7 @@ const HistoryData=[
     {
          year:"09",
          heading:"GROWTH",
-         description:"FootPrints witnessed evident growth and soon became the most awaited fiesta. The participation graph showed a striking increase, crossing the 5000 mark in 09. Furthermore, FootPrints expanded its horizons - pioneering technical events, seminars and workshops in its precincts."
+         description:"FootPrints witnessed evident growth and soon became the most awaited fiesta. The participation graph showed a striking increase, crossing the 5000 mark in FootPrints'09. Furthermore, FootPrints expanded its horizons - pioneering technical events, seminars and workshops in its precincts."
     },
 
     {
@@ -75,7 +75,7 @@ const HistoryData=[
     {
      year:"23",
      heading:"BREAKING RECORDS",
-     description:"In FootPrints'23, we excelled in technical events, setting new benchmarks, and elevated our podcast's success with strategic planning and diverse content. A highlight was hosting Darshan Raval in concert, propelling our reach. "
+     description:"In the realm of technical events, we soared to new heights, not just meeting but setting new benchmarks that spoke volumes about our excellence. Our strategic planning and commitment to diverse content transformed our podcast into a thriving platform, marking a significant chapter in our success story. However, the pinnacle of our achievements was undoubtedly reached when we hosted the sensational Darshan Raval in concert. This star-studded event not only showcased our capability but also propelled our reach to unprecedented levels, leaving an indelible mark on our journey of success."
      }
 
 ];

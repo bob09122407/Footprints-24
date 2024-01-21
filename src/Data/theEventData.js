@@ -782,7 +782,7 @@ const questData = {
           "It is an event which checks your physical strength with games such as tug of war, wall climbing and much more.",
         ],
         rules: [
-          "In quest there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences."
+          "In 12th Batallian there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences."
         ],
         price: ["-Individual: 100 Rs",
       "Team of 3: 180 Rs"],
@@ -797,9 +797,9 @@ const questData = {
           "It is a debate based event. This event would provide you a platform to exchange your views regarding a certain topic.",
         ],
         rules: [
-"In quest there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences."
+"In War of Words there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences."
         ],
-        price: ["- 100 rs"],
+        price: ["- 100 Rs"],
         team: ["- Max 2"],
       },
     },
@@ -811,7 +811,7 @@ const questData = {
           "It is a event based on web series with fun and exciting games.",
         ],
         rules: [
-         "In quest there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences."
+         "In Squid Game there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences."
         ],
         price: ["- 100 Rs"],
         team: ["- Individual"],
@@ -825,7 +825,7 @@ const questData = {
           "In this participants will be able to experience 4 different games. i.e. Axe throw, Paintball shooting, Shuriken and archery.",
         ],
         rules: [
-          "In quest there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences.",
+          "In Shooting Arcade there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences.",
           
         ],
         price: ["- 250 Rs"],
@@ -840,7 +840,7 @@ const questData = {
           "It is a treasure hunt based event.Here the participants would have to decode a plot based on clues which would be hidden at various locations in the college.",
         ],
         rules: [
-          "In quest there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences.",
+          "In Lost there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences.",
         ],
         specs: ["- 180 rs"],
         team: ["- Max 3"],
@@ -876,9 +876,9 @@ const virtuosityData = {
           "Dive into the heart of thrilling battles and strategic gameplay in this captivating gaming experience.",
         ],
         rules: [
-          "Same as of BGMI. It will be held in Fote Msu Campus"
+          "Same as of BGMI. It will be held in FOTE MSU Campus"
           ],
-        price: ["50/250"],
+        price: ["50 Rs/250 Rs"],
         team: ["Individual/squad"],
       },
     },
@@ -911,14 +911,14 @@ const fseData = {
           "In this event participants have to use their financial knowledge and get the maximum return for their money in different rounds and scenarios.",
         ],
         rules: ["ROUND 1",
-          "Capital represents your investment, the cost signifies your expenditure, value denotes your return, and profit stands as your achievement. Dive into the dynamic market of FootPrints X24, featuring the Market under FSE. Hone your skills in an immersive virtual stock market, presenting an opportunity to test your abilities and experience the excitement of financial trading.",
+          "Capital represents your investment, the cost signifies your expenditure, value denotes your return, and profit stands as your achievement. Dive into the dynamic market of FootPrints'24, featuring the Market under FSE. Hone your skills in an immersive virtual stock market, presenting an opportunity to test your abilities and experience the excitement of financial trading.",
           "NOTE:",
           "The Winners will earn a direct entry into Round 2.",
           "ROUND 2",
-         " Get ready for an exciting twist as Footprints Stock Exchange introduces a new dimension, promising even greater thrills for all aspiring and soon-to-be hotshot investors.Stay tuned, as the details of this exhilarating event will be unveiled on the day of the event itself. Get ready for an adventure in the world of stocks AND exciting problems!",
+         " Get ready for an exciting twist as FootPrints Stock Exchange introduces a new dimension, promising even greater thrills for all aspiring and soon-to-be hotshot investors.Stay tuned, as the details of this exhilarating event will be unveiled on the day of the event itself. Get ready for an adventure in the world of stocks and exciting problems!",
           
         ],
-        price: ["INR 180/-"],
+        price: ["180 Rs"],
         team: ["- Compulsory 3"],
       },
     },
@@ -927,7 +927,7 @@ const fseData = {
       background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
       details: {
         info: [
-          `\"Pitchers Project\" is an entrepreneurship event tailored for Footprints 24, designed to
+          `\"Pitchers Project\" is an entrepreneurship event tailored for FootPrints'24, designed to
         foster innovation and support budding entrepreneurs in bringing their startup ideas to
         fruition. This event serves as a platform for individuals with entrepreneurial aspirations
         to showcase their business concepts, receive valuable feedback, and potentially secure
@@ -936,7 +936,7 @@ const fseData = {
         rules: [
           "Any idea is accepted",
         ],
-        price: ["INR 250/-"],
+        price: ["250 Rs"],
         team: ["Max 5"],
       },
     },

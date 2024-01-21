@@ -31,7 +31,7 @@ const AboutData=[
 const ContactInfoData=[
     {
         id:1,
-        phone: '+91-8141453979',
+        phone: '+91-7874287905',
         mail: 'info@msufp.in',
         details: 'Training and Placement Cell,',
         extra_details: ' Faculty of Technology and Engineering,',
