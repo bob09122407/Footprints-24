@@ -671,6 +671,7 @@ body {
   font-size: 130px;
   text-align: center;
   letter-spacing: 20px;
+  white-space: nowrap;
   padding-left: 20px;
   background: -webkit-linear-gradient(white, #dbdde0, #38495a);
   -webkit-background-clip: text;
