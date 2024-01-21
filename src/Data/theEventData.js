@@ -225,10 +225,10 @@ const technotronData = {
         background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
-            "It is a paper presentation event related to Mechanical Engineering department.",
+            "It is a paper presentation event related to Mechanical and Metallurgy Engineering department.",
           ],
           rules: [
-            "Make a presentation on any technical topic related to Mechanical Engineering field.",
+            "Make a presentation on any technical topic related to Mechanical and Metallurgy Engineering field.",
             "The time specifications are ‘8 + 2 + 2 = 12 min’. Presentation time is limited to a maximum of 10 minutes.",
             "There will be a warning bell at the end of 8 minutes, indicating the remainder of 2 minutes to conclude your presentation. The next 2 minutes are reserved for questions from the judges or the present audience.",
             "No extra time after 10 minutes will be given to any participant and he/she is expected to stop as soon as their time is completed. Participants are free to bring their own Laser Pointers or Hand Pointers and none will be provided by the Core Committee.",
