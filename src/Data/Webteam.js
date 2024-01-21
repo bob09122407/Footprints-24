@@ -40,25 +40,32 @@ const WebteamData = [
   },
   {
     id: 7,
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705604900/FP%2724%20Website%20Photos/zosq7koiz3phea4wtjxb.jpg`,
+    name: "Om Mistri",
+    linked: `https://www.linkedin.com/in/om-mistri-4a92a9273`,
+   },
+  {
+    id: 8,
     imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/zfjkakeibc5fgdj3ew4h.jpg`,
     name: "Mihir Bhavsar",
     linked: `https://www.linkedin.com/in/mihirbhavsar3102?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
   },
   {
-    id: 8,
-    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705604900/FP%2724%20Website%20Photos/zosq7koiz3phea4wtjxb.jpg`,
-    name: "Om Mistri",
-    linked: `https://www.linkedin.com/in/om-mistri-4a92a9273`,
-  },
+    id: 9,
+    imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/v1705595469/FP%2724%20Website%20Photos/sci6720dvt6ng6rtozgr.jpg
+    `,
+    name: "Ayushi Sharma",
+    linked: `https://www.linkedin.com/in/mihirbhavsar3102?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
+   },
 
   {
-    id: 9,
+    id: 10,
     imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/e7hpxqjxdlnavtlwq0fv.jpg`,
     name: "Dhaval Saxena",
     linked: `https://www.linkedin.com/in/dhaval-saxena-207187259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
   },
   {
-    id: 10,
+    id: 11,
     imgSrc: `https://res.cloudinary.com/dqkhtzm13/image/upload/e_improve:outdoor/FP'24%20Website%20Photos/bzkwfet2sj42niz56qcg.jpg`,
     name: "Nachiket Karambelkar",
     linked: `https://www.linkedin.com/in/nachiket-karambelkar-976566259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
