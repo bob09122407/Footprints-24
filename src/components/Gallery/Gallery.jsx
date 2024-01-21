@@ -59,23 +59,23 @@ const Gallery = () => {
   let data = [
     {
       id: 1,
-      imgSrc: "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640244/Gallery/Jasleen_Royal_nlwvns_pjsgbn.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014671/gallery/tqtsrwvqrijp0jztkrgl.jpg",
       title: "Rolling Squares",
       subtitle: "Concert",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
     {
       id: 2,
-      imgSrc: "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640179/Gallery/Burnout_e6cqzt_nnjmbj.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014671/gallery/m6spvnnkq6vbsyxlhexe.jpg",
       title: "Macheanema",
       subtitle: "Burnout",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
     {
       id: 3,
-      imgSrc: "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640204/Gallery/Quest_mzgszb_ryo25v.jpg",
-      title: "Quest",
-      subtitle: "12th Battalion",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014670/gallery/n50xkuqf0mqvgpvbsj6x.jpg",
+      title: "Sanganikee",
+      subtitle: "Smackbots",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
     {
@@ -88,7 +88,7 @@ const Gallery = () => {
 
     {
       id: 5,
-      imgSrc: "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640476/Gallery/FSR-gallery-changed_iokgbp.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705858325/gallery/uthx5inuxzjcku8lkpfo.jpg",
       title: "FSR",
       subtitle: "FootPrints Social Responsibility",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
@@ -96,30 +96,30 @@ const Gallery = () => {
 
     {
       id: 6,
-      imgSrc: "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640514/Gallery/Deco_hisrcz_wysauj.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014670/gallery/r4c99z1zautnnvyr02he.jpg",
       title: "College Decoration",
       subtitle: "During the Fest",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
     {
       id: 7,
-      imgSrc: "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640502/Gallery/Smack_p59im9_ckixpk.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014670/gallery/tpt5k4azmvxuenkmqvqf.jpg",
       title: "Sanganikee",
-      subtitle: "SmackBotz",
+      subtitle: "Technokick",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
     {
       id: 8,
-      imgSrc: "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640130/Gallery/Beat_Cracker_auqvjn_zy24er.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014671/gallery/gg2ycsnp59eg3yytfeny.jpg",
       title: "Rolling squares",
       subtitle: "Concert",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
     {
       id: 9,
-      imgSrc: "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640187/Gallery/Jampad_f4edla_uyok1p.jpg",
-      title: "Jampad",
-      subtitle: "Open Mic",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014671/gallery/ovfikfw66xbbsunhryca.jpg",
+      title: "Citadel",
+      subtitle: "Tremors Apsida",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
   ];
