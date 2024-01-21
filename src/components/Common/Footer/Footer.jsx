@@ -9,7 +9,6 @@ function Footer() {
   const email_regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
   const handleOnEmail = async () => {
-
     let email = document.getElementById("email-textbox").value;
     let SecEmail = document.getElementById("email-textbox");
 
@@ -25,7 +24,7 @@ function Footer() {
           return resp.json();
         })
         .then((resp) => {
-          console.log(resp)
+          console.log(resp);
           alert(resp.message ? resp.message : resp.email);
         })
         .catch((err) => {
@@ -46,10 +45,12 @@ function Footer() {
 
           <div
             className="footer_Item col-sm-6 col-lg-4"
-            id="footer_div_newsLetter">
-
+            id="footer_div_newsLetter"
+          >
             <header className="header">
-              <h2 className="footer_header" id="head_NL">NEWS LETTER SIGN-UP</h2>
+              <h2 className="footer_header" id="head_NL">
+                NEWS LETTER SIGN-UP
+              </h2>
             </header>
 
             {/* <Heading
@@ -80,7 +81,8 @@ function Footer() {
                     type="submit"
                     id="send"
                     className="footer_btn"
-                    onClick={handleOnEmail}>
+                    onClick={handleOnEmail}
+                  >
                     Subscribe
                   </button>
                 </div>
@@ -106,7 +108,8 @@ function Footer() {
                 <li>
                   <a
                     href="https://www.instagram.com/footprints.msu/"
-                    target="_blank">
+                    target="_blank"
+                  >
                     <i className="fa fa-instagram social"></i>
                   </a>
                 </li>
@@ -120,7 +123,8 @@ function Footer() {
                 <li>
                   <a
                     href="https://www.youtube.com/user/FootPrintsMSU/featured"
-                    target="_blank">
+                    target="_blank"
+                  >
                     <i className="fa fa-youtube-play social"></i>
                   </a>
                 </li>
@@ -128,7 +132,8 @@ function Footer() {
                 <li>
                   <a
                     href="https://www.linkedin.com/company/msufp/"
-                    target="_blank">
+                    target="_blank"
+                  >
                     <i className="fa fa-linkedin social"></i>
                   </a>
                 </li>
@@ -141,7 +146,8 @@ function Footer() {
                 <li>
                   <a
                     href="https://www.threads.net/@footprints.msu"
-                    target="_blank">
+                    target="_blank"
+                  >
                     <i className="fa fa-threads fa-brands social"></i>
                   </a>
                 </li>
@@ -153,7 +159,8 @@ function Footer() {
 
           <div
             className="footer_Item col-sm-12 col-lg-4"
-            id="footer_div_contact">
+            id="footer_div_contact"
+          >
             {/* <header>
                             <div className="div_footer_header">
                                 <h3 className="footer_header" id="head_CI">CONTACT INFO</h3>
@@ -161,7 +168,9 @@ function Footer() {
                         </header> */}
 
             <header className="header">
-              <h2 className="footer_header" id="head_CI">CONTACT INFO</h2>
+              <h2 className="footer_header" id="head_CI">
+                CONTACT INFO
+              </h2>
             </header>
 
             {/* <Heading
@@ -171,7 +180,7 @@ function Footer() {
             /> */}
 
             <div className="Parent_Footer_Col3">
-              <div className="footer_InDetail">
+              <div className="footer_InDetail location">
                 <div>
                   <i className="fa  fa-location-dot contact_icon"></i>
                 </div>
@@ -181,14 +190,15 @@ function Footer() {
                     className="footer_P_hover"
                     target="_blank"
                     id="address"
-                    href="https://www.google.com/search?tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsb44XmcOIu4BptFbb_E7xWahVsVGg:1663531057976&q=Training+and+Placement+Cell,+Faculty+of+Technology+and+Engineering,+Kalabhavan,+Vadodara.&rflfq=1&num=10&ved=2ahUKEwiR_aGOkJ_6AhXj8DgGHRJ4CfQQtgN6BAgVEAE#rlfi=hd:;si:2342506311024018623,l,CllUcmFpbmluZyBhbmQgUGxhY2VtZW50IENlbGwsIEZhY3VsdHkgb2YgVGVjaG5vbG9neSBhbmQgRW5naW5lZXJpbmcsIEthbGFiaGF2YW4sIFZhZG9kYXJhLhnjdbZd4u389Eik3P0GWn0QABABEAIQAxAEEAUQBhAHEAgYARgEGAUYBhgHGAgYCRgKIlV0cmFpbmluZyBhbmQgcGxhY2VtZW50IGNlbGwgZmFjdWx0eSBvZiB0ZWNobm9sb2d5IGFuZCBlbmdpbmVlcmluZyBrYWxhYmhhdmFuIHZhZG9kYXJhKgIIApIBCnVuaXZlcnNpdHmaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTTJlUzFsWlVGbkVBRaoBdQoJL20vMDE0amczEAEaHxABIhuy4RsskYRtxdrMw2hJi9sX7xfPudH9EdyGhhUqRSJBdHJhaW5pbmcgYW5kIHBsYWNlbWVudCBjZWxsIGZhY3VsdHkgb2YgdGVjaG5vbG9neSBhbmQgZW5naW5lZXJpbmcoAA;mv:[[22.3910834,73.2008159],[22.290794899999998,73.1418285]]">
+                    href="https://www.google.com/search?tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsb44XmcOIu4BptFbb_E7xWahVsVGg:1663531057976&q=Training+and+Placement+Cell,+Faculty+of+Technology+and+Engineering,+Kalabhavan,+Vadodara.&rflfq=1&num=10&ved=2ahUKEwiR_aGOkJ_6AhXj8DgGHRJ4CfQQtgN6BAgVEAE#rlfi=hd:;si:2342506311024018623,l,CllUcmFpbmluZyBhbmQgUGxhY2VtZW50IENlbGwsIEZhY3VsdHkgb2YgVGVjaG5vbG9neSBhbmQgRW5naW5lZXJpbmcsIEthbGFiaGF2YW4sIFZhZG9kYXJhLhnjdbZd4u389Eik3P0GWn0QABABEAIQAxAEEAUQBhAHEAgYARgEGAUYBhgHGAgYCRgKIlV0cmFpbmluZyBhbmQgcGxhY2VtZW50IGNlbGwgZmFjdWx0eSBvZiB0ZWNobm9sb2d5IGFuZCBlbmdpbmVlcmluZyBrYWxhYmhhdmFuIHZhZG9kYXJhKgIIApIBCnVuaXZlcnNpdHmaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTTJlUzFsWlVGbkVBRaoBdQoJL20vMDE0amczEAEaHxABIhuy4RsskYRtxdrMw2hJi9sX7xfPudH9EdyGhhUqRSJBdHJhaW5pbmcgYW5kIHBsYWNlbWVudCBjZWxsIGZhY3VsdHkgb2YgdGVjaG5vbG9neSBhbmQgZW5naW5lZXJpbmcoAA;mv:[[22.3910834,73.2008159],[22.290794899999998,73.1418285]]"
+                  >
                     Training and Placement Cell, Faculty of Technology and
                     Engineering, Kalabhavan, Vadodara.
                   </a>
                 </div>
               </div>
 
-              <div className="footer_InDetail">
+              <div className="footer_InDetail email">
                 <div>
                   <i className="fa fa-envelope contact_icon"></i>
                 </div>
@@ -199,7 +209,8 @@ function Footer() {
                     <a
                       id="mail-link-1"
                       className="footer_P_hover"
-                      href="mailto:info@msufp.in">
+                      href="mailto:info@msufp.in"
+                    >
                       info@msufp.in
                     </a>
                   </p>
@@ -208,14 +219,15 @@ function Footer() {
                     <a
                       id="mail-link-2"
                       className="footer_P_hover"
-                      href="mailto:contact@msufp.in">
+                      href="mailto:contact@msufp.in"
+                    >
                       contact@msufp.in
                     </a>
                   </p>
                 </div>
               </div>
 
-              <div className="footer_InDetail Phone_div">
+              <div className="footer_InDetail Phone_div phoneno">
                 <div>
                   <i className="fa fa-phone contact_icon"></i>
                 </div>
@@ -237,23 +249,28 @@ function Footer() {
                     </a>
                   </p>
                 </div>
+              </div>
 
-                <div id="div_teambtn">
-                  {/*   <Link to="/webTeamPage">
+              <div className="qr_contact">
+                <img src="/src/assets/QR_FootPrints24.png" alt="QR" />
+              </div>
+
+            </div>
+          </div>
+					
+					<div id="div_teambtn" className="webteam_btn">
+                {/*   <Link to="/webTeamPage">
                       <button className="footer_btn" id="webTeamBtn">
                         WebTeam
                       </button>
                     </Link> */}
 
-                  <a href="/webTeamPage">
-                    <button className="footer_btn" id="webTeamBtn">
-                      WebTeam
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+                <a href="/webTeamPage">
+                  <button className="footer_btn" id="webTeamBtn">
+                    WebTeam
+                  </button>
+                </a>
+              </div>	
         </footer>
       </section>
     </>
