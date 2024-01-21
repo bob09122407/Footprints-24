@@ -54,23 +54,23 @@ const AboutGuestData = [
 ];
 
 const CurrentGuestData = [
-  {
-    id: 1,
+  // {
+  //   id: 1,
 
-    name: "Mr. Asutosh Chadha",
+  //   name: "Mr. Asutosh Chadha",
 
-    details: " Director and Country Head Corporate Affairs & Public Policy at Microsoft India and South Asia",
+  //   details: " Director and Country Head Corporate Affairs & Public Policy at Microsoft India and South Asia",
 
-    imgSrc:
-      "https://res.cloudinary.com/du1tas6pe/image/upload/v1705573927/gl/v5gyldqgmxczgs6pxlna.jpg",
+  //   imgSrc:
+  //     "https://res.cloudinary.com/du1tas6pe/image/upload/v1705573927/gl/v5gyldqgmxczgs6pxlna.jpg",
 
-    content:
-      "Ex-Vice President Public Policy South Asia at Mastercard Advisors. Ex-Director & Member of the Board at Wipro Airport IT Service Ltd. Ex-Director Corporate Affairs South Asia at Intel Technology India Pvt Ltd. Ex-Manager - Business Development at Shell. Ex-Business Manager at NIIT Ltd. Over 35 years of National and International Experience in Corporate and. Government Affairs, Policy Advocacy, Channel Management and Strategic Planning. Worked closely at very senior levels with stakeholders in the Government, Academia, Industry as well as Multilaterals. ",
+  //   content:
+  //     "Ex-Vice President Public Policy South Asia at Mastercard Advisors. Ex-Director & Member of the Board at Wipro Airport IT Service Ltd. Ex-Director Corporate Affairs South Asia at Intel Technology India Pvt Ltd. Ex-Manager - Business Development at Shell. Ex-Business Manager at NIIT Ltd. Over 35 years of National and International Experience in Corporate and. Government Affairs, Policy Advocacy, Channel Management and Strategic Planning. Worked closely at very senior levels with stakeholders in the Government, Academia, Industry as well as Multilaterals. ",
     
-    date: "1st March, 2024",
+  //   date: "1st March, 2024",
 
-    venue: "FoTE, MSU Baroda",
-  },
+  //   venue: "FoTE, MSU Baroda",
+  // },
   {
     id: 2,
 
