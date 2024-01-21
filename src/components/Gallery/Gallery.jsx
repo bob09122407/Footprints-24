@@ -59,28 +59,29 @@ const Gallery = () => {
   let data = [
     {
       id: 1,
-      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014671/gallery/tqtsrwvqrijp0jztkrgl.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705862194/main%20website%20gallery/djvxr3kmtnof3oa1lajd.png",
       title: "Rolling Squares",
       subtitle: "Concert",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
     {
       id: 2,
-      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014671/gallery/m6spvnnkq6vbsyxlhexe.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705862194/main%20website%20gallery/ugcyy8qjpmcn90rvtnyh.png",
       title: "Macheanema",
       subtitle: "Burnout",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
+    
     {
       id: 3,
-      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014670/gallery/n50xkuqf0mqvgpvbsj6x.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705862197/main%20website%20gallery/utbm8smdp5m8nhdgochm.png",
       title: "Sanganikee",
       subtitle: "Smackbots",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
     {
       id: 4,
-      imgSrc: "https://res.cloudinary.com/doxl5r7md/image/upload/v1666640206/Gallery/Pawan_Agarwal_shmmm4_nhx9sb.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705862195/main%20website%20gallery/q3e72ohtvdwqzg8aqebf.png",
       title: "Kaleidoscope",
       subtitle: "Guest Lecture",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
@@ -88,7 +89,7 @@ const Gallery = () => {
 
     {
       id: 5,
-      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705858325/gallery/uthx5inuxzjcku8lkpfo.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705862196/main%20website%20gallery/c40pxspvvuqgzxmtiklj.png",
       title: "FSR",
       subtitle: "FootPrints Social Responsibility",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
@@ -96,30 +97,37 @@ const Gallery = () => {
 
     {
       id: 6,
-      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014670/gallery/r4c99z1zautnnvyr02he.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705862852/main%20website%20gallery/xth7bl49bpfvscymcqar.png",
       title: "College Decoration",
       subtitle: "During the Fest",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
+    // {
+    //   id: 7,
+    //   imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705862197/main%20website%20gallery/pvrnbunbbqbrgtxscvit.png",
+    //   title: "Sanganikee",
+    //   subtitle: "Technokick",
+    //   cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
+    // },
     {
       id: 7,
-      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014670/gallery/tpt5k4azmvxuenkmqvqf.jpg",
-      title: "Sanganikee",
-      subtitle: "Technokick",
-      cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
-    },
-    {
-      id: 8,
-      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014671/gallery/gg2ycsnp59eg3yytfeny.jpg",
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705862195/main%20website%20gallery/ps3nzq0ujzkg0fb9l95w.png",
       title: "Rolling squares",
       subtitle: "Concert",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
     {
-      id: 9,
-      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1699014671/gallery/ovfikfw66xbbsunhryca.jpg",
+      id: 8,
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705862196/main%20website%20gallery/tjxcjkfmelmdgbfquclr.png",
       title: "Citadel",
       subtitle: "Tremors Apsida",
+      cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
+    },
+    {
+      id: 9,
+      imgSrc: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705862195/main%20website%20gallery/osiny7pyjxqrhermoxam.png",
+      title: "Kaleidoscope",
+      subtitle: "Podcast",
       cardImg: "https://res.cloudinary.com/diniuq0eg/image/upload/v1703862699/Blank_card_eqh4f4.png",
     },
   ];
