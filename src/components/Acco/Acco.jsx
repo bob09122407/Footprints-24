@@ -29,6 +29,8 @@ function Acco() {
       <Revealing />
 
       <Sponsors />
+      <div id="stars"></div>
+      <div id="stars2"></div>
       <Footer />
     </>
   );

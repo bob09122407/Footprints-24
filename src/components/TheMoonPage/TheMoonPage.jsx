@@ -82,6 +82,8 @@ const TheMoonPage = ({ theParent }) => {
           </video>
         </div>
         <div className="text_info">
+        <div id="stars"></div>
+        {/* <div id="stars2"></div> */}
           <Heading
             className="kaleido_heading"
             id="glheading"
@@ -119,6 +121,8 @@ const TheMoonPage = ({ theParent }) => {
             ))}
           </div>
         </div>
+        <div id="stars"></div>
+        <div id="stars2"></div>
         <div className="main_section">
           {iconsRow1.map(({ name, details }, index) => (
             <div
@@ -235,6 +239,8 @@ const TheMoonPage = ({ theParent }) => {
         </div>
       </div>
       <Sponsors />
+      <div id="stars"></div>
+      <div id="stars2"></div>
       <Footer />
     </>
   );
