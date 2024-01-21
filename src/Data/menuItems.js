@@ -65,7 +65,7 @@ const menuItems = [
   {
     Segment: 2,
 
-    title: "kaliedoscope",
+    title: "Kaleidoscope",
 
     subItems: [
       {
@@ -96,13 +96,13 @@ const menuItems = [
 
   {
     Segment: 3,
-    title: "Rolling Square",
+    title: "Rolling squares",
 
     subItems: [
       {
         Department: 1,
         title: "Concert",
-        link: "/concert",
+        link: "/rolling-squares",
       },
     ],
   },

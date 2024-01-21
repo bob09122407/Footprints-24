@@ -67,7 +67,7 @@ function App() {
             <Route exact path="/history" element={<HistoryPage />}></Route>
             <Route exact path="/teamfp" element={<TeamFP />}></Route>
             <Route exact path="/gallery" element={<Gallery />}></Route>
-            <Route exact path="/concert" element={<RollingSquare />} />
+            <Route exact path="/rolling-squares" element={<RollingSquare />} />
             <Route exact path="/webTeamPage" element={<WebTeam />} />
             <Route exact path="/workshop" element={<Workshop />} />
             <Route exact path="/techzibition" element={<Techzi />} />
