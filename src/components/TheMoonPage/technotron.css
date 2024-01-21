@@ -148,6 +148,19 @@ body {
   justify-content: center;
 }
 
+.tech.when-six{
+  max-width: 100%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+
+
+.tech.when-six .moon-icon-block{
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+
 
 @media (max-width: 1024px) {
   .tech {

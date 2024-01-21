@@ -239,4 +239,16 @@
     }
   
 }
+
+@media screen and (max-width:400px) {
+    .item-seg .name{
+        font-size: 25px;
+        display: block;
+    }
+
+    .item-seg .name{
+        width:100%;
+    }
+    
+}
   
