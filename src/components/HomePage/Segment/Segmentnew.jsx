@@ -25,10 +25,10 @@ const Slider = () => {
   let intervalId;
 
   useEffect(() => {
-    // intervalId = setInterval(nextSlide, 3000);
+    intervalId = setInterval(nextSlide, 3000);
 
     return () => {
-      // clearInterval(intervalId);
+      clearInterval(intervalId);
     };
   }, []);
 
