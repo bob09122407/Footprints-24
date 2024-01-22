@@ -17,7 +17,7 @@ const technotronData = {
            
           ],
           price: ["- INR 100/-"],
-          team: ["- Individual Participation "],
+          team: ["- Individual  "],
         },
       },
       {
@@ -74,7 +74,7 @@ const technotronData = {
             "- Judging will be based on fastest optimum output."
             ],
           price : ["- INR 150/-"],
-          team: ["- Individual Participation (Compulsory)"],
+          team: ["- Individual "],
         },
       },
     ],
@@ -784,7 +784,7 @@ const questData = {
           "- In 12th Batallian there is no particular specification that you need to follow. There is no restriction to anything. There is no standard time limit in which you need to complete the event.  It is a whole fun segment and you will enjoy a lot and gain new experiences."
         ],
         price: ["- INR 100/-"],
-        team: ["- Individual or Max 3"],
+        team: ["- Individual or Maximum 3"],
       },
     },
     {
