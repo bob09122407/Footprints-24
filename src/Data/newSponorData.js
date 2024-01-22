@@ -17,7 +17,7 @@ const newSponsorData = [
         id: 1.2,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705910458/sponsor/o3nbar2huy3bjb8oqkqf.png`,
         alt: `Co-Sponsor`,
-        href: `https://globalcolliance.com/`,
+        href: `https://pratham.com/`,
         type: "CO-SPONSOR"
     },
 

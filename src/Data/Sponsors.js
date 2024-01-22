@@ -12,7 +12,7 @@ const sponsorData = [
         id: 1.2,
         imgSrc: `https://res.cloudinary.com/dkr2ixh3r/image/upload/v1658896216/media/footprint_img/matrix_1_agcxqh.jpg`,
         alt: `Image_2_Global Colinece`,
-        href: `https://www.matrixcomsec.com/`,
+        href: `https://pratham.com/`,
         type:"CO-SPONSOR"
     },
 
