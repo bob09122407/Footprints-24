@@ -269,6 +269,6 @@ color: var(--color-onHover-Theme) !important;
 /* changed by abdeali */
 
 .tbLogo{
-  filter: hue-rotate(245deg) drop-shadow(2px 4px 6px black) contrast(1.5) !important;
+  /* filter: hue-rotate(245deg) drop-shadow(2px 4px 6px black) contrast(1.5) !important; */
   width:300px;
 }
