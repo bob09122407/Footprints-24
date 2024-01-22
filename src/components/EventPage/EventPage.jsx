@@ -8,6 +8,7 @@ import Heading from "../Common/Headings/Heading";
 import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 import Error from "../Error";
+import VideoBox from "./VideoBox";
 
 const EventPage = ({ theParent }) => {
   const { event } = useParams();
@@ -64,18 +65,7 @@ const EventPage = ({ theParent }) => {
   return (
     <>
       <div className="events_main">
-        <div className="video_main">
-          <video
-            autoPlay
-            loop
-            muted
-            className="w-full h-full object-cover"
-            width="100%"
-          >
-            <source src={`${theData["headingSource"]}`} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        <VideoBox url={theData["headingSource"]}/>
         <div className="text_info">
         <div id="stars"></div>
         {/* <div id="stars2"></div> */}
