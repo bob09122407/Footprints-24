@@ -218,7 +218,7 @@ function SubEvent() {
         </div>
 
         <Sponsors />
-        <Footer />
+        {/* <Footer /> */}
       </section>
     );
   }
