@@ -35,31 +35,51 @@ function MediaPage() {
 
           {/* <img
             className="col-lg-4 col-md-4 col-sm-12 col-xs-12 border-solid"
-            src="https://res.cloudinary.com/dwdln9iy2/image/upload/v1676730009/Media/3_Media_drenod.jpg"
+            src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705956355/media/eqtqtydsziokxlhtgsuy.png"
           /> */}
       
 
+          <img
+            className="media col-lg-12 col-md-12 col-sm-6 col-xs-12 border-solid"
+            src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705956355/media/nwsytzxkt7kdhf4ewnyh.png"
+          />
+          <img
+            className="media col-lg-12 col-md-12 col-sm-6 col-xs-12 border-solid"
+            src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705956355/media/eqtqtydsziokxlhtgsuy.png"
+          />
+          <img
+            className="media col-lg-12 col-md-12 col-sm-6 col-xs-12 border-solid"
+            src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705956355/media/rraxdxyb3bpy4tat3oxa.png"
+          />
+          <img
+            className="media col-lg-12 col-md-12 col-sm-6 col-xs-12 border-solid"
+            src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705956356/media/umzbu0l0euojofifz1v5.png"
+          />
+          <img
+            className="media col-lg-12 col-md-12 col-sm-6 col-xs-12 border-solid"
+            src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705956356/media/uzloemp5vvze37yqwh4w.png"
+          />
+          <img
+            className="media col-lg-12 col-md-12 col-sm-6 col-xs-12 border-solid"
+            src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705956357/media/ri5d6ox56rmtiww5qcjq.png"
+          />
           {/* <img
-            className="col-lg-12 col-md-12 col-sm-6 col-xs-12 border-solid"
-            src="https://www.msufp.in/2019/images/media/m_2(1).jpg"
-          />
-          <img
             className="col-md-6 col-sm-6 col-xs-12 border-solid"
-            src="https://www.msufp.in/2019/images/media/m_1.jpg"
-          />
-          <img
+            src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705956355/media/rraxdxyb3bpy4tat3oxa.png"
+          /> */}
+          {/* <img
             className="col-md-5 col-sm-6 col-xs-12 border-solid"
             src="https://www.msufp.in/2019/images/media/m_3(1).jpg"
-          />
-          <img
+          /> */}
+          {/* <img
             className="col-md-5 col-sm-6 col-xs-12"
             src="https://www.msufp.in/2019/images/media/m_2.jpg"
-          />
-          <img
+          /> */}
+          {/* <img
             className="col-md-7 col-sm-6 col-xs-12"
             src="https://www.msufp.in/2019/images/media/m_18.jpg"
-          />
-          <img
+          /> */}
+          {/* <img
             className="col-md-4 col-sm-6 col-xs-12"
             src="https://www.msufp.in/2019/images/media/m_10.jpg"
           />
