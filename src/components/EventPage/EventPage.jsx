@@ -2,11 +2,12 @@
 
 import React, { useState, useRef } from "react";
 import "./EventPage.css"; // Make sure this path is correct
-import { Navigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import theEventData from "../../Data/theEventData";
 import Heading from "../Common/Headings/Heading";
 import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
+import Error from "../Error";
 
 const EventPage = ({ theParent }) => {
   const { event } = useParams();
@@ -14,11 +15,14 @@ const EventPage = ({ theParent }) => {
   console.log(event);
   let theData = [];
   if (!event) {
-    if (!theParent) {
-      return <Navigate to="/error" />;
+    if(!theEventData[theParent]){
+      return <Error/>;
     }
     theData = theEventData[theParent];
   } else {
+    if(!theEventData[theParent][event]){
+      return <Error />;
+    }
     theData = theEventData[theParent][event];
   }
 
@@ -55,16 +59,7 @@ const EventPage = ({ theParent }) => {
     }
   };
 
-  const iconsRow1 = theData["data"];
-
-  const getSelectedDetails = () => {
-    const selectedIcon = [...iconsRow1].find(
-      (icon) => icon.name === selectedTab
-    );
-    return selectedIcon ? selectedIcon.details : null;
-  };
-
-  const selectedDetails = getSelectedDetails();
+  const data = theData["data"];
 
   return (
     <>
@@ -104,8 +99,8 @@ const EventPage = ({ theParent }) => {
           </div> */}
         </div>
         <div className="main-tech">
-          <div className={`tech${iconsRow1.length===6?" when-six":""}${iconsRow1.length===5?" when-five":""}${iconsRow1.length===7?" when-seven":""}${iconsRow1.length===1?" when-one":""}`}>
-            {iconsRow1?.map(({ name, background, details }, index) => (
+          <div className={`tech${data.length===6?" when-six":""}${data.length===5?" when-five":""}${data.length===7?" when-seven":""}${data.length===1?" when-one":""}`}>
+            {data?.map(({ name, background, details }, index) => (
               <div className="moon-icon-block" key={index}>
                 <div
                   className="moon-icon"
@@ -124,7 +119,7 @@ const EventPage = ({ theParent }) => {
         <div id="stars"></div>
         <div id="stars2"></div>
         <div className="main_section">
-          {iconsRow1.map(({ name, details }, index) => (
+          {data.map(({ name, details }, index) => (
             <div
               key={index}
               className={`details_each ${selectedTab === name ? "active" : ""}`}
