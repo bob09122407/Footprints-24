@@ -252,7 +252,7 @@ function Footer() {
               </div>
 
               <div className="qr_contact">
-                <img src="/src/assets/QR_FootPrints24.png" alt="QR" />
+                <img src="https://res.cloudinary.com/du1tas6pe/image/upload/v1705941796/chiko%20qr/yd5p35phcfpi4uyokbzf.png" alt="QR" />
               </div>
 
             </div>
