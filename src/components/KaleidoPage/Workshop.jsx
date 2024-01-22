@@ -219,7 +219,7 @@ function Workshop() {
         </div>
       </section>
       <Sponsors />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

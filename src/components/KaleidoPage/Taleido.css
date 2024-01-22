@@ -99,14 +99,19 @@
     margin-right: 15%;
 }
 .yt-link-part{
-    color: var(--icon-color);
-    background-color: var(--button-bg);
+    color: #1f011d !important;
+    background-color:white;
+    opacity: 0.8;
     border-radius: 5px;
     padding: 8px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
+
 .yt-link-part:hover{
     color: var(--icon-color);
-    border: 1px solid var(--border-yellow);
+    border: 2px solid var(--border-yellow);
 }
 
 @media screen and (min-width: 999px) {

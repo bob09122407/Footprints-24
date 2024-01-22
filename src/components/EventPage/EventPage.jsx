@@ -224,6 +224,7 @@ const EventPage = ({ theParent }) => {
         </div>
       </div>
       <Sponsors />
+      <Footer />
       <div id="stars"></div>
       <div id="stars2"></div>
     </>

@@ -24,7 +24,7 @@ function Homepage() {
       <Testimonials24 />
       <Achivements />
       <Sponsors/>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

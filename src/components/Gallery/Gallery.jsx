@@ -169,7 +169,7 @@ const Gallery = () => {
         </div>
       </section>
       <Sponsors />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
