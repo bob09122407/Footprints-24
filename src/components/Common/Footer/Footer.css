@@ -335,4 +335,28 @@ a {
         flex-direction: column;
         gap: 10px;
     }
+
+    .Parent_Footer_Col3 .qr_contact img{
+        width: 150px;
+    }
+}
+
+@media screen and (min-width:325px) and (max-width:1000px) {
+    
+    .Parent_Footer_Col3 .qr_contact img{
+        width: 150px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1300px) {
+    
+    .Parent_Footer_Col3 .qr_contact img{
+        width: 125px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .Parent_Footer_Col3 .qr_contact img{
+        width: 150px;
+    }
 }
