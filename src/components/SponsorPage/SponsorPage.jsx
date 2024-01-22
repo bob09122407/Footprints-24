@@ -25,7 +25,7 @@ function Sponsor() {
 
             <div id="titleSponsorGrid" className="row">
               <div className="col-12 col-sm-12 col-md-12">
-                {newSponsorData.slice(0, 2).map((element) => {
+                {newSponsorData.slice(0, 3).map((element) => {
                   return (
                     <div key={element.id}>
                       <Heading id="heading_main_Sponsor" title={element.type} />
@@ -57,7 +57,7 @@ function Sponsor() {
               id="sponsorsGrid"
               className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3"
             >
-              {newSponsorData.slice(2).map((element) => {
+              {newSponsorData.slice(3).map((element) => {
                 return (
                   <div className="col sponsors-block" key={element.id}>
                     <div className="card">
