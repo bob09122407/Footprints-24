@@ -38,7 +38,7 @@
 
 .inverted-image-container {
   /* left: -2%; */
-  transform: translateY(-19%);
+  transform: translateY(-25%);
   position: relative;
   top: 0;
   left: 0;
@@ -62,15 +62,29 @@
   margin-left: 5%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width:462px) and (max-width: 500px) {
   .inverted-image-container {
-    transform: translateY(-40%);
+    transform: translateY(-25%);
   }
 
   .inverted-image {
   }
 }
 
-@media screen and (min-width) {
-  
+@media screen and (min-width:294px) and (max-width:461px) {
+    .inverted-image-container{
+      transform: translateY(-40%);
+    }
+}
+
+@media screen and (min-width:265px) and (max-width:294px) {
+    .inverted-image-container{
+      transform: translateY(-45%);
+    }
+}
+
+@media screen and (max-width:265px) {
+    .inverted-image-container{
+      transform: translateY(-50%);
+    }
 }
