@@ -41,6 +41,18 @@ export default function NavBar(props) {
     }
   };
 
+  function openMenu(event){
+    event.currentTarget.childNodes[1].style = "display:block";
+  }
+
+  function closeMenuNext(event){
+    event.currentTarget.childNodes[1].style = "display:none";
+  }
+
+  function closeMenu(event){
+    event.currentTarget.parentNode.parentNode.style = "display:none";
+  }
+
   return (
     <header className="nav-header">
       <Link to={"./home"} className="navbar-logo">
@@ -83,7 +95,7 @@ export default function NavBar(props) {
 
         <ul>
           {menuItems.map((item, idx) => (
-            <li key={idx}>
+            <li key={idx} onMouseEnter={openMenu} onMouseLeave={closeMenuNext}>
               <a style={{ cursor: "pointer" }}>
                 {item.title}
                 &nbsp; &nbsp;
@@ -110,6 +122,7 @@ export default function NavBar(props) {
                             : ""
                         }
                         to={subItem.link || "#"}
+                        onClick={closeMenu}
                       >
                         <span>{subItem.title}</span>
 
