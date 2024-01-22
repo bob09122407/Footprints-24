@@ -13,17 +13,17 @@ const newSponsorData = [
         type: "TITLE SPONSOR"
     },
 
-    // {
-    //     id: 1.2,
-    //     imgSrc: `https://res.cloudinary.com/dwdln9iy2/image/upload/v1674370198/NewSponsorFp-23/GlobalCoallience_r1izgh.png`,
-    //     alt: `Global Colinece`,
-    //     href: `https://globalcolliance.com/`,
-    //     type: "CO-SPONSOR"
-    // },
+    {
+        id: 1.2,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705910458/sponsor/o3nbar2huy3bjb8oqkqf.png`,
+        alt: `Co-Sponsor`,
+        href: `https://globalcolliance.com/`,
+        type: "CO-SPONSOR"
+    },
 
 
     {
-        id: 1.2,
+        id: 1.3,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/btyfcmitkiwtds75fq6e.png`,
         alt: `Associate Sponsor`,
         href: `https://conmatindia.com/`,
