@@ -25,7 +25,7 @@ import useLocalStorage from "./CustomHooks/useLoacalStorage";
 import "./components/Common/CSS/Root.css";
 const queryClient = new QueryClient();
 import AOS from 'aos';
-import TheMoonPage from "./components/TheMoonPage/TheMoonPage";
+import EventPage from "./components/EventPage/EventPage";
 import LandingPage from "./components/LandingPage/Landingpage";
 // import Countdown from "./components/CountDown/Countdown"
 
@@ -76,10 +76,10 @@ function App() {
             <Route exact path="/schitron" element={<Schitron />} />
             <Route exact path="/accomodation" element={<Acco />} />
             <Route exact path="/media" element={<MediaPage />} />
-            <Route exact path="/quest" element={<TheMoonPage theParent={"quest"}/>} />
-            <Route exact path="/fse" element={<TheMoonPage theParent={"fse"} />} />
-            <Route exact path="/virtuosity" element={<TheMoonPage theParent={"virtuosity"} />} />
-            <Route exact path="/technotron/:event" element={<TheMoonPage theParent={"technotron"}/>} />   
+            <Route exact path="/quest" element={<EventPage theParent={"quest"}/>} />
+            <Route exact path="/fse" element={<EventPage theParent={"fse"} />} />
+            <Route exact path="/virtuosity" element={<EventPage theParent={"virtuosity"} />} />
+            <Route exact path="/technotron/:event" element={<EventPage theParent={"technotron"}/>} />   
             <Route exact path="/error" element={<Error/>}/>        
             {/* <Route path="/count" element={<Countdown/>}/>        */}
             <Route path="/*" element={<Error/>}/>       

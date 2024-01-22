@@ -1,10 +1,10 @@
 import React, { useRef, useEffect } from "react";
-import "./segmentnew.css"; // Replace with your CSS file
+import "./segment.css"; // Replace with your CSS file
 // import phoo from "../../../assets/images/Logo/center.png"
 // import phoo from "../../../assets/images/Logo/segment.png"
 import Heading from "../../Common/Headings/Heading";
 
-const Slider = () => {
+const Segments = () => {
   const slideRef = useRef(null);
   const nextSlide = () => {
     const lists = slideRef.current.querySelectorAll(".item-seg");
@@ -145,4 +145,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Segments;

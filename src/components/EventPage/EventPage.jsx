@@ -1,14 +1,14 @@
 // Technotron.js
 
 import React, { useState, useRef } from "react";
-import "./technotron.css"; // Make sure this path is correct
+import "./EventPage.css"; // Make sure this path is correct
 import { Navigate, useParams } from "react-router-dom";
 import theEventData from "../../Data/theEventData";
 import Heading from "../Common/Headings/Heading";
 import Sponsors from "../Common/SponsorSlide/Sponsors";
 import Footer from "../Common/Footer/Footer";
 
-const TheMoonPage = ({ theParent }) => {
+const EventPage = ({ theParent }) => {
   const { event } = useParams();
   console.log(theParent);
   console.log(event);
@@ -246,4 +246,4 @@ const TheMoonPage = ({ theParent }) => {
   );
 };
 
-export default TheMoonPage;
+export default EventPage;
