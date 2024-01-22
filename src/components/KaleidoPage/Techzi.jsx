@@ -127,7 +127,7 @@ function Techzi() {
         </div>
       </section>
       <Sponsors />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

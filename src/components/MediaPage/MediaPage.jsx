@@ -118,7 +118,7 @@ function MediaPage() {
     /> */}
             </div>
             <Sponsors />
-            <Footer />
+            {/* <Footer /> */}
       </>
     );
 }

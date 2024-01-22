@@ -10,7 +10,11 @@ import HistoryPage from "./components/HistoryPage/HistoryPage";
 import Gallery from "./components/Gallery/Gallery";
 import ThemeState from "./Context/Theme/ThemeState";
 import WebTeam from "./components/WebTeam/Webteam";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 import RollingSquare from "./components/RollingSquare/RollingSquare";
 import Workshop from "./components/KaleidoPage/Workshop";
 import Techzi from "./components/KaleidoPage/Techzi";
@@ -24,23 +28,20 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import useLocalStorage from "./CustomHooks/useLoacalStorage";
 import "./components/Common/CSS/Root.css";
 const queryClient = new QueryClient();
-import AOS from 'aos';
+import AOS from "aos";
 import EventPage from "./components/EventPage/EventPage";
 import LandingPage from "./components/LandingPage/Landingpage";
 import Error from "./components/Error";
+import Footer from "./components/Common/Footer/Footer";
+import Sponsors from "./components/Common/SponsorSlide/Sponsors";
 // import Countdown from "./components/CountDown/Countdown"
-
 
 AOS.init();
 
 function App() {
-
   useEffect(() => {
-
-    window.addEventListener('load', AOS.refresh)
-
-  }, [])
-
+    window.addEventListener("load", AOS.refresh);
+  }, []);
 
   const [theme, setTheme] = useLocalStorage("theme", "dark");
 
@@ -60,7 +61,7 @@ function App() {
         <Router>
           <NavBar switchTheme={switchTheme} icon={icon} />
           <Routes>
-            <Route exact path="/" element={<LandingPage/>}></Route>
+            <Route exact path="/" element={<LandingPage />}></Route>
             <Route exact path="/home" element={<Homepage />}></Route>
             <Route exact path="/guest-lecture" element={<Kaleido />}></Route>
             <Route exact path="/contact" element={<Contact />}></Route>
@@ -77,14 +78,32 @@ function App() {
             <Route exact path="/schitron" element={<Schitron />} />
             <Route exact path="/accomodation" element={<Acco />} />
             <Route exact path="/media" element={<MediaPage />} />
-            <Route exact path="/quest" element={<EventPage theParent={"quest"}/>} />
-            <Route exact path="/fse" element={<EventPage theParent={"fse"} />} />
-            <Route exact path="/virtuosity" element={<EventPage theParent={"virtuosity"} />} />
-            <Route exact path="/technotron/:event" element={<EventPage theParent={"technotron"}/>} />   
-            <Route exact path="/error" element={<Error/>}/>        
+            <Route
+              exact
+              path="/quest"
+              element={<EventPage theParent={"quest"} />}
+            />
+            <Route
+              exact
+              path="/fse"
+              element={<EventPage theParent={"fse"} />}
+            />
+            <Route
+              exact
+              path="/virtuosity"
+              element={<EventPage theParent={"virtuosity"} />}
+            />
+            <Route
+              exact
+              path="/technotron/:event"
+              element={<EventPage theParent={"technotron"} />}
+            />
+            <Route exact path="/error" element={<Error />} />
             {/* <Route path="/count" element={<Countdown/>}/>        */}
-            <Route path="/*" element={<Error/>}/>       
+            <Route path="/*" element={<Error />} />
           </Routes>
+
+          <Footer />
         </Router>
       </ThemeState>
     </QueryClientProvider>

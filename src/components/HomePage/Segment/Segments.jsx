@@ -1,8 +1,10 @@
 import React, { useRef, useEffect } from "react";
-import "./segment.css"; // Replace with your CSS file
+import "./Segment.css"; // Replace with your CSS file
 // import phoo from "../../../assets/images/Logo/center.png"
 // import phoo from "../../../assets/images/Logo/segment.png"
 import Heading from "../../Common/Headings/Heading";
+import segementData from "../../../Data/SegementsData";
+import { Link } from "react-router-dom";
 
 const Segments = () => {
   const slideRef = useRef(null);
@@ -39,97 +41,25 @@ const Segments = () => {
       </div>
       <div className="container-seg">
         <div id="slide" ref={slideRef}>
-          <div
-            className="item-seg"
-            style={{
-              backgroundImage: `url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705639940/segments/tihoc8phxiwacbl6wmcd.png)`,
-            }}
-          >
-            <div className="content">
-              <div className="name">Footprints Stock Exchange</div>
-              {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-              <button>Inversion</button>
-              <button>Pitcher's Project</button>
-            </div>
-          </div>
-          <div
-            className="item-seg"
-            style={{
-              backgroundImage: `url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705639941/segments/dxxo6qup3tjckntgkflt.png)`,
-            }}
-          >
-            <div className="content">
-              <div className="name">Technotron</div>
-              {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-              <button>Cybernetics</button>
-              <button>Macheanema</button>
-              <button>Sanganikee</button>
-              <button>Citadel</button>
-              <button>Rasayanam</button>
-              <button>Lycra</button>
-              <button>TechX</button>
-            </div>
-          </div>
-          <div
-            className="item-seg"
-            style={{
-              backgroundImage: `url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705639940/segments/aafofhgqrw98mnsh4ixp.png)`,
-            }}
-          >
-            <div className="content">
-              <div className="name">Kaleidoscope</div>
-              {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-              <button>Guest Lectures</button>
-              <button>Workshops</button>
-              <button>Techzibition</button>
-              <button>Taleidoscope</button>
-            </div>
-          </div>
-          <div
-            className="item-seg"
-            style={{
-              backgroundImage: `url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705639941/segments/zypzsigjwnyfmmvoerkh.png)`,
-            }}
-          >
-            <div className="content">
-              <div className="name">Rolling Square</div>
-              {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-              <button>Concert</button>
-              <button>Informals</button>
-              <button>Jampad</button>
-            </div>
-          </div>
-          <div
-            className="item-seg"
-            style={{
-              backgroundImage: `url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705638069/segments/wapb8ls74dje81z5zpmy.png)`,
-            }}
-          >
-            <div className="content">
-              <div className="name">Quest</div>
-              {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-              <button>12th Batallian</button>
-              <button>War of Words</button>
-              <button>Squid Games</button>
-              <button>Shooting Arcade</button>
-              <button>Lost</button>
-              <button>Air Balls</button>
-            </div>
-          </div>
-
-          <div
-            className="item-seg"
-            style={{
-              backgroundImage: `url(https://res.cloudinary.com/du1tas6pe/image/upload/v1705639940/segments/hnzveh0zifwicjmtkyqi.png)`,
-            }}
-          >
-            <div className="content">
-              <div className="name">Virtuosity</div>
-              {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
-              <button>BGMI</button>
-              <button>Valorant</button>
-            </div>
-          </div>
+          {segementData.map((event, index) => {
+            return (
+              <div
+                className="item-seg"
+                style={{
+                  backgroundImage: `url(${event.imageSource})`,
+                }}
+                key={index}
+              >
+                <div className="content">
+                  <div className="name">{event.title}</div>
+                  {/* <div className="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div> */}
+                  {event.subItems.map((subevent, index) => {
+                    return <Link key={index+1000} to={`${subevent.link}`}>{subevent.title}</Link>;
+                  })}
+                </div>
+              </div>
+            );
+          })}
           {/* ... Add other item-segs as needed */}
         </div>
         <div className="buttons-seg">

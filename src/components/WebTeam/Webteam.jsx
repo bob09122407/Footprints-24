@@ -158,7 +158,7 @@ function WebTeam() {
         </div>
       </div>
       <Sponsors />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
