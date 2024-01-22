@@ -106,7 +106,7 @@ function Fsr() {
       <Sponsors />
       <div id="stars"></div>
       <div id="stars2"></div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

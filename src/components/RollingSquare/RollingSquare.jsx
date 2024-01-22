@@ -43,7 +43,7 @@ export default function RollingSquare() {
       <Sponsors />
       <div id="stars"></div>
       <div id="stars2"></div>
-      {/* <Footer /> */}
+      <Footer />
     </section>
   );
 }

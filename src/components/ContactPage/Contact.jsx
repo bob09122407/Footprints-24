@@ -191,7 +191,7 @@ function Contact() {
         </div>
       </div>
       <Sponsors />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

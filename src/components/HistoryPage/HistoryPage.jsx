@@ -150,7 +150,7 @@ function HistoryPage() {
           </section>
         </div>
         <Sponsors />
-        {/* <Footer /> */}
+        <Footer />
       </section>
     </>
   );

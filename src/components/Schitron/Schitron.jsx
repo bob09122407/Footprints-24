@@ -102,7 +102,7 @@ To encourage young brains and introduce school students to the fascinating world
         </div>
       </div>
       <Sponsors />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
