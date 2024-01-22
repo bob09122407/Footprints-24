@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import NavBar from "./components/Common/NavBar/NavBar";
 import Homepage from "./components/HomePage/Homepage";
 // import Webteam from "./components/WebteamPage/Webteam";
@@ -27,6 +27,7 @@ const queryClient = new QueryClient();
 import AOS from 'aos';
 import EventPage from "./components/EventPage/EventPage";
 import LandingPage from "./components/LandingPage/Landingpage";
+import Error from "./components/Error";
 // import Countdown from "./components/CountDown/Countdown"
 
 
