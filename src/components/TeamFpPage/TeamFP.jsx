@@ -279,7 +279,7 @@ function TeamFP() {
       </div>
       {/* </section> */}
       <Sponsors />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

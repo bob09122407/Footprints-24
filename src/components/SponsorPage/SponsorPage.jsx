@@ -82,7 +82,7 @@ function Sponsor() {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -145,7 +145,7 @@ function Taleido() {
         </div>
       </section>
       <Sponsors />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

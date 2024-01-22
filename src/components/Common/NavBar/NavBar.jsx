@@ -102,33 +102,33 @@ export default function NavBar(props) {
                     <li key={idx + 999}>
                       {/* id="thirdhirarchy" */}
 
-                      <a
+                      <Link
                         className="thirdhirarchy"
                         target={
                           subItem.title == "Blog" || subItem.title == "WebTeam"
                             ? "_blank"
                             : ""
                         }
-                        href={subItem.link || "#"}
+                        to={subItem.link || "#"}
                       >
                         <span>{subItem.title}</span>
 
                         {/* <span>{techEvent.includes(subItem.title) ? <i id="dots" className="fa-solid fa-angle-right"></i> : ""}</span> */}
-                      </a>
+                      </Link>
 
                       {/* Events => Which is a Events of Particular department  : Runtime Protocol Appster */}
 
                       <ul>
                         {subItem.subItems &&
                           subItem.subItems.map((subItem, idx) => (
-                            <li key={idx + 9999}>
-                              <a
+                            <li key={idx + 9999} className="">
+                              <Link
                                 id="subsubEvent"
                                 target=""
-                                href={subItem.link || "#"}
+                                to={subItem.link || "#"}
                               >
                                 {subItem.title}
-                              </a>
+                              </Link>
                             </li>
                           ))}
                       </ul>

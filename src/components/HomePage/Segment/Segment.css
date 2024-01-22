@@ -45,6 +45,13 @@
     box-shadow:  0 10px 20px #505050;
 }
 
+.content a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #1f011d !important;
+}
+
 .item-seg:nth-child(1),
 .item-seg:nth-child(2){
     left:0;
@@ -81,7 +88,7 @@
     font-family: 'Century Gothic',system-ui;
 }
 
-.content button {
+.content button, .content a {
     margin-top: 10px; /* Adjust the top margin to add space between buttons */
   }
 
@@ -100,7 +107,7 @@
     opacity: 0;
     animation:showcontent 1s ease-in-out 0.3s 1 forwards
 }
-.item-seg button{
+.item-seg button,.item-seg a{
     padding:10px 20px;
     border:none;
     position:relative;
@@ -225,7 +232,7 @@
         width: 90%;
         display: flex; 
     }
-    .item-seg button{
+    .item-seg button,.item-seg a{
        left: -25%;
        width: 48%;
     }
