@@ -19,7 +19,7 @@ const CurrentWorkshopData = [
 
     name: "Power BI",
 
-    details: "",
+    details: "By Microsoft",
 
     imgSrc:
       "https://res.cloudinary.com/dwevqwmg7/image/upload/v1705601916/workshop/drxpaq9ovfpno9mvinhl.jpg",
