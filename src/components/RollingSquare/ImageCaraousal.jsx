@@ -6,11 +6,11 @@ const ImageCarousel = ({images}) => {
 
   useEffect(()=>{
     if (window.innerWidth<619) {
-      console.log("Hello");
+      // console.log("Hello");
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
-            console.log(entry);
+            // console.log(entry);
             if (entry.isIntersecting) {
               entry.target.classList.add("img-transition");
             } else {
@@ -40,24 +40,7 @@ const ImageCarousel = ({images}) => {
             src={src}
             alt={`Image ${index + 1}`}
             draggable="false"
-            className={(function () {
-              switch (index) {
-                case 0:
-                case 3:
-                case 5:
-                  return "to-right";
-                  break;
-                case 2:
-                case 4:
-                case 7:
-                  return "to-left";
-                case 1:
-                  return "to-down";
-                case 6:
-                  return "to-up";
-                  break;
-              }
-            })()}
+            className={""}
           />
           // </div>
         ))}

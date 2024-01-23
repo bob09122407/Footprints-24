@@ -17,7 +17,7 @@ const Scroll = () => {
           const t = e.slides.length > 4 ? 360 - 45 * (8 - e.slides.length + 1) : 270;
           const o = document.querySelector('.travel-slider-planet');
           o.style.transform = `translate(-50%, -50%) rotate(${t * -r}deg)`;
-          console.log(`${r}ms`);
+        //   console.log(`${r}ms`);
         },
         setTransition(e, r) {
           const o = document.querySelector('.travel-slider-planet');

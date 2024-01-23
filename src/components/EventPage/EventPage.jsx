@@ -12,8 +12,8 @@ import VideoBox from "./VideoBox";
 
 const EventPage = ({ theParent }) => {
   const { event } = useParams();
-  console.log(theParent);
-  console.log(event);
+  // console.log(theParent);
+  // console.log(event);
   let theData = [];
   if (!event) {
     if(!theEventData[theParent]){

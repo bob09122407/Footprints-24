@@ -97,7 +97,7 @@ function Taleido() {
                         className="yt-link-part"
                         target="_blank"
                       >
-                        YouTube Link
+                        Watch Now
                       </a>
                     </div>
                   </div>

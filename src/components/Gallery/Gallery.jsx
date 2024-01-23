@@ -22,7 +22,7 @@ const Gallery = () => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          console.log(entry.target.children);
+          // console.log(entry.target.children);
           if (entry.isIntersecting) {
             entry.target.children[0].style.animation = "frontAnim 2s";
             entry.target.children[1].style.animation = "backAnim 2s";
