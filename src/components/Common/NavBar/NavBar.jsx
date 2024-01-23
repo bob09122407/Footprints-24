@@ -41,15 +41,15 @@ export default function NavBar(props) {
     }
   };
 
-  function openMenu(event){
+  function openMenu(event) {
     event.currentTarget.childNodes[1].style = "display:block";
   }
 
-  function closeMenuNext(event){
+  function closeMenuNext(event) {
     event.currentTarget.childNodes[1].style = "display:none";
   }
 
-  function closeMenu(event){
+  function closeMenu(event) {
     event.currentTarget.parentNode.parentNode.style = "display:none";
   }
 
@@ -114,20 +114,25 @@ export default function NavBar(props) {
                     <li key={idx + 999}>
                       {/* id="thirdhirarchy" */}
 
-                      <Link
-                        className="thirdhirarchy"
-                        target={
-                          subItem.title == "Blog" || subItem.title == "WebTeam"
-                            ? "_blank"
-                            : ""
-                        }
-                        to={subItem.link || "#"}
-                        onClick={closeMenu}
-                      >
-                        <span>{subItem.title}</span>
+                      {subItem.link.charAt(0) == "/" ? (
+                        <Link
+                          className="thirdhirarchy"
+                          target={
+                            subItem.title == "Blog" ||
+                            subItem.title == "WebTeam"
+                              ? "_blank"
+                              : ""
+                          }
+                          to={subItem.link || "#"}
+                          onClick={closeMenu}
+                        >
+                          <span>{subItem.title}</span>
 
-                        {/* <span>{techEvent.includes(subItem.title) ? <i id="dots" className="fa-solid fa-angle-right"></i> : ""}</span> */}
-                      </Link>
+                          {/* <span>{techEvent.includes(subItem.title) ? <i id="dots" className="fa-solid fa-angle-right"></i> : ""}</span> */}
+                        </Link>
+                      ) : (
+                        <a href={subItem.link} className="thirdhirarchy" target="_blank"><span>{subItem.title}</span></a>
+                      )}
 
                       {/* Events => Which is a Events of Particular department  : Runtime Protocol Appster */}
 
