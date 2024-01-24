@@ -153,8 +153,6 @@ function Kaleido() {
                       {/* <p className="location-icon">{element.venue}</p> */}
                       {/* </div> */}
                     </div>
-                    <div id="stars"></div>
-                    <div id="stars2"></div>
                     <div className="guest_img guest_img_style" data-aos="fade-right" data-aos-duration="1800" data-aos-delay="100">
                       <img src={element.imgSrc} className="Kaleido-img" alt={element.name} />
                     </div>
