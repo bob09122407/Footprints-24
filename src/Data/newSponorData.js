@@ -110,7 +110,7 @@ const newSponsorData = [
         id: 10,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/t8gwwdi5qi9z5wyzmk2y.png`,
         alt: `Supported By`,
-        href: ``,
+        href: `arkel.co.in`,
     },
 
     {
