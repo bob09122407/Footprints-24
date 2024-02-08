@@ -68,6 +68,12 @@ const newSponsorData = [
         alt: `Gate Sponsor`,
         href: `https://acumenhr.in/`
     },
+    {
+        id: 6,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1707373871/sponsor/sfufyrwvigi2nnxoytii.png`,
+        alt: `FSE Sponsor`,
+        href: `https://acumenhr.in/`
+    },
 
     {
         id: 6,
@@ -262,9 +268,15 @@ const newSponsorData = [
         alt: `Online Media Partner`,
         href: ``
     },
-
     {
         id: 24,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1707374259/sponsor/pky34l4gxs9lgzfmarsk.png`,
+        alt: `Online Media Partner`,
+        href: ``
+    },
+
+    {
+        id: 25,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677419/partners/gtvuol9jiyzumftmvrkl.png`,
         alt: `Official Whatsapp Assistant Partner`,
         href: `https://itcgindia.com/`
