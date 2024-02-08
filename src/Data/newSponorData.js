@@ -70,7 +70,7 @@ const newSponsorData = [
     },
     {
         id: 6,
-        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1707382991/sponsor/rmvhshybe3ll1zzdgnib.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1707393369/sponsor/a1ydpbcltcnfomtv8oce.png`,
         alt: `FSE Sponsor`,
         href: `https://acumenhr.in/`
     },
