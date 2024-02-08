@@ -56,7 +56,7 @@ const newSponsorData = [
 
     {
         id: 4,
-        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677776/sponsor/xhpvnr8d5rhlfb784wor.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1707382991/sponsor/clab227xtax9km0giuyv.png`,
         alt: `Sanganikee Sponsor`,
         href: `https://www.cosmos.in/`
     },
@@ -70,7 +70,7 @@ const newSponsorData = [
     },
     {
         id: 6,
-        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1707373871/sponsor/sfufyrwvigi2nnxoytii.png`,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1707382991/sponsor/rmvhshybe3ll1zzdgnib.png`,
         alt: `FSE Sponsor`,
         href: `https://acumenhr.in/`
     },
