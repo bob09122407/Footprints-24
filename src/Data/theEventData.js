@@ -265,7 +265,7 @@ const technotronData = {
         background: "https://res.cloudinary.com/du1tas6pe/image/upload/v1705687361/astronout/ve7saq1zaciv1s0zahcn.png",
         details: {
           info: [
-            "The participants have to build a machine propelled by hydraulics which can climb a given vertical rod and build a hydraulic arm with a hook attached to the machine to lift the given load.",
+            "Participants have to build hydraulic crane capable of scooping and placing the given load.",
           ],
           rules: [
             "- The dimensions of the base plate should be 60 x 30 with no restriction on height.",

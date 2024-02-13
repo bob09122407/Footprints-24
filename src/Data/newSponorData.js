@@ -60,6 +60,12 @@ const newSponsorData = [
         alt: `Sanganikee Sponsor`,
         href: `https://www.cosmos.in/`
     },
+    {
+        id: 4,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1707396127/sponsor/c45asgqntc2xlmm8sikd.png`,
+        alt: `Cybernetics Sponsor`,
+        href: `https://www.cosmos.in/`
+    },
 
 
     {
