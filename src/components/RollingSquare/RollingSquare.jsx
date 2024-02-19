@@ -37,9 +37,9 @@ export default function RollingSquare() {
         title={"Live In Concert"}
       />
       <div className="concert-24">
-        <img data-aos="fade-up" src="src\assets\A7.jpg" alt="Aditya Gadhvi" />
+        <img src="src\assets\A7.jpg" alt="Aditya Gadhvi" />
         <div className="info">
-          <h1 className="name">Aaditya Gadhvi</h1>
+          <h1 data-aos="fade-up" className="name">Aaditya Gadhvi</h1>
           <div className="meta-info">
             <div className="time">Time : 3rd March, 2024</div>
             <div className="venue">
