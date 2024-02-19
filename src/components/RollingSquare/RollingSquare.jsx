@@ -21,7 +21,12 @@ export default function RollingSquare() {
           className="w-full h-full object-cover"
           width="100%"
         >
-          <source src={'https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597475/vdos/pgr6s6xhnbxbamh8gpld.mp4'} type="video/mp4" />
+          <source
+            src={
+              "https://res.cloudinary.com/dwevqwmg7/video/upload/v1705597475/vdos/pgr6s6xhnbxbamh8gpld.mp4"
+            }
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -29,9 +34,34 @@ export default function RollingSquare() {
       <Heading
         className="kaleido_heading"
         id="glheading"
+        title={"Live In Concert"}
+      />
+      <div className="concert-24">
+        <img data-aos="fade-up" src="src\assets\A7.jpg" alt="Aditya Gadhvi" />
+        <div className="info">
+          <h1 className="name">Aaditya Gadhvi</h1>
+          <div className="meta-info">
+            <div className="time">Time : 3rd March, 2024</div>
+            <div className="venue">
+              Venue : 
+              {/* <div> */}
+                Faculty Of Technology And Engineering, MSU, Kalabhavan,
+                Vadodara.
+              {/* </div> */}
+            </div>
+          </div>
+
+          {/* <div>3rd March</div>
+          <div>Venue : Faculty Of Technology And Engineering, MSU, Kalabhavan, Vadodara.</div> */}
+        </div>
+      </div>
+
+      <Heading
+        className="kaleido_heading"
+        id="glheading"
         title={"Rolling Squares"}
       />
-      <ImageCarousel images={imageSources.concert}/>
+      <ImageCarousel images={imageSources.concert} />
       <div id="stars"></div>
       <div id="stars2"></div>
       <Heading className="kaleido_heading" id="glheading" title={"Informal"} />
