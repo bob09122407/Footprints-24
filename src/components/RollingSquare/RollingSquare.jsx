@@ -39,7 +39,7 @@ export default function RollingSquare() {
       <div className="concert-24">
         <img src="https://res.cloudinary.com/du1tas6pe/image/upload/v1708442864/astronout/wc4ecblr7qpfzufr1emv.jpg" alt="Aditya Gadhvi" />
         <div className="info">
-          <h1 data-aos="fade-up" className="name">Aaditya Gadhvi</h1>
+          <h1 data-aos="fade-up" className="name">Aditya Gadhvi</h1>
           <div className="meta-info">
             <div className="time">Date :3rd March, 2024</div>
             <div className="venue">
