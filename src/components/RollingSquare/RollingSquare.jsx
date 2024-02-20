@@ -37,7 +37,7 @@ export default function RollingSquare() {
         title={"Live In Concert"}
       />
       <div className="concert-24">
-        <img src="src\assets\A7.jpg" alt="Aditya Gadhvi" />
+        <img src="https://res.cloudinary.com/du1tas6pe/image/upload/v1708442864/astronout/wc4ecblr7qpfzufr1emv.jpg" alt="Aditya Gadhvi" />
         <div className="info">
           <h1 data-aos="fade-up" className="name">Aaditya Gadhvi</h1>
           <div className="meta-info">
