@@ -41,9 +41,9 @@ export default function RollingSquare() {
         <div className="info">
           <h1 data-aos="fade-up" className="name">Aaditya Gadhvi</h1>
           <div className="meta-info">
-            <div className="time">Time : 3rd March, 2024</div>
+            <div className="time">Date :3rd March, 2024</div>
             <div className="venue">
-              Venue : 
+              Venue :  
               {/* <div> */}
                 Faculty Of Technology And Engineering, MSU, Kalabhavan,
                 Vadodara.
