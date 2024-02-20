@@ -64,7 +64,13 @@ const newSponsorData = [
         id: 4,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1707396127/sponsor/c45asgqntc2xlmm8sikd.png`,
         alt: `Cybernetics Sponsor`,
-        href: `https://www.cosmos.in/`
+        href: `https://www.odysseussolutions.com/`
+    },
+    {
+        id: 4,
+        imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1708439169/sponsor/ck4obo4clbskutqvils5.png`,
+        alt: `Hydrex and Ballista Sponsor`,
+        href: `https://www.seelinkages.in/`
     },
 
 

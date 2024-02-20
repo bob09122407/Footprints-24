@@ -364,7 +364,7 @@ const technotronData = {
           "- The wire should be slack during the gameplay.",
           "- Participants will not be allowed to change the design once the robot is registered for the event.",
           "- The organizers will check the machine before the participants are allowed to compete and the decision regarding the machine's compliance with the specifications shall be solely in the hands of the judges.",
-          "- The weight of the robot(Including the battery) must not exceed 8kgs.",  
+          "- The weight of the robot(Including the battery) must not exceed 5kgs.",  
           
           "RULES:",
           "- The robot must not damage the Sumo Ring.",
@@ -410,7 +410,7 @@ const technotronData = {
           "- Maximum voltage must not exceed 24V.", 
           "- Maximum 6 wheels are allowed.",
           "- The vehicle should have a maximum dimension of 35x30x20 cm (lxbxh) (+ 10% tolerance are excepted for all dimensions), smaller vehicle shall be accepted.",
-          "- Weight of bot must not exceed 4kg along with battery (+ 10% tolerance are excepted).",
+          "- Weight of bot must not exceed 5kg along with battery (+ 10% tolerance are excepted).",
           "- If bot is wired then length of the wire between bot and remote should minimum be 3 meter and perfectly tied together (Recommended rule)",
           "- The remote must compulsorily work on dual frequencies (with a considerable difference between the frequencies) throughout the event so as to avoid interference with the opponent. The team may be asked to work on the alternate frequency (i.e., any of the two frequencies) at any point. (Applicable only for wireless)",
           "- The participants are allowed to use a single frequency car only if they use the digital encoding technique. (Which ensures that no radio frequency waves interfere with the car). Thus, your transmitter & receiver are paired uniquely to avoid any frequency clashes. (Applicable only for wireless)",
