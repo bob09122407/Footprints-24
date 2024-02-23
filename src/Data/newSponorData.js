@@ -84,7 +84,7 @@ const newSponsorData = [
         id: 6,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1707393369/sponsor/a1ydpbcltcnfomtv8oce.png`,
         alt: `FSE Sponsor`,
-        href: `https://acumenhr.in/`
+        href: `https://www.varnidigital.in/`
     },
 
     {
@@ -135,7 +135,7 @@ const newSponsorData = [
         id: 11,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677775/sponsor/agqhysxew9tbzrttxxon.png`,
         alt: `Energy Sponsor`,
-        href: `https://instagram.com/thenix_studio?igshid=Yzg5MTU1MDY=`,
+        href: ``,
     },
 
     // {
@@ -220,7 +220,7 @@ const newSponsorData = [
         id: 17,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677419/partners/klnig8b2jtdwrcvej1yz.png`,
         alt: `Drone Partner`,
-        href: `https://www.decathlon.in/`
+        href: ``
     },
 
     {
@@ -291,7 +291,7 @@ const newSponsorData = [
         id: 25,
         imgSrc: `https://res.cloudinary.com/du1tas6pe/image/upload/v1705677419/partners/gtvuol9jiyzumftmvrkl.png`,
         alt: `Official Whatsapp Assistant Partner`,
-        href: `https://itcgindia.com/`
+        href: ``
     },
 
     
